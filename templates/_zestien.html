@@ -1,0 +1,13 @@
+{% if som.geplaatst %}
+<h2 class="kop" style="margin-top:2.5rem">De zestien van {{ naam }}</h2>
+<p class="mono">{% if som.geplaatst < 16 %}{{ som.geplaatst }} berichten haalden de drempel; de lijst is niet aangevuld.{% else %}De zestien hoogst gescoorde berichten.{% endif %}</p>
+<ul class="lijst" style="margin-top:1.25rem">
+{% for m in som.zestien %}
+  <li>
+    <p class="cijfer">{{ m.totaal }}/16</p>
+    <h3 class="kop"><a href="/bulletin/{{ m.bulletin_datum }}/#{{ m.id }}">{{ m.kop }}</a></h3>
+    <p class="mono">{{ m.bulletin_datum_nl }}. {{ m.label }}.</p>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}

@@ -2,20 +2,28 @@
 {% block titel %}Kroniek — onder/streep{% endblock %}
 {% block inhoud %}
   <h1 class="titel">Kroniek</h1>
-  <p class="uitleg">Elk onderwerp dat ooit de drempel haalde, met alle updates op één plek, gedateerd. Het archief van wat is besloten en gebeurd.</p>
+  <p class="uitleg">Alles wat ooit de drempel haalde, op datum. Per maand en per jaar staat De zestien: de hoogst gescoorde berichten van die periode. Nooit aangevuld; een maand met twaalf berichten boven de drempel krijgt een lijst van twaalf.</p>
+
+  {% for j in jaren %}
+  <h2 class="kop" style="margin-top:2.5rem"><a href="/kroniek/{{ j.jaar }}/" style="text-decoration:none">{{ j.jaar }}</a></h2>
+  <ul class="lijst">
+  {% for m in j.maanden %}
+    <li>
+      <p><a href="/kroniek/{{ j.jaar }}/{{ m.maand }}/">{{ m.naam|capitalize }}</a></p>
+      <p class="mono">{{ m.som.dagen }} {% if m.som.dagen == 1 %}dag{% else %}dagen{% endif %}, {{ m.som.beoordeeld }} beoordeeld, {{ m.som.doorgestreept }} doorgestreept, {{ m.som.geplaatst }} geplaatst{% if m.som.lege_dagen %}, {{ m.som.lege_dagen }} {% if m.som.lege_dagen == 1 %}lege dag{% else %}lege dagen{% endif %}{% endif %}.</p>
+    </li>
+  {% endfor %}
+  </ul>
+  {% endfor %}
+
+  <h2 class="kop" style="margin-top:3rem">Dossiers</h2>
   <ul class="lijst">
   {% for d in dossiers %}
     <li>
       <p class="cijfer">{{ d.hoogste }}/16</p>
-      <h2 class="kop"><a href="/kroniek/{{ d.slug }}/">{{ d.titel }}</a></h2>
+      <h3 class="kop"><a href="/kroniek/{{ d.slug }}/">{{ d.titel }}</a></h3>
       <p class="mono">{{ d.label }}. {{ d.gestart_nl }} tot {{ d.laatste_nl }}, {{ d.verloop|length }} vermeldingen.</p>
     </li>
-  {% endfor %}
-  </ul>
-  <h2 class="kop" style="margin-top:3rem">Alle bulletins</h2>
-  <ul class="lijst">
-  {% for b in bulletins %}
-    <li><p class="mono"><a href="/bulletin/{{ b.datum }}/">{{ b.datum_nl }}</a>: {{ b.beoordeeld }} beoordeeld, {{ b.geplaatst }} geplaatst</p></li>
   {% endfor %}
   </ul>
 {% endblock %}

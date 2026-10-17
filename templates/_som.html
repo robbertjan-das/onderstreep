@@ -1,0 +1,3 @@
+<div class="slotlijn"></div>
+<p class="som mono"><span>{{ som.dagen }} {% if som.dagen == 1 %}dag{% else %}dagen{% endif %}</span><span>{{ som.beoordeeld }} beoordeeld</span><span>{{ som.doorgestreept }} doorgestreept</span><span>{{ som.geplaatst }} geplaatst vanaf 11/16</span></p>
+<p class="mono" style="margin:.25rem 0 0">{% if som.lege_dagen %}{{ som.lege_dagen }} {% if som.lege_dagen == 1 %}dag{% else %}dagen{% endif %} zonder bericht. {% endif %}Hoogste score {{ som.hoogste }}/16.{% for l, n in som.per_label.items() %} {{ l }} {{ n }}.{% endfor %}</p>

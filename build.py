@@ -74,6 +74,42 @@ def verwerk_dossier(d: dict) -> dict:
     return d
 
 
+def periode_som(bulletins: list[dict], labels: list[str]) -> dict:
+    berichten = [m for b in bulletins for m in b["berichten"]]
+    per_label = {l: sum(1 for m in berichten if m["label"] == l) for l in labels}
+    return {
+        "dagen": len(bulletins),
+        "beoordeeld": sum(b["beoordeeld"] for b in bulletins),
+        "geplaatst": len(berichten),
+        "doorgestreept": sum(b["doorgestreept"] for b in bulletins),
+        "lege_dagen": sum(1 for b in bulletins if b["geplaatst"] == 0),
+        "hoogste": max((m["totaal"] for m in berichten), default=0),
+        "per_label": {l: n for l, n in per_label.items() if n},
+        "zestien": sorted(berichten, key=lambda m: (-m["totaal"], -m["score"]["reikwijdte"],
+                                                   -m["score"]["hardheid"], m["bulletin_datum"]))[:16],
+    }
+
+
+def groepeer(bulletins: list[dict], labels: list[str]) -> list[dict]:
+    """Jaren met maanden, nieuwste eerst; elk met som en De zestien."""
+    jaren: dict[str, dict] = {}
+    for b in bulletins:
+        jaar, maand = b["datum"][:4], b["datum"][5:7]
+        j = jaren.setdefault(jaar, {"jaar": jaar, "bulletins": [], "maanden": {}})
+        j["bulletins"].append(b)
+        m = j["maanden"].setdefault(maand, {"jaar": jaar, "maand": maand,
+                                            "naam": MAANDEN[int(maand) - 1], "bulletins": []})
+        m["bulletins"].append(b)
+    uit = []
+    for jaar in sorted(jaren, reverse=True):
+        j = jaren[jaar]
+        j["som"] = periode_som(j["bulletins"], labels)
+        j["maanden"] = [dict(j["maanden"][m], som=periode_som(j["maanden"][m]["bulletins"], labels))
+                        for m in sorted(j["maanden"], reverse=True)]
+        uit.append(j)
+    return uit
+
+
 def pubdate(iso: str) -> str:
     d = date.fromisoformat(iso)
     tz = timezone(timedelta(hours=2))  # CEST; zomertijd volstaat voor de feed
@@ -129,7 +165,12 @@ def main() -> None:
         schrijf("index.html", "bulletin.html", b=bulletins[0], pagina="vandaag")
     for b in bulletins:
         schrijf(f"bulletin/{b['datum']}/index.html", "bulletin.html", b=b, pagina="vandaag")
-    schrijf("kroniek/index.html", "kroniek.html", dossiers=dossier_lijst, bulletins=bulletins, pagina="kroniek")
+    jaren = groepeer(bulletins, rubriek["labels"])
+    schrijf("kroniek/index.html", "kroniek.html", dossiers=dossier_lijst, jaren=jaren, pagina="kroniek")
+    for j in jaren:
+        schrijf(f"kroniek/{j['jaar']}/index.html", "jaar.html", j=j, pagina="kroniek")
+        for m in j["maanden"]:
+            schrijf(f"kroniek/{j['jaar']}/{m['maand']}/index.html", "maand.html", m=m, pagina="kroniek")
     for d in dossier_lijst:
         schrijf(f"kroniek/{d['slug']}/index.html", "dossier.html", d=d, pagina="kroniek")
     schrijf("rubriek/index.html", "rubriek.html", pagina="rubriek")
