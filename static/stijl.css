@@ -22,7 +22,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 .wordmark, .datum, .kop, .niets, .slot, .cijfer, .titel { font-family: var(--serif); font-optical-sizing: none; font-variation-settings: 'opsz' 72; }
 .kopbalk { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin: 0 0 2.25rem; }
 .wordmark { font-weight: 500; font-size: 26px; line-height: 1.2; margin: 0; letter-spacing: -0.01em; text-decoration: none; }
-.nav { display: flex; gap: 1.1rem; margin: 0; padding: 0; list-style: none; font-family: var(--mono); font-size: 13px; }
+.nav { display: flex; gap: 1.1rem; margin: 0; padding: 0; list-style: none; font-size: 15px; }
 .nav a { text-decoration: none; color: var(--ink-2); }
 .nav a[aria-current="page"] { color: var(--ink); }
 
@@ -70,5 +70,26 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 .tabel-wrap { overflow-x: auto; }
 .prose h2 { font-family: var(--serif); font-weight: 500; font-size: 25px; line-height: 1.2; margin: 2.25rem 0 .75rem; letter-spacing: -0.01em; }
 .prose p { margin: 0 0 1rem; max-width: 34rem; }
-.voet { margin-top: 4rem; }
+.voet { margin-top: 4rem; font-size: 15px; color: var(--ink-2); }
 .voet p { margin: 0 0 .25rem; }
+
+/* Smal scherm */
+.rubriek-lijst { display: none; }
+@media (max-width: 600px) {
+  main { padding: 1.25rem 1.1rem 3.5rem; }
+  .kopbalk { flex-wrap: wrap; gap: .5rem 1rem; margin-bottom: 1.75rem; }
+  .kopbalk .wordmark { flex: 1 0 100%; }
+  .nav { gap: 1rem; }
+  .datum, .titel { font-size: 27px; }
+  .kop { font-size: 23px; }
+  .niets { font-size: 36px; }
+  .som { flex-direction: column; gap: .15rem; }
+  .verloop .d { display: block; min-width: 0; padding: 0; margin-top: .6rem; }
+  .verloop li { margin: 0 0 .5rem; }
+  .tabel-wrap { display: none; }
+  .rubriek-lijst { display: block; }
+  .rubriek-lijst h3 { font-family: var(--serif); font-weight: 500; font-size: 22px; margin: 1.75rem 0 .5rem; }
+  .rubriek-lijst ol { margin: 0; padding: 0; list-style: none; }
+  .rubriek-lijst li { display: grid; grid-template-columns: 1.5rem 1fr; column-gap: .75rem; margin: 0 0 .4rem; font-size: 15px; }
+  .rubriek-lijst li span { font-family: var(--mono); font-size: 13px; color: var(--ink-2); padding-top: .15rem; }
+}

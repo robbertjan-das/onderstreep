@@ -14,6 +14,12 @@
     </tbody>
   </table>
   </div>
+  <div class="rubriek-lijst">
+  {% for c in rubriek.criteria %}
+    <h3>{{ c.naam }}</h3>
+    <ol>{% for s in c.standen %}<li><span>{{ loop.index0 }}</span>{{ s }}</li>{% endfor %}</ol>
+  {% endfor %}
+  </div>
   <h2>De harde eis</h2>
   <p>Een voornemen scoort op hardheid maximaal 1 en komt daardoor nooit door, hoe groot het mogelijke gevolg ook is. Het bericht verschijnt op de dag dat het een besluit wordt. Wordt dat besluit later bekrachtigd, dan is dat een update in het dossier, geen nieuwe kop.</p>
   <h2>De meting-test</h2>
