@@ -1,5 +1,6 @@
 {% extends "basis.html" %}
-{% block titel %}{% if b.geplaatst == 0 %}Vandaag niets.{% else %}{{ b.berichten[0].kop }}{% endif %} — onder/streep{% endblock %}
+{% block titel %}onder/streep: {{ b.datum_nl|lower }}{% endblock %}
+{% block deeltitel %}{% if b.geplaatst == 0 %}Vandaag niets.{% else %}{{ b.berichten[0].kop }}{% endif %}{% endblock %}
 {% block omschrijving %}{{ b.beoordeeld }} beoordeeld / {{ b.doorgestreept }} doorgestreept / {{ b.geplaatst }} geplaatst{% endblock %}
 {% block inhoud %}
   <h1 class="datum">{{ b.datum_nl }}</h1>
@@ -10,7 +11,7 @@
     <p class="niets">Vandaag niets nieuws.</p>
     <p class="uitleg">Geen nieuw besluit of feit van {{ b.over_nl_kort }} haalde elf van zestien. {% if b.updates == 1 %}Eén lopend dossier kreeg een update.{% else %}{{ b.updates }} lopende dossiers kregen een update.{% endif %}</p>
   {% else %}
-    <p class="mono" style="margin:0">Bulletin van 07:00 over {{ b.over_nl_kort }}. {{ b.nieuw }} {% if b.nieuw == 1 %}bericht{% else %}berichten{% endif %}{% if b.updates %}, {{ b.updates }} update{% if b.updates > 1 %}s{% endif %}{% endif %}.</p>
+    <p class="intro">Bulletin van 07:00 over {{ b.over_nl_kort }}. {{ b.nieuw }} {% if b.nieuw == 1 %}bericht{% else %}berichten{% endif %}{% if b.updates %}, {{ b.updates }} update{% if b.updates > 1 %}s{% endif %}{% endif %}.</p>
   {% endif %}
 
   {% for m in b.berichten %}

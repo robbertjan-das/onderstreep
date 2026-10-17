@@ -1,5 +1,5 @@
 {% extends "basis.html" %}
-{% block titel %}{{ j.jaar }} — Kroniek — onder/streep{% endblock %}
+{% block titel %}onder/streep: {{ j.jaar }}{% endblock %}
 {% block omschrijving %}{{ j.som.beoordeeld }} beoordeeld / {{ j.som.doorgestreept }} doorgestreept / {{ j.som.geplaatst }} geplaatst{% endblock %}
 {% block inhoud %}
   <p class="dossier-kop"><a href="/kroniek/">Kroniek</a></p>

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{% block titel %}onder/streep{% endblock %}</title>
 <meta name="description" content="{% block omschrijving %}Het nieuws, onderstreept. Elke ochtend om zeven wat gisteren is besloten en gevolgen heeft voor Nederland. 11/16 of niets.{% endblock %}">
-<meta property="og:title" content="{{ self.titel() }}">
+<meta property="og:title" content="{% block deeltitel %}{{ self.titel() }}{% endblock %}">
 <meta property="og:description" content="{{ self.omschrijving() }}">
 <meta property="og:image" content="{{ site }}/static/profiel.png">
 <meta property="og:type" content="website">

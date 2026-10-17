@@ -35,6 +35,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 .mono { font-family: var(--mono); font-size: 13px; line-height: 1.5; color: var(--ink-2); }
 .som { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: .6rem 0 0; }
 .uitleg { margin: 0 0 1.25rem; max-width: 30rem; }
+.intro { margin: 0; font-size: 15px; color: var(--ink-2); }
 .dossier-kop { font-weight: 600; font-size: 13px; color: var(--ink-2); margin: 0 0 .75rem; }
 
 .bericht { margin: 3.5rem 0 0; }
