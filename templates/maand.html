@@ -10,7 +10,7 @@
   {% for b in m.bulletins %}
     <li>
       <p><a href="/bulletin/{{ b.datum }}/">{{ b.datum_nl }}</a></p>
-      {% if b.geplaatst == 0 %}<p class="mono">Vandaag niets.</p>{% else %}{% for x in b.berichten %}<p class="mono">{{ x.totaal }}/16 {{ x.kop }}</p>{% endfor %}{% endif %}
+      {% if b.geplaatst == 0 %}<p class="intro">Vandaag niets.</p>{% else %}{% for x in b.berichten %}<p class="intro"><span class="mono">{{ x.totaal }}/16</span> {{ x.kop }}</p>{% endfor %}{% endif %}
     </li>
   {% endfor %}
   </ul>

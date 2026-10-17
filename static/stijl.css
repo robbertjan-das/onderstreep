@@ -36,6 +36,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 .som { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: .6rem 0 0; }
 .uitleg { margin: 0 0 1.25rem; max-width: 30rem; }
 .intro { margin: 0; font-size: 15px; color: var(--ink-2); }
+.intro .mono { color: var(--ink-2); font-size: 13px; }
 .dossier-kop { font-weight: 600; font-size: 13px; color: var(--ink-2); margin: 0 0 .75rem; }
 
 .bericht { margin: 3.5rem 0 0; }

@@ -1,6 +1,6 @@
 {% if som.geplaatst %}
 <h2 class="kop" style="margin-top:2.5rem">De zestien van {{ naam }}</h2>
-<p class="mono">{% if som.geplaatst < 16 %}{{ som.geplaatst }} berichten haalden de drempel; de lijst is niet aangevuld.{% else %}De zestien hoogst gescoorde berichten.{% endif %}</p>
+<p class="intro">{% if som.geplaatst < 16 %}{{ som.geplaatst }} {% if som.geplaatst == 1 %}bericht haalde{% else %}berichten haalden{% endif %} de drempel; de lijst is niet aangevuld.{% else %}De zestien hoogst gescoorde berichten.{% endif %}</p>
 <ul class="lijst" style="margin-top:1.25rem">
 {% for m in som.zestien %}
   <li>
