@@ -1,0 +1,11 @@
+{
+  "drempel": 11,
+  "maximum": 16,
+  "criteria": [
+    { "naam": "Hardheid", "standen": ["Mening, reactie, peiling, gerucht", "Voornemen, plan, verwachting", "Besluit dat nog bekrachtiging nodig heeft (Tweede Kamer aangenomen, akkoord op hoofdlijnen, vonnis in eerste aanleg)", "Definitief besluit (Eerste Kamer, Hoge Raad, ECB, wet gepubliceerd)", "Feit dat al is ingetreden of gebeurd"] },
+    { "naam": "Reikwijdte", "standen": ["Alleen direct betrokkenen", "Een kleine groep of gemeente", "Een sector, regio of grote groep", "Een groot deel van Nederland", "Iedereen, of structureel"] },
+    { "naam": "Houdbaarheid", "standen": ["Morgen vergeten", "Doet er een maand toe", "Staat in het jaaroverzicht", "Doet er over tien jaar nog toe", "Staat in het geschiedenisboek"] },
+    { "naam": "Nieuwheid", "standen": ["Herhaling, of een meting", "Nieuwe framing van iets bekends", "Nuance op iets bekends", "Nieuw feit", "Nieuw en onverwacht"] }
+  ],
+  "labels": ["Bestuur", "Wet & recht", "Geld", "Veiligheid & gezondheid", "Wereld"]
+}

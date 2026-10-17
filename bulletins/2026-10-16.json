@@ -1,0 +1,20 @@
+{
+  "datum": "2026-10-16",
+  "over": "2026-10-15",
+  "beoordeeld": 12,
+  "berichten": [
+    {
+      "id": "albert-heijn-bevoorraad",
+      "score": { "hardheid": 4, "reikwijdte": 4, "houdbaarheid": 0, "nieuwheid": 3 },
+      "label": "Veiligheid & gezondheid",
+      "dossier": "cyberincident-albert-heijn",
+      "update": true,
+      "kop": "Albert Heijn weer volledig bevoorraad; online bestellingen tot en met zondag geannuleerd",
+      "wat": "Albert Heijn meldde donderdagavond dat de winkels weer volledig worden bevoorraad, dat de schappen landelijk weer gevuld zijn en dat de leveringen van verse en houdbare producten zijn hervat. De online bezorging blijft buiten bedrijf; alle online bestellingen zijn in ieder geval tot en met zondag 18 oktober geannuleerd.",
+      "voor_wie": "Klanten van Albert Heijn, Etos en Gall & Gall kunnen in de winkel weer normaal terecht. Wie online bestelt, moet wachten tot na het weekend. Wie al voor een geannuleerde bestelling had betaald, wordt gecompenseerd zodra de systemen weer werken.",
+      "onbekend": "Wanneer app, website en bezorging terugkomen. De oorzaak van het incident. Of klantgegevens zijn geraakt; Ahold Delhaize zei dinsdag daar geen aanwijzingen voor te hebben, het onderzoek loopt.",
+      "eerder": null,
+      "bron": { "naam": "Albert Heijn, mediastatement cybersecurity-incident, update 15 oktober 2026", "url": "https://nieuws.ah.nl/mediastatement-inzake-it-incident/" }
+    }
+  ]
+}

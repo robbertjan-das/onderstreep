@@ -1,0 +1,32 @@
+{% extends "basis.html" %}
+{% block titel %}De rubriek — onder/streep{% endblock %}
+{% block inhoud %}
+<div class="prose">
+  <h1 class="titel">De rubriek</h1>
+  <p>Elk bericht krijgt op vier criteria een score van 0 tot 4, samen 16. Vanaf 11 wordt het geplaatst, met hardheid minimaal 2 als harde eis. De klassieke nieuwswaarden, conflict, bekende namen, negativiteit, actualiteit, spelen geen rol. De rubriek meet alleen gevolg.</p>
+  <div class="tabel-wrap">
+  <table class="tabel">
+    <thead><tr><th>Criterium</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead>
+    <tbody>
+    {% for c in rubriek.criteria %}
+      <tr><th>{{ c.naam }}</th>{% for s in c.standen %}<td>{{ s }}</td>{% endfor %}</tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <h2>De harde eis</h2>
+  <p>Een voornemen scoort op hardheid maximaal 1 en komt daardoor nooit door, hoe groot het mogelijke gevolg ook is. Het bericht verschijnt op de dag dat het een besluit wordt. Wordt dat besluit later bekrachtigd, dan is dat een update in het dossier, geen nieuwe kop.</p>
+  <h2>De meting-test</h2>
+  <p>Zou dit bericht morgen ook verschijnen, alleen met andere cijfers? Dan is het een meting, geen nieuws: koersen, peilingen, het weerbericht, ranglijsten. Een meting scoort 0 op nieuwheid.</p>
+  <h2>Buitenland</h2>
+  <p>Geen aparte regel. Direct effect op Nederland zit in reikwijdte; historische schaal is houdbaarheid 4: zou dit in een Nederlands geschiedenisboek staan. EU-besluiten gelden hier en tellen als binnenlands besluit.</p>
+  <h2>Wat nooit de drempel haalt</h2>
+  <p>Peilingen. Reacties en wie-zegt-wat. Kamervragen en moties zonder uitkomst. Rechtszaken tot het vonnis. Kwartaalcijfers, koersen en analistenverwachtingen. Het weerbericht onder code oranje. Sportuitslagen, transfers en blessures. Lijstjes, jubilea en jaarlijks terugkerende rituelen. Alles over het privéleven van bekende personen.</p>
+  <h2>Volgorde</h2>
+  <p>Hoogste score eerst. Bij gelijke score eerst de hoogste reikwijdte, dan de hoogste hardheid, dan het tijdstip. Geen redactionele keuze, een regel.</p>
+  <h2>Labels</h2>
+  <p>{% for l in rubriek.labels %}{{ l }}{% if not loop.last %}, {% endif %}{% endfor %}. Sport, cultuur, koningshuis en wetenschap hebben geen eigen label; ze komen alleen binnen via de gewone drempel en krijgen dan het label van het gevolg.</p>
+  <h2>Hoe het werkt</h2>
+  <p>Elk uur leest een programma de feeds van primaire bronnen: Tweede en Eerste Kamer, Rijksoverheid, Officiële Bekendmakingen, rechtspraak.nl, CBS, DNB, ECB, KNMI, RIVM en de EU. Twee taalmodellen scoren onafhankelijk op de vier criteria. Wat 11 of meer haalt, gaat om 06:00 als concept naar een mens, die tot 07:00 kan ingrijpen. Om 07:00 verschijnt het bulletin. Elk veto wordt gelogd met reden; wekelijks worden de net-niet-berichten nagelopen om de schaal bij te stellen. De drempel zelf verandert niet.</p>
+</div>
+{% endblock %}

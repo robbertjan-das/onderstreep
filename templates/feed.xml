@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>onder/streep{% if label %} — {{ label }}{% endif %}</title>
+  <link>{{ site }}/</link>
+  <description>Het nieuws, onderstreept. Elke ochtend om zeven. 11/16 of niets.</description>
+  <language>nl</language>
+  <atom:link href="{{ site }}/{{ bestand }}" rel="self" type="application/rss+xml"/>
+  {% for item in items %}
+  <item>
+    <title>{{ item.titel|e }}</title>
+    <link>{{ item.link }}</link>
+    <guid isPermaLink="true">{{ item.link }}</guid>
+    <pubDate>{{ item.pubdate }}</pubDate>
+    <description>{{ item.tekst|e }}</description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

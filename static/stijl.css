@@ -1,0 +1,72 @@
+:root {
+  color-scheme: light;
+  --bg: #ffffff; --ink: #141414; --ink-2: #666666;
+  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'Atkinson Hyperlegible Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { color-scheme: dark; --bg: #000000; --ink: #f0f0f0; --ink-2: #9a9a9a; }
+}
+:root[data-theme="dark"] { color-scheme: dark; --bg: #000000; --ink: #f0f0f0; --ink-2: #9a9a9a; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+*, *::before, *::after { box-sizing: inherit; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+main { max-width: 38rem; margin: 0 auto; padding: 1.75rem 1.25rem 4rem; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+.wordmark, .datum, .kop, .niets, .slot, .cijfer, .titel { font-family: var(--serif); font-optical-sizing: none; font-variation-settings: 'opsz' 72; }
+.kopbalk { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin: 0 0 2.25rem; }
+.wordmark { font-weight: 500; font-size: 26px; line-height: 1.2; margin: 0; letter-spacing: -0.01em; text-decoration: none; }
+.nav { display: flex; gap: 1.1rem; margin: 0; padding: 0; list-style: none; font-family: var(--mono); font-size: 13px; }
+.nav a { text-decoration: none; color: var(--ink-2); }
+.nav a[aria-current="page"] { color: var(--ink); }
+
+.datum { font-weight: 400; font-size: 30px; line-height: 1.1; margin: 0 0 .5rem; letter-spacing: -0.005em; }
+.titel { font-weight: 400; font-size: 30px; line-height: 1.1; margin: 0 0 1.25rem; letter-spacing: -0.005em; }
+.cijfer { font-weight: 500; font-size: 20px; line-height: 1.2; margin: 0; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
+.kop { font-weight: 500; font-size: 25px; line-height: 1.2; margin: 0 0 .9rem; letter-spacing: -0.01em; }
+.niets { font-weight: 400; font-size: 40px; line-height: 1.05; margin: 1.25rem 0 .75rem; }
+
+.mono { font-family: var(--mono); font-size: 13px; line-height: 1.5; color: var(--ink-2); }
+.som { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: .6rem 0 0; }
+.uitleg { margin: 0 0 1.25rem; max-width: 30rem; }
+.dossier-kop { font-weight: 600; font-size: 13px; color: var(--ink-2); margin: 0 0 .75rem; }
+
+.bericht { margin: 3.5rem 0 0; }
+.bericht .lijn { border-top: 1px solid var(--ink); margin: .4rem 0 1rem; }
+.regels { margin: 0 0 1rem; }
+.regels > div { margin: 0 0 .75rem; }
+.regels dt { font-weight: 600; font-size: 13px; line-height: 1.3; color: var(--ink-2); margin: 0 0 .15rem; }
+.regels dd { margin: 0; }
+@media (min-width: 600px) {
+  .regels > div { display: grid; grid-template-columns: 5.75rem 1fr; column-gap: 1rem; }
+  .regels dt { padding-top: .2rem; }
+}
+.meta { display: flex; flex-wrap: wrap; column-gap: 1.25rem; row-gap: .25rem; align-items: baseline; margin: 0; }
+.label { font-weight: 600; font-size: 13px; }
+.bron { font-family: var(--mono); font-size: 13px; color: var(--ink-2); }
+
+.slotlijn { border-top: 1px solid var(--ink); margin-top: 3.5rem; }
+.slot { font-weight: 400; font-size: 20px; margin: .6rem 0 0; }
+
+.verloop { margin: 1rem 0 0; padding: 0; list-style: none; }
+.verloop li { margin: 0 0 .35rem; }
+.verloop .d { display: inline-block; min-width: 8.5rem; padding-right: .5rem; }
+.lijst { margin: 0; padding: 0; list-style: none; }
+.lijst li { margin: 0 0 1.75rem; }
+.lijst .kop { font-size: 22px; margin-bottom: .25rem; }
+.lijst .kop a { text-decoration: none; }
+
+.tabel { border-collapse: collapse; width: 100%; font-size: 15px; margin: 1.5rem 0; }
+.tabel th, .tabel td { text-align: left; vertical-align: top; padding: .5rem .6rem .5rem 0; border-top: 1px solid var(--ink-2); }
+.tabel th { font-weight: 600; font-size: 13px; color: var(--ink-2); }
+.tabel-wrap { overflow-x: auto; }
+.prose h2 { font-family: var(--serif); font-weight: 500; font-size: 25px; line-height: 1.2; margin: 2.25rem 0 .75rem; letter-spacing: -0.01em; }
+.prose p { margin: 0 0 1rem; max-width: 34rem; }
+.voet { margin-top: 4rem; }
+.voet p { margin: 0 0 .25rem; }

@@ -1,0 +1,35 @@
+{% extends "basis.html" %}
+{% block titel %}{% if b.geplaatst == 0 %}Vandaag niets.{% else %}{{ b.berichten[0].kop }}{% endif %} — onder/streep{% endblock %}
+{% block omschrijving %}{{ b.beoordeeld }} beoordeeld / {{ b.doorgestreept }} doorgestreept / {{ b.geplaatst }} geplaatst{% endblock %}
+{% block inhoud %}
+  <h1 class="datum">{{ b.datum_nl }}</h1>
+  {% if b.geplaatst == 0 %}
+    <p class="niets">Vandaag niets.</p>
+    <p class="uitleg">Geen bericht van {{ b.over_nl_kort }} haalde elf van zestien. Het volgende bulletin verschijnt morgen om 07:00.</p>
+  {% elif b.nieuw == 0 %}
+    <p class="niets">Vandaag niets nieuws.</p>
+    <p class="uitleg">Geen nieuw besluit of feit van {{ b.over_nl_kort }} haalde elf van zestien. {% if b.updates == 1 %}Eén lopend dossier kreeg een update.{% else %}{{ b.updates }} lopende dossiers kregen een update.{% endif %}</p>
+  {% else %}
+    <p class="mono" style="margin:0">Bulletin van 07:00 over {{ b.over_nl_kort }}. {{ b.nieuw }} {% if b.nieuw == 1 %}bericht{% else %}berichten{% endif %}{% if b.updates %}, {{ b.updates }} update{% if b.updates > 1 %}s{% endif %}{% endif %}.</p>
+  {% endif %}
+
+  {% for m in b.berichten %}
+  <article class="bericht" id="{{ m.id }}">
+    {% if m.update and m.dossier_obj %}<p class="dossier-kop">Update in dossier: <a href="/kroniek/{{ m.dossier_obj.slug }}/">{{ m.dossier_obj.titel }}</a> (sinds {{ m.dossier_obj.gestart_nl }})</p>{% endif %}
+    <p class="cijfer">{{ m.totaal }}/16</p>
+    <div class="lijn"></div>
+    <h2 class="kop">{{ m.kop }}</h2>
+    <dl class="regels">
+      <div><dt>Wat</dt><dd>{{ m.wat }}</dd></div>
+      <div><dt>Voor wie</dt><dd>{{ m.voor_wie }}</dd></div>
+      {% if m.eerder %}<div><dt>Eerder</dt><dd>{{ m.eerder }}</dd></div>{% endif %}
+      <div><dt>Onbekend</dt><dd>{{ m.onbekend }}</dd></div>
+    </dl>
+    <p class="meta"><span class="label">{{ m.label }}</span><a class="bron" href="{{ m.bron.url }}">{{ m.bron.naam }}</a></p>
+  </article>
+  {% endfor %}
+
+  <div class="slotlijn"></div>
+  <p class="som mono"><span>{{ b.beoordeeld }} beoordeeld</span><span>{{ b.doorgestreept }} doorgestreept</span><span>{{ b.geplaatst }} geplaatst vanaf 11/16</span></p>
+  <p class="slot">Streep eronder.</p>
+{% endblock %}

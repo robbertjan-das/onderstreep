@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% block titel %}onder/streep{% endblock %}</title>
+<meta name="description" content="{% block omschrijving %}Het nieuws, onderstreept. Elke ochtend om zeven wat gisteren is besloten en gevolgen heeft voor Nederland. 11/16 of niets.{% endblock %}">
+<meta property="og:title" content="{{ self.titel() }}">
+<meta property="og:description" content="{{ self.omschrijving() }}">
+<meta property="og:image" content="{{ site }}/static/profiel.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="onder/streep" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="/static/stijl.css">
+</head>
+<body>
+<main>
+  <header class="kopbalk">
+    <a class="wordmark" href="/">onder/streep</a>
+    <ul class="nav">
+      <li><a href="/" {% if pagina == 'vandaag' %}aria-current="page"{% endif %}>Vandaag</a></li>
+      <li><a href="/kroniek/" {% if pagina == 'kroniek' %}aria-current="page"{% endif %}>Kroniek</a></li>
+      <li><a href="/rubriek/" {% if pagina == 'rubriek' %}aria-current="page"{% endif %}>Rubriek</a></li>
+      <li><a href="/over/" {% if pagina == 'over' %}aria-current="page"{% endif %}>Over</a></li>
+    </ul>
+  </header>
+  {% block inhoud %}{% endblock %}
+  <footer class="voet mono">
+    <p>Het nieuws, onderstreept. Elke ochtend om zeven. 11/16 of niets.</p>
+    <p><a href="/feed.xml">RSS</a></p>
+  </footer>
+</main>
+</body>
+</html>

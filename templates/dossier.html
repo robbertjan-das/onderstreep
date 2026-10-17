@@ -1,0 +1,23 @@
+{% extends "basis.html" %}
+{% block titel %}{{ d.titel }} — Kroniek — onder/streep{% endblock %}
+{% block omschrijving %}{{ d.label }}. {{ d.verloop|length }} vermeldingen sinds {{ d.gestart_nl }}.{% endblock %}
+{% block inhoud %}
+  <p class="dossier-kop"><a href="/kroniek/">Kroniek</a></p>
+  <p class="cijfer">{{ d.hoogste }}/16</p>
+  <div class="lijn" style="border-top:1px solid var(--ink);margin:.4rem 0 1rem"></div>
+  <h1 class="kop">{{ d.titel }}</h1>
+  <ul class="verloop mono">
+  {% for v in d.verloop %}
+    <li><span class="d">{{ v.datum_nl }}</span> {{ v.tekst }}</li>
+  {% endfor %}
+  </ul>
+  <p class="mono" style="margin-top:1rem">{{ d.label }}.</p>
+  {% if d.berichten %}
+  <h2 class="kop" style="margin-top:3rem;font-size:22px">Berichten in dit dossier</h2>
+  <ul class="lijst">
+  {% for m in d.berichten %}
+    <li><p class="mono"><a href="/bulletin/{{ m.bulletin_datum }}/#{{ m.id }}">{{ m.bulletin_datum_nl }}</a>, {{ m.totaal }}/16</p><p>{{ m.kop }}</p></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+{% endblock %}
