@@ -37,6 +37,10 @@ Elk onderwerp dat ooit de drempel haalde, krijgt `dossiers/<slug>.json` met `tit
 - `/feed.xml`: alles, één item per bericht, en "Vandaag niets." op lege dagen (zodat de cross-poster ook dan iets plaatst)
 - `/feed-<label>.xml`: per label, voor nieuwsbrief en cross-poster
 
+## Werken met Claude Code
+
+Open de map in het tabblad Code van de Claude-app. `CLAUDE.md` bevat de afspraken (eerst `git pull`, lokaal bouwen, dan pushen) en de redactionele regels. Een bulletin plaatsen is dan één opdracht: het JSON-bestand of de tekst geven, Claude bouwt, controleert en pusht.
+
 ## Lokaal bouwen
 
 `pip install jinja2` en `python build.py`; de site staat in `dist/`. Open `dist/index.html` via een lokale server (`python -m http.server -d dist`), want de paden zijn absoluut.

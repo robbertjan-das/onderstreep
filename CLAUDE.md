@@ -1,0 +1,35 @@
+# onder/streep
+
+Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend om 07:00 alleen brengt wat gisteren is besloten of gebeurd en gevolgen heeft voor mensen in Nederland. Elk bericht wordt gescoord op vier criteria (hardheid, reikwijdte, houdbaarheid, nieuwheid, elk 0–4) en verschijnt alleen vanaf 11 van 16, met hardheid minimaal 2. De eigenaar is Robbert-Jan Das; het project is persoonlijk, zonder advertenties en zonder politieke kleur.
+
+## Hoe de site werkt
+
+- `bulletins/JJJJ-MM-DD.json`: één bestand per publicatiedag. `build.py` maakt daar de hele site van (voorpagina, bulletinpagina's, Kroniek met jaar- en maandpagina's, dossiers, feeds). Zie `README.md` voor het formaat.
+- `dossiers/<slug>.json`: onderwerpen die vaker terugkomen, met een gedateerd verloop.
+- `templates/`: de sjablonen. `static/`: stijl, favicon, profielbeeld. `rubriek.json`: de criteria en labels.
+- GitHub Actions bouwt en publiceert bij elke push naar `main`; de site staat op https://onderstreep.nl.
+
+## Werkwijze
+
+- Begin elk gesprek met `git pull`, zodat de map gelijkloopt met GitHub (er wordt ook via de browser geüpload).
+- Controleer na elke wijziging met `pip install jinja2` (eenmalig) en `python build.py`; de bouw weigert berichten onder de drempel.
+- Commit-berichten in het Nederlands, kort: "Bulletin 2026-10-18", "Introregel in Atkinson".
+- Push pas na een geslaagde lokale bouw, en zeg bij elke push kort wat er is veranderd.
+- `dist/` is bouwuitvoer en staat in `.gitignore`; nooit committen.
+
+## Redactionele regels voor berichten
+
+- Kop: één zin, wat is besloten of gebeurd, geen vraag, geen citaat, geen bijvoeglijk naamwoord.
+- Regels: Wat, Voor wie, optioneel Eerder (alleen feiten uit het dossier), Onbekend. Getallen en data in plaats van bijwoorden.
+- Geen citaten, geen reacties, geen speculatie, geen waardende woorden (omstreden, eindelijk, hard, drastisch, historisch).
+- Bron is altijd de primaire bron: het besluit, het vonnis, de publicatie. Zonder primaire bron geen bericht.
+- Geen uitroeptekens, geen emoji, geen hashtags. Typografische apostrof en aanhalingstekens.
+- Volgorde en scores berekent `build.py`; niet handmatig sorteren.
+
+## Niet doen zonder expliciete opdracht
+
+- De drempel (11), de schaal (0–4) of `rubriek.json` veranderen.
+- Bestaande bulletins herschrijven; een fout wordt gecorrigeerd met een zichtbare, gedateerde correctie in het bericht.
+- De drie lettertypes, de zwart-witopmaak of de vaste regels ("Vandaag niets.", "Streep eronder.") aanpassen.
+- Iets plaatsen op sociale media of een nieuwsbrief versturen; dat loopt via andere systemen.
+- Bestanden buiten deze map aanraken.
