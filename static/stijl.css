@@ -15,12 +15,12 @@
 html { scroll-padding-top: env(safe-area-inset-top, 0px); }
 *, *::before, *::after { box-sizing: inherit; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
-main { max-width: 38rem; margin: 0 auto; padding: 1.75rem 1.25rem 4rem; }
+main { max-width: 38rem; margin: 0 auto; padding: 2.75rem 1.25rem 4rem; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 
 .wordmark, .datum, .kop, .niets, .slot, .cijfer, .titel { font-family: var(--serif); font-optical-sizing: none; font-variation-settings: 'opsz' 72; }
-.kopbalk { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin: 0 0 2.25rem; }
+.kopbalk { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin: 0 0 2.75rem; }
 .wordmark { font-weight: 500; font-size: 26px; line-height: 1.2; margin: 0; letter-spacing: -0.01em; text-decoration: none; }
 .nav { display: flex; gap: 1.1rem; margin: 0; padding: 0; list-style: none; font-size: 15px; }
 .nav a { text-decoration: none; color: var(--ink-2); }
@@ -67,7 +67,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 .tabel-wrap { overflow-x: auto; }
 .prose h2 { font-family: var(--serif); font-weight: 500; font-size: 25px; line-height: 1.2; margin: 2.25rem 0 .75rem; letter-spacing: -0.01em; }
 .prose p { margin: 0 0 1rem; max-width: 34rem; }
-.voet { margin-top: 4rem; font-size: 15px; color: var(--ink-2); }
+.voet { margin-top: 5.5rem; font-size: 15px; color: var(--ink-2); }
 .voet p { margin: 0 0 .5rem; }
 .kanalen { display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; margin: 0; padding: 0; list-style: none; }
 .kanalen a { color: var(--ink-2); text-decoration: none; }

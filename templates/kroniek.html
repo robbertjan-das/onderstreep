@@ -11,6 +11,7 @@
     <li>
       <p><a href="/kroniek/{{ j.jaar }}/{{ m.maand }}/">{{ m.naam|capitalize }}</a></p>
       <p class="mono">{{ m.som.dagen }} {% if m.som.dagen == 1 %}dag{% else %}dagen{% endif %}, {{ m.som.beoordeeld }} beoordeeld, {{ m.som.doorgestreept }} doorgestreept, {{ m.som.geplaatst }} geplaatst{% if m.som.lege_dagen %}, {{ m.som.lege_dagen }} {% if m.som.lege_dagen == 1 %}lege dag{% else %}lege dagen{% endif %}{% endif %}.</p>
+      {% if m.weken %}<p class="intro">{% for w in m.weken %}<a href="/kroniek/{{ w.jaar }}/week-{{ w.week }}/">Week {{ w.week }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
     </li>
   {% endfor %}
   </ul>

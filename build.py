@@ -195,15 +195,17 @@ def main() -> None:
     for b in bulletins:
         schrijf(f"bulletin/{b['datum']}/index.html", "bulletin.html", b=b, pagina="vandaag")
     jaren = groepeer(bulletins, rubriek["labels"])
-    schrijf("kroniek/index.html", "kroniek.html", dossiers=dossier_lijst, jaren=jaren, pagina="kroniek")
     weken = weken_van(bulletins, rubriek["labels"])
+    for j in jaren:
+        for m in j["maanden"]:
+            datums = {b["datum"] for b in m["bulletins"]}
+            m["weken"] = [w for w in weken if any(b["datum"] in datums for b in w["bulletins"])]
+    schrijf("kroniek/index.html", "kroniek.html", dossiers=dossier_lijst, jaren=jaren, pagina="kroniek")
     for w in weken:
         schrijf(f"kroniek/{w['jaar']}/week-{w['week']}/index.html", "week.html", w=w, pagina="kroniek")
     for j in jaren:
         schrijf(f"kroniek/{j['jaar']}/index.html", "jaar.html", j=j, pagina="kroniek")
         for m in j["maanden"]:
-            datums = {b["datum"] for b in m["bulletins"]}
-            m["weken"] = [w for w in weken if any(b["datum"] in datums for b in w["bulletins"])]
             schrijf(f"kroniek/{j['jaar']}/{m['maand']}/index.html", "maand.html", m=m, pagina="kroniek")
     for d in dossier_lijst:
         schrijf(f"kroniek/{d['slug']}/index.html", "dossier.html", d=d, pagina="kroniek")
