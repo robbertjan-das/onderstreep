@@ -1,0 +1,11 @@
+[
+  { "naam": "Nieuwsbrief", "url": "" },
+  { "naam": "WhatsApp", "url": "" },
+  { "naam": "Instagram", "url": "https://www.instagram.com/onderstreep.nl/" },
+  { "naam": "Threads", "url": "https://www.threads.net/@onderstreep.nl" },
+  { "naam": "Facebook", "url": "https://www.facebook.com/onderstreep.nl" },
+  { "naam": "LinkedIn", "url": "https://www.linkedin.com/company/onderstreep/" },
+  { "naam": "X", "url": "" },
+  { "naam": "Bluesky", "url": "" },
+  { "naam": "RSS", "url": "/feed.xml" }
+]

@@ -91,6 +91,31 @@ def periode_som(bulletins: list[dict], labels: list[str]) -> dict:
     }
 
 
+def weken_van(bulletins: list[dict], labels: list[str]) -> list[dict]:
+    """ISO-weken met som, geplaatste berichten en (uit weken/*.json) net niet."""
+    import datetime as d
+    extra = {}
+    wdir = ROOT / "weken"
+    if wdir.exists():
+        for f in sorted(wdir.glob("*.json")):
+            w = json.loads(f.read_text(encoding="utf-8")); extra[(f.stem[:4], int(w["week"]))] = w
+    groepen: dict[tuple, dict] = {}
+    for b in bulletins:
+        iso = d.date.fromisoformat(b["datum"]).isocalendar()
+        k = (str(iso[0]), iso[1])
+        g = groepen.setdefault(k, {"jaar": k[0], "week": k[1], "bulletins": []})
+        g["bulletins"].append(b)
+    uit = []
+    for k in sorted(groepen, reverse=True):
+        g = groepen[k]; g["som"] = periode_som(g["bulletins"], labels)
+        g["berichten"] = sorted([m for b in g["bulletins"] for m in b["berichten"]],
+                                key=lambda m: (-m["totaal"], m["bulletin_datum"]))
+        w = extra.get(k, {}); g["net_niet"] = w.get("net_niet", []); g["noot"] = w.get("noot")
+        g["van_nl"] = nl_datum(g["bulletins"][-1]["datum"]); g["tot_nl"] = nl_datum(g["bulletins"][0]["datum"])
+        uit.append(g)
+    return uit
+
+
 def groepeer(bulletins: list[dict], labels: list[str]) -> list[dict]:
     """Jaren met maanden, nieuwste eerst; elk met som en De zestien."""
     jaren: dict[str, dict] = {}
@@ -140,6 +165,8 @@ def main() -> None:
                       autoescape=select_autoescape(["html"]))
     env.filters["alineas"] = lambda t: [a.strip() for a in (t or "").split("\n\n") if a.strip()]
     rubriek = json.loads((ROOT / "rubriek.json").read_text(encoding="utf-8"))
+    kanalen = [k for k in json.loads((ROOT / "kanalen.json").read_text(encoding="utf-8")) if k.get("url")] if (ROOT / "kanalen.json").exists() else []
+    env.globals["kanalen"] = kanalen
     dossiers = {d["slug"]: verwerk_dossier(d) for d in laad("dossiers")}
     bulletins = [verwerk_bulletin(b, dossiers) for b in laad("bulletins")]
     bulletins.sort(key=lambda b: b["datum"], reverse=True)
@@ -169,9 +196,14 @@ def main() -> None:
         schrijf(f"bulletin/{b['datum']}/index.html", "bulletin.html", b=b, pagina="vandaag")
     jaren = groepeer(bulletins, rubriek["labels"])
     schrijf("kroniek/index.html", "kroniek.html", dossiers=dossier_lijst, jaren=jaren, pagina="kroniek")
+    weken = weken_van(bulletins, rubriek["labels"])
+    for w in weken:
+        schrijf(f"kroniek/{w['jaar']}/week-{w['week']}/index.html", "week.html", w=w, pagina="kroniek")
     for j in jaren:
         schrijf(f"kroniek/{j['jaar']}/index.html", "jaar.html", j=j, pagina="kroniek")
         for m in j["maanden"]:
+            datums = {b["datum"] for b in m["bulletins"]}
+            m["weken"] = [w for w in weken if any(b["datum"] in datums for b in w["bulletins"])]
             schrijf(f"kroniek/{j['jaar']}/{m['maand']}/index.html", "maand.html", m=m, pagina="kroniek")
     for d in dossier_lijst:
         schrijf(f"kroniek/{d['slug']}/index.html", "dossier.html", d=d, pagina="kroniek")

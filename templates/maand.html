@@ -5,6 +5,18 @@
   <p class="dossier-kop"><a href="/kroniek/">Kroniek</a>, <a href="/kroniek/{{ m.jaar }}/">{{ m.jaar }}</a></p>
   <h1 class="titel">{{ m.naam|capitalize }} {{ m.jaar }}</h1>
   {% with som=m.som, naam=m.naam %}{% include "_zestien.html" %}{% endwith %}
+  {% if m.weken %}
+  <h2 class="kop" style="margin-top:2.5rem">Weken</h2>
+  <ul class="lijst">
+  {% for w in m.weken %}
+    <li>
+      <p><a href="/kroniek/{{ w.jaar }}/week-{{ w.week }}/">Week {{ w.week }}</a></p>
+      <p class="mono">{{ w.som.geplaatst }} boven de streep{% if w.net_niet %}, {{ w.net_niet|length }} net niet{% endif %}.</p>
+    </li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+
   <h2 class="kop" style="margin-top:2.5rem">Alle dagen</h2>
   <ul class="lijst">
   {% for b in m.bulletins %}

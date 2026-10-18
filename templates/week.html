@@ -1,0 +1,36 @@
+{% extends "basis.html" %}
+{% block titel %}onder/streep: week {{ w.week }}, {{ w.jaar }}{% endblock %}
+{% block omschrijving %}{{ w.som.beoordeeld }} beoordeeld / {{ w.som.doorgestreept }} doorgestreept / {{ w.som.geplaatst }} geplaatst{% endblock %}
+{% block inhoud %}
+  <p class="dossier-kop"><a href="/kroniek/">Kroniek</a>, <a href="/kroniek/{{ w.jaar }}/">{{ w.jaar }}</a></p>
+  <h1 class="titel">Week {{ w.week }}</h1>
+  <p class="intro">{{ w.van_nl }} tot en met {{ w.tot_nl }}.</p>
+
+  <h2 class="kop" style="margin-top:2.5rem">Boven de streep</h2>
+  {% if w.berichten %}<ul class="lijst">
+  {% for m in w.berichten %}
+    <li>
+      <p class="cijfer">{{ m.totaal }}/16</p>
+      <h3 class="kop"><a href="/bulletin/{{ m.bulletin_datum }}/#{{ m.id }}">{{ m.kop }}</a></h3>
+      <p class="mono">{{ m.bulletin_datum_nl }}. {{ m.label }}.</p>
+    </li>
+  {% endfor %}
+  </ul>{% else %}<p class="intro">Deze week niets.</p>{% endif %}
+
+  {% if w.net_niet %}
+  <h2 class="kop" style="margin-top:2.5rem">Net niet</h2>
+  <p class="intro">Beoordeeld op 9 of 10 van 16; niet geplaatst.</p>
+  <ul class="lijst">
+  {% for n in w.net_niet %}
+    <li>
+      <p class="cijfer" style="color:var(--ink-2)">{{ n.score }}/16</p>
+      <p>{{ n.kop }}</p>
+      {% if n.reden %}<p class="mono">{{ n.reden }}.</p>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+  {% if w.noot %}<p class="intro" style="margin-top:1.5rem">{{ w.noot }}</p>{% endif %}
+
+  {% with som=w.som %}{% include "_som.html" %}{% endwith %}
+{% endblock %}

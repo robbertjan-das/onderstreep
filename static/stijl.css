@@ -68,7 +68,10 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 .prose h2 { font-family: var(--serif); font-weight: 500; font-size: 25px; line-height: 1.2; margin: 2.25rem 0 .75rem; letter-spacing: -0.01em; }
 .prose p { margin: 0 0 1rem; max-width: 34rem; }
 .voet { margin-top: 4rem; font-size: 15px; color: var(--ink-2); }
-.voet p { margin: 0 0 .25rem; }
+.voet p { margin: 0 0 .5rem; }
+.kanalen { display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; margin: 0; padding: 0; list-style: none; }
+.kanalen a { color: var(--ink-2); text-decoration: none; }
+.kanalen a:hover { text-decoration: underline; }
 
 /* Smal scherm */
 .rubriek-lijst { display: none; }
