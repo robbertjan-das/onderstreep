@@ -21,10 +21,9 @@
     <div class="lijn"></div>
     <h2 class="kop">{{ m.kop }}</h2>
     <dl class="regels">
-      <div><dt>Wat</dt><dd>{{ m.wat }}</dd></div>
-      <div><dt>Voor wie</dt><dd>{{ m.voor_wie }}</dd></div>
-      {% if m.eerder %}<div><dt>Eerder</dt><dd>{{ m.eerder }}</dd></div>{% endif %}
-      <div><dt>Onbekend</dt><dd>{{ m.onbekend }}</dd></div>
+      {% for veld, naam in [('wat', 'Wat'), ('voor_wie', 'Voor wie'), ('verloop', 'Verloop'), ('onbekend', 'Onbekend')] %}{% if m[veld] %}
+      <div><dt>{{ naam }}</dt><dd>{% for a in m[veld]|alineas %}{% if loop.first %}{{ a }}{% else %}<p>{{ a }}</p>{% endif %}{% endfor %}</dd></div>
+      {% endif %}{% endfor %}
     </dl>
     <p class="meta"><span class="label">{{ m.label }}</span><a class="bron" href="{{ m.bron.url }}">{{ m.bron.naam }}</a></p>
   </article>

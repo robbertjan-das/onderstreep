@@ -50,6 +50,7 @@ def verwerk_bulletin(b: dict, dossiers: dict) -> dict:
         if m["totaal"] < DREMPEL or s["hardheid"] < 2:
             raise SystemExit(f"{b['datum']}: '{m['kop']}' haalt de drempel niet "
                              f"({m['totaal']}/16, hardheid {s['hardheid']}).")
+        m["verloop"] = m.get("verloop") or m.get("eerder")
         m["dossier_obj"] = dossiers.get(m.get("dossier"))
         m["bulletin_datum"] = b["datum"]
         m["bulletin_datum_nl"] = nl_datum(b["datum"])
@@ -137,6 +138,7 @@ def feed_items(bulletins: list[dict], label: str | None = None) -> list[dict]:
 def main() -> None:
     env = Environment(loader=FileSystemLoader(ROOT / "templates"),
                       autoescape=select_autoescape(["html"]))
+    env.filters["alineas"] = lambda t: [a.strip() for a in (t or "").split("\n\n") if a.strip()]
     rubriek = json.loads((ROOT / "rubriek.json").read_text(encoding="utf-8"))
     dossiers = {d["slug"]: verwerk_dossier(d) for d in laad("dossiers")}
     bulletins = [verwerk_bulletin(b, dossiers) for b in laad("bulletins")]

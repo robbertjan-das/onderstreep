@@ -5,16 +5,24 @@
   "berichten": [
     {
       "id": "18-miljard-infrastructuur",
-      "score": { "hardheid": 2, "reikwijdte": 4, "houdbaarheid": 3, "nieuwheid": 3 },
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 4,
+        "houdbaarheid": 3,
+        "nieuwheid": 3
+      },
       "label": "Bestuur",
       "dossier": null,
       "update": false,
       "kop": "Kabinet steekt 18 miljard euro extra in onderhoud van wegen, bruggen, spoor en waterwerken; 29 geplande projecten in de wacht",
-      "wat": "De ministerraad ging vrijdag akkoord met het plan van minister Karremans en staatssecretaris Bertram van Infrastructuur en Waterstaat om tot en met 2041 18 miljard euro extra te besteden aan onderhoud en vernieuwing van wegen, bruggen, spoor en waterwerken. Ruim 2,3 miljard gaat naar het Spui- en Gemaalcomplex IJmuiden, bijna 1,9 miljard naar spoorbeveiliging (ERTMS), en de komende acht jaar bijna 5 miljard naar beheer en onderhoud. Daarvoor gaan 29 geplande projecten in de wacht, onder meer de Lelylijn, het noordelijke deel van het Zuidasdok, de sluis bij Kornwerderzand, de N33 tussen Appingedam en Eemshaven en de A27 tussen Zeewolde en Eemnes.",
-      "voor_wie": "Iedereen die weg, spoor of water gebruikt, de komende vijftien jaar. De vier miljoen inwoners van het gebied dat het gemaal bij IJmuiden drooghoudt. De regio's waarvan projecten worden gepauzeerd, vooral het noorden, Amsterdam en Flevoland.",
-      "onbekend": "Wanneer de gepauzeerde projecten worden hervat; de minister zegt later, zonder datum. De Tweede Kamer moet de begroting waar dit geld in zit nog goedkeuren.",
-      "eerder": null,
-      "bron": { "naam": "Rijksoverheid, nieuwsbericht en Kamerbrief herprioritering, 16 oktober 2026", "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/16/extra-investering-van-18-miljard-euro-naar-onderhoud-en-vernieuwing-grootste-verbouwing-van-de-nederlandse-infrastructuur-ooit" }
+      "wat": "De ministerraad ging vrijdag akkoord met het plan van minister Karremans en staatssecretaris Bertram om tot en met 2041 18 miljard euro extra te besteden aan onderhoud en vernieuwing van wegen, bruggen, spoor en waterwerken. De grootste posten zijn ruim 2,3 miljard voor het Spui- en Gemaalcomplex IJmuiden, bijna 1,9 miljard voor de spoorbeveiliging ERTMS en bijna 5 miljard in acht jaar voor beheer en onderhoud.\n\nHet geld komt vrij doordat 29 geplande projecten in de wacht gaan, onder meer de Lelylijn, het noordelijke deel van het Zuidasdok, de sluis bij Kornwerderzand, de N33 tussen Appingedam en Eemshaven en de A27 tussen Zeewolde en Eemnes.",
+      "voor_wie": "Wie de komende vijftien jaar weg, spoor of water gebruikt, merkt het in twee richtingen: minder storingen en afsluitingen door achterstallig onderhoud, en geen nieuwe verbindingen waar die waren gepland. De vier miljoen inwoners van het gebied dat het gemaal bij IJmuiden drooghoudt, krijgen de grootste post; het noorden, Amsterdam en Flevoland leveren met de gepauzeerde projecten het meest in.",
+      "onbekend": "Wanneer de gepauzeerde projecten worden hervat. De minister zegt later, zonder datum.",
+      "bron": {
+        "naam": "Rijksoverheid, nieuwsbericht en Kamerbrief herprioritering, 16 oktober 2026",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/16/extra-investering-van-18-miljard-euro-naar-onderhoud-en-vernieuwing-grootste-verbouwing-van-de-nederlandse-infrastructuur-ooit"
+      },
+      "verloop": "Op Prinsjesdag maakte het kabinet bekend dat er 18 miljard beschikbaar komt; vrijdag besloot het waar dat geld heen gaat en wat ervoor wijkt. De Tweede Kamer behandelt de begroting van het Mobiliteitsfonds later dit jaar en kan de verdeling nog veranderen; de volledige lijst van 29 projecten staat in de Kamerbrief."
     }
   ]
 }

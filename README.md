@@ -22,7 +22,7 @@ Maak `bulletins/JJJJ-MM-DD.json` (de publicatiedatum) naar het voorbeeld van `bu
 
 - `datum`: publicatiedag, `over`: de dag waar het bulletin over gaat
 - `beoordeeld`: aantal beoordeelde berichten; `doorgestreept` wordt berekend
-- `berichten`: nul of meer berichten met `score` (hardheid, reikwijdte, houdbaarheid, nieuwheid, elk 0–4), `label`, `kop`, `wat`, `voor_wie`, `onbekend`, optioneel `eerder`, `bron` (naam en url), optioneel `dossier` (slug) en `update: true`
+- `berichten`: nul of meer berichten met `score` (hardheid, reikwijdte, houdbaarheid, nieuwheid, elk 0–4), `label`, `kop`, `wat`, `voor_wie`, optioneel `verloop` (wat eraan voorafging en wat erna komt, alleen feiten), `onbekend`, `bron` (naam en url), optioneel `dossier` (slug) en `update: true`. Een lege regel in een tekst (`\n\n`) maakt een nieuwe alinea; gebruik dat als Wat boven de 120 woorden komt.
 
 De bouw weigert een bericht onder 11/16 of met hardheid onder 2, en sorteert zelf: hoogste score eerst, dan reikwijdte, dan hardheid, dan de volgorde in het bestand. Een leeg bulletin (`"berichten": []`) wordt "Vandaag niets."
 

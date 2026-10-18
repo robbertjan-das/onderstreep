@@ -20,7 +20,8 @@ Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend o
 ## Redactionele regels voor berichten
 
 - Kop: één zin, wat is besloten of gebeurd, geen vraag, geen citaat, geen bijvoeglijk naamwoord.
-- Regels: Wat, Voor wie, optioneel Eerder (alleen feiten uit het dossier), Onbekend. Getallen en data in plaats van bijwoorden.
+- Vier labels: Wat, Voor wie, optioneel Verloop (wat eraan voorafging en wat erna komt, alleen wat vaststaat), Onbekend. Ze staan in de regel en de alinea's worden als één doorlopend stuk geschreven, niet als vier losse antwoorden. Getallen en data in plaats van bijwoorden.
+- Lengte: zo lang als de feiten vragen, bovengrens 210 woorden per bericht; Wat boven de 120 woorden wordt geknipt in twee alinea's (lege regel in de JSON).
 - Geen citaten, geen reacties, geen speculatie, geen waardende woorden (omstreden, eindelijk, hard, drastisch, historisch).
 - Bron is altijd de primaire bron: het besluit, het vonnis, de publicatie. Zonder primaire bron geen bericht.
 - Geen uitroeptekens, geen emoji, geen hashtags. Typografische apostrof en aanhalingstekens.
