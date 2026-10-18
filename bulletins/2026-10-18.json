@@ -1,0 +1,21 @@
+{
+  "datum": "2026-10-18",
+  "over": "2026-10-17",
+  "beoordeeld": 8,
+  "berichten": [
+    {
+      "id": "defensielocaties-definitief",
+      "score": { "hardheid": 3, "reikwijdte": 2, "houdbaarheid": 3, "nieuwheid": 3 },
+      "label": "Bestuur",
+      "dossier": null,
+      "update": false,
+      "nagekomen": "2026-10-16",
+      "kop": "Kabinet stelt de laatste negen defensielocaties definitief vast; Lelystad Airport wordt 240 hectare groter voor F-35's",
+      "wat": "De ministerraad heeft vrijdag de laatste negen locatiekeuzes van het Nationaal Programma Ruimte voor Defensie definitief vastgesteld, waarmee de landelijke besluitvorming over alle 57 ruimtebehoeften van Defensie is afgerond. Lelystad Airport wordt 240 hectare groter om medegebruik door F-35-gevechtsvliegtuigen mogelijk te maken: 200 hectare voor militaire infrastructuur en 40 hectare voor een langere baan, waar het eerdere plan van 150 hectare uitging. De schietlocatie Breezanddijk is definitief aangewezen voor meer wapen- en munitietests op het IJsselmeer; voor de vliegbases Leeuwarden, Woensdrecht, Gilze-Rijen en Eindhoven en het Infanterie Schietkamp blijven de eerdere besluiten gelijk.",
+      "voor_wie": "Omwonenden en bedrijven rond Lelystad Airport het eerst: vier agrarische woningen en zes andere bedrijven liggen binnen het gebied dat Defensie op termijn nodig heeft. Daarnaast de omgeving van Breezanddijk en van de vier vliegbases, en de provincies en gemeenten die de vergunningen moeten verlenen.",
+      "verloop": "In december 2025 stelde het kabinet het programma vast, met negen locaties nog in onderzoek; de ontwerpbesluiten lagen in het eerste kwartaal ter inzage. Nu volgen per locatie de onderzoeken, ruimtelijke procedures en vergunningen; eind dit jaar informeert Defensie de Tweede Kamer over het stappenplan, en de uitvoering loopt tot 2040. Dit besluit is van vrijdag 16 oktober en ontbrak in het bulletin van zaterdag.",
+      "onbekend": "Wanneer de eerste F-35's op Lelystad kunnen vliegen, en hoe de betrokken woningen en bedrijven worden gecompenseerd.",
+      "bron": { "naam": "Rijksoverheid, nieuwsbericht definitief NPRD, 16 oktober 2026", "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/16/duidelijkheid-over-locatie-lelystad-breezanddijk-en-petten-in-definitief-nprd" }
+    }
+  ]
+}
