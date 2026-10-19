@@ -4,10 +4,33 @@
   "label": "Veiligheid & gezondheid",
   "gestart": "2026-10-11",
   "verloop": [
-    { "datum": "2026-10-11", "tekst": "Incident ontdekt, systemen uit voorzorg uitgeschakeld." },
-    { "datum": "2026-10-12", "tekst": "Website, app en klantenservice onbereikbaar; online bestellingen geannuleerd." },
-    { "datum": "2026-10-13", "tekst": "Ahold Delhaize meldt geen aanwijzingen voor gestolen gegevens en begint een gecontroleerde herstart." },
-    { "datum": "2026-10-14", "tekst": "Levering van houdbare producten hervat; app, website en bezorging nog uit." },
-    { "datum": "2026-10-15", "tekst": "Winkels weer volledig bevoorraad; online bestellingen geannuleerd tot en met zondag 18 oktober." }
+    {
+      "datum": "2026-10-11",
+      "tekst": "Incident ontdekt, systemen uit voorzorg uitgeschakeld."
+    },
+    {
+      "datum": "2026-10-12",
+      "tekst": "Website, app en klantenservice onbereikbaar; online bestellingen geannuleerd."
+    },
+    {
+      "datum": "2026-10-13",
+      "tekst": "Ahold Delhaize meldt geen aanwijzingen voor gestolen gegevens en begint een gecontroleerde herstart."
+    },
+    {
+      "datum": "2026-10-14",
+      "tekst": "Levering van houdbare producten hervat; app, website en bezorging nog uit."
+    },
+    {
+      "datum": "2026-10-15",
+      "tekst": "Winkels weer volledig bevoorraad; online bestellingen geannuleerd tot en met zondag 18 oktober."
+    },
+    {
+      "datum": "2026-10-16",
+      "tekst": "Annulering van online bestellingen verlengd tot en met dinsdag 20 oktober."
+    },
+    {
+      "datum": "2026-10-18",
+      "tekst": "Website en Mijn AH App weer in de lucht; bezorging hervat vanaf vrijdag 23 oktober, bestellingen tot en met donderdag 22 oktober geannuleerd."
+    }
   ]
 }

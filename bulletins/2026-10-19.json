@@ -1,0 +1,28 @@
+{
+  "datum": "2026-10-19",
+  "over": "2026-10-18",
+  "beoordeeld": 7,
+  "berichten": [
+    {
+      "id": "albert-heijn-website-app-terug",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 4,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "label": "Veiligheid & gezondheid",
+      "dossier": "cyberincident-albert-heijn",
+      "update": true,
+      "kop": "Website en app van Albert Heijn weer in de lucht; bezorging hervat vanaf vrijdag 23 oktober",
+      "wat": "Albert Heijn heeft zondagmiddag de website en de Mijn AH App weer in gebruik genomen, een week na het cyberincident. Klanten kunnen weer bij hun persoonlijke omgeving, koopzegels, Air Miles, Bonusaanbiedingen en cadeaukaarten. Online bestellen kan nog niet. De bezorgers gaan vanaf vrijdag 23 oktober geleidelijk weer de weg op; alle online bestellingen tot en met donderdag 22 oktober zijn geannuleerd. Wie al had betaald, krijgt binnen enkele dagen het geld terug. Volgens Albert Heijn is er geen aanwijzing dat persoonsgegevens betrokken zijn.",
+      "voor_wie": "Klanten van Albert Heijn, Etos en Gall & Gall die online bestellen: tot vrijdag blijft dat de winkel. Wie afgelopen week zonder koopzegels heeft afgerekend, kan ze met de kassabon alsnog in de winkel kopen; compensatie van persoonlijke kortingen, Air Miles en spaaracties volgt automatisch.",
+      "verloop": "Het incident werd zondag 11 oktober ontdekt, waarna Ahold Delhaize systemen uit voorzorg uitschakelde. Donderdag was de bevoorrading van de winkels terug, vrijdag werd de annulering van online bestellingen verlengd tot en met dinsdag 20 oktober; die datum is nu donderdag 22 oktober. De klantenservice is nog niet bereikbaar.",
+      "onbekend": "De aard en oorzaak van het incident; Albert Heijn doet daar geen uitspraken over zolang het onderzoek loopt. Wanneer nieuwe online bestellingen weer kunnen worden geplaatst en wanneer de klantenservice terug is.",
+      "bron": {
+        "naam": "Albert Heijn, mediastatement cybersecurity-incident, update 18 oktober 2026, 13:20 uur",
+        "url": "https://nieuws.ah.nl/mediastatement-inzake-it-incident/"
+      }
+    }
+  ]
+}
