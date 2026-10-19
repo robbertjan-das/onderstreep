@@ -7,7 +7,8 @@ Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend o
 - `bulletins/JJJJ-MM-DD.json`: één bestand per publicatiedag. `build.py` maakt daar de hele site van (voorpagina, bulletinpagina's, Kroniek met jaar- en maandpagina's, dossiers, feeds). Zie `README.md` voor het formaat.
 - `dossiers/<slug>.json`: onderwerpen die vaker terugkomen, met een gedateerd verloop.
 - `templates/`: de sjablonen. `static/`: stijl, favicon, profielbeeld. `rubriek.json`: de criteria en labels.
-- GitHub Actions bouwt en publiceert bij elke push naar `main`; de site staat op https://onderstreep.nl.
+- GitHub Actions bouwt en publiceert bij elke push naar `main` én elke ochtend om 07:00 Nederlandse tijd; de site staat op https://onderstreep.nl.
+- Een bulletin wordt 's avonds (sweep om 22:00) gepusht met de datum van morgen; `build.py` toont het pas vanaf 07:00 op die datum. Een bulletin van morgen in de map is dus normaal, niet een fout.
 
 ## Werkwijze
 

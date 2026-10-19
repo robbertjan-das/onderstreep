@@ -3,14 +3,14 @@ import json, sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
-FONTS = Path(__file__).resolve().parent / "lettertypes"
+FONTS = Path("/home/claude")
 INK, GRIJS, WIT = "#141414", "#555555", "#ffffff"
 MAANDEN = ["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"]
 DAGEN = ["Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag","Zondag"]
 
 def font(soort, px, wght=400):
     if soort == "serif":
-        f = ImageFont.truetype(str(FONTS / "Newsreader[opsz,wght].ttf"), px); f.set_variation_by_axes([wght, 72])
+        f = ImageFont.truetype(str(FONTS / "newsreader.ttf"), px); f.set_variation_by_axes([wght, 72])
     elif soort == "sans":
         f = ImageFont.truetype(str(FONTS / "AtkinsonHyperlegibleNext[wght].ttf"), px); f.set_variation_by_axes([wght])
     else:
@@ -55,10 +55,12 @@ def cover(b, h, pad_top):
     datum = nl_datum(b["datum"]); regels = wrap(d, datum, fd, 888)
     som = [f"{b['beoordeeld']} beoordeeld", f"{b['doorgestreept']} doorgestreept", f"{b['geplaatst']} geplaatst vanaf 11/16"]
     fm = font("mono", 30)
-    blok = len(regels) * int(fd.size * 1.05) + 32 + 2 + 32 + len(som) * 45
+    leeg = not b["berichten"]; fn = font("serif", 72, 400)
+    blok = len(regels) * int(fd.size * 1.05) + 32 + 2 + 32 + len(som) * 45 + (int(72 * 1.05) + 28 if leeg else 0)
     y = (h - blok) // 2 - (40 if h == 1350 else 0)
     for r in regels: d.text((M, y), r, font=fd, fill=INK); y += int(fd.size * 1.05)
     y += 32; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 34
+    if leeg: d.text((M, y), "Vandaag niets.", font=fn, fill=INK); y += int(72 * 1.05) + 28
     for s in som: d.text((M, y), s, font=fm, fill=GRIJS); y += 45
     d.text((M, h - (96 if h == 1350 else 320) - 53), "Het nieuws, onderstreept.", font=font("serif", 44, 400), fill=INK)
     return img

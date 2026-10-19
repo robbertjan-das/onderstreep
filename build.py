@@ -42,6 +42,18 @@ def laad(map_naam: str) -> list[dict]:
             for p in sorted((ROOT / map_naam).glob("*.json"))]
 
 
+def nu_nl() -> datetime:
+    """Huidige tijd in Nederland (CET/CEST)."""
+    from zoneinfo import ZoneInfo
+    return datetime.now(ZoneInfo("Europe/Amsterdam"))
+
+
+def al_gepubliceerd(b: dict) -> bool:
+    """Een bulletin verschijnt pas op zijn eigen datum om PUBLICATIE_UUR; eerder gepusht blijft het verborgen."""
+    d = date.fromisoformat(b["datum"]); nu = nu_nl()
+    return nu >= datetime(d.year, d.month, d.day, PUBLICATIE_UUR, 0, tzinfo=nu.tzinfo)
+
+
 def verwerk_bulletin(b: dict, dossiers: dict) -> dict:
     for volgorde, m in enumerate(b["berichten"]):
         s = m["score"]
@@ -168,7 +180,7 @@ def main() -> None:
     kanalen = [k for k in json.loads((ROOT / "kanalen.json").read_text(encoding="utf-8")) if k.get("url")] if (ROOT / "kanalen.json").exists() else []
     env.globals["kanalen"] = kanalen
     dossiers = {d["slug"]: verwerk_dossier(d) for d in laad("dossiers")}
-    bulletins = [verwerk_bulletin(b, dossiers) for b in laad("bulletins")]
+    bulletins = [verwerk_bulletin(b, dossiers) for b in laad("bulletins") if al_gepubliceerd(b)]
     bulletins.sort(key=lambda b: b["datum"], reverse=True)
     for b in bulletins:
         for m in b["berichten"]:
