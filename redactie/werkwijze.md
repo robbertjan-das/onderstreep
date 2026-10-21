@@ -20,14 +20,20 @@ Elk criterium 0 tot 4. Elke stand is een benoemd ding, nooit een gemiddelde.
 
 | | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
-| Hardheid | Mening, reactie, peiling, gerucht | Voornemen, plan, verwachting | Besluit dat nog bekrachtiging nodig heeft (Tweede Kamer aangenomen, akkoord op hoofdlijnen, vonnis in eerste aanleg) | Definitief besluit (Eerste Kamer, Hoge Raad, ECB, wet gepubliceerd, vastgestelde tarieven) | Feit dat al is ingetreden of gebeurd |
-| Reikwijdte | Alleen direct betrokkenen | Een kleine groep of gemeente | Een sector, regio of grote groep | Een groot deel van Nederland | Iedereen, of structureel |
-| Houdbaarheid | Morgen vergeten | Doet er een maand toe | Staat in het jaaroverzicht | Doet er over tien jaar nog toe | Staat in het geschiedenisboek |
-| Nieuwheid | Herhaling, of een meting | Nieuwe framing van iets bekends | Nuance op iets bekends | Nieuw feit | Nieuw en onverwacht |
+| Hardheid: hoe vast staat het? | Mening, reactie, peiling, gerucht | Voornemen, plan, verwachting, aankondiging | Besluit dat nog bekrachtiging nodig heeft, of dat dezelfde partij binnen weken kan terugdraaien (Tweede Kamer aangenomen, akkoord op hoofdlijnen, vonnis in eerste aanleg, actie opgeschort) | Definitief vastgesteld door wie erover gaat, maar nog niet ingegaan (Eerste Kamer, Hoge Raad, ECB, gepubliceerde wet, vastgesteld tarief of premie) | Al ingegaan of gebeurd |
+| Reikwijdte: hoeveel mensen raakt het direct? | Alleen direct betrokkenen | Minder dan 100.000 mensen, of één gemeente | 100.000 tot 1 miljoen, of één sector of regio | 1 tot 5 miljoen | Meer dan 5 miljoen, of iedereen in Nederland |
+| Houdbaarheid: hoe lang werken de gevolgen door? | Dagen | Weken, tot een maand | Maanden, tot een jaar | Jaren | Generaties: het geschiedenisboek |
+| Nieuwheid: wat weten we nu wat we gisteren niet wisten? | Herhaling, of een meting zonder keerpunt | Bekend feit, nieuw verpakt (nieuwe reactie, nieuwe framing) | Verwachte volgende stap in een bekend proces | Nieuw feit, of een verwacht moment met een nieuwe uitkomst (tarief, premie, cijfer met keerpunt) | Nieuw en onverwacht: stond bij niemand op de agenda |
+
+Bij twijfel tussen twee standen: de lagere.
+
+Houdbaarheid gaat over hoe lang de gevolgen doorwerken, niet over hoe lang de gebeurtenis duurt. Een overstroming is na dagen weg; schade, herstel en beleid lopen jaren door.
 
 Drempel: totaal 11 of hoger, en hardheid minimaal 2. Alles daaronder telt mee als doorgestreept; 9 en 10 komen op de lijst Net niet voor de zondag.
 
 Bij hardheid citeer je de zin uit de bron waarop de score rust. Het verschil tussen 3 en 4: een besluit dat nog moet ingaan (een tarief per 1 januari) is 3; iets wat al is gebeurd of al geldt is 4.
+
+Bij elk criterium staat in het log één zin motivering. Zo is bij een verschil tussen twee sweeps meteen te zien waarom ze anders scoorden.
 
 Volgorde in het bulletin: hoogste totaal eerst; bij gelijke stand de hoogste reikwijdte, dan de hoogste hardheid, dan het tijdstip.
 
@@ -55,18 +61,29 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 |---|---|---|---|---|
 | 16-10 | Kabinet 18 miljard infrastructuur, 29 projecten in de wacht | | 12 | geplaatst |
 | 16-10 | Laatste negen defensielocaties definitief; Lelystad +240 ha | | 11 | geplaatst (nagekomen) |
-| 18-10 | AH: website en app terug, bezorging vanaf 23 oktober | 4-3-0-3 | 10 | geplaatst als 11, herijkt naar 10, blijft staan met vermelding |
+| 18-10 | AH: website en app terug, bezorging vanaf 23 oktober | 4-3-0-2 | 9 | geplaatst als 11, herijkt naar 9, blijft staan met vermelding |
 | 19-10 | Jumbo roept pulled chicken terug | 4-2-0-4 | 10 | net niet |
 | 20-10 | NS-tarieven 2027 +4,7 procent | 3-3-2-3 | 11 | geplaatst als 12, herijkt naar 11 |
 | 20-10 | Uitzondering loden kogels definitief | | 9 | net niet |
 | 21-10 | Twee kritieke PHP-lekken, websites offline | 4-3-1-4 | 12 | geplaatst |
 | 21-10 | DSW-premie 2027 +14,75 euro per maand | 3-2-2-3 | 10 | net niet |
-| 21-10 | Staking streekvervoer 22-10 afgeblazen | 3-2-1-3 | 9 | net niet |
+| 21-10 | Staking streekvervoer 22-10 afgeblazen | 2-3-1-3 | 9 | net niet (opschorting is terug te draaien: hardheid 2) |
 | 21-10 | CBR-tarieven 2027 +2,9 procent | | 8 | doorgestreept |
 | 21-10 | Waal bij Zaltbommel historisch laag | 4-2-2-1 | 9 | net niet |
 | 19-10 | Wet vereenvoudiging partnerbegrip toeslagen in Staatsblad | 3-3-2-2 | 10 | net niet (alleen gevonden door officiële sweep) |
 | 21-10 | ACM: geen vergunning nodig voor overname Videoland/Viaplay | 3-2-2-3 | 10 | net niet (alleen gevonden door officiële sweep) |
 | 19-10 | Nadeelcompensatie vuurwerkverkopers opent 3 november | 2-1-1-1 | 5 | doorgestreept (eerder te hoog als 10 genoteerd) |
+
+IJkpunten (geen nieuws van deze week, wel vaste maat):
+
+| Gebeurtenis | H-R-Hb-N | Totaal | Waarom |
+|---|---|---|---|
+| Watersnood 1953 | 4-4-4-4 | 16 | het maximum |
+| Overstroming Limburg, juli 2021 | 4-2-3-4 | 13 | tienduizenden in één regio, jaren herstel, onverwacht |
+| Landelijke stroomstoring van zes uur | 4-4-0-4 | 12 | iedereen, na een dag voorbij; reikwijdte draagt hem |
+| Lokale overstroming in één dorp | 4-1-1-3 | 9 | net niet |
+| Beving Huizinge, augustus 2012 | 4-2-3-4 | 13 | keerpunt in een langzaam proces |
+| Gewone beving van 2,0 in Groningen | 4-1-0-2 | 7 | onderdeel van een bekend proces, geen keerpunt |
 
 Herijking 21-10: vastgestelde tarieven en premies waren met hardheid 4 gescoord en reikwijdte soms een stand te hoog. Vanaf nu strikt volgens de tabel; eerdere scores zijn zichtbaar gecorrigeerd.
 
@@ -149,3 +166,5 @@ Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
 - 21-10: vergelijking met drie proefsweeps van Claude Code via officiële zoekdiensten. Officiële sweep vond twee net-niet-items die de vangnet-sweep miste; vangnet-sweep vond beide geplaatste berichten (NS, PHP) die de officiële sweep miste. Besluit: beide sweeps blijven nodig; drie regels toegevoegd (niet gevonden is niet niet gebeurd, vangnet verplicht, uitwijkroutes).
 - 21-10: het systeem leert via logboek, terugblik, twee sweeps en zondagskalibratie; de lat beweegt niet vanzelf.
 - 21-10: leerweek tot en met zondag 25-10, geen socials; bulletins op de site lopen door. Eerste zondagskalibratie 25-10.
+- 21-10: tabel verscherpt, criteria en drempel ongewijzigd: elk criterium een vraag als kop, reikwijdte in aantallen mensen, houdbaarheid in de duur van de gevolgen, nieuwheid met de verwachte volgende stap als 2 en een verwacht moment met nieuwe uitkomst als 3; bij twijfel de lagere stand; motivering per criterium verplicht in het log. Herscoord: uitkomsten van week 43 ongewijzigd, AH (18-10) van 10 naar 9.
+- 21-10: voorstellen voor de kalibratie van 25-10: keerpuntregel voor langzaam nieuws, houdbaarheid alleen op aantoonbare gevolgen, nieuwheid 4 alleen als aanwijsbaar onverwacht.

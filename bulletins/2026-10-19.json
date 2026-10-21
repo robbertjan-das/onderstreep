@@ -9,7 +9,7 @@
         "hardheid": 4,
         "reikwijdte": 3,
         "houdbaarheid": 0,
-        "nieuwheid": 3
+        "nieuwheid": 2
       },
       "label": "Veiligheid & gezondheid",
       "dossier": "cyberincident-albert-heijn",
@@ -24,7 +24,7 @@
         "url": "https://nieuws.ah.nl/mediastatement-inzake-it-incident/"
       },
       "onder_drempel_achteraf": true,
-      "correctie": "Correctie 21 oktober 2026: score herzien van 11 naar 10 na herijking van de maatstaf. Dit bericht haalt achteraf de drempel niet en blijft staan met deze vermelding."
+      "correctie": "Correctie 21 oktober 2026: score herzien van 11 naar 9 na herijking van de maatstaf. Dit bericht haalt achteraf de drempel niet en blijft staan met deze vermelding."
     }
   ]
 }
