@@ -6,7 +6,16 @@ Net niet (9 en 10):
 - 10/16 DSW verhoogt basispremie 2027 met 14,75 euro naar 173,25 euro per maand (21-10)
 - 9/16 Staking streekvervoer 22-10 afgeblazen, acties opgeschort tot begin november (21-10)
 - 9/16 Waal bij Zaltbommel historisch laag (21-10)
+- 10/16 Wet vereenvoudiging partnerbegrip toeslagen in het Staatsblad (19-10, gevonden door officiële sweep)
+- 10/16 ACM: geen vergunning nodig voor overname Videoland/Viaplay (21-10, gevonden door officiële sweep)
 
 Nagekomen en gecorrigeerd:
 - NS-tarieven 2027 ontbraken om 07:00 in het bulletin van 21-10 en zijn dezelfde dag toegevoegd.
 - Herijking maatstaf: NS van 12 naar 11, AH (19-10) van 11 naar 10; AH haalt achteraf de drempel niet en blijft staan met vermelding.
+
+Leerpunten voor de kalibratie van 25-10:
+- NS-tarieven (20-10) gemist door de eerste sweep en door de officiële sweep: geen datafeed, bron niet uitgelezen.
+- PHP-lekken (21-10) eerst te laag gescoord (9) als waarschuwing; gebeurtenis, herzien naar 12.
+- DSW-premie (21-10): officiële sweep schreef dat de premie niet bestond; niet gevonden werd niet gebeurd.
+- Herijking hardheid: vastgesteld besluit dat nog moet ingaan is 3 (NS, DSW, AH).
+- Vuurwerkregeling (19-10) te hoog genoteerd als 10; aankondiging met klein bereik, 5.

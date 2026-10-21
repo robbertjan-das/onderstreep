@@ -64,6 +64,9 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 | 21-10 | Staking streekvervoer 22-10 afgeblazen | 3-2-1-3 | 9 | net niet |
 | 21-10 | CBR-tarieven 2027 +2,9 procent | | 8 | doorgestreept |
 | 21-10 | Waal bij Zaltbommel historisch laag | 4-2-2-1 | 9 | net niet |
+| 19-10 | Wet vereenvoudiging partnerbegrip toeslagen in Staatsblad | 3-3-2-2 | 10 | net niet (alleen gevonden door officiële sweep) |
+| 21-10 | ACM: geen vergunning nodig voor overname Videoland/Viaplay | 3-2-2-3 | 10 | net niet (alleen gevonden door officiële sweep) |
+| 19-10 | Nadeelcompensatie vuurwerkverkopers opent 3 november | 2-1-1-1 | 5 | doorgestreept (eerder te hoog als 10 genoteerd) |
 
 Herijking 21-10: vastgestelde tarieven en premies waren met hardheid 4 gescoord en reikwijdte soms een stand te hoog. Vanaf nu strikt volgens de tabel; eerdere scores zijn zichtbaar gecorrigeerd.
 
@@ -99,6 +102,9 @@ Sec. Geen waardende woorden, geen framing uit persberichten of campagnes, geen c
 - Om 22:00, over de periode van 22:00 de vorige dag tot 22:00 vandaag. Wat later komt, gaat mee in de sweep van de volgende avond, met datum in Verloop.
 - Bronnen in de volgorde van `redactie/bronnen.json`: eerst de kern, dan de uitbreidingen. Nieuwssites alleen als vangnet; elk gevonden bericht wordt teruggevoerd naar de primaire bron.
 - Beoordeeld = elk item dat tegen de vier criteria is gelegd, ook als het meteen afviel.
+- Niet gevonden is niet hetzelfde als niet gebeurd. Wat niet te controleren was, heet "niet gecontroleerd", nooit "bestaat niet" of "nog niet gepubliceerd".
+- Het vangnet is verplicht: na de officiële bronnen altijd de koppen van de dag bij NOS en ANP langs, en elk bericht daaruit terugvoeren naar de primaire bron. Zo zijn NS-tarieven, PHP-lekken en de DSW-premie te vinden, die geen nette datafeed hebben.
+- Is een bron niet uit te lezen, gebruik dan de uitwijkroute: NCSC-nieuws staat ook op rijksoverheid.nl, NS-nieuws op nieuws.ns.nl, terugroepacties ook bij de supermarkt zelf. Lukt dat ook niet, dan staat de bron als "niet gecontroleerd" in het log.
 - Uitvoer: `bulletins/JJJJ-MM-DD.json` (datum van de ochtend van verschijnen), de lijst Net niet met score en reden, en de tekst voor alle kanalen:
 
 ```
@@ -109,6 +115,25 @@ onderstreep.nl/bulletin/JJJJ-MM-DD
 ```
 
 Op een lege dag staat "Vandaag niets." boven de eerste regel.
+
+## Leren
+
+Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
+
+**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties.
+
+**Terugblik.** Elke sweep begint met gisteren: wat stond er bij NOS en ANP dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord.
+
+**Twee sweeps.** De officiële sweep (zoekdiensten van Staatsblad, Staatscourant, Rechtspraak, Tweede Kamer) en de vangnet-sweep. Waar ze verschillen, beslist Robbert-Jan, en die beslissing gaat in het log.
+
+**Zondagskalibratie.** Elke zondag leest Claude het log van de week en stelt voor: nieuwe regels, nieuwe kalibratievoorbeelden, bronnen die erbij of omhoog moeten. Robbert-Jan keurt goed of af; goedgekeurde voorstellen gaan in deze werkwijze, met een regel in het logboek van beslissingen.
+
+**Achteraf toetsen.** Een maand na plaatsing: doet het er nog toe? Na een jaar: staat het in het jaaroverzicht? Afwijkingen van de houdbaarheidsscore gaan in het log.
+
+**Bewaking.**
+- De lat beweegt niet vanzelf. De vier criteria en 11/16 veranderen alleen door een bewust besluit van Robbert-Jan. Leren gaat over hoe er gescoord en waar er gezocht wordt, niet over hoe hoog de lat ligt.
+- Klikken, bereik en volgers zijn nooit een leersignaal.
+- Maandelijks vier cijfers: missers, aanpassingen door Robbert-Jan, verschillen tussen de twee sweeps, en het aandeel dagen met "Vandaag niets.". De eerste drie moeten dalen, het laatste moet stabiel blijven. Stijgt het aantal berichten per dag zonder dat het nieuws veranderde, dan zakt de lat ongemerkt.
 
 ## De poort
 
@@ -121,3 +146,6 @@ Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
 - 21-10: gebeurtenissen tellen volwaardig mee (aanleiding: PHP-lekken). NCSC, veiligheidsregio's, Rijkswaterstaat en storingen van NS en netbeheerders horen bij de kernbronnen.
 - 21-10: concessiehouders (NS, zorgverzekeraars, netbeheerders, CBR) staan op de bronnenlijst (aanleiding: NS-tarieven gemist op 20-10).
 - 21-10: de tabel blijft zoals hij is (keuze A): een vastgesteld besluit dat nog moet ingaan is hardheid 3; een grote groep (bus- en streektreinreizigers, klanten van één verzekeraar) is reikwijdte 2. NS herijkt van 12 naar 11, AH (19-10) van 11 naar 10 met vermelding. Evaluatie na week 44.
+- 21-10: vergelijking met drie proefsweeps van Claude Code via officiële zoekdiensten. Officiële sweep vond twee net-niet-items die de vangnet-sweep miste; vangnet-sweep vond beide geplaatste berichten (NS, PHP) die de officiële sweep miste. Besluit: beide sweeps blijven nodig; drie regels toegevoegd (niet gevonden is niet niet gebeurd, vangnet verplicht, uitwijkroutes).
+- 21-10: het systeem leert via logboek, terugblik, twee sweeps en zondagskalibratie; de lat beweegt niet vanzelf.
+- 21-10: leerweek tot en met zondag 25-10, geen socials; bulletins op de site lopen door. Eerste zondagskalibratie 25-10.
