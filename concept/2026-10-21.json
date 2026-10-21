@@ -1,0 +1,174 @@
+{
+  "datum": "2026-10-21",
+  "over": "2026-10-20",
+  "weekdag": "dinsdag",
+  "sweep_tot": "2026-10-20T22:00",
+  "beoordeeld": 15, "geplaatst": 0, "net_niet": 0, "doorgestreept": 15,
+  "items": [
+    {
+      "kop": "Gerechtshof: vertraagde-vluchtclaims niet optelbaar voor appelgrens",
+      "label": "Wet & recht",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {"hardheid":2,"reikwijdte":2,"houdbaarheid":1,"nieuwheid":1},
+      "totaal": 6,
+      "hardheid_citaat": "Individuele passagiersvorderingen voor een vertraagde vlucht kunnen niet worden opgeteld om de appelgrens te halen; hoger beroep niet-ontvankelijk (feed-samenvatting GHAMS:2026:3000).",
+      "uitkomst": "doorgestreept",
+      "reden": "Hofarrest (geen cassatie), smal processueel punt met beperkte reikwijdte; totaal 6 blijft ruim onder de drempel.",
+      "bron": {"naam":"Gerechtshof Amsterdam, ECLI:NL:GHAMS:2026:3000","url":"https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:GHAMS:2026:3000","gepubliceerd":"2026-10-20"}
+    },
+    {
+      "kop": "College van Beroep: schade door aaltjes is normaal ondernemersrisico",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":1,"houdbaarheid":1,"nieuwheid":1},
+      "totaal": 6,
+      "hardheid_citaat": "Schade door maatregelen tegen het wortelknobbelaaltje is een normaal ondernemersrisico voor een professionele teler; besmetting was voorzienbaar (feed-samenvatting CBB:2026:498).",
+      "uitkomst": "doorgestreept",
+      "reden": "CBB is eindinstantie (hardheid 3), maar de zaak raakt alleen een smalle telersgroep; totaal 6, onder de drempel.",
+      "bron": {"naam":"College van Beroep voor het bedrijfsleven, ECLI:NL:CBB:2026:498","url":"https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:CBB:2026:498","gepubliceerd":"2026-10-20"}
+    },
+    {
+      "kop": "Defensie stelt tijdelijk beperkingengebied in voor dronevluchten",
+      "label": "Veiligheid & gezondheid",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":1,"houdbaarheid":0,"nieuwheid":1},
+      "totaal": 5,
+      "hardheid_citaat": "Instelling tijdelijke gebieden met beperkingen Corridor EHD41C-EHR8 (UAS-vluchten) (Staatscourant, Ministerie van Defensie).",
+      "uitkomst": "doorgestreept",
+      "reden": "Vastgesteld besluit, maar geldt alleen voor droneverkeer in één corridor; reikwijdte en houdbaarheid te klein; totaal 5.",
+      "bron": {"naam":"Staatscourant 2026, stcrt-2026-36402 (Ministerie van Defensie)","url":"https://zoek.officielebekendmakingen.nl/stcrt-2026-36402.html","gepubliceerd":"2026-10-20"}
+    },
+    {
+      "kop": "Rechtbank veroordeelt verdachte tot zeven jaar voor doodslag baby",
+      "label": "Wet & recht",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {"hardheid":2,"reikwijdte":0,"houdbaarheid":1,"nieuwheid":0},
+      "totaal": 3,
+      "hardheid_citaat": "Veroordeling voor doodslag op een tien maanden oude baby door zwaar geweld; zeven jaar gevangenisstraf (feed-samenvatting RBDHA:2026:30797).",
+      "uitkomst": "doorgestreept",
+      "reden": "Individuele strafzaak in eerste aanleg zonder precedentwerking; reikwijdte 0. Valt af als individuele zaak.",
+      "bron": {"naam":"Rechtbank Den Haag, ECLI:NL:RBDHA:2026:30797","url":"https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBDHA:2026:30797","gepubliceerd":"2026-10-20"}
+    },
+    {
+      "kop": "Rechtbank legt zestien jaar op voor poging tot moord",
+      "label": "Wet & recht",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {"hardheid":2,"reikwijdte":0,"houdbaarheid":1,"nieuwheid":0},
+      "totaal": 3,
+      "hardheid_citaat": "Poging tot moord (meerdere feiten) en bezit van illegale vuurwapens; zestien jaar gevangenisstraf (feed-samenvatting RBOVE:2026:6272).",
+      "uitkomst": "doorgestreept",
+      "reden": "Individuele strafzaak in eerste aanleg zonder precedentwerking; reikwijdte 0. Valt af als individuele zaak.",
+      "bron": {"naam":"Rechtbank Overijssel, ECLI:NL:RBOVE:2026:6272","url":"https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBOVE:2026:6272","gepubliceerd":"2026-10-20"}
+    },
+    {
+      "kop": "Tweede Kamer stemt dinsdag over wetsvoorstellen en moties",
+      "label": "Bestuur",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "OData Activiteit 2026-10-20: alleen Soort 'Werkbezoek' en 'E-mailprocedure'; geen Stemmingen of plenaire vergadering.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen stemming: de Tweede Kamer had herfstreces (vr 16-10 t/m ma 26-10 2026). Er is dus niets besloten.",
+      "bron": {"naam":"Tweede Kamer OData/recespagina","url":"https://www.tweedekamer.nl/debat_en_vergadering/recessen","gepubliceerd":"n.v.t. 2026-10-20"}
+    },
+    {
+      "kop": "Eerste Kamer stemt dinsdag over wetsvoorstellen",
+      "label": "Bestuur",
+      "type": "definitief besluit",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "Herfstreces Eerste Kamer: woensdag 14 oktober 2026 t/m maandag 26 oktober 2026.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen stemming: de Eerste Kamer had herfstreces op 20-10. Er is niets bekrachtigd.",
+      "bron": {"naam":"Eerste Kamer, reces","url":"https://www.eerstekamer.nl/","gepubliceerd":"n.v.t. 2026-10-20"}
+    },
+    {
+      "kop": "Wet of besluit gepubliceerd in het Staatsblad",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "SRU repository.overheid.nl, Staatsblad op dt.date==2026-10-20: numberOfRecords = 0.",
+      "uitkomst": "doorgestreept",
+      "reden": "Op 20-10-2026 is geen Staatsblad uitgegeven (0 records in het officiële register).",
+      "bron": {"naam":"Officiele bekendmakingen (Staatsblad, SRU)","url":"https://zoek.officielebekendmakingen.nl/","gepubliceerd":"n.v.t. 2026-10-20"}
+    },
+    {
+      "kop": "Ministerie stelt landelijke regeling of tarief vast in Staatscourant",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "SRU Staatscourant 2026-10-20: 169 records, type 'Regeling' = 0; inhoud is exploten, faillissementen en kennisgevingen.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen ministeriele regeling of tarief met brede gevolgen op 20-10; de 169 publicaties zijn routine (reikwijdte 0).",
+      "bron": {"naam":"Officiele bekendmakingen (Staatscourant, SRU)","url":"https://zoek.officielebekendmakingen.nl/","gepubliceerd":"n.v.t. 2026-10-20"}
+    },
+    {
+      "kop": "Hoge Raad wijst arrest met precedentwerking",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "Rechtspraak-API op 2026-10-20: geen enkele ECLI:NL:HR gevonden.",
+      "uitkomst": "doorgestreept",
+      "reden": "De Hoge Raad wijst op vrijdag arrest (16-10 en 23-10); op dinsdag 20-10 geen arrest.",
+      "bron": {"naam":"Rechtspraak open-data API","url":"https://data.rechtspraak.nl/uitspraken/zoeken?date=2026-10-20","gepubliceerd":"n.v.t. 2026-10-20"}
+    },
+    {
+      "kop": "Raad van State doet uitspraak in bestuurszaak",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "Rechtspraak-API op 2026-10-20: geen enkele ECLI:NL:RVS in de 35 uitspraken van die dag.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen uitspraak van de Afdeling bestuursrechtspraak op 20-10 (RvS publiceert doorgaans op woensdag).",
+      "bron": {"naam":"Rechtspraak open-data API","url":"https://data.rechtspraak.nl/uitspraken/zoeken?date=2026-10-20","gepubliceerd":"n.v.t. 2026-10-20"}
+    },
+    {
+      "kop": "CBS publiceert cijfer met keerpunt of indexatie",
+      "label": "Geld",
+      "type": "meting",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "CBS RSS: geen dateerbaar nieuwsbericht van 2026-10-20 te bevestigen.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen CBS-publicatie van 20-10-2026 hard te verifieren; een reguliere meting zonder keerpunt zou sowieso nieuwheid 0 scoren.",
+      "bron": {"naam":"CBS","url":"https://www.cbs.nl/nl-nl/nieuws","gepubliceerd":"niet vastgesteld op 2026-10-20"}
+    },
+    {
+      "kop": "NVWA kondigt terugroepactie aan",
+      "label": "Veiligheid & gezondheid",
+      "type": "gebeurtenis",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "Geen machineleesbaar te verifieren NVWA-recall met datum 2026-10-20.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen NVWA-terugroepactie van 20-10-2026 hard te verifieren via de beschikbare kanalen.",
+      "bron": {"naam":"NVWA terugroepacties","url":"https://www.nvwa.nl/onderwerpen/terugroepacties","gepubliceerd":"niet vastgesteld op 2026-10-20"}
+    },
+    {
+      "kop": "NS of netbeheerder maakt tarief 2027 bekend",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "Geen persbericht over tarieven 2027 met datum 2026-10-20 te verifieren.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen vastgesteld tariefbesluit van NS/netbeheerders op 20-10-2026 hard te verifieren.",
+      "bron": {"naam":"NS nieuws","url":"https://www.ns.nl/over-ns/nieuws","gepubliceerd":"niet vastgesteld op 2026-10-20"}
+    },
+    {
+      "kop": "NCSC waarschuwt voor ernstig cyberincident of kwetsbaarheid",
+      "label": "Veiligheid & gezondheid",
+      "type": "gebeurtenis",
+      "score": {"hardheid":0,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 0,
+      "hardheid_citaat": "Geen NCSC-advisory met maatschappelijk keerpunt en datum 2026-10-20 te verifieren.",
+      "uitkomst": "doorgestreept",
+      "reden": "Geen NCSC-melding van 20-10-2026 met vaststaande gevolgen voor mensen in NL hard te verifieren.",
+      "bron": {"naam":"NCSC","url":"https://www.ncsc.nl/actueel","gepubliceerd":"niet vastgesteld op 2026-10-20"}
+    }
+  ]
+}

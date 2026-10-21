@@ -1,0 +1,86 @@
+{
+  "datum": "2026-10-22",
+  "over": "2026-10-21",
+  "weekdag": "woensdag",
+  "sweep_tot": "2026-10-21T22:00",
+  "beoordeeld": 7, "geplaatst": 0, "net_niet": 1, "doorgestreept": 6,
+  "items": [
+    {
+      "kop": "ACM eist geen vergunning voor overname tussen Videoland en Viaplay",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":2,"houdbaarheid":2,"nieuwheid":3},
+      "totaal": 10,
+      "hardheid_citaat": "Op 20 oktober 2026 heeft de Autoriteit Consument en Markt (ACM) besloten dat voor deze overname geen vergunning is vereist.",
+      "uitkomst": "net niet",
+      "reden": "Definitief toezichthoudersbesluit (hardheid 3) dat een concentratie tussen twee Nederlandse streamingdiensten vrijgeeft; nieuw feit (nieuwheid 3). Maar het is een eerstefase-clearance met beperkte reikwijdte (streamingabonnees, geen structureel effect) en modale houdbaarheid; totaal 10, net onder de drempel. Besluit 20-10, publicatie Staatscourant 21-10.",
+      "bron": {"naam":"Autoriteit Consument en Markt (Staatscourant 2026, 37305)","url":"https://zoek.officielebekendmakingen.nl/stcrt-2026-37305.html","gepubliceerd":"2026-10-21 (uitgiftedatum, geen kloktijd)"}
+    },
+    {
+      "kop": "Wet voor uitvoering EU-verordening over afvaltransport gepubliceerd",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":2,"houdbaarheid":2,"nieuwheid":1},
+      "totaal": 8,
+      "hardheid_citaat": "treedt in werking op een bij koninklijk besluit te bepalen tijdstip",
+      "uitkomst": "doorgestreept",
+      "reden": "Gepubliceerde wet (hardheid 3, Stb 2026, 330) die EU-verordening 2024/1157 over overbrenging van afvalstoffen omzet en aanhaakt op batterij- en afvalrichtlijnen. Technische omzetting van bekende EU-regels, beperkte directe gevolgen voor mensen in NL, grootste deel treedt pas bij KB in werking (enkele onderdelen 22-10). Nieuwheid 1; totaal 8, onder de drempel.",
+      "bron": {"naam":"Staatsblad 2026, 330 (Wet uitvoering EU-verordening overbrenging van afvalstoffen)","url":"https://zoek.officielebekendmakingen.nl/stb-2026-330.html","gepubliceerd":"2026-10-21 (uitgiftedatum, geen kloktijd)"}
+    },
+    {
+      "kop": "Definitieve zorgpremie 2027 op 21 oktober nog niet gepubliceerd",
+      "label": "Geld",
+      "type": "voornemen",
+      "score": {"hardheid":1,"reikwijdte":4,"houdbaarheid":2,"nieuwheid":0},
+      "totaal": 7,
+      "hardheid_citaat": "De premie van de basisverzekering voor 2027 is uiterlijk 12 november bekend.",
+      "uitkomst": "doorgestreept",
+      "reden": "Op 21-10 bestond nog geen vastgestelde premie 2027; zorgverzekeraars publiceren die wettelijk pas uiterlijk 12 november. Geen primaire publicatie op deze dag, hardheid 1 (verwachting) en nieuwheid 0 (herhaalde raming). Valt onder de drempel én onder hardheid 2. Citaat is secundair (deadline-context).",
+      "bron": {"naam":"n.v.t. — geen primaire publicatie op 21-10 (context: wettelijke publicatiedeadline premies)","url":"","gepubliceerd":"2026-10-21 (niet van toepassing)"}
+    },
+    {
+      "kop": "FNV schort streekvervoerstaking op; actie van 22 oktober gaat niet door",
+      "label": "Geld",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {"hardheid":2,"reikwijdte":2,"houdbaarheid":1,"nieuwheid":1},
+      "totaal": 6,
+      "hardheid_citaat": "De aangekondigde staking in het streekvervoer op donderdag 22 oktober 2026 gaat niet door.",
+      "uitkomst": "doorgestreept",
+      "reden": "Het opschorten van een aangekondigde actie is een voorwaardelijk, omkeerbaar bondsbesluit (een plan dat tijdelijk vervalt). Lage houdbaarheid en nieuwheid; totaal 6, onder de drempel. Datum 21-10 geverifieerd; tijd niet vermeld op de pagina.",
+      "bron": {"naam":"FNV Streekvervoer","url":"https://www.fnv.nl/nieuwsbericht/sectornieuws/vervoer/2026/10/staking-streekvervoer-22-oktober-gaat-niet-door","gepubliceerd":"2026-10-21 (tijd niet vermeld)"}
+    },
+    {
+      "kop": "EZK opent kleine subsidie voor Programma Digitaal Europa",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":1,"houdbaarheid":0,"nieuwheid":1},
+      "totaal": 5,
+      "hardheid_citaat": "Deze regeling treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst.",
+      "uitkomst": "doorgestreept",
+      "reden": "Vastgestelde ministeriele regeling (avv, hardheid 3) die twee subsidie-openstellingen toevoegt voor cofinanciering onder Digitaal Europa, met kleine budgetten (EUR 172.933 en EUR 1.150.000) voor een beperkte groep aanvragers. Zeer kleine reikwijdte, geen houdbaarheid; totaal 5, onder de drempel.",
+      "bron": {"naam":"Staatssecretaris EZK (Staatscourant 2026, 36871)","url":"https://zoek.officielebekendmakingen.nl/stcrt-2026-36871.html","gepubliceerd":"2026-10-21 (uitgiftedatum, geen kloktijd)"}
+    },
+    {
+      "kop": "Raad van State doet 38 bestuursrechtelijke uitspraken zonder brede precedentwerking",
+      "label": "Wet & recht",
+      "type": "feit",
+      "score": {"hardheid":3,"reikwijdte":0,"houdbaarheid":1,"nieuwheid":1},
+      "totaal": 5,
+      "hardheid_citaat": "Bij besluit van 26 september 2017 heeft de raad van de gemeente Leudal het bestemmingsplan [...] vastgesteld.",
+      "uitkomst": "doorgestreept",
+      "reden": "De Afdeling bestuursrechtspraak deed op woensdag 21-10 38 uitspraken (overwegend bestemmingsplan/omgeving/Awb). Steekproef (RVS:2026:6219 bestemmingsplan Leudal; RVS:2026:6198 gebouwverbod VU-student) betreft individuele zaken met vaste lijn en beperkte precedentwerking. Hardheid 3 (hoogste bestuursrechter) maar reikwijdte 0 en geen precedent; onder de drempel. Niet alle 38 zijn gelezen; in de steekproef geen landelijk richtinggevende uitspraak gevonden.",
+      "bron": {"naam":"Raad van State, Afdeling bestuursrechtspraak (ECLI:NL:RVS:2026:6219 e.a.)","url":"https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RVS:2026:6219","gepubliceerd":"2026-10-21 (uitspraakdatum)"}
+    },
+    {
+      "kop": "Slotwetten gemeente- en provinciefonds 2025 in het Staatsblad geplaatst",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":1,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 4,
+      "hardheid_citaat": "Wet van 23 september 2026, houdende Jaarverslag en slotwet gemeentefonds 2025.",
+      "uitkomst": "doorgestreept",
+      "reden": "Routinematige boekhoudkundige afsluiting van de rekeningen 2025 (Stb 2026, 328 provinciefonds en 329 gemeentefonds). Gepubliceerde wet (hardheid 3) maar geen nieuwsfeit, geen houdbaarheid, nieuwheid 0; totaal 4, onder de drempel.",
+      "bron": {"naam":"Staatsblad 2026, 328 en 329 (slotwetten provincie- en gemeentefonds 2025)","url":"https://zoek.officielebekendmakingen.nl/stb-2026-329.html","gepubliceerd":"2026-10-21 (uitgiftedatum, geen kloktijd)"}
+    }
+  ]
+}

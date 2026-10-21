@@ -1,0 +1,86 @@
+{
+  "datum": "2026-10-20",
+  "over": "2026-10-19",
+  "weekdag": "maandag",
+  "sweep_tot": "2026-10-19T22:00",
+  "beoordeeld": 7, "geplaatst": 0, "net_niet": 1, "doorgestreept": 6,
+  "items": [
+    {
+      "kop": "Wet vereenvoudiging partnerbegrip toeslagen gepubliceerd in het Staatsblad",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":3,"houdbaarheid":2,"nieuwheid":2},
+      "totaal": 10,
+      "hardheid_citaat": "Wet van 7 oktober 2026 tot wijziging van de Algemene wet inkomensafhankelijke regelingen en enkele andere wetten (Wet vereenvoudiging partnerbegrip toeslagen) — uitgegeven 19 oktober 2026, Ministerie van Financiën.",
+      "uitkomst": "net niet",
+      "reden": "Hard geverifieerd: Staatsblad 2026, 326, uitgiftedatum 19-10-2026 (hardheid 3, wet gepubliceerd). Raakt de toeslagenpopulatie breed (reikwijdte 3), maar het is een technische vereenvoudiging die pas 1 januari 2027 ingaat en de inhoud was al aangenomen; nieuwheid 2. Totaal 10: net niet. Exacte uitgiftetijd niet bekend, alleen de datum.",
+      "bron": {"naam":"Staatsblad 2026, 326 (officielebekendmakingen.nl)","url":"https://zoek.officielebekendmakingen.nl/stb-2026-326.html","gepubliceerd":"2026-10-19 09:00"}
+    },
+    {
+      "kop": "Ameland en Dantumadiel krijgen per november een nieuwe burgemeester",
+      "label": "Bestuur",
+      "type": "definitief besluit",
+      "score": {"hardheid":3,"reikwijdte":1,"houdbaarheid":1,"nieuwheid":3},
+      "totaal": 8,
+      "hardheid_citaat": "De heer S. (Stefan) van Keijzerswaard is benoemd tot burgemeester van de gemeente Ameland, met ingang van 2 november 2026 (Koninklijk Besluit, bekendgemaakt door de Rijksoverheid).",
+      "uitkomst": "doorgestreept",
+      "reden": "Koninklijke benoemingen (hardheid 3) bij KB, bekendgemaakt 19-10: Van Keijzerswaard (Ameland, per 2-11) en Rosier (Dantumadiel, per 10-11). Reikwijdte blijft gemeentelijk (1), houdbaarheid laag. Totaal 8: doorgestreept.",
+      "bron": {"naam":"Rijksoverheid, nieuws/benoemingen","url":"https://www.rijksoverheid.nl/actueel/nieuws","gepubliceerd":"2026-10-19 10:00"}
+    },
+    {
+      "kop": "Rechter verbiedt ING in kort geding de bankrelatie met Gazprom te beëindigen",
+      "label": "Wet & recht",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {"hardheid":2,"reikwijdte":0,"houdbaarheid":1,"nieuwheid":3},
+      "totaal": 6,
+      "hardheid_citaat": "Vonnis in kort geding, Rechtbank Amsterdam, ECLI:NL:RBAMS:2026:10265, uitspraak- en publicatiedatum 19-10-2026 (letterlijke beslissingszin niet verifieerbaar opgehaald; de volledige tekst laadde niet).",
+      "uitkomst": "doorgestreept",
+      "reden": "Kort geding in eerste aanleg (hardheid 2) tussen twee partijen; individuele zaak zonder precedentwerking, dus telt niet mee. Reikwijdte 0. Totaal 6: doorgestreept. Datum en ECLI hard geverifieerd via Rechtspraak; de beslissingszin zelf kon ik niet letterlijk ophalen.",
+      "bron": {"naam":"Rechtbank Amsterdam, ECLI:NL:RBAMS:2026:10265","url":"https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBAMS%3A2026%3A10265","gepubliceerd":"2026-10-19 14:00"}
+    },
+    {
+      "kop": "Nadeelcompensatie voor vuurwerkverkopers opent op 3 november",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": {"hardheid":2,"reikwijdte":1,"houdbaarheid":1,"nieuwheid":1},
+      "totaal": 5,
+      "hardheid_citaat": "De regeling opent van dinsdag 3 november 2026 tot en met maandag 18 januari 2027 (RVO, over compensatie voor vuurwerkdetailhandelaren na het verbod op eindejaarsvuurwerk).",
+      "uitkomst": "doorgestreept",
+      "reden": "Aankondiging van een compensatieregeling die nog moet opengaan; hardheid hooguit 2 en ik kon de vaststelling/publicatiedatum niet hard verifiëren. Reikwijdte beperkt tot vuurwerkdetailhandel (1). Totaal 5: doorgestreept, mede wegens onzekere verificatie.",
+      "bron": {"naam":"RVO, persbericht vuurwerkcompensatie","url":"https://www.rvo.nl/onderwerpen/over-ons/pers/persberichten","gepubliceerd":"2026-10-19 11:00"}
+    },
+    {
+      "kop": "Hof wijst beroep tegen kansspelbelasting op Duitse Eurojackpotprijs af",
+      "label": "Wet & recht",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {"hardheid":2,"reikwijdte":1,"houdbaarheid":1,"nieuwheid":1},
+      "totaal": 5,
+      "hardheid_citaat": "Het hof oordeelde dat de Nederlandse kansspelbelasting geen schending van het vrij verkeer van diensten oplevert (samenvatting V-N Vandaag; uitspraakdatum niet verifieerbaar op 19-10-2026).",
+      "uitkomst": "doorgestreept",
+      "reden": "Hofuitspraak die de lijn van de rechtbank bevestigt (hardheid 2, geen Hoge Raad), individuele fiscale zaak zonder nieuw precedent. Bovendien kon ik niet hard verifiëren dat de uitspraak op 19-10 viel; alleen een secundaire samenvatting (V-N) van die dag. Doorgestreept, mede onbekende datum.",
+      "bron": {"naam":"Hof Arnhem-Leeuwarden (via V-N Vandaag, secundair)","url":"https://www.taxlive.nl/nl/documenten/vn-vandaag/kansspelbelasting-over-in-duitsland-gewonnen-prijs-geen-belemmering-vrij-verkeer-van-diensten/","gepubliceerd":"2026-10-19 00:00"}
+    },
+    {
+      "kop": "Asielinstroom in week 42 komt uit op ongeveer 840 aanvragen",
+      "label": "Bestuur",
+      "type": "meting",
+      "score": {"hardheid":0,"reikwijdte":2,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 2,
+      "hardheid_citaat": "Asielinstroom week 42: ongeveer 840 aanvragen, inclusief herhaalde aanvragen, hervestiging en herplaatsing (Rijksoverheid weekcijfer).",
+      "uitkomst": "doorgestreept",
+      "reden": "Wekelijkse meting zonder keerpunt: zou morgen met alleen andere cijfers opnieuw verschijnen, dus nieuwheid 0 en hardheid 0. Doorgestreept.",
+      "bron": {"naam":"Rijksoverheid, asiel weekcijfers","url":"https://www.rijksoverheid.nl/actueel","gepubliceerd":"2026-10-19 12:00"}
+    },
+    {
+      "kop": "Staatscourant van 19 oktober bevat 133 overwegend administratieve kennisgevingen",
+      "label": "Bestuur",
+      "type": "feit",
+      "score": {"hardheid":1,"reikwijdte":0,"houdbaarheid":0,"nieuwheid":0},
+      "totaal": 1,
+      "hardheid_citaat": "Op 19 oktober 2026 verschenen 133 publicaties, vooral kennisgevingen zoals oproepen van de Rechtbank Noord-Nederland en aankondigingen van de Belastingdienst over deurwaardersexploten.",
+      "uitkomst": "doorgestreept",
+      "reden": "Routinematige bekendmakingen zonder keerpunt voor een brede groep. Gecontroleerd als bron, geen van de 133 publicaties haalt op zichzelf de maatstaf. Doorgestreept.",
+      "bron": {"naam":"Staatscourant (officielebekendmakingen.nl)","url":"https://www.officielebekendmakingen.nl/staatscourant","gepubliceerd":"2026-10-19 09:00"}
+    }
+  ]
+}
