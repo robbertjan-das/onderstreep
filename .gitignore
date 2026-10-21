@@ -3,3 +3,4 @@ __pycache__/
 social/
 *.zip
 .DS_Store
+.venv/

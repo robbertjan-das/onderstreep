@@ -13,10 +13,17 @@ Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend o
 ## Werkwijze
 
 - Begin elk gesprek met `git pull`, zodat de map gelijkloopt met GitHub (er wordt ook via de browser geüpload).
-- Controleer na elke wijziging met `pip install jinja2` (eenmalig) en `python build.py`; de bouw weigert berichten onder de drempel.
+- Controleer na elke wijziging met `.venv/bin/python build.py` (zie Bouwen); de bouw weigert berichten onder de drempel.
 - Commit-berichten in het Nederlands, kort: "Bulletin 2026-10-18", "Introregel in Atkinson".
 - Push pas na een geslaagde lokale bouw, en zeg bij elke push kort wat er is veranderd.
 - `dist/` is bouwuitvoer en staat in `.gitignore`; nooit committen.
+
+## Bouwen
+
+- Bouwen gaat altijd met `.venv/bin/python build.py`, kaarten maken met `.venv/bin/python merk/maak_kaarten.py`. `python` bestaat niet op deze Mac en de systeem-`python3` is 3.9, te oud.
+- Ontbreekt `.venv` (staat in `.gitignore`), maak hem dan opnieuw met dezelfde stappen:
+  1. `/opt/homebrew/bin/python3.12 -m venv .venv`
+  2. `.venv/bin/pip install jinja2 pillow`
 
 ## Redactionele regels voor berichten
 
@@ -40,7 +47,7 @@ Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend o
 ## Kaarten maken
 
 Opdracht: "maak kaarten" (of "bouw, maak kaarten en push").
-- `python merk/maak_kaarten.py bulletins/JJJJ-MM-DD.json` maakt alle beelden van dat bulletin in `social/JJJJ-MM-DD/`: carrousel (Instagram, Facebook, Threads), stories (Instagram, Facebook), `-overzicht.png` (WhatsApp) en `-overzicht-vierkant.png` (LinkedIn).
-- Lettertypes komen uit `merk/lettertypes/`. Nodig: Pillow (`pip install pillow` in de venv).
+- `.venv/bin/python merk/maak_kaarten.py bulletins/JJJJ-MM-DD.json` maakt alle beelden van dat bulletin in `social/JJJJ-MM-DD/`: carrousel (Instagram, Facebook, Threads), stories (Instagram, Facebook), `-overzicht.png` (WhatsApp) en `-overzicht-vierkant.png` (LinkedIn).
+- Lettertypes komen uit `merk/lettertypes/`. Pillow zit in `.venv` (zie Bouwen).
 - `social/` staat in `.gitignore`: beelden worden nooit gecommit.
 - Open na afloop de map in de Finder (`open social/JJJJ-MM-DD`).
