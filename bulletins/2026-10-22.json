@@ -1,0 +1,70 @@
+{
+  "datum": "2026-10-22",
+  "over": "2026-10-21",
+  "beoordeeld": 18,
+  "berichten": [
+    {
+      "id": "php-lekken",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 3,
+        "houdbaarheid": 1,
+        "nieuwheid": 4
+      },
+      "label": "Veiligheid & gezondheid",
+      "dossier": null,
+      "update": false,
+      "kop": "Twee kritieke lekken in PHP; veel websites, ook van de overheid, uit voorzorg offline",
+      "wat": "Het Nationaal Cyber Security Centrum (NCSC) waarschuwde woensdag voor twee kritieke lekken in PHP, de programmeertaal waarop een groot deel van alle websites draait. Via de lekken kunnen aanvallers een webserver op afstand overnemen; alle versies vanaf PHP 5 zijn kwetsbaar. Er was openbaar voorbeeldcode voor een aanval, maar het NCSC zag nog geen actief misbruik. Veel organisaties haalden hun website uit voorzorg offline, onder meer het NCSC zelf en enkele overheidsinstanties; hostingbedrijven zetten soms alle klantwebsites tijdelijk uit. Om 16:00 verscheen een beveiligingsupdate, waarna websites in de loop van de avond terugkwamen.",
+      "voor_wie": "Iedereen met een website op PHP, waaronder WordPress-sites en de meeste webwinkels: de update moet worden geïnstalleerd, meestal door de hoster. Wie woensdag een website niet kon bereiken, merkte de voorzorgsmaatregel.",
+      "verloop": "Het PHP-team kondigde de update dinsdag 20 oktober aan. Voor zover bekend is de update er alleen voor PHP 8; websites op oudere versies blijven kwetsbaar tot ze zijn bijgewerkt.",
+      "onbekend": "Of de lekken inmiddels worden misbruikt, en hoeveel websites in Nederland nog op een versie zonder update draaien.",
+      "bron": {
+        "naam": "NCSC, Ernstige kwetsbaarheden in PHP, 21 oktober 2026",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/21/ncsc-ernstige-kwetsbaarheden-in-php"
+      }
+    },
+    {
+      "id": "staking-streekvervoer-afgeblazen",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 3,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "label": "Geld",
+      "dossier": null,
+      "update": false,
+      "kop": "Vakbonden blazen staking in streekvervoer af; acties opgeschort tot begin november",
+      "wat": "FNV en CNV hebben de landelijke staking in het streekvervoer van donderdag 22 oktober afgeblazen. Bussen en regionale treinen van onder meer Arriva, EBS, Qbuzz, Keolis, Transdev en RET Streekvervoer rijden donderdag volgens de normale dienstregeling. Volgens de bonden hebben de werkgevers hun loonbod verbeterd en een deel van de voorstellen om de cao te verslechteren ingetrokken. De onderhandelingen over de cao Openbaar Vervoer worden hervat; de acties zijn opgeschort, niet beëindigd.",
+      "voor_wie": "Wie met de bus of een regionale trein reist: donderdag rijdt alles. En de medewerkers in het streekvervoer, van wie de cao eind juni afliep.",
+      "verloop": "Woensdag 14 oktober was de eerste landelijke stakingsdag; volgens FNV reed toen ongeveer 90 procent van de bussen niet. De bonden wilden tot kerst één dag per week staken. Komt er geen akkoord, dan wordt volgens FNV op zaterdag 7 november weer gestaakt.",
+      "onbekend": "Of er een akkoord komt. CNV noemt 4 november als moment waarop de acties weer kunnen beginnen, FNV 7 november.",
+      "bron": {
+        "naam": "FNV, Staking streekvervoer 22 oktober gaat niet door, 21 oktober 2026",
+        "url": "https://www.fnv.nl/nieuwsbericht/sectornieuws/vervoer/2026/10/staking-streekvervoer-22-oktober-gaat-niet-door"
+      }
+    },
+    {
+      "id": "dsw-premie-2027",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 2,
+        "houdbaarheid": 2,
+        "nieuwheid": 3
+      },
+      "label": "Geld",
+      "dossier": null,
+      "update": false,
+      "kop": "DSW verhoogt de basispremie voor 2027 met 14,75 euro naar 173,25 euro per maand",
+      "wat": "Zorgverzekeraar DSW heeft woensdag als eerste de premie voor 2027 bekendgemaakt: de basisverzekering kost volgend jaar 173,25 euro per maand, 14,75 euro meer dan nu, en 2.079 euro per jaar. Volgens DSW is het de grootste premiestijging die de verzekeraar ooit doorvoert. Het kabinet ging op Prinsjesdag uit van een stijging van gemiddeld 12,50 euro per maand. DSW haalt 46 euro per verzekerde per jaar uit zijn reserves om de stijging te beperken. Het eigen risico wordt bij DSW 390 euro, 10 euro onder het wettelijke eigen risico van 400 euro. De premies van de aanvullende verzekeringen blijven gelijk.",
+      "voor_wie": "Wie bij DSW de basisverzekering heeft. De premie geldt als eerste aanwijzing voor de rest van de markt, maar elke verzekeraar stelt zijn eigen premie vast.",
+      "verloop": "In 2026 bleef de premie gelijk door een eenmalig overschot in het Zorgverzekeringsfonds. Alle zorgverzekeraars moeten hun premie voor 2027 uiterlijk 12 november bekendmaken; overstappen kan tot en met 31 december.",
+      "onbekend": "Wat de andere zorgverzekeraars vragen, en hoe hoog de zorgtoeslag voor 2027 precies wordt.",
+      "bron": {
+        "naam": "DSW, premie basisverzekering 2027, 21 oktober 2026",
+        "url": "https://www.dsw.nl/consumenten"
+      }
+    }
+  ]
+}
