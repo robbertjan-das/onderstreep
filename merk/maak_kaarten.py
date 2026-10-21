@@ -44,24 +44,30 @@ def eerste_zin(t):
         if sep in t: return t.split(sep)[0] + "."
     return t
 
+# de streep ligt op elke slide van een carrousel of story op dezelfde hoogte, zodat hij bij het vegen doorloopt
+STREEP = {1350: 470, 1920: 825}
+
 def canvas(h): 
     img = Image.new("RGB", (1080, h), WIT); return img, ImageDraw.Draw(img)
 
 def cover(b, h, pad_top):
     img, d = canvas(h); M = 96
     d.text((M, pad_top), "onder/streep", font=font("serif", 56, 500), fill=INK)
-    # middenblok: datum, streep, som
-    fd = font("serif", 88 if h == 1350 else 92, 400)
-    datum = nl_datum(b["datum"]); regels = wrap(d, datum, fd, 888)
-    som = [f"{b['beoordeeld']} beoordeeld", f"{b['doorgestreept']} doorgestreept", f"{b['geplaatst']} geplaatst vanaf 11/16"]
+    # datum en streep liggen vast; de streep ligt op elke slide op dezelfde hoogte
+    basis = 88 if h == 1350 else 92
+    fd = font("serif", basis, 400)
+    datum = nl_datum(b["datum"]); regels = [datum.rsplit(" ", 1)[0], datum.rsplit(" ", 1)[1]]
+    while d.textlength(regels[0], font=fd) > 888: fd = font("serif", fd.size - 2, 400)
+    y = STREEP[h] - 32 - 2 * int(basis * 1.05)
+    for r in regels: d.text((M, y), r, font=fd, fill=INK); y += int(basis * 1.05)
+    y = STREEP[h]; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 34
+    # onder de streep: "1 onder de streep" of "Vandaag niets.", in dezelfde opmaak; wat het is, staat op de slides erna
+    n = len(b["berichten"])
+    d.text((M, y), f"{n} onder de streep" if n else "Vandaag niets.", font=font("serif", 72, 400), fill=INK)
+    y += int(72 * 1.05) + 28
     fm = font("mono", 30)
-    leeg = not b["berichten"]; fn = font("serif", 72, 400)
-    blok = len(regels) * int(fd.size * 1.05) + 32 + 2 + 32 + len(som) * 45 + (int(72 * 1.05) + 28 if leeg else 0)
-    y = (h - blok) // 2 - (40 if h == 1350 else 0)
-    for r in regels: d.text((M, y), r, font=fd, fill=INK); y += int(fd.size * 1.05)
-    y += 32; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 34
-    if leeg: d.text((M, y), "Vandaag niets.", font=fn, fill=INK); y += int(72 * 1.05) + 28
-    for s in som: d.text((M, y), s, font=fm, fill=GRIJS); y += 45
+    for t in (f"{b['beoordeeld']} beoordeeld", f"{b['doorgestreept']} doorgestreept", f"{b['geplaatst']} geplaatst vanaf 11/16"):
+        d.text((M, y), t, font=fm, fill=GRIJS); y += 45
     d.text((M, h - (96 if h == 1350 else 320) - 53), "Het nieuws, onderstreept.", font=font("serif", 44, 400), fill=INK)
     return img
 
@@ -70,10 +76,10 @@ def bericht(m, h, pad_top, pad_bottom):
     d.text((M, pad_top), "onder/streep", font=font("serif", 36 if h == 1350 else 40, 500), fill=GRIJS)
     fl = font("sans", 26 if h == 1350 else 28, 600)
     d.text((1080 - M - d.textlength(m["label"], font=fl), pad_top + 10), m["label"], font=fl, fill=GRIJS)
-    y = pad_top + (72 + 43 if h == 1350 else 80 + 48)
     fs = font("serif", 96 if h == 1350 else 104, 500)
-    d.text((M, y), f"{m['totaal']}/16", font=fs, fill=INK); y += int(fs.size * 1.1) + 16
-    d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 42
+    y = STREEP[h] - 16 - int(fs.size * 1.1)
+    d.text((M, y), f"{m['totaal']}/16", font=fs, fill=INK)
+    y = STREEP[h]; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 42
     woorden = len(m["kop"].split())
     kp = (60 if woorden <= 14 else 52) if h == 1350 else (66 if woorden <= 14 else 58)
     y = tekst(d, (M, y), m["kop"], font("serif", kp, 500), lh=1.15)
@@ -97,10 +103,9 @@ def slot(b, h, pad_top, pad_bottom):
     d.text((M, pad_top), "onder/streep", font=font("serif", 36 if h == 1350 else 40, 500), fill=GRIJS)
     som = [f"{b['beoordeeld']} beoordeeld", f"{b['doorgestreept']} doorgestreept", f"{b['geplaatst']} geplaatst vanaf 11/16"]
     fm, fs = font("mono", 28), font("serif", 96, 400)
-    blok = len(som) * 42 + 32 + 2 + 32 + int(96 * 1.05)
-    y = (h - blok) // 2
+    y = STREEP[h] - 32 - len(som) * 42
     for s in som: d.text((M, y), s, font=fm, fill=GRIJS); y += 42
-    y += 32; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 34
+    y = STREEP[h]; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 34
     d.text((M, y), "Streep eronder.", font=fs, fill=INK)
     fz = font("sans", 34, 400); fu = font("mono", 28)
     regel = "Het hele bulletin, elke ochtend om zeven." if h == 1350 else "Het hele bulletin, met bron en dossier."
@@ -128,6 +133,26 @@ def main(pad, uit):
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2])
 
+def koppenlijst(d, berichten, x, y, onder, breedte, start=44, minimum=30, gat=30):
+    """Zet score + kop onder elkaar tussen y en onder. Krimpt de letter tot alles past;
+    past het bij de kleinste maat nog niet, dan zoveel als past plus '+ N andere berichten'."""
+    def maat(px, aantal):
+        f = font("serif", px, 500)
+        return sum(hoogte(d, m["kop"], f, breedte - 150, 1.18) + gat for m in berichten[:aantal]), f
+    for px in range(start, minimum - 1, -2):
+        h, f = maat(px, len(berichten))
+        if y + h <= onder: break
+    toon = len(berichten)
+    while toon > 1 and y + maat(minimum, toon)[0] + 45 > onder and y + maat(px, toon)[0] > onder:
+        toon -= 1; f = font("serif", minimum, 500)
+    for m in berichten[:toon]:
+        d.text((x, y), f"{m['totaal']}/16", font=f, fill=GRIJS)
+        y = tekst(d, (x + 150, y), m["kop"], f, breedte=breedte - 150, lh=1.18) + gat
+    rest = len(berichten) - toon
+    if rest:
+        d.text((x, y), f"+ {rest} {'ander bericht' if rest == 1 else 'andere berichten'}", font=font("mono", 26), fill=GRIJS); y += 45
+    return y
+
 def overzicht(b, h=1350, pad=96):
     """Eén kaart met alle koppen van de dag, voor LinkedIn, Threads en WhatsApp."""
     img, d = canvas(h); M = pad
@@ -138,15 +163,11 @@ def overzicht(b, h=1350, pad=96):
     y += 24; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 44
     if not b["berichten"]:
         d.text((M, y), "Vandaag niets.", font=font("serif", 96, 400), fill=INK); y += 130
-    n = len(b["berichten"])
-    kp = 44 if n <= 3 else 38
-    fsc, fk = font("serif", kp, 500), font("serif", kp, 500)
-    for m in b["berichten"]:
-        d.text((M, y), f"{m['totaal']}/16", font=fsc, fill=GRIJS)
-        y = tekst(d, (M + 150, y), m["kop"], fk, breedte=1080 - M - (M + 150), lh=1.18) + 36
     som = f"{b['beoordeeld']} beoordeeld, {b['doorgestreept']} doorgestreept, {b['geplaatst']} geplaatst vanaf 11/16."
     fm, fs = font("mono", 26), font("serif", 56, 400)
-    yb = h - M - int(56 * 1.05); d.text((M, yb), "Streep eronder.", font=fs, fill=INK)
+    yb = h - M - int(56 * 1.05)
+    if b["berichten"]: koppenlijst(d, b["berichten"], M, y, yb - 50 - 40, 1080 - 2 * M, gat=36)
+    d.text((M, yb), "Streep eronder.", font=fs, fill=INK)
     d.text((M, yb - 50), som, font=fm, fill=GRIJS)
     return img
 
@@ -163,13 +184,9 @@ def overzicht_vierkant(b, S=1200, M=96):
     n = len(b["berichten"])
     if n == 0:
         d.text((M, y), "Vandaag niets.", font=font("serif", 96, 400), fill=INK)
-    kp = 44 if n <= 2 else (38 if n <= 4 else 34)
-    fk = font("serif", kp, 500)
-    for m in b["berichten"]:
-        d.text((M, y), f"{m['totaal']}/16", font=fk, fill=GRIJS)
-        y = tekst(d, (M + 150, y), m["kop"], fk, breedte=S - M - (M + 150), lh=1.18) + 30
     som = f"{b['beoordeeld']} beoordeeld, {b['doorgestreept']} doorgestreept, {b['geplaatst']} geplaatst vanaf 11/16."
     yb = S - M - int(56 * 1.05)
+    if n: koppenlijst(d, b["berichten"], M, y, yb - 48 - 40, S - 2 * M)
     d.text((M, yb), "Streep eronder.", font=font("serif", 56, 400), fill=INK)
     d.text((M, yb - 48), som, font=font("mono", 26), fill=GRIJS)
     return img
@@ -184,7 +201,7 @@ def weekkaart(week, bulletins, S=(1080, 1350), M=96):
     geplaatst = [m for b in bulletins for m in b["berichten"]]
     geplaatst.sort(key=lambda m: -m["totaal"])
     fk = font("serif", 36, 500); fl = font("sans", 24, 600)
-    d.text((M, y), "Boven de streep", font=fl, fill=GRIJS); y += 44
+    d.text((M, y), "Onder de streep", font=fl, fill=GRIJS); y += 44
     for m in geplaatst:
         d.text((M, y), f"{m['totaal']}/16", font=fk, fill=GRIJS)
         y = tekst(d, (M + 130, y), m["kop"], fk, breedte=W - M - (M + 130), lh=1.18) + 22
@@ -200,4 +217,6 @@ def weekkaart(week, bulletins, S=(1080, 1350), M=96):
     d.text((M, yb), "Streep eronder.", font=font("serif", 56, 400), fill=INK)
     d.text((M, yb - 86), som1, font=font("mono", 26), fill=GRIJS)
     d.text((M, yb - 48), som2, font=font("mono", 26), fill=GRIJS)
-    return img
+    # periodekaarten (week, maand, jaar) zijn omgekeerd: wit op zwart, zoals de donkere modus van de site
+    from PIL import ImageOps
+    return ImageOps.invert(img)

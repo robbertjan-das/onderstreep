@@ -1,6 +1,6 @@
 # onder/streep
 
-Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend om 07:00 alleen brengt wat gisteren is besloten of gebeurd en gevolgen heeft voor mensen in Nederland. Elk bericht wordt gescoord op vier criteria (hardheid, reikwijdte, houdbaarheid, nieuwheid, elk 0–4) en verschijnt alleen vanaf 11 van 16, met hardheid minimaal 2. De eigenaar is Robbert-Jan Das; het project is persoonlijk, zonder advertenties en zonder politieke kleur.
+Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend om 07:00 alleen brengt wat echt is veranderd (een besluit, een uitspraak, een gebeurtenis) en gevolgen heeft voor mensen in Nederland. Slogan: "Het nieuws, onderstreept." Regel: "Elke ochtend om zeven: alleen wat echt is veranderd." Nooit "gisteren" of "besloten" in slogan of bio. Elk bericht wordt gescoord op vier criteria (hardheid, reikwijdte, houdbaarheid, nieuwheid, elk 0–4) en verschijnt alleen vanaf 11 van 16, met hardheid minimaal 2. De eigenaar is Robbert-Jan Das; het project is persoonlijk, zonder advertenties en zonder politieke kleur.
 
 ## Hoe de site werkt
 
@@ -20,7 +20,7 @@ Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend o
 
 ## Redactionele regels voor berichten
 
-- Kop: één zin, wat is besloten of gebeurd, geen vraag, geen citaat, geen bijvoeglijk naamwoord.
+- Kop: één zin, wat er is veranderd, geen vraag, geen citaat, geen bijvoeglijk naamwoord.
 - Vier labels: Wat, Voor wie, optioneel Verloop (wat eraan voorafging en wat erna komt, alleen wat vaststaat), Onbekend. Ze staan in de regel en de alinea's worden als één doorlopend stuk geschreven, niet als vier losse antwoorden. Getallen en data in plaats van bijwoorden.
 - Lengte: zo lang als de feiten vragen, bovengrens 210 woorden per bericht; Wat boven de 120 woorden wordt geknipt in twee alinea's (lege regel in de JSON).
 - Geen citaten, geen reacties, geen speculatie, geen waardende woorden (omstreden, eindelijk, hard, drastisch, historisch).
@@ -32,6 +32,7 @@ Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend o
 
 - De drempel (11), de schaal (0–4) of `rubriek.json` veranderen.
 - Bestaande bulletins herschrijven; een fout wordt gecorrigeerd met een zichtbare, gedateerde correctie in het bericht.
+- Het beeld is een som: al het nieuws onder elkaar, wat niet telt wordt doorgestreept, wat echt is veranderd staat "onder de streep". Nooit "boven de streep". Uitleg: "Elke dag zetten we het nieuws onder elkaar, als een som. Wat niet telt, strepen we door. Wat echt is veranderd, staat onder de streep."
 - De drie lettertypes, de zwart-witopmaak of de vaste regels ("Vandaag niets.", "Streep eronder.") aanpassen.
 - Iets plaatsen op sociale media of een nieuwsbrief versturen; dat loopt via andere systemen.
 - Bestanden buiten deze map aanraken.
