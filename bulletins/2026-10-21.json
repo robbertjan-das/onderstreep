@@ -1,0 +1,21 @@
+{
+  "datum": "2026-10-21",
+  "over": "2026-10-20",
+  "beoordeeld": 21,
+  "gecorrigeerd": "2026-10-21",
+  "berichten": [
+    {
+      "id": "ns-tarieven-2027",
+      "score": { "hardheid": 4, "reikwijdte": 4, "houdbaarheid": 2, "nieuwheid": 2 },
+      "label": "Geld",
+      "dossier": null,
+      "update": false,
+      "kop": "NS verhoogt treinkaartjes en de meeste abonnementen per 1 januari met gemiddeld 4,7 procent",
+      "wat": "NS heeft dinsdag de tarieven voor 2027 bekendgemaakt: losse treinkaartjes en de meeste abonnementen worden per 1 januari gemiddeld 4,7 procent duurder. De verhoging bestaat uit drie delen: de verwachte inflatie voor 2027, een correctie op de inflatie over 2026 en een eerder afgesproken inhaalindexatie voor de inflatie die NS in 2020 tot en met 2023 niet doorberekende. De maximale korting van PrijsTijd Deals in rustige treinen gaat van 60 naar 80 procent, en die kaartjes komen in de loop van 2027 ook beschikbaar voor reizen op dezelfde dag. De Railrunner blijft 2,50 euro en Kids Vrij blijft gratis.",
+      "voor_wie": "Iedereen die met NS reist, met losse kaartjes of een abonnement. Wie in de spits moet reizen, merkt het meest: de extra korting geldt alleen in rustige treinen. NS informeert abonnementhouders de komende weken persoonlijk over hun nieuwe prijs.",
+      "verloop": "In 2024 bleven de prijzen gelijk doordat het kabinet 120 miljoen euro bijlegde; in 2025 stegen ze met ruim 6 procent en in 2026 met 6,5 procent. De nieuwe tarieven gaan in op 1 januari 2027. Dit bericht ontbrak in het bulletin om 07:00 en is dezelfde dag toegevoegd.",
+      "onbekend": "Of er in de zomer van 2027 een vervolg komt op Nederland Dal Vrij; daarover praat NS nog met het Rijk.",
+      "bron": { "naam": "NS, nieuwsbericht tarieven 2027, 20 oktober 2026", "url": "https://nieuws.ns.nl/ns-maakt-prijs-treinkaartje-2027-bekend/" }
+    }
+  ]
+}
