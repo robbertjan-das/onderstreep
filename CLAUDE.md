@@ -36,3 +36,11 @@ Statische site van Onderstreep, een Nederlands nieuwsbulletin dat elke ochtend o
 - De drie lettertypes, de zwart-witopmaak of de vaste regels ("Vandaag niets.", "Streep eronder.") aanpassen.
 - Iets plaatsen op sociale media of een nieuwsbrief versturen; dat loopt via andere systemen.
 - Bestanden buiten deze map aanraken.
+
+## Kaarten maken
+
+Opdracht: "maak kaarten" (of "bouw, maak kaarten en push").
+- `python merk/maak_kaarten.py bulletins/JJJJ-MM-DD.json` maakt alle beelden van dat bulletin in `social/JJJJ-MM-DD/`: carrousel (Instagram, Facebook, Threads), stories (Instagram, Facebook), `-overzicht.png` (WhatsApp) en `-overzicht-vierkant.png` (LinkedIn).
+- Lettertypes komen uit `merk/lettertypes/`. Nodig: Pillow (`pip install pillow` in de venv).
+- `social/` staat in `.gitignore`: beelden worden nooit gecommit.
+- Open na afloop de map in de Finder (`open social/JJJJ-MM-DD`).

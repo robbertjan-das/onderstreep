@@ -1,0 +1,349 @@
+{
+  "toelichting": "Bronnen voor de sweep, in volgorde van afloop. laag: kern (elke avond), uitbreiding (elke avond, minder vaak raak), vangnet (alleen controle). toegang: hoe het verzamelscript de bron uitleest; 'pagina' betekent nog te bepalen.",
+  "bronnen": [
+    {
+      "naam": "Rijksoverheid, nieuws",
+      "rubriek": "Bestuur",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws",
+      "laag": "kern",
+      "levert": "kabinetsbesluiten, Kamerbrieven met besluiten, besluitenlijst ministerraad (vrijdag)",
+      "toegang": "rss"
+    },
+    {
+      "naam": "Tweede Kamer",
+      "rubriek": "Bestuur",
+      "url": "https://www.tweedekamer.nl",
+      "laag": "kern",
+      "levert": "stemmingsuitslagen (dinsdag), aangenomen wetsvoorstellen",
+      "toegang": "open data"
+    },
+    {
+      "naam": "Eerste Kamer",
+      "rubriek": "Bestuur",
+      "url": "https://www.eerstekamer.nl",
+      "laag": "kern",
+      "levert": "aangenomen en verworpen wetten",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Staatscourant en Staatsblad",
+      "rubriek": "Bestuur",
+      "url": "https://zoek.officielebekendmakingen.nl",
+      "laag": "kern",
+      "levert": "regelingen, besluiten, inwerkingtredingen; ook Gemeenteblad en Provinciaal blad",
+      "toegang": "zoekdienst per datum"
+    },
+    {
+      "naam": "Rechtspraak",
+      "rubriek": "Wet & recht",
+      "url": "https://www.rechtspraak.nl",
+      "laag": "kern",
+      "levert": "uitspraken en persberichten van rechtbanken en hoven",
+      "toegang": "open data"
+    },
+    {
+      "naam": "Hoge Raad",
+      "rubriek": "Wet & recht",
+      "url": "https://www.hogeraad.nl",
+      "laag": "kern",
+      "levert": "arresten, conclusies",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Raad van State",
+      "rubriek": "Wet & recht",
+      "url": "https://www.raadvanstate.nl/actueel/nieuws/",
+      "laag": "kern",
+      "levert": "bestuursrechtspraak (woensdag), adviezen over wetsvoorstellen",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Openbaar Ministerie",
+      "rubriek": "Wet & recht",
+      "url": "https://www.om.nl",
+      "laag": "kern",
+      "levert": "vervolgingsbesluiten in grote zaken",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Ministerie van Financiën en Belastingdienst",
+      "rubriek": "Geld",
+      "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien",
+      "laag": "kern",
+      "levert": "fiscale besluiten, tarieven",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "CBS",
+      "rubriek": "Geld",
+      "url": "https://www.cbs.nl/nl-nl/publicatieplanning",
+      "laag": "kern",
+      "levert": "cijfers; alleen keerpunten",
+      "toegang": "publicatieplanning"
+    },
+    {
+      "naam": "De Nederlandsche Bank",
+      "rubriek": "Geld",
+      "url": "https://www.dnb.nl",
+      "laag": "kern",
+      "levert": "toezichtsbesluiten, boetes",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "AFM",
+      "rubriek": "Geld",
+      "url": "https://www.afm.nl",
+      "laag": "kern",
+      "levert": "boetes, waarschuwingen, verboden",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "ACM",
+      "rubriek": "Geld",
+      "url": "https://www.acm.nl",
+      "laag": "kern",
+      "levert": "tariefbesluiten, fusies, boetes",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Europese Centrale Bank",
+      "rubriek": "Geld",
+      "url": "https://www.ecb.europa.eu",
+      "laag": "kern",
+      "levert": "rentebesluiten",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "CPB",
+      "rubriek": "Geld",
+      "url": "https://www.cpb.nl",
+      "laag": "kern",
+      "levert": "maart- en augustusraming",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "NCSC",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.ncsc.nl",
+      "laag": "kern",
+      "levert": "kritieke kwetsbaarheden, digitale verstoringen",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "NCTV",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.nctv.nl",
+      "laag": "kern",
+      "levert": "dreigingsniveau",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "RIVM en Gezondheidsraad",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.rivm.nl",
+      "laag": "kern",
+      "levert": "adviezen, uitbraken, vaccinatiebesluiten",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "IGJ, NVWA, ILT",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.nvwa.nl",
+      "laag": "kern",
+      "levert": "maatregelen, terugroepacties, sluitingen",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "KNMI",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.knmi.nl",
+      "laag": "kern",
+      "levert": "code oranje en rood",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "NL-Alert en veiligheidsregio's",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.nl-alert.nl",
+      "laag": "kern",
+      "levert": "grote incidenten, evacuaties",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Rijkswaterstaat, waterberichtgeving",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://waterberichtgeving.rws.nl",
+      "laag": "kern",
+      "levert": "hoog- en laagwater, droogtemonitor",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Autoriteit Persoonsgegevens",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.autoriteitpersoonsgegevens.nl",
+      "laag": "kern",
+      "levert": "boetes, grote datalekken",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Raad van de EU en Europese Raad",
+      "rubriek": "Wereld",
+      "url": "https://www.consilium.europa.eu/nl/press/",
+      "laag": "kern",
+      "levert": "besluiten, sancties, conclusies",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Europese Commissie",
+      "rubriek": "Wereld",
+      "url": "https://ec.europa.eu/commission/presscorner",
+      "laag": "kern",
+      "levert": "besluiten, boetes",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "EUR-Lex",
+      "rubriek": "Wereld",
+      "url": "https://eur-lex.europa.eu",
+      "laag": "kern",
+      "levert": "gepubliceerde verordeningen en richtlijnen",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Hof van Justitie van de EU",
+      "rubriek": "Wereld",
+      "url": "https://curia.europa.eu",
+      "laag": "kern",
+      "levert": "arresten",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "NAVO",
+      "rubriek": "Wereld",
+      "url": "https://www.nato.int",
+      "laag": "kern",
+      "levert": "besluiten Noord-Atlantische Raad",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "VN-Veiligheidsraad",
+      "rubriek": "Wereld",
+      "url": "https://press.un.org",
+      "laag": "kern",
+      "levert": "aangenomen resoluties",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Witte Huis en Federal Register",
+      "rubriek": "Wereld",
+      "url": "https://www.federalregister.gov",
+      "laag": "kern",
+      "levert": "getekende decreten, sancties, tarieven",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "UWV, SVB, DUO, IND, Dienst Toeslagen, RDW, CAK",
+      "rubriek": "Geld",
+      "url": "https://www.uwv.nl",
+      "laag": "kern",
+      "levert": "uitvoering die mensen merken: uitkeringen, toeslagen, studiefinanciering",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "NS, ProRail",
+      "rubriek": "Bestuur",
+      "url": "https://nieuws.ns.nl",
+      "laag": "kern",
+      "levert": "tarieven, landelijke storingen, dienstregeling",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Netbeheerders en TenneT, Gasunie",
+      "rubriek": "Geld",
+      "url": "https://www.tennet.eu",
+      "laag": "kern",
+      "levert": "tarieven, grote stroomstoringen, netcongestie",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Zorgverzekeraars",
+      "rubriek": "Geld",
+      "url": "https://www.dsw.nl/consumenten",
+      "laag": "kern",
+      "levert": "premies (najaar, uiterlijk 12 november)",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Vakbonden FNV en CNV",
+      "rubriek": "Geld",
+      "url": "https://www.fnv.nl",
+      "laag": "kern",
+      "levert": "landelijke stakingen en het afblazen ervan",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "CBR, Schiphol, drinkwaterbedrijven",
+      "rubriek": "Geld",
+      "url": "https://www.cbr.nl",
+      "laag": "kern",
+      "levert": "tarieven en besluiten met groot bereik",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "NZa en Zorginstituut",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.nza.nl",
+      "laag": "uitbreiding",
+      "levert": "zorgtarieven, basispakket",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Provincies en G4",
+      "rubriek": "Bestuur",
+      "url": "https://zoek.officielebekendmakingen.nl",
+      "laag": "uitbreiding",
+      "levert": "besluiten met bovenregionaal bereik (via Provinciaal blad en Gemeenteblad)",
+      "toegang": "zoekdienst per datum"
+    },
+    {
+      "naam": "EHRM, ICC, ICJ",
+      "rubriek": "Wereld",
+      "url": "https://www.echr.coe.int",
+      "laag": "uitbreiding",
+      "levert": "uitspraken",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "IAEA, WHO, IMF",
+      "rubriek": "Wereld",
+      "url": "https://www.who.int",
+      "laag": "uitbreiding",
+      "levert": "besluiten en noodtoestanden",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Bundesgesetzblatt en Belgisch Staatsblad",
+      "rubriek": "Wereld",
+      "url": "https://www.recht.bund.de",
+      "laag": "uitbreiding",
+      "levert": "besluiten met direct effect in Nederland",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "NOS",
+      "rubriek": "vangnet",
+      "url": "https://nos.nl",
+      "laag": "vangnet",
+      "levert": "controle op gemiste berichten; nooit als bron",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "ANP, Reuters, AP",
+      "rubriek": "vangnet",
+      "url": "https://www.reuters.com",
+      "laag": "vangnet",
+      "levert": "controle op gemiste berichten; nooit als bron",
+      "toegang": "pagina"
+    }
+  ]
+}

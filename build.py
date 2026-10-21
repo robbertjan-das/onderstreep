@@ -59,7 +59,7 @@ def verwerk_bulletin(b: dict, dossiers: dict) -> dict:
         s = m["score"]
         m["totaal"] = s["hardheid"] + s["reikwijdte"] + s["houdbaarheid"] + s["nieuwheid"]
         m["volgorde"] = volgorde
-        if m["totaal"] < DREMPEL or s["hardheid"] < 2:
+        if (m["totaal"] < DREMPEL or s["hardheid"] < 2) and not m.get("onder_drempel_achteraf"):
             raise SystemExit(f"{b['datum']}: '{m['kop']}' haalt de drempel niet "
                              f"({m['totaal']}/16, hardheid {s['hardheid']}).")
         m["verloop"] = m.get("verloop") or m.get("eerder")

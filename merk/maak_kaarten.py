@@ -3,19 +3,30 @@ import json, sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
-FONTS = Path("/home/claude")
+HIER = Path(__file__).resolve().parent
+ZOEKPADEN = [HIER / "lettertypes", HIER, Path("/home/claude")]
+
+def _vind(patroon):
+    for map_ in ZOEKPADEN:
+        hits = sorted(map_.glob(patroon)) if map_.exists() else []
+        if hits: return str(hits[0])
+    raise FileNotFoundError(f"lettertype {patroon} niet gevonden in {', '.join(map(str, ZOEKPADEN))}")
+
+def _variabel(pad, px, assen):
+    f = ImageFont.truetype(pad, px)
+    try: f.set_variation_by_axes(assen)
+    except Exception: pass  # statisch lettertype: gebruik zoals het is
+    return f
 INK, GRIJS, WIT = "#141414", "#555555", "#ffffff"
 MAANDEN = ["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"]
 DAGEN = ["Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag","Zondag"]
 
 def font(soort, px, wght=400):
     if soort == "serif":
-        f = ImageFont.truetype(str(FONTS / "newsreader.ttf"), px); f.set_variation_by_axes([wght, 72])
-    elif soort == "sans":
-        f = ImageFont.truetype(str(FONTS / "AtkinsonHyperlegibleNext[wght].ttf"), px); f.set_variation_by_axes([wght])
-    else:
-        f = ImageFont.truetype(str(FONTS / "AtkinsonHyperlegibleMono[wght].ttf"), px); f.set_variation_by_axes([400])
-    return f
+        return _variabel(_vind("[Nn]ewsreader*.ttf"), px, [wght, 72])
+    if soort == "sans":
+        return _variabel(_vind("AtkinsonHyperlegibleNext*.ttf"), px, [wght])
+    return _variabel(_vind("AtkinsonHyperlegibleMono*.ttf"), px, [400])
 
 def wrap(draw, tekst, f, breedte):
     regels, regel = [], ""
@@ -107,10 +118,11 @@ def slot(b, h, pad_top, pad_bottom):
     for s in som: d.text((M, y), s, font=fm, fill=GRIJS); y += 42
     y = STREEP[h]; d.line([(M, y), (1080 - M, y)], fill=INK, width=2); y += 34
     d.text((M, y), "Streep eronder.", font=fs, fill=INK)
-    fz = font("sans", 34, 400); fu = font("mono", 28)
-    regel = "Het hele bulletin, elke ochtend om zeven." if h == 1350 else "Het hele bulletin, met bron en dossier."
-    yb = h - pad_bottom - 42 - 48 - 10
-    d.text((M, yb), regel, font=fz, fill=INK); d.text((M, yb + 58), "onderstreep.nl", font=fu, fill=GRIJS)
+    # in de story staat hier niets: die ruimte is voor de linksticker "Het hele bulletin", die Instagram zelf tekent
+    if h == 1350:
+        fz = font("sans", 34, 400); fu = font("mono", 28)
+        yb = h - pad_bottom - 42 - 48 - 10
+        d.text((M, yb), "Het hele bulletin, elke ochtend om zeven.", font=fz, fill=INK); d.text((M, yb + 58), "onderstreep.nl", font=fu, fill=GRIJS)
     return img
 
 def main(pad, uit):
@@ -128,10 +140,11 @@ def main(pad, uit):
     for i, m in enumerate(b["berichten"], 2):
         bericht(m, 1920, 260, 320).save(uit / f"{d}-story-{i:02d}-bericht.png")
     slot(b, 1920, 260, 320).save(uit / f"{d}-story-{len(b['berichten'])+2:02d}-slot.png")
-    print("klaar:", sorted(p.name for p in uit.iterdir()))
+    overzicht(b).save(uit / f"{d}-overzicht.png")
+    overzicht_vierkant(b).save(uit / f"{d}-overzicht-vierkant.png")
+    print("klaar:", uit)
+    for p in sorted(uit.iterdir()): print("  ", p.name)
 
-if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
 
 def koppenlijst(d, berichten, x, y, onder, breedte, start=44, minimum=30, gat=30):
     """Zet score + kop onder elkaar tussen y en onder. Krimpt de letter tot alles past;
@@ -171,8 +184,6 @@ def overzicht(b, h=1350, pad=96):
     d.text((M, yb - 50), som, font=fm, fill=GRIJS)
     return img
 
-if __name__ == "__main__" and len(sys.argv) > 3 and sys.argv[3] == "overzicht":
-    pass
 
 def overzicht_vierkant(b, S=1200, M=96):
     """Vierkante overzichtskaart voor LinkedIn, X en Bluesky."""
@@ -220,3 +231,13 @@ def weekkaart(week, bulletins, S=(1080, 1350), M=96):
     # periodekaarten (week, maand, jaar) zijn omgekeerd: wit op zwart, zoals de donkere modus van de site
     from PIL import ImageOps
     return ImageOps.invert(img)
+
+
+if __name__ == "__main__":
+    # Gebruik: python merk/maak_kaarten.py bulletins/2026-10-22.json [uitvoermap]
+    # Zonder uitvoermap: social/<datum>/ in de projectmap (staat in .gitignore).
+    if len(sys.argv) < 2:
+        sys.exit("gebruik: python merk/maak_kaarten.py bulletins/JJJJ-MM-DD.json [uitvoermap]")
+    bron = Path(sys.argv[1])
+    uitmap = sys.argv[2] if len(sys.argv) > 2 else str(HIER.parent / "social" / bron.stem)
+    main(bron, uitmap)

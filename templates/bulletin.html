@@ -26,6 +26,7 @@
       {% endif %}{% endfor %}
     </dl>
     <p class="meta"><span class="label">{{ m.label }}</span><a class="bron" href="{{ m.bron.url }}">{{ m.bron.naam }}</a></p>
+    {% if m.correctie %}<p class="meta">{{ m.correctie }}</p>{% endif %}
   </article>
   {% endfor %}
 

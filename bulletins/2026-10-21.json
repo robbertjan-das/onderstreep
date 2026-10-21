@@ -6,7 +6,12 @@
   "berichten": [
     {
       "id": "ns-tarieven-2027",
-      "score": { "hardheid": 4, "reikwijdte": 4, "houdbaarheid": 2, "nieuwheid": 2 },
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 3,
+        "houdbaarheid": 2,
+        "nieuwheid": 3
+      },
       "label": "Geld",
       "dossier": null,
       "update": false,
@@ -15,7 +20,11 @@
       "voor_wie": "Iedereen die met NS reist, met losse kaartjes of een abonnement. Wie in de spits moet reizen, merkt het meest: de extra korting geldt alleen in rustige treinen. NS informeert abonnementhouders de komende weken persoonlijk over hun nieuwe prijs.",
       "verloop": "In 2024 bleven de prijzen gelijk doordat het kabinet 120 miljoen euro bijlegde; in 2025 stegen ze met ruim 6 procent en in 2026 met 6,5 procent. De nieuwe tarieven gaan in op 1 januari 2027. Dit bericht ontbrak in het bulletin om 07:00 en is dezelfde dag toegevoegd.",
       "onbekend": "Of er in de zomer van 2027 een vervolg komt op Nederland Dal Vrij; daarover praat NS nog met het Rijk.",
-      "bron": { "naam": "NS, nieuwsbericht tarieven 2027, 20 oktober 2026", "url": "https://nieuws.ns.nl/ns-maakt-prijs-treinkaartje-2027-bekend/" }
+      "bron": {
+        "naam": "NS, nieuwsbericht tarieven 2027, 20 oktober 2026",
+        "url": "https://nieuws.ns.nl/ns-maakt-prijs-treinkaartje-2027-bekend/"
+      },
+      "correctie": "Correctie 21 oktober 2026: score herzien van 12 naar 11 na herijking van de maatstaf. Een vastgesteld tarief dat nog moet ingaan is hardheid 3, niet 4."
     }
   ]
 }
