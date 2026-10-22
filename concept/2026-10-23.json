@@ -1,0 +1,622 @@
+{
+  "datum": "2026-10-23",
+  "over": "2026-10-22",
+  "weekdag": "vrijdag",
+  "sweep_tot": "2026-10-22T22:00",
+  "beoordeeld": 21,
+  "geplaatst": 0,
+  "net_niet": 1,
+  "doorgestreept": 20,
+  "items": [
+    {
+      "kop": "Rechter verbiedt Noord-Brabant tot 1 februari 2027 stikstofregels voor veehouderijen te handhaven",
+      "label": "Wet & recht",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 2,
+        "houdbaarheid": 2,
+        "nieuwheid": 3
+      },
+      "totaal": 9,
+      "motivering": {
+        "hardheid": "Kort geding in eerste aanleg (Rechtbank Oost-Brabant, 22-10): voorlopig oordeel waartegen hoger beroep openstaat, dus 2.",
+        "reikwijdte": "Raakt veehouders in één provincie die onder artikel 3.98 en 3.101 van de Omgevingsverordening vallen: één sector in één regio, dus 2.",
+        "houdbaarheid": "De handhavingspauze loopt tot 1 februari 2027, dus maanden; de rechter wijst de regels zelf niet af.",
+        "nieuwheid": "De uitkomst van het kort geding was niet bekend; nieuw feit binnen een lopend proces, dus 3."
+      },
+      "hardheid_citaat": "veroordeelt de provincie om zich tot en met 1 februari 2027 te onthouden van handhavingsmaatregelen",
+      "uitkomst": "net niet",
+      "reden": "Kort geding in eerste aanleg (Rechtbank Oost-Brabant, 22-10): voorlopig oordeel waartegen hoger beroep openstaat, dus 2. Raakt veehouders in één provincie die onder artikel 3.98 en 3.101 van de Omgevingsverordening vallen: één sector in één regio, dus 2. De handhavingspauze loopt tot 1 februari 2027, dus maanden; de rechter wijst de regels zelf niet af. De uitkomst van het kort geding was niet bekend; nieuw feit binnen een lopend proces, dus 3.",
+      "bron": {
+        "naam": "Rechtbank Oost-Brabant, ECLI:NL:RBOBR:2026:7489 (en 7488)",
+        "url": "https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBOBR:2026:7489",
+        "gepubliceerd": "2026-10-22 (uitspraakdatum, geen kloktijd)"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "officieel",
+      "terugblik": false
+    },
+    {
+      "kop": "Minister Letschert schrijft de Kamer dat het plafond van 2,5 procent op studierente veel meer kost dan gereserveerd",
+      "label": "Geld",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 2,
+        "houdbaarheid": 2,
+        "nieuwheid": 3
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Een brief over een plan uit het coalitieakkoord; er is geen besluit genomen om het plafond in te voeren of te schrappen, dus 1.",
+        "reikwijdte": "Rentestand raakt ongeveer 400.000 studenten met schuld en circa 1 miljoen oud-studenten: 100.000 tot 1 miljoen is 2.",
+        "houdbaarheid": "Rente en kosten werken maanden tot een jaar door in de begroting, dus 2.",
+        "nieuwheid": "Nieuw cijfer over een bekend plan (kosten minstens vier keer zo hoog), dus 3."
+      },
+      "hardheid_citaat": "het plafond kost minstens vier keer de gereserveerde 40 miljoen euro (parafrase van NOS over de Kamerbrief)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een brief over een plan uit het coalitieakkoord; er is geen besluit genomen om het plafond in te voeren of te schrappen, dus 1. Rentestand raakt ongeveer 400.000 studenten met schuld en circa 1 miljoen oud-studenten: 100.000 tot 1 miljoen is 2. Rente en kosten werken maanden tot een jaar door in de begroting, dus 2. Nieuw cijfer over een bekend plan (kosten minstens vier keer zo hoog), dus 3. Zonder primaire bron geen bericht; ook hardheid 1 is onder de grens van 2.",
+      "bron": {
+        "naam": "Kamerbrief Onderwijs: niet teruggevonden (rijksoverheid.nl gaf 404); alleen NOS gelezen",
+        "url": "",
+        "gepubliceerd": "2026-10-22 (NOS 16:39); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "vangnet",
+      "terugblik": false
+    },
+    {
+      "kop": "Politie haalt ongeveer 30 webshops met illegale medicijnen offline en houdt drie mannen aan",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 1,
+        "houdbaarheid": 1,
+        "nieuwheid": 2
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "De sites zijn offline gehaald en drie verdachten zijn aangehouden volgens het bericht, dus 4.",
+        "reikwijdte": "Aantal kopers niet genoemd; richt zich op de Nederlandse markt, ruim onder 100.000 aantoonbaar, dus 1.",
+        "houdbaarheid": "Eerder gesloten sites kwamen onder nieuwe namen terug, dus de gevolgen lopen weken, 1.",
+        "nieuwheid": "Volgende stap in het bekende Slaappillen.net- en Funcaps-proces, dus 2."
+      },
+      "hardheid_citaat": "Politie haalt webshops met gevaarlijke neppillen offline, link met drie doden (kop NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "De sites zijn offline gehaald en drie verdachten zijn aangehouden volgens het bericht, dus 4. Aantal kopers niet genoemd; richt zich op de Nederlandse markt, ruim onder 100.000 aantoonbaar, dus 1. Eerder gesloten sites kwamen onder nieuwe namen terug, dus de gevolgen lopen weken, 1. Volgende stap in het bekende Slaappillen.net- en Funcaps-proces, dus 2.",
+      "bron": {
+        "naam": "Politie of OM: niet gevonden of geopend; alleen NOS gelezen",
+        "url": "",
+        "gepubliceerd": "2026-10-22 (NOS 07:30); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "vangnet",
+      "terugblik": false
+    },
+    {
+      "kop": "Raad van State vernietigt besluiten voor Windpark IJsselwind Zutphen en laat de rechtsgevolgen bestaan",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 1,
+        "houdbaarheid": 2,
+        "nieuwheid": 2
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Uitspraak van de hoogste bestuursrechter: besluiten vernietigd met behoud van de rechtsgevolgen, dus vastgesteld en 3.",
+        "reikwijdte": "Drie turbines in één gemeente, dus 1.",
+        "houdbaarheid": "De uitspraak noemt geen looptijd of vermogen; bij twijfel de lagere stand: 2.",
+        "nieuwheid": "Verwachte stap na de tussenuitspraak van 18 juni 2025, dus 2."
+      },
+      "hardheid_citaat": "vernietigt de hierboven genoemde besluiten van 16 november 2022 en 23 november 2022",
+      "uitkomst": "doorgestreept",
+      "reden": "Uitspraak van de hoogste bestuursrechter: besluiten vernietigd met behoud van de rechtsgevolgen, dus vastgesteld en 3. Drie turbines in één gemeente, dus 1. De uitspraak noemt geen looptijd of vermogen; bij twijfel de lagere stand: 2. Verwachte stap na de tussenuitspraak van 18 juni 2025, dus 2. Grensgeval: bij houdbaarheid 3 (windturbines draaien jaren) zou het 9 zijn en net niet.",
+      "bron": {
+        "naam": "Raad van State, ECLI:NL:RVS:2026:6217",
+        "url": "https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RVS:2026:6217",
+        "gepubliceerd": "2026-10-21 (uitspraakdatum)"
+      },
+      "datum_item": "2026-10-21",
+      "sweep": "officieel",
+      "terugblik": true
+    },
+    {
+      "kop": "Burgemeester Halsema voert cameratoezicht in Floradorp in tot 7 januari",
+      "label": "Bestuur",
+      "type": "definitief besluit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 1,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Besluit van de burgemeester; ingangsdatum niet vermeld ('per direct' alleen in de URL van NH), dus 3.",
+        "reikwijdte": "Eén wijk, dus 1.",
+        "houdbaarheid": "Loopt tot 7 januari, ruim anderhalve maand na de start; bij twijfel 1.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "de incidenten vormen een gevaar voor de openbare orde (parafrase NOS over de gemeente Amsterdam)",
+      "uitkomst": "doorgestreept",
+      "reden": "Besluit van de burgemeester; ingangsdatum niet vermeld ('per direct' alleen in de URL van NH), dus 3. Eén wijk, dus 1. Loopt tot 7 januari, ruim anderhalve maand na de start; bij twijfel 1. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "Gemeente Amsterdam, via NH en NOS: niet geopend",
+        "url": "https://www.nhnieuws.nl/nieuws/364629/per-direct-cameratoezicht-in-deel-amsterdam-noord-na-onrust",
+        "gepubliceerd": "2026-10-21 (NOS 19:31); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-21",
+      "sweep": "vangnet",
+      "terugblik": true
+    },
+    {
+      "kop": "Nederlandse ambassade in Caïro sluit tot nader order na negen dagen protest",
+      "label": "Wereld",
+      "type": "feit",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "De ambassade is gesloten volgens een bericht van de ambassade zelf, dus 4.",
+        "reikwijdte": "Raakt de ambassadebezoekers en het personeel; consulaire hulp in noodgevallen blijft bereikbaar, dus 0.",
+        "houdbaarheid": "Gesloten tot nader order, zonder einddatum; ingeschat op weken, dus 1.",
+        "nieuwheid": "Nieuw feit na negen dagen protest, dus 3."
+      },
+      "hardheid_citaat": "uit voorzorg tot nader order is gesloten (parafrase van NOS over bericht van de ambassade)",
+      "uitkomst": "doorgestreept",
+      "reden": "De ambassade is gesloten volgens een bericht van de ambassade zelf, dus 4. Raakt de ambassadebezoekers en het personeel; consulaire hulp in noodgevallen blijft bereikbaar, dus 0. Gesloten tot nader order, zonder einddatum; ingeschat op weken, dus 1. Nieuw feit na negen dagen protest, dus 3.",
+      "bron": {
+        "naam": "Ambassade NLinEgypt (Facebook), via NOS: niet geopend; geen bericht op rijksoverheid.nl gevonden",
+        "url": "",
+        "gepubliceerd": "2026-10-22 (NOS 19:57); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "vangnet",
+      "terugblik": false
+    },
+    {
+      "kop": "Europees Parlement kent de belangrijkste EU-mensenrechtenprijs toe aan het Internationaal Strafhof",
+      "label": "Wereld",
+      "type": "feit",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "De prijs is toegekend volgens NOS, dus 4.",
+        "reikwijdte": "Een prijs raakt geen mensen direct, dus 0.",
+        "houdbaarheid": "Symbolische erkenning met gevolgen van weken, dus 1.",
+        "nieuwheid": "Verwacht moment met een nieuwe uitkomst, dus 3."
+      },
+      "hardheid_citaat": "Belangrijkste EU-mensenrechtenprijs voor Strafhof (kop NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "De prijs is toegekend volgens NOS, dus 4. Een prijs raakt geen mensen direct, dus 0. Symbolische erkenning met gevolgen van weken, dus 1. Verwacht moment met een nieuwe uitkomst, dus 3.",
+      "bron": {
+        "naam": "Europees Parlement: niet geopend; alleen NOS gelezen",
+        "url": "",
+        "gepubliceerd": "2026-10-22 (NOS 12:15); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "vangnet",
+      "terugblik": false
+    },
+    {
+      "kop": "Airbnb schrapt het recht van verhuurders om gasten de afwas te laten doen",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 1,
+        "houdbaarheid": 1,
+        "nieuwheid": 2
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Vastgesteld door Airbnb zelf, ingang over circa een maand, dus 3.",
+        "reikwijdte": "Aantal Nederlandse gasten en verhuurders niet genoemd; bij twijfel 1.",
+        "houdbaarheid": "Huisregels van één platform, gevolgen weken, dus 1.",
+        "nieuwheid": "Een nieuwe regel binnen bekend gedrag van het platform, dus 2."
+      },
+      "hardheid_citaat": "Hosts mogen gasten niet meer verplichten de afwas te doen (parafrase NOS over Airbnb-huisregels, ingang over circa een maand)",
+      "uitkomst": "doorgestreept",
+      "reden": "Vastgesteld door Airbnb zelf, ingang over circa een maand, dus 3. Aantal Nederlandse gasten en verhuurders niet genoemd; bij twijfel 1. Huisregels van één platform, gevolgen weken, dus 1. Een nieuwe regel binnen bekend gedrag van het platform, dus 2.",
+      "bron": {
+        "naam": "Airbnb huisregels (via NOS); pagina niet geopend",
+        "url": "https://www.airbnb.nl/resources/hosting-homes/a/important-changes-to-house-rules-21",
+        "gepubliceerd": "2026-10-22 (NOS 08:57); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "vangnet",
+      "terugblik": false
+    },
+    {
+      "kop": "Kansspelautoriteit legt EOD Code 37 miljoen euro boete op voor illegaal kansspelaanbod",
+      "label": "Geld",
+      "type": "definitief besluit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Boete opgelegd door de toezichthouder zelf; bezwaar staat open maar het besluit is niet teruggedraaid, dus 3.",
+        "reikwijdte": "Gericht aan één bedrijf; hoeveel spelers op de sites speelden staat niet in het bericht, dus 0.",
+        "houdbaarheid": "Een eenmalige boete; het effect op het aanbod loopt hooguit weken, dus 1.",
+        "nieuwheid": "Hoogste boete tot nu toe volgens de Ksa en een nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Nieuwe recordboete illegaal kansspelaanbod opgelegd: 37 miljoen voor EOD Code",
+      "uitkomst": "doorgestreept",
+      "reden": "Boete opgelegd door de toezichthouder zelf; bezwaar staat open maar het besluit is niet teruggedraaid, dus 3. Gericht aan één bedrijf; hoeveel spelers op de sites speelden staat niet in het bericht, dus 0. Een eenmalige boete; het effect op het aanbod loopt hooguit weken, dus 1. Hoogste boete tot nu toe volgens de Ksa en een nieuw feit, dus 3.",
+      "bron": {
+        "naam": "Kansspelautoriteit",
+        "url": "https://kansspelautoriteit.nl/nieuwe-recordboete-illegaal-kansspelaanbod-opgelegd-37-miljoen-voor-eod-code",
+        "gepubliceerd": "2026-10-22 (datum op pagina, geen kloktijd; besluitdatum niet vermeld)"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "beide",
+      "terugblik": false
+    },
+    {
+      "kop": "NCSC onderzoekt eerste signalen van succesvol misbruik van de PHP-kwetsbaarheden",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 1,
+        "houdbaarheid": 1,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Het NCSC noemt signalen die het onderzoekt, geen vastgesteld misbruik, dus 2.",
+        "reikwijdte": "Het NCSC noemt geen aantal getroffen organisaties; het geschatte aantal kwetsbare sites (145.000, NOS) is niet bevestigd, dus bij twijfel 1.",
+        "houdbaarheid": "Updates bestaan sinds 21-10; de gevolgen voor gebruikers lopen weken, dus 1.",
+        "nieuwheid": "Verwachte volgende stap in het bekende proces rond de lekken van 21-10, dus 2."
+      },
+      "hardheid_citaat": "Op dit moment onderzoekt het NCSC eerste signalen van succesvol misbruik.",
+      "uitkomst": "doorgestreept",
+      "reden": "Het NCSC noemt signalen die het onderzoekt, geen vastgesteld misbruik, dus 2. Het NCSC noemt geen aantal getroffen organisaties; het geschatte aantal kwetsbare sites (145.000, NOS) is niet bevestigd, dus bij twijfel 1. Updates bestaan sinds 21-10; de gevolgen voor gebruikers lopen weken, dus 1. Verwachte volgende stap in het bekende proces rond de lekken van 21-10, dus 2. De update van 22-10 16:00 noemt misbruik zelf niet; de zin staat in een undatede sectie.",
+      "bron": {
+        "naam": "NCSC, Ernstige kwetsbaarheden in PHP: update nu (bijgewerkt 22-10, 16:01)",
+        "url": "https://www.ncsc.nl/alerts/kwetsbaarheden-php-patches-beschikbaar-update-nu",
+        "gepubliceerd": "Update 22-10 16:00; de zin over misbruik staat in een sectie zonder eigen datum, NOS meldt het om 17:52 via een woordvoerder"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "beide",
+      "terugblik": false
+    },
+    {
+      "kop": "Marechaussee gaat de politie in Ter Apel helpen bij overlast",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 1,
+        "houdbaarheid": 2,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "De gemeente vroeg om inzet; of het ministerie het goedkeurde stond niet in het bericht, dus een plan: 1.",
+        "reikwijdte": "Eén gemeente (Westerwolde), dus 1.",
+        "houdbaarheid": "De inzet loopt volgens het bericht in elk geval maanden, dus 2.",
+        "nieuwheid": "Eerder gebeurd in 2022-2024 en een verwachte stap in een bekend probleem, dus 2."
+      },
+      "hardheid_citaat": "in elk geval de komende maanden (parafrase van NOS over RTV Noord)",
+      "uitkomst": "doorgestreept",
+      "reden": "De gemeente vroeg om inzet; of het ministerie het goedkeurde stond niet in het bericht, dus een plan: 1. Eén gemeente (Westerwolde), dus 1. De inzet loopt volgens het bericht in elk geval maanden, dus 2. Eerder gebeurd in 2022-2024 en een verwachte stap in een bekend probleem, dus 2.",
+      "bron": {
+        "naam": "RTV Noord (via NOS); gemeente en ministerie niet gecontroleerd",
+        "url": "",
+        "gepubliceerd": "2026-10-22 (NOS 13:44); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "vangnet",
+      "terugblik": false
+    },
+    {
+      "kop": "Rechtbank Amsterdam veroordeelt Heineken tot 111,2 miljoen euro voor misbruik door Griekse dochter",
+      "label": "Wet & recht",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Vonnis in eerste aanleg; Heineken zegt in beroep te gaan, dus 2.",
+        "reikwijdte": "Een schadeclaim tussen bedrijven, dus 0.",
+        "houdbaarheid": "Een eenmalige betaling, dus 1.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Heineken moet ruim 111 miljoen betalen voor wanpraktijken Grieks dochterbedrijf (kop NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Vonnis in eerste aanleg; Heineken zegt in beroep te gaan, dus 2. Een schadeclaim tussen bedrijven, dus 0. Een eenmalige betaling, dus 1. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "Rechtspraak.nl: vonnis niet teruggevonden; alleen NOS gelezen",
+        "url": "",
+        "gepubliceerd": "2026-10-21 (NOS 14:24); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-21",
+      "sweep": "vangnet",
+      "terugblik": true
+    },
+    {
+      "kop": "Rechter in New Mexico legt Meta 25 miljard dollar boete op",
+      "label": "Wereld",
+      "type": "besluit (nog bekrachtiging)",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Uitspraak van een rechter in één Amerikaanse staat; Meta zegt de boete aan te vechten, dus 2.",
+        "reikwijdte": "Geld bestemd voor onderwijs in New Mexico, geen effect op mensen in Nederland aangetoond, dus 0.",
+        "houdbaarheid": "Een eenmalige boete, dus 1.",
+        "nieuwheid": "Nieuw feit na het juryoordeel van september, dus 3."
+      },
+      "hardheid_citaat": "Meta krijgt boete van 25 miljard dollar na liegen over gebruikersgegevens (kop NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Uitspraak van een rechter in één Amerikaanse staat; Meta zegt de boete aan te vechten, dus 2. Geld bestemd voor onderwijs in New Mexico, geen effect op mensen in Nederland aangetoond, dus 0. Een eenmalige boete, dus 1. Nieuw feit na het juryoordeel van september, dus 3.",
+      "bron": {
+        "naam": "Rechtbank New Mexico: niet geopend; alleen NOS gelezen",
+        "url": "",
+        "gepubliceerd": "2026-10-21 (NOS 21:03); primaire bron niet gecontroleerd"
+      },
+      "datum_item": "2026-10-21",
+      "sweep": "vangnet",
+      "terugblik": true
+    },
+    {
+      "kop": "KNMI geeft code geel voor zware windstoten vrijdagavond in het zuidwesten en zuidoosten",
+      "label": "Veiligheid & gezondheid",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 2,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 5,
+      "motivering": {
+        "hardheid": "Een waarschuwing is een verwachting, dus 1; er is geen code oranje of rood.",
+        "reikwijdte": "Twee regio's, 100.000 tot 1 miljoen mensen, dus 2.",
+        "houdbaarheid": "De wind neemt zaterdag af, dus 0.",
+        "nieuwheid": "Verwachte stap bij herfstweer, dus 2."
+      },
+      "hardheid_citaat": "zware windstoten van minimaal 75 km/h (code geel, uitgegeven 22-10 20:56)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een waarschuwing is een verwachting, dus 1; er is geen code oranje of rood. Twee regio's, 100.000 tot 1 miljoen mensen, dus 2. De wind neemt zaterdag af, dus 0. Verwachte stap bij herfstweer, dus 2.",
+      "bron": {
+        "naam": "KNMI, waarschuwingen",
+        "url": "https://www.knmi.nl/nederland-nu/weer/waarschuwingen",
+        "gepubliceerd": "2026-10-22 20:56"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "beide",
+      "terugblik": false
+    },
+    {
+      "kop": "Europese Commissie start onderzoek naar Booking.com wegens mogelijke overtreding van de DSA",
+      "label": "Wereld",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 5,
+      "motivering": {
+        "hardheid": "Een geopend onderzoek zonder bevindingen of boete, dus 1.",
+        "reikwijdte": "Geen direct effect op mensen vastgesteld, dus 0.",
+        "houdbaarheid": "Het onderzoek loopt weken tot maanden zonder gevolg voor gebruikers, dus 1.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "is een onderzoek gestart naar mogelijke overtreding van de Digital Services Act (DSA) door Booking.com",
+      "uitkomst": "doorgestreept",
+      "reden": "Een geopend onderzoek zonder bevindingen of boete, dus 1. Geen direct effect op mensen vastgesteld, dus 0. Het onderzoek loopt weken tot maanden zonder gevolg voor gebruikers, dus 1. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "ACM verwijst naar de Europese Commissie (presscorner niet uitgelezen)",
+        "url": "https://www.acm.nl/nl/publicaties/europese-commissie-start-onderzoek-naar-bookingcom",
+        "gepubliceerd": "2026-10-21 (NOS 13:26); ACM-pagina 22-10"
+      },
+      "datum_item": "2026-10-21",
+      "sweep": "beide",
+      "terugblik": true
+    },
+    {
+      "kop": "VGZ vraagt 34 gemeenten de gemeentepolis voor lage inkomens in te voeren",
+      "label": "Geld",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 1,
+        "houdbaarheid": 1,
+        "nieuwheid": 1
+      },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Een verzoek; geen gemeente heeft besloten, dus 1.",
+        "reikwijdte": "Gaat om 34 gemeenten, dus 1.",
+        "houdbaarheid": "Gevolgen pas na besluiten van gemeenten, dus 1.",
+        "nieuwheid": "Bekend vraagstuk, dus 1."
+      },
+      "hardheid_citaat": "VGZ stuurde een brief aan de burgemeesters (parafrase NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een verzoek; geen gemeente heeft besloten, dus 1. Gaat om 34 gemeenten, dus 1. Gevolgen pas na besluiten van gemeenten, dus 1. Bekend vraagstuk, dus 1.",
+      "bron": {
+        "naam": "VGZ: niet gecontroleerd; alleen NOS gelezen",
+        "url": "",
+        "gepubliceerd": "2026-10-21 (NOS 18:09)"
+      },
+      "datum_item": "2026-10-21",
+      "sweep": "vangnet",
+      "terugblik": true
+    },
+    {
+      "kop": "ACM publiceert Woo-besluit over TikTok op grond van de Digital Services Act",
+      "label": "Wet & recht",
+      "type": "feit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 1
+      },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Een genomen Woo-besluit, dus 3.",
+        "reikwijdte": "Een openbaarmakingsbesluit raakt de verzoeker, dus 0.",
+        "houdbaarheid": "Geen doorwerking, dus 0.",
+        "nieuwheid": "Procedurele stap, dus 1."
+      },
+      "hardheid_citaat": "Woo-besluit met betrekking tot TikTok op grond van de DSA (kop ACM)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een genomen Woo-besluit, dus 3. Een openbaarmakingsbesluit raakt de verzoeker, dus 0. Geen doorwerking, dus 0. Procedurele stap, dus 1.",
+      "bron": {
+        "naam": "ACM, Woo-besluit (alleen de titel gelezen)",
+        "url": "https://www.acm.nl/nl/publicaties/woo-besluit-met-betrekking-tot-tiktok-op-grond-van-de-dsa",
+        "gepubliceerd": "2026-10-22 (datum op pagina)"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "officieel",
+      "terugblik": false
+    },
+    {
+      "kop": "ACM ontvangt melding van Oosterberg over zeggenschap in Cevetech",
+      "label": "Geld",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 1
+      },
+      "totaal": 3,
+      "motivering": {
+        "hardheid": "Een melding, nog geen besluit, dus 1.",
+        "reikwijdte": "Alleen de partijen, dus 0.",
+        "houdbaarheid": "Weken tot de ACM beslist, dus 1.",
+        "nieuwheid": "Bekende procedurele stap, dus 1."
+      },
+      "hardheid_citaat": "Oosterberg wil uitsluitende zeggenschap verkrijgen over Cevetech (concentratiemelding)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een melding, nog geen besluit, dus 1. Alleen de partijen, dus 0. Weken tot de ACM beslist, dus 1. Bekende procedurele stap, dus 1.",
+      "bron": {
+        "naam": "ACM, concentratiemelding",
+        "url": "https://www.acm.nl/nl/publicaties/oosterberg-wil-uitsluitende-zeggenschap-verkrijgen-over-cevetech-concentratiemelding",
+        "gepubliceerd": "2026-10-22 (datum op pagina)"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "officieel",
+      "terugblik": false
+    },
+    {
+      "kop": "ACM ontvangt melding over overname van La Ban Foods door Royal A-ware",
+      "label": "Geld",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 1
+      },
+      "totaal": 3,
+      "motivering": {
+        "hardheid": "Een melding, nog geen besluit, dus 1.",
+        "reikwijdte": "Alleen de partijen, dus 0.",
+        "houdbaarheid": "Weken tot de ACM beslist, dus 1.",
+        "nieuwheid": "Bekende procedurele stap, dus 1."
+      },
+      "hardheid_citaat": "Royal A-ware wil La Ban Foods overnemen (concentratiemelding)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een melding, nog geen besluit, dus 1. Alleen de partijen, dus 0. Weken tot de ACM beslist, dus 1. Bekende procedurele stap, dus 1.",
+      "bron": {
+        "naam": "ACM, concentratiemelding",
+        "url": "https://www.acm.nl/nl/publicaties/royal-ware-wil-la-ban-foods-overnemen-concentratiemelding",
+        "gepubliceerd": "2026-10-22 (datum op pagina)"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "officieel",
+      "terugblik": false
+    },
+    {
+      "kop": "VS en Israël zouden nieuwe aanvallen op Iran voorbereiden",
+      "label": "Wereld",
+      "type": "reactie/meting",
+      "score": {
+        "hardheid": 0,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 1
+      },
+      "totaal": 1,
+      "motivering": {
+        "hardheid": "Een bewering over voorbereidingen, geen besluit of gebeurtenis, dus 0.",
+        "reikwijdte": "Geen aantoonbaar direct effect op mensen in Nederland, dus 0.",
+        "houdbaarheid": "Geen gevolg vastgesteld, dus 0.",
+        "nieuwheid": "Bekend spanningsveld, dus 1."
+      },
+      "hardheid_citaat": "VS en Israël bereiden nieuwe aanvallen op Iran voor (kop NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een bewering over voorbereidingen, geen besluit of gebeurtenis, dus 0. Geen aantoonbaar direct effect op mensen in Nederland, dus 0. Geen gevolg vastgesteld, dus 0. Bekend spanningsveld, dus 1.",
+      "bron": {
+        "naam": "NOS: bron niet gecontroleerd (geen primaire publicatie)",
+        "url": "",
+        "gepubliceerd": "2026-10-22 (NOS 11:19)"
+      },
+      "datum_item": "2026-10-22",
+      "sweep": "vangnet",
+      "terugblik": false
+    },
+    {
+      "kop": "EU eist dat Musk de beperkingen van Starlink voor Oekraïne opheft",
+      "label": "Wereld",
+      "type": "reactie/meting",
+      "score": {
+        "hardheid": 0,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 1
+      },
+      "totaal": 1,
+      "motivering": {
+        "hardheid": "Een publieke eis van een woordvoerder, geen besluit, dus 0.",
+        "reikwijdte": "Geen direct effect op mensen in Nederland, dus 0.",
+        "houdbaarheid": "Geen gevolg vastgesteld, dus 0.",
+        "nieuwheid": "Bekende kwestie, dus 1."
+      },
+      "hardheid_citaat": "uiterst zorgwekkend (parafrase NOS over een woordvoerder van de Commissie)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een publieke eis van een woordvoerder, geen besluit, dus 0. Geen direct effect op mensen in Nederland, dus 0. Geen gevolg vastgesteld, dus 0. Bekende kwestie, dus 1.",
+      "bron": {
+        "naam": "Europese Commissie: geen officiële verklaring gevonden",
+        "url": "",
+        "gepubliceerd": "2026-10-21 (NOS 19:27)"
+      },
+      "datum_item": "2026-10-21",
+      "sweep": "vangnet",
+      "terugblik": true
+    }
+  ],
+  "opmerking": "Vandaag niets. Bronnen uitgelezen tot circa 22:00; Raad van State-nieuwspagina, Hoge Raad, NVWA, AP, ECB, Raad van de EU, Commissie, Federal Register, TenneT en Eerste Kamer gaven geen leesbare inhoud (zie netniet-bestand)."
+}
