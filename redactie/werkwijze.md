@@ -51,7 +51,7 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 - CBS-cijfers scoren alleen bij een keerpunt of als er een indexatie of besluit aan hangt.
 - Een rechterlijke uitspraak telt bij precedentwerking, niet bij een individuele zaak. Vonnis in eerste aanleg is hardheid 2, arrest van de Hoge Raad 3.
 - Een overlijden telt alleen bij een zittende ambtsdrager of een gevolg voor bestuur.
-- Buitenland: direct effect op Nederland (reikwijdte) of historische schaal (houdbaarheid 4). EU-besluiten zijn geen buitenland.
+- Buitenland: zie het kopje 'Buitenland: de Nederlandse haak'.
 - Sport telt niet; een toernooiwinst van een nationaal team hooguit via houdbaarheid.
 - Prijzen en tarieven van partijen met een publieke concessie of monopolie (NS, zorgverzekeraars, netbeheerders, CBR, drinkwater) zijn vastgestelde besluiten en worden gescoord als besluit.
 
