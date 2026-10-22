@@ -8,6 +8,9 @@ Net niet (9 en 10):
 - 9/16 Waal bij Zaltbommel historisch laag (21-10)
 - 10/16 Wet vereenvoudiging partnerbegrip toeslagen in het Staatsblad (19-10, gevonden door officiële sweep)
 - 10/16 ACM: geen vergunning nodig voor overname Videoland/Viaplay (21-10, gevonden door officiële sweep)
+- 9/16 Kort geding stikstof Brabant: provincie mag tot 1 februari 2027 niet handhaven (22-10)
+- 9/16 CBS-huizenprijzen september, 2,9 procent hoger dan een jaar eerder (22-10, gevonden door vangnet)
+- 9/16 Windpark IJsselwind Zutphen, Raad van State (21-10, houdbaarheid 3 volgens Robbert-Jan)
 
 Nagekomen en gecorrigeerd:
 - NS-tarieven 2027 ontbraken om 07:00 in het bulletin van 21-10 en zijn dezelfde dag toegevoegd.
@@ -19,3 +22,5 @@ Leerpunten voor de kalibratie van 25-10:
 - DSW-premie (21-10): officiële sweep schreef dat de premie niet bestond; niet gevonden werd niet gebeurd.
 - Herijking hardheid: vastgesteld besluit dat nog moet ingaan is 3 (NS, DSW, AH).
 - Vuurwerkregeling (19-10) te hoog genoteerd als 10; aankondiging met klein bereik, 5.
+- Terugblik-items tellen niet mee in de som van de dag; ze horen in het log bij hun eigen datum.
+- CBS publiceert ook buiten de publicatieplanning (huizenprijzen met het Kadaster): de officiële sweep miste het.
