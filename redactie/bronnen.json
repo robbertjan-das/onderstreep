@@ -298,11 +298,11 @@
       "toegang": "pagina"
     },
     {
-      "naam": "AFM-register meldingen",
+      "naam": "Euronext Amsterdam, gereguleerd bedrijfsnieuws",
       "rubriek": "Geld",
-      "url": "https://www.afm.nl/nl-nl/sector/registers",
+      "url": "https://live.euronext.com/en/markets/amsterdam/company-news",
       "laag": "kern",
-      "levert": "koersgevoelige informatie van beursgenoteerde bedrijven: ontslagrondes, overnames, sluitingen",
+      "levert": "persberichten van beursgenoteerde bedrijven: ontslagrondes, overnames, sluitingen, winstwaarschuwingen",
       "toegang": "pagina"
     },
     {
