@@ -55,6 +55,18 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 - Sport telt niet; een toernooiwinst van een nationaal team hooguit via houdbaarheid.
 - Prijzen en tarieven van partijen met een publieke concessie of monopolie (NS, zorgverzekeraars, netbeheerders, CBR, drinkwater) zijn vastgestelde besluiten en worden gescoord als besluit.
 
+## Buitenland: de Nederlandse haak (in proef tot de kalibratie van 25-10)
+
+Een gebeurtenis in het buitenland telt mee via een concreet gevolg in Nederland. Dat gevolg wordt gescoord, niet de gebeurtenis zelf. De gebeurtenis staat in Verloop, als aanleiding.
+
+Een haak is een gevolg dat al vaststaat en dat je kunt aanwijzen: een besluit of maatregel van een Nederlandse instantie (reisadvies, evacuatie, sancties, extra controles); een verstoring die in Nederland merkbaar is (geschrapte treinen of vluchten, gesloten grens, uitgevallen levering); een prijs of tarief in Nederland dat al is veranderd; een gevolg voor een benoembare groep in Nederland (Nederlanders ter plaatse, een Nederlands bedrijf, een Nederlands evenement).
+
+Geen haak is: een mogelijk of verwacht effect; koersen, beurzen of een olieprijs die nog niet in Nederland is doorgewerkt; het aantal Nederlanders dat er weleens komt; een reactie van een Nederlandse politicus.
+
+Uitzonderingen: EU-besluiten zijn geen buitenland. Een gebeurtenis van historische schaal telt op eigen kracht, via houdbaarheid 4.
+
+Toets: wat is er vandaag voor iemand in Nederland anders dan gisteren? Als het antwoord "nog niets" is, is er geen haak.
+
 ## Kalibratie (echte gevallen)
 
 | Datum | Bericht | H-R-Hb-N | Totaal | Uitkomst |
@@ -122,6 +134,7 @@ Sec. Geen waardende woorden, geen framing uit persberichten of campagnes, geen c
 - Niet gevonden is niet hetzelfde als niet gebeurd. Wat niet te controleren was, heet "niet gecontroleerd", nooit "bestaat niet" of "nog niet gepubliceerd".
 - Het vangnet is verplicht: na de officiële bronnen altijd de koppen van de dag bij NOS en ANP langs, en elk bericht daaruit terugvoeren naar de primaire bron. Zo zijn NS-tarieven, PHP-lekken en de DSW-premie te vinden, die geen nette datafeed hebben.
 - Is een bron niet uit te lezen, gebruik dan de uitwijkroute: NCSC-nieuws staat ook op rijksoverheid.nl, NS-nieuws op nieuws.ns.nl, terugroepacties ook bij de supermarkt zelf. Lukt dat ook niet, dan staat de bron als "niet gecontroleerd" in het log.
+- Het netniet-bestand telt onderaan hoeveel buitenlandse items er waren en hoeveel daarvan een haak hadden.
 - Uitvoer: `bulletins/JJJJ-MM-DD.json` (datum van de ochtend van verschijnen), de lijst Net niet met score en reden, en de tekst voor alle kanalen:
 
 ```
@@ -137,7 +150,7 @@ Op een lege dag staat "Vandaag niets." boven de eerste regel.
 
 Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 
-**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties.
+**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties. Elke nieuwe logregel heeft ook twee velden: `buitenland` (true of false) en `haak` (de haak in één zin, of null).
 
 **Terugblik.** Elke sweep begint met gisteren: wat stond er bij NOS en ANP dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord.
 
