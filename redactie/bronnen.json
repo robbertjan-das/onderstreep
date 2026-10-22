@@ -290,6 +290,54 @@
       "toegang": "pagina"
     },
     {
+      "naam": "Insolventieregister",
+      "rubriek": "Geld",
+      "url": "https://insolventies.rechtspraak.nl",
+      "laag": "kern",
+      "levert": "faillissementen van grote werkgevers",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "AFM-register meldingen",
+      "rubriek": "Geld",
+      "url": "https://www.afm.nl/nl-nl/sector/registers",
+      "laag": "kern",
+      "levert": "koersgevoelige informatie van beursgenoteerde bedrijven: ontslagrondes, overnames, sluitingen",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "EMA en CBG",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.cbg-meb.nl",
+      "laag": "kern",
+      "levert": "goedkeuring en intrekking van geneesmiddelen",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "Grote platforms: WhatsApp, Meta, Google, Apple, betaaldiensten",
+      "rubriek": "Geld",
+      "url": "",
+      "laag": "kern",
+      "levert": "wijzigingen die miljoenen Nederlandse gebruikers raken",
+      "toegang": "pagina per platform, nog te bepalen"
+    },
+    {
+      "naam": "Energieleveranciers en telecomaanbieders",
+      "rubriek": "Geld",
+      "url": "",
+      "laag": "kern",
+      "levert": "tarieven",
+      "toegang": "pagina per aanbieder, nog te bepalen"
+    },
+    {
+      "naam": "Algemeen verbindend verklaarde cao's (Staatscourant)",
+      "rubriek": "Geld",
+      "url": "https://zoek.officielebekendmakingen.nl",
+      "laag": "kern",
+      "levert": "algemeen verbindend verklaarde cao's",
+      "toegang": "zoekdienst per datum"
+    },
+    {
       "naam": "NZa en Zorginstituut",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.nza.nl",

@@ -135,6 +135,7 @@ Sec. Geen waardende woorden, geen framing uit persberichten of campagnes, geen c
 - Het vangnet is verplicht: na de officiële bronnen altijd de koppen van de dag bij NOS en ANP langs, en elk bericht daaruit terugvoeren naar de primaire bron. Zo zijn NS-tarieven, PHP-lekken en de DSW-premie te vinden, die geen nette datafeed hebben.
 - Is een bron niet uit te lezen, gebruik dan de uitwijkroute: NCSC-nieuws staat ook op rijksoverheid.nl, NS-nieuws op nieuws.ns.nl, terugroepacties ook bij de supermarkt zelf. Lukt dat ook niet, dan staat de bron als "niet gecontroleerd" in het log.
 - Het netniet-bestand telt onderaan hoeveel buitenlandse items er waren en hoeveel daarvan een haak hadden.
+- Het netniet-bestand telt onderaan per domein hoeveel items er beoordeeld en geplaatst zijn.
 - Uitvoer: `bulletins/JJJJ-MM-DD.json` (datum van de ochtend van verschijnen), de lijst Net niet met score en reden, en de tekst voor alle kanalen:
 
 ```
@@ -150,7 +151,7 @@ Op een lege dag staat "Vandaag niets." boven de eerste regel.
 
 Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 
-**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties. Elke nieuwe logregel heeft ook twee velden: `buitenland` (true of false) en `haak` (de haak in één zin, of null).
+**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties. Elke nieuwe logregel heeft ook drie velden: `buitenland` (true of false) en `haak` (de haak in één zin, of null) en `domein`: overheid, rechter, toezichthouder, bedrijf, techniek, wetenschap en zorg, natuur en weer, werk of samenleving.
 
 **Terugblik.** Elke sweep begint met gisteren: wat stond er bij NOS en ANP dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord.
 
@@ -161,6 +162,7 @@ Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 **Achteraf toetsen.** Een maand na plaatsing: doet het er nog toe? Na een jaar: staat het in het jaaroverzicht? Afwijkingen van de houdbaarheidsscore gaan in het log.
 
 **Bewaking.**
+- De verdeling over domeinen wordt bijgehouden om blinde vlekken te zien, niet om op te sturen. Er is geen quotum.
 - De lat beweegt niet vanzelf. De vier criteria en 11/16 veranderen alleen door een bewust besluit van Robbert-Jan. Leren gaat over hoe er gescoord en waar er gezocht wordt, niet over hoe hoog de lat ligt.
 - Klikken, bereik en volgers zijn nooit een leersignaal.
 - Maandelijks vier cijfers: missers, aanpassingen door Robbert-Jan, verschillen tussen de twee sweeps, en het aandeel dagen met "Vandaag niets.". De eerste drie moeten dalen, het laatste moet stabiel blijven. Stijgt het aantal berichten per dag zonder dat het nieuws veranderde, dan zakt de lat ongemerkt.
