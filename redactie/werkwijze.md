@@ -151,7 +151,10 @@ Op een lege dag staat "Vandaag niets." boven de eerste regel.
 
 Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 
-**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties. Elke nieuwe logregel heeft ook drie velden: `buitenland` (true of false) en `haak` (de haak in één zin, of null) en `domein`: overheid, rechter, toezichthouder, bedrijf, techniek, wetenschap en zorg, natuur en weer, werk of samenleving.
+**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties. Elke logregel heeft ook drie velden:
+- `buitenland`: true of false.
+- `haak`: de Nederlandse haak in één zin, of null.
+- `domein`: een van de negen waarden: overheid, rechter, toezichthouder, bedrijf, techniek, wetenschap en zorg, natuur en weer, werk, samenleving. Bij twijfel het dichtstbijzijnde domein, met de twijfel in `reden`.
 
 **Terugblik.** Elke sweep begint met gisteren: wat stond er bij NOS en ANP dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord.
 

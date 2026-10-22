@@ -306,11 +306,19 @@
       "toegang": "pagina"
     },
     {
-      "naam": "EMA en CBG",
+      "naam": "CBG",
       "rubriek": "Veiligheid & gezondheid",
-      "url": "https://www.cbg-meb.nl",
+      "url": "https://www.cbg-meb.nl/actueel/nieuws",
       "laag": "kern",
-      "levert": "goedkeuring en intrekking van geneesmiddelen",
+      "levert": "goedkeuring en intrekking van geneesmiddelen in Nederland",
+      "toegang": "pagina"
+    },
+    {
+      "naam": "EMA",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.ema.europa.eu/en/news",
+      "laag": "kern",
+      "levert": "goedkeuring en intrekking van geneesmiddelen in de EU (aanbevelingen van het CHMP)",
       "toegang": "pagina"
     },
     {
