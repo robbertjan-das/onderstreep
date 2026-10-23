@@ -702,19 +702,6 @@
         "onleesbaar": 0,
         "bijgewerkt": null
       }
-    },
-    {
-      "naam": "ANP, Reuters, AP",
-      "rubriek": "vangnet",
-      "url": "https://www.reuters.com",
-      "laag": "vangnet",
-      "levert": "controle op gemiste berichten; nooit als bron",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
     }
   ]
 }
