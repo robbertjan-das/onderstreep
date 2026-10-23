@@ -67,6 +67,8 @@ Uitzonderingen: EU-besluiten zijn geen buitenland. Een gebeurtenis van historisc
 
 Toets: wat is er vandaag voor iemand in Nederland anders dan gisteren? Als het antwoord "nog niets" is, is er geen haak.
 
+Zonder haak wordt de gebeurtenis gewoon gescoord: hardheid naar wat er gebeurde, reikwijdte naar het directe gevolg in Nederland (meestal 0), haak null. Hardheid is nooit 0 alleen omdat er geen haak is.
+
 ## Kalibratie (echte gevallen)
 
 | Datum | Bericht | H-R-Hb-N | Totaal | Uitkomst |

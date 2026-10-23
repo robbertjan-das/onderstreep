@@ -24,3 +24,5 @@ Leerpunten voor de kalibratie van 25-10:
 - Vuurwerkregeling (19-10) te hoog genoteerd als 10; aankondiging met klein bereik, 5.
 - Terugblik-items tellen niet mee in de som van de dag; ze horen in het log bij hun eigen datum.
 - CBS publiceert ook buiten de publicatieplanning (huizenprijzen met het Kadaster): de officiële sweep miste het.
+- Buitenland zonder haak krijgt geen hardheid 0 (hardheid volgt de gebeurtenis, reikwijdte 0).
+- Ministerraad 23-10: besluitenlijst niet gecontroleerd (niet gevonden).
