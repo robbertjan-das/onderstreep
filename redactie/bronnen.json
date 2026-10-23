@@ -1,5 +1,5 @@
 {
-  "toelichting": "Bronnen voor de sweep, in volgorde van afloop. laag: kern (elke avond), uitbreiding (elke avond, minder vaak raak), vangnet (alleen controle). toegang: hoe het verzamelscript de bron uitleest; 'pagina' betekent nog te bepalen.",
+  "toelichting": "Bronnen voor de sweep, in volgorde van afloop. laag: kern (elke avond), uitbreiding (elke avond, minder vaak raak), vangnet (alleen controle). toegang: hoe het verzamelscript de bron uitleest; 'pagina' betekent nog te bepalen. opbrengst: per bron bijgewerkt bij elke kalibratie (items van 9 of hoger, keren onleesbaar).",
   "bronnen": [
     {
       "naam": "Rijksoverheid, nieuws",
@@ -7,7 +7,12 @@
       "url": "https://www.rijksoverheid.nl/actueel/nieuws",
       "laag": "kern",
       "levert": "kabinetsbesluiten, Kamerbrieven met besluiten, besluitenlijst ministerraad (vrijdag)",
-      "toegang": "rss"
+      "toegang": "rss",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Tweede Kamer",
@@ -15,7 +20,12 @@
       "url": "https://www.tweedekamer.nl",
       "laag": "kern",
       "levert": "stemmingsuitslagen (dinsdag), aangenomen wetsvoorstellen",
-      "toegang": "open data"
+      "toegang": "open data",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Eerste Kamer",
@@ -23,7 +33,12 @@
       "url": "https://www.eerstekamer.nl",
       "laag": "kern",
       "levert": "aangenomen en verworpen wetten",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Staatscourant en Staatsblad",
@@ -31,7 +46,12 @@
       "url": "https://zoek.officielebekendmakingen.nl",
       "laag": "kern",
       "levert": "regelingen, besluiten, inwerkingtredingen; ook Gemeenteblad en Provinciaal blad",
-      "toegang": "zoekdienst per datum"
+      "toegang": "zoekdienst per datum",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Rechtspraak",
@@ -39,7 +59,12 @@
       "url": "https://www.rechtspraak.nl",
       "laag": "kern",
       "levert": "uitspraken en persberichten van rechtbanken en hoven",
-      "toegang": "open data"
+      "toegang": "open data",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Hoge Raad",
@@ -47,7 +72,12 @@
       "url": "https://www.hogeraad.nl",
       "laag": "kern",
       "levert": "arresten, conclusies",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Raad van State",
@@ -55,7 +85,12 @@
       "url": "https://www.raadvanstate.nl/actueel/nieuws/",
       "laag": "kern",
       "levert": "bestuursrechtspraak (woensdag), adviezen over wetsvoorstellen",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Openbaar Ministerie",
@@ -63,7 +98,12 @@
       "url": "https://www.om.nl",
       "laag": "kern",
       "levert": "vervolgingsbesluiten in grote zaken",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Ministerie van Financiën en Belastingdienst",
@@ -71,7 +111,12 @@
       "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien",
       "laag": "kern",
       "levert": "fiscale besluiten, tarieven",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "CBS",
@@ -79,7 +124,12 @@
       "url": "https://www.cbs.nl/nl-nl/publicatieplanning",
       "laag": "kern",
       "levert": "cijfers; alleen keerpunten",
-      "toegang": "publicatieplanning"
+      "toegang": "publicatieplanning",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "De Nederlandsche Bank",
@@ -87,7 +137,12 @@
       "url": "https://www.dnb.nl",
       "laag": "kern",
       "levert": "toezichtsbesluiten, boetes",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "AFM",
@@ -95,7 +150,12 @@
       "url": "https://www.afm.nl",
       "laag": "kern",
       "levert": "boetes, waarschuwingen, verboden",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "ACM",
@@ -103,7 +163,12 @@
       "url": "https://www.acm.nl",
       "laag": "kern",
       "levert": "tariefbesluiten, fusies, boetes",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Europese Centrale Bank",
@@ -111,7 +176,12 @@
       "url": "https://www.ecb.europa.eu",
       "laag": "kern",
       "levert": "rentebesluiten",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "CPB",
@@ -119,7 +189,12 @@
       "url": "https://www.cpb.nl",
       "laag": "kern",
       "levert": "maart- en augustusraming",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "NCSC",
@@ -127,7 +202,12 @@
       "url": "https://www.ncsc.nl",
       "laag": "kern",
       "levert": "kritieke kwetsbaarheden, digitale verstoringen",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "NCTV",
@@ -135,7 +215,12 @@
       "url": "https://www.nctv.nl",
       "laag": "kern",
       "levert": "dreigingsniveau",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "RIVM en Gezondheidsraad",
@@ -143,7 +228,12 @@
       "url": "https://www.rivm.nl",
       "laag": "kern",
       "levert": "adviezen, uitbraken, vaccinatiebesluiten",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "IGJ, NVWA, ILT",
@@ -151,7 +241,12 @@
       "url": "https://www.nvwa.nl",
       "laag": "kern",
       "levert": "maatregelen, terugroepacties, sluitingen",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "KNMI",
@@ -159,7 +254,12 @@
       "url": "https://www.knmi.nl",
       "laag": "kern",
       "levert": "code oranje en rood",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "NL-Alert en veiligheidsregio's",
@@ -167,7 +267,12 @@
       "url": "https://www.nl-alert.nl",
       "laag": "kern",
       "levert": "grote incidenten, evacuaties",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Rijkswaterstaat, waterberichtgeving",
@@ -175,7 +280,12 @@
       "url": "https://waterberichtgeving.rws.nl",
       "laag": "kern",
       "levert": "hoog- en laagwater, droogtemonitor",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Autoriteit Persoonsgegevens",
@@ -183,7 +293,12 @@
       "url": "https://www.autoriteitpersoonsgegevens.nl",
       "laag": "kern",
       "levert": "boetes, grote datalekken",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Raad van de EU en Europese Raad",
@@ -191,7 +306,12 @@
       "url": "https://www.consilium.europa.eu/nl/press/",
       "laag": "kern",
       "levert": "besluiten, sancties, conclusies",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Europese Commissie",
@@ -199,7 +319,12 @@
       "url": "https://ec.europa.eu/commission/presscorner",
       "laag": "kern",
       "levert": "besluiten, boetes",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "EUR-Lex",
@@ -207,7 +332,12 @@
       "url": "https://eur-lex.europa.eu",
       "laag": "kern",
       "levert": "gepubliceerde verordeningen en richtlijnen",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Hof van Justitie van de EU",
@@ -215,7 +345,12 @@
       "url": "https://curia.europa.eu",
       "laag": "kern",
       "levert": "arresten",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "NAVO",
@@ -223,7 +358,12 @@
       "url": "https://www.nato.int",
       "laag": "kern",
       "levert": "besluiten Noord-Atlantische Raad",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "VN-Veiligheidsraad",
@@ -231,7 +371,12 @@
       "url": "https://press.un.org",
       "laag": "kern",
       "levert": "aangenomen resoluties",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Witte Huis en Federal Register",
@@ -239,7 +384,12 @@
       "url": "https://www.federalregister.gov",
       "laag": "kern",
       "levert": "getekende decreten, sancties, tarieven",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "UWV, SVB, DUO, IND, Dienst Toeslagen, RDW, CAK",
@@ -247,7 +397,12 @@
       "url": "https://www.uwv.nl",
       "laag": "kern",
       "levert": "uitvoering die mensen merken: uitkeringen, toeslagen, studiefinanciering",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "NS, ProRail",
@@ -255,7 +410,12 @@
       "url": "https://nieuws.ns.nl",
       "laag": "kern",
       "levert": "tarieven, landelijke storingen, dienstregeling",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Netbeheerders en TenneT, Gasunie",
@@ -263,7 +423,12 @@
       "url": "https://www.tennet.eu",
       "laag": "kern",
       "levert": "tarieven, grote stroomstoringen, netcongestie",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Zorgverzekeraars",
@@ -271,7 +436,12 @@
       "url": "https://www.dsw.nl/consumenten",
       "laag": "kern",
       "levert": "premies (najaar, uiterlijk 12 november)",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Vakbonden FNV en CNV",
@@ -279,7 +449,12 @@
       "url": "https://www.fnv.nl",
       "laag": "kern",
       "levert": "landelijke stakingen en het afblazen ervan",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "CBR, Schiphol, drinkwaterbedrijven",
@@ -287,7 +462,12 @@
       "url": "https://www.cbr.nl",
       "laag": "kern",
       "levert": "tarieven en besluiten met groot bereik",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Insolventieregister",
@@ -295,7 +475,12 @@
       "url": "https://insolventies.rechtspraak.nl",
       "laag": "kern",
       "levert": "faillissementen van grote werkgevers",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Euronext Amsterdam, gereguleerd bedrijfsnieuws",
@@ -303,7 +488,12 @@
       "url": "https://live.euronext.com/en/markets/amsterdam/company-news",
       "laag": "kern",
       "levert": "persberichten van beursgenoteerde bedrijven: ontslagrondes, overnames, sluitingen, winstwaarschuwingen",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "CBG",
@@ -311,7 +501,12 @@
       "url": "https://www.cbg-meb.nl/actueel/nieuws",
       "laag": "kern",
       "levert": "goedkeuring en intrekking van geneesmiddelen in Nederland",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "EMA",
@@ -319,7 +514,12 @@
       "url": "https://www.ema.europa.eu/en/news",
       "laag": "kern",
       "levert": "goedkeuring en intrekking van geneesmiddelen in de EU (aanbevelingen van het CHMP)",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Grote platforms: WhatsApp, Meta, Google, Apple, betaaldiensten",
@@ -327,7 +527,12 @@
       "url": "",
       "laag": "kern",
       "levert": "wijzigingen die miljoenen Nederlandse gebruikers raken",
-      "toegang": "pagina per platform, nog te bepalen"
+      "toegang": "pagina per platform, nog te bepalen",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Energieleveranciers en telecomaanbieders",
@@ -335,7 +540,12 @@
       "url": "",
       "laag": "kern",
       "levert": "tarieven",
-      "toegang": "pagina per aanbieder, nog te bepalen"
+      "toegang": "pagina per aanbieder, nog te bepalen",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Algemeen verbindend verklaarde cao's (Staatscourant)",
@@ -343,7 +553,25 @@
       "url": "https://zoek.officielebekendmakingen.nl",
       "laag": "kern",
       "levert": "algemeen verbindend verklaarde cao's",
-      "toegang": "zoekdienst per datum"
+      "toegang": "zoekdienst per datum",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "ANP Persportaal",
+      "rubriek": "Geld",
+      "url": "https://persportaal.anp.nl",
+      "laag": "kern",
+      "levert": "persberichten van bedrijven en organisaties zelf (primaire bron)",
+      "toegang": "pagina; gecontroleerd 23-10-2026: leesbaar, tijdlijn met koppen van de dag",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "NZa en Zorginstituut",
@@ -351,7 +579,12 @@
       "url": "https://www.nza.nl",
       "laag": "uitbreiding",
       "levert": "zorgtarieven, basispakket",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Provincies en G4",
@@ -359,7 +592,12 @@
       "url": "https://zoek.officielebekendmakingen.nl",
       "laag": "uitbreiding",
       "levert": "besluiten met bovenregionaal bereik (via Provinciaal blad en Gemeenteblad)",
-      "toegang": "zoekdienst per datum"
+      "toegang": "zoekdienst per datum",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "EHRM, ICC, ICJ",
@@ -367,7 +605,12 @@
       "url": "https://www.echr.coe.int",
       "laag": "uitbreiding",
       "levert": "uitspraken",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "IAEA, WHO, IMF",
@@ -375,7 +618,12 @@
       "url": "https://www.who.int",
       "laag": "uitbreiding",
       "levert": "besluiten en noodtoestanden",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "Bundesgesetzblatt en Belgisch Staatsblad",
@@ -383,7 +631,12 @@
       "url": "https://www.recht.bund.de",
       "laag": "uitbreiding",
       "levert": "besluiten met direct effect in Nederland",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "NOS",
@@ -391,7 +644,64 @@
       "url": "https://nos.nl",
       "laag": "vangnet",
       "levert": "controle op gemiste berichten; nooit als bron",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "NU.nl",
+      "rubriek": "vangnet",
+      "url": "https://www.nu.nl",
+      "laag": "vangnet",
+      "levert": "koppen van de dag, grotendeels ANP; controle op gemiste berichten; nooit als bron",
+      "toegang": "gecontroleerd 23-10-2026: voorpagina onleesbaar (privacy gate van DPG Media leidt door naar toestemmingspagina); uitwijkroute https://www.nu.nl/rss/Algemeen leesbaar",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Reuters",
+      "rubriek": "vangnet",
+      "url": "https://www.reuters.com/world/",
+      "laag": "vangnet",
+      "levert": "internationaal, voor de Nederlandse haak; nooit als bron",
+      "toegang": "gecontroleerd 23-10-2026: onleesbaar (HTTP 401); uitwijk naar AP, dan BBC",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "AP",
+      "rubriek": "vangnet",
+      "url": "https://apnews.com",
+      "laag": "vangnet",
+      "levert": "internationaal, voor de Nederlandse haak, als Reuters niet leesbaar is; nooit als bron",
+      "toegang": "gecontroleerd 23-10-2026: onleesbaar (HTTP 403, bot-controle); uitwijk naar BBC",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "BBC News",
+      "rubriek": "vangnet",
+      "url": "https://www.bbc.com/news/world",
+      "laag": "vangnet",
+      "levert": "uitwijk als Reuters en AP allebei niet leesbaar zijn; nooit als bron",
+      "toegang": "gecontroleerd 23-10-2026: leesbaar, koppen van de dag zichtbaar",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     },
     {
       "naam": "ANP, Reuters, AP",
@@ -399,7 +709,12 @@
       "url": "https://www.reuters.com",
       "laag": "vangnet",
       "levert": "controle op gemiste berichten; nooit als bron",
-      "toegang": "pagina"
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     }
   ]
 }

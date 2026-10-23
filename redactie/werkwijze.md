@@ -153,7 +153,7 @@ Op een lege dag staat "Vandaag niets." boven de eerste regel.
 
 Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 
-**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (officieel, vangnet, beide), en later het oordeel van Robbert-Jan en eventuele correcties. Elke logregel heeft ook drie velden:
+**Logboek.** Elk beoordeeld item gaat in `redactie/log/JJJJ-WW.jsonl`, één regel per item: datum, kop, bron, type, scores (H-R-Hb-N), uitkomst (geplaatst, net niet, doorgestreept), reden, welke sweep het vond (`sweep`: officieel, vangnet, beide, terugblik of tip), en later het oordeel van Robbert-Jan en eventuele correcties. Elke logregel heeft ook drie velden:
 - `buitenland`: true of false.
 - `haak`: de Nederlandse haak in één zin, of null.
 - `domein`: een van de negen waarden: overheid, rechter, toezichthouder, bedrijf, techniek, wetenschap en zorg, natuur en weer, werk, samenleving. Bij twijfel het dichtstbijzijnde domein, met de twijfel in `reden`.
@@ -172,6 +172,35 @@ Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 - Klikken, bereik en volgers zijn nooit een leersignaal.
 - Maandelijks vier cijfers: missers, aanpassingen door Robbert-Jan, verschillen tussen de twee sweeps, en het aandeel dagen met "Vandaag niets.". De eerste drie moeten dalen, het laatste moet stabiel blijven. Stijgt het aantal berichten per dag zonder dat het nieuws veranderde, dan zakt de lat ongemerkt.
 
+## Permanente controle
+
+Leerfase. Tot en met 31 oktober 2026 draaien elke avond twee sweeps naast elkaar (officieel en vangnet) en wordt alleen de site bijgewerkt. Vanaf 1 november 2026 ook de socials; de eerste post is de weekkaart van week 44 op zondag 1 november.
+
+Wat altijd blijft:
+- Het vangnet, elke dag: alleen de koppen van de dag bij NOS, NU.nl, ANP Persportaal en Reuters (of AP, of BBC). Elk item gaat terug naar de primaire bron.
+- De terugblik, elke dag.
+- De kalibratie, elke zondag.
+
+Wanneer de dubbele sweep stopt: na vier weken op rij zonder een enkel item van 9 of hoger dat alleen het vangnet vond. Dan blijven alleen bronlijst, vangnet en terugblik over. De dubbele sweep komt terug als dat in één maand twee keer misgaat.
+
+Oorzaak en oplossing. Elk gemist of verkeerd item krijgt één oorzaak, met een vaste oplossing:
+- bron ontbrak: bron toevoegen aan bronnen.json;
+- bron niet uitgelezen: uitleesroute of uitwijkroute repareren;
+- verkeerd gescoord: kalibratievoorbeeld toevoegen;
+- regel ontbrak: regel voorstellen bij de kalibratie.
+
+Gemist door beide. Een item dat geen van beide sweeps die dag vond, maar later wel opdook (terugblik, tip, kalibratie), heet "gemist door beide". Dat aantal moet naar nul; het staat elke week in de kalibratie.
+
+Testset. redactie/testset.jsonl bevat de moeilijke gevallen. De eerste zondag van elke maand scoort een sweep ze opnieuw zonder de oude scores te zien. Elk verschil van 2 punten of meer, of een andere uitkomst, gaat naar de kalibratie: dan heeft een regel iets veranderd wat niet de bedoeling was.
+
+Opbrengst per bron. Bij elke kalibratie wordt in bronnen.json per bron bijgewerkt hoeveel items van 9 of hoger hij opleverde en hoe vaak hij niet te lezen was. Een bron die vaak onleesbaar is, krijgt een betere route; een bron die maanden niets oplevert, wordt minder vaak gelezen, maar niet geschrapt zonder besluit.
+
+Achteraf toetsen. De eerste zondag van elke maand: wat bleek een maand later belangrijk dat we toen laag scoorden? Afwijkingen gaan als kalibratievoorbeeld de werkwijze in.
+
+Tips. Lezers kunnen via redactie@onderstreep.nl melden wat ze misten. Een tip komt in het log met "sweep": "tip" en wordt gescoord zoals elk ander item.
+
+Klein houden. Elke kalibratie stelt ook samenvoegingen en schrappingen voor. Streef naar een werkwijze van hoogstens 5.000 woorden.
+
 ## De poort
 
 Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
@@ -188,3 +217,4 @@ Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
 - 21-10: leerweek tot en met zondag 25-10, geen socials; bulletins op de site lopen door. Eerste zondagskalibratie 25-10.
 - 21-10: tabel verscherpt, criteria en drempel ongewijzigd: elk criterium een vraag als kop, reikwijdte in aantallen mensen, houdbaarheid in de duur van de gevolgen, nieuwheid met de verwachte volgende stap als 2 en een verwacht moment met nieuwe uitkomst als 3; bij twijfel de lagere stand; motivering per criterium verplicht in het log. Herscoord: uitkomsten van week 43 ongewijzigd, AH (18-10) van 10 naar 9.
 - 21-10: voorstellen voor de kalibratie van 25-10: keerpuntregel voor langzaam nieuws, houdbaarheid alleen op aantoonbare gevolgen, nieuwheid 4 alleen als aanwijsbaar onverwacht.
+- 23-10: leerfase verlengd tot en met 31-10; socials vanaf 1-11. Permanente controle vastgelegd: vangnet, terugblik en kalibratie blijven; dubbele sweep stopt na vier weken zonder vangnet-only item van 9 of hoger; testset en achteraf toetsen maandelijks; tips via redactie@.
