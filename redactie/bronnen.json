@@ -46,7 +46,7 @@
       "url": "https://zoek.officielebekendmakingen.nl",
       "laag": "kern",
       "levert": "regelingen, besluiten, inwerkingtredingen; ook Gemeenteblad en Provinciaal blad",
-      "toegang": "zoekdienst per datum",
+      "toegang": "zoekdienst per datum; op 25-10-2026 gaf de zoekdienst nul resultaten (uitzoeken dinsdag)",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -123,8 +123,8 @@
       "rubriek": "Geld",
       "url": "https://www.cbs.nl/nl-nl/publicatieplanning",
       "laag": "kern",
-      "levert": "cijfers; alleen keerpunten",
-      "toegang": "publicatieplanning",
+      "levert": "cijfers; alleen keerpunten; ook de nieuwspagina, elke dag",
+      "toegang": "publicatieplanning en nieuwspagina (https://www.cbs.nl/nl-nl/nieuws), elke dag",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -238,10 +238,10 @@
     {
       "naam": "IGJ, NVWA, ILT",
       "rubriek": "Veiligheid & gezondheid",
-      "url": "https://www.nvwa.nl",
+      "url": "https://www.nvwa.nl/consumenten/product-en-bedrijfswaarschuwingen",
       "laag": "kern",
-      "levert": "maatregelen, terugroepacties, sluitingen",
-      "toegang": "pagina",
+      "levert": "maatregelen, terugroepacties, sluitingen; vaste bron: de pagina met waarschuwingen en terugroepacties",
+      "toegang": "pagina; uitwijk: de terugroeppagina's van Albert Heijn, Jumbo en Lidl",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,

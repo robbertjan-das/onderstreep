@@ -55,9 +55,9 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 - Sport telt niet; een toernooiwinst van een nationaal team hooguit via houdbaarheid.
 - Prijzen en tarieven van partijen met een publieke concessie of monopolie (NS, zorgverzekeraars, netbeheerders, CBR, drinkwater) zijn vastgestelde besluiten en worden gescoord als besluit.
 
-- In proef tot de kalibratie: items met nieuwheid 0 (herhaling, meting zonder keerpunt, vaste jaarlijkse routine zoals de wintertijd) blijven in het log, maar komen niet op de Net niet-lijst.
+- Items met nieuwheid 0 (herhaling, meting zonder keerpunt, vaste jaarlijkse routine zoals de wintertijd) blijven in het log, maar komen niet op de Net niet-lijst.
 
-## Buitenland: de Nederlandse haak (in proef tot de kalibratie van 25-10)
+## Buitenland: de Nederlandse haak
 
 Een gebeurtenis in het buitenland telt mee via een concreet gevolg in Nederland. Dat gevolg wordt gescoord, niet de gebeurtenis zelf. De gebeurtenis staat in Verloop, als aanleiding.
 
@@ -69,7 +69,7 @@ Uitzonderingen: EU-besluiten zijn geen buitenland. Een gebeurtenis van historisc
 
 Toets: wat is er vandaag voor iemand in Nederland anders dan gisteren? Als het antwoord "nog niets" is, is er geen haak.
 
-In proef tot de kalibratie: zonder haak komt een buitenlands item alleen onder de streep bij houdbaarheid 4, ongeacht het totaal.
+Zonder haak komt een buitenlands item alleen onder de streep bij houdbaarheid 4, ongeacht het totaal.
 
 Zonder haak wordt de gebeurtenis gewoon gescoord: hardheid naar wat er gebeurde, reikwijdte naar het directe gevolg in Nederland (meestal 0), haak null. Hardheid is nooit 0 alleen omdat er geen haak is.
 
@@ -162,7 +162,11 @@ Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 - `haak`: de Nederlandse haak in één zin, of null.
 - `domein`: een van de negen waarden: overheid, rechter, toezichthouder, bedrijf, techniek, wetenschap en zorg, natuur en weer, werk, samenleving. Bij twijfel het dichtstbijzijnde domein, met de twijfel in `reden`.
 
-**Terugblik.** Elke sweep begint met gisteren: wat stond er bij NOS en ANP dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord.
+**Licht loggen.** Buitenlandse items zonder haak en terugblik-items onder de 9 worden licht gelogd: datum, kop, bron, score, uitkomst en één zin reden. Geen motivering per criterium. Kop, datum en bron blijven altijd, zodat de terugblik ze terugvindt als er later een haak komt.
+
+**Terugblik.** Elke sweep begint met gisteren: wat stond er bij NOS en ANP dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord. Een item uit de terugblik heet alleen 'gemist' als het 9 of hoger scoort. Lagere items krijgen de uitkomst 'doorgestreept (terugblik)'.
+
+**Concept.** Bestanden in concept/ worden na de sweep nooit meer aangepast. Correcties gaan in het log en in het bulletin.
 
 **Twee sweeps.** De officiële sweep (zoekdiensten van Staatsblad, Staatscourant, Rechtspraak, Tweede Kamer) en de vangnet-sweep. Waar ze verschillen, beslist Robbert-Jan, en die beslissing gaat in het log.
 
@@ -222,3 +226,4 @@ Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
 - 21-10: tabel verscherpt, criteria en drempel ongewijzigd: elk criterium een vraag als kop, reikwijdte in aantallen mensen, houdbaarheid in de duur van de gevolgen, nieuwheid met de verwachte volgende stap als 2 en een verwacht moment met nieuwe uitkomst als 3; bij twijfel de lagere stand; motivering per criterium verplicht in het log. Herscoord: uitkomsten van week 43 ongewijzigd, AH (18-10) van 10 naar 9.
 - 21-10: voorstellen voor de kalibratie van 25-10: keerpuntregel voor langzaam nieuws, houdbaarheid alleen op aantoonbare gevolgen, nieuwheid 4 alleen als aanwijsbaar onverwacht.
 - 23-10: leerfase verlengd tot en met 31-10; socials vanaf 1-11. Permanente controle vastgelegd: vangnet, terugblik en kalibratie blijven; dubbele sweep stopt na vier weken zonder vangnet-only item van 9 of hoger; testset en achteraf toetsen maandelijks; tips via redactie@.
+- 25-10: eerste kalibratie (week 43). Proefregels definitief; 'gemist' alleen vanaf 9; concept/ nooit aanpassen; NVWA en CBS-nieuws als vaste bronnen; buitenland zonder haak en lage terugblik-items licht gelogd; testset uitgebreid. Evaluatie keuze A op 1-11.
