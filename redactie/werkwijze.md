@@ -55,6 +55,8 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 - Sport telt niet; een toernooiwinst van een nationaal team hooguit via houdbaarheid.
 - Prijzen en tarieven van partijen met een publieke concessie of monopolie (NS, zorgverzekeraars, netbeheerders, CBR, drinkwater) zijn vastgestelde besluiten en worden gescoord als besluit.
 
+- In proef tot de kalibratie: items met nieuwheid 0 (herhaling, meting zonder keerpunt, vaste jaarlijkse routine zoals de wintertijd) blijven in het log, maar komen niet op de Net niet-lijst.
+
 ## Buitenland: de Nederlandse haak (in proef tot de kalibratie van 25-10)
 
 Een gebeurtenis in het buitenland telt mee via een concreet gevolg in Nederland. Dat gevolg wordt gescoord, niet de gebeurtenis zelf. De gebeurtenis staat in Verloop, als aanleiding.
@@ -66,6 +68,8 @@ Geen haak is: een mogelijk of verwacht effect; koersen, beurzen of een olieprijs
 Uitzonderingen: EU-besluiten zijn geen buitenland. Een gebeurtenis van historische schaal telt op eigen kracht, via houdbaarheid 4.
 
 Toets: wat is er vandaag voor iemand in Nederland anders dan gisteren? Als het antwoord "nog niets" is, is er geen haak.
+
+In proef tot de kalibratie: zonder haak komt een buitenlands item alleen onder de streep bij houdbaarheid 4, ongeacht het totaal.
 
 Zonder haak wordt de gebeurtenis gewoon gescoord: hardheid naar wat er gebeurde, reikwijdte naar het directe gevolg in Nederland (meestal 0), haak null. Hardheid is nooit 0 alleen omdat er geen haak is.
 

@@ -1,0 +1,13 @@
+{
+  "week": 43,
+  "van": "2026-10-19",
+  "tot": "2026-10-25",
+  "net_niet": [
+    { "score": 10, "kop": "Wet vereenvoudiging partnerbegrip toeslagen verschijnt in het Staatsblad", "reden": "ingang 1 januari 2027, inhoud al aangenomen: nieuwheid 2" },
+    { "score": 10, "kop": "Jumbo roept huismerk pulled chicken terug", "reden": "terugroepactie voor een product, reikwijdte 2, houdbaarheid 0" },
+    { "score": 10, "kop": "DSW verhoogt de basispremie 2027 met 14,75 euro naar 173,25 euro per maand", "reden": "gaat pas in per 1 januari en geldt alleen voor DSW-verzekerden: reikwijdte 2" },
+    { "score": 10, "kop": "ACM: geen vergunning nodig voor overname Videoland/Viaplay", "reden": "beperkt bereik: reikwijdte 2" },
+    { "score": 9, "kop": "Staking streekvervoer 22 oktober afgeblazen", "reden": "opschorting is terug te draaien (hardheid 2); meer dan een miljoen busreizigers" }
+  ],
+  "noot": "Het NS-bericht van 21 oktober ontbrak om 07:00 en is dezelfde dag toegevoegd. Na herijking van de maatstaf op 21 oktober zijn NS (van 12 naar 11) en AH (van 11 naar 9, blijft staan met vermelding) bijgesteld. Het bulletin van 25 oktober verscheen te laat."
+}

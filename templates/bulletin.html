@@ -4,6 +4,7 @@
 {% block omschrijving %}{{ b.beoordeeld }} beoordeeld / {{ b.doorgestreept }} doorgestreept / {{ b.geplaatst }} geplaatst{% endblock %}
 {% block inhoud %}
   <h1 class="datum">{{ b.datum_nl }}</h1>
+  {% if b.noot %}<p class="meta noot">{{ b.noot }}</p>{% endif %}
   {% if b.geplaatst == 0 %}
     <p class="niets">Vandaag niets.</p>
     <p class="uitleg">Geen bericht van {{ b.over_nl_kort }} haalde elf van zestien. Het volgende bulletin verschijnt morgen om 07:00.</p>
@@ -26,7 +27,7 @@
       {% endif %}{% endfor %}
     </dl>
     <p class="meta"><span class="label">{{ m.label }}</span><a class="bron" href="{{ m.bron.url }}">{{ m.bron.naam }}</a></p>
-    {% if m.correctie %}<p class="meta">{{ m.correctie }}</p>{% endif %}
+    {% if m.correctie %}<p class="meta noot">{{ m.correctie }}</p>{% endif %}
   </article>
   {% endfor %}
 

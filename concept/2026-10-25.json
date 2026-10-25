@@ -1,0 +1,1054 @@
+{
+  "datum": "2026-10-25",
+  "over": "2026-10-24",
+  "weekdag": "zondag",
+  "sweep_tot": "2026-10-24T22:00",
+  "beoordeeld": 18,
+  "geplaatst": 0,
+  "net_niet": 0,
+  "doorgestreept": 18,
+  "terugblik_beoordeeld": 15,
+  "items": [
+    {
+      "kop": "Orkaan Champi treft Taiwan: een dode en honderden gewonden",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: een dode en honderden gewonden volgens NOS (23-10, 22:24); Taiwanese autoriteiten niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse getroffenen gevonden, dus 0.",
+        "houdbaarheid": "Een storm van één dag; herstel valt buiten de bron, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Een dode en honderden gewonden (parafrase NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: een dode en honderden gewonden volgens NOS (23-10, 22:24); Taiwanese autoriteiten niet gecontroleerd, dus 4. Geen Nederlandse getroffenen gevonden, dus 0. Een storm van één dag; herstel valt buiten de bron, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 22:24 (Taiwanese autoriteiten: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636396-dode-en-honderden-gewonden-door-zware-orkaan-champi-bij-taiwan"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "natuur en weer",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Trump grijpt in bij de verkiezingen in Alaska om twee kandidaten met de naam Dan Sullivan op het stembiljet",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: de Amerikaanse regering heeft een rechtszaak aangespannen om certificering te blokkeren (BBC 23-10, 18:49; NOS 23-10, 23:39), dus 4.",
+        "reikwijdte": "Geen gevolg voor mensen in Nederland, dus 0.",
+        "houdbaarheid": "Draait om de uitslag van één verkiezing, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Trump administration sues to block certification (parafrase BBC)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: de Amerikaanse regering heeft een rechtszaak aangespannen om certificering te blokkeren (BBC 23-10, 18:49; NOS 23-10, 23:39), dus 4. Geen gevolg voor mensen in Nederland, dus 0. Draait om de uitslag van één verkiezing, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 23:39; BBC 23-10 18:49 (rechtbankstukken: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636407-trump-grijpt-in-bij-verkiezingen-alaska-vanwege-twee-dan-sullivans-op-stembiljet"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Zeehondencentrum Pieterburen stelt de faillissementsaanvraag een week uit",
+      "label": "Geld",
+      "type": "besluit",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Besluit van de organisatie zelf, een week uitstel, terug te draaien: 'stelt de aanvraag van het faillissement met een week uit' (ANP via NOS), dus 2.",
+        "reikwijdte": "Één centrum; de 100.000 handtekeningen zijn geen bereik, dus 0.",
+        "houdbaarheid": "Een uitstel van een week, dus 0.",
+        "nieuwheid": "Verwachte stap in een bekend proces (noodkreet van anderhalve week eerder), dus 2."
+      },
+      "hardheid_citaat": "stelt de aanvraag van het faillissement met een week uit",
+      "uitkomst": "doorgestreept",
+      "reden": "Besluit van de organisatie zelf, een week uitstel, terug te draaien: 'stelt de aanvraag van het faillissement met een week uit' (ANP via NOS), dus 2. Één centrum; de 100.000 handtekeningen zijn geen bereik, dus 0. Een uitstel van een week, dus 0. Verwachte stap in een bekend proces (noodkreet van anderhalve week eerder), dus 2.",
+      "bron": {
+        "naam": "NOS 24-10 00:23 (Werelderfgoedcentrum Waddenzee: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636410-zeehondencentrum-stelt-voorgenomen-faillissement-met-een-week-uit"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Israëlisch leger valt meerdere plaatsen op de Westelijke Jordaanoever binnen",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Gebeurd volgens NOS (24-10, 02:08); Israëlische en Palestijnse bronnen niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse haak gevonden, dus 0.",
+        "houdbaarheid": "Een operatie van een nacht, dus 0.",
+        "nieuwheid": "Vervolg op de afsluiting van 23-10, een verwachte stap, dus 2."
+      },
+      "hardheid_citaat": "Het leger valt meerdere plaatsen binnen (parafrase NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd volgens NOS (24-10, 02:08); Israëlische en Palestijnse bronnen niet gecontroleerd, dus 4. Geen Nederlandse haak gevonden, dus 0. Een operatie van een nacht, dus 0. Vervolg op de afsluiting van 23-10, een verwachte stap, dus 2.",
+      "bron": {
+        "naam": "NOS 24-10 02:08 (niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636411-israelische-leger-valt-meerdere-plaatsen-op-westelijke-jordaanoever-binnen"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Brand verwoest een groothandel op bedrijventerrein Zestienhoven in Rotterdam; NL-Alert met advies ramen en deuren te sluiten",
+      "label": "Veiligheid & gezondheid",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 1,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Gebeurd: de veiligheidsregio meldt dat het pand van 4.500 vierkante meter 'niet meer te redden' is (NOS 24-10, 02:34), dus 4.",
+        "reikwijdte": "Omgeving en as- en roetdeeltjes in Rotterdam; het NL-Alert-gebied staat niet in de bron, bij twijfel de lagere stand: 1.",
+        "houdbaarheid": "Een brand van een dag; schade aan het pand valt onder direct betrokkenen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "niet meer te redden (parafrase veiligheidsregio via NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: de veiligheidsregio meldt dat het pand van 4.500 vierkante meter 'niet meer te redden' is (NOS 24-10, 02:34), dus 4. Omgeving en as- en roetdeeltjes in Rotterdam; het NL-Alert-gebied staat niet in de bron, bij twijfel de lagere stand: 1. Een brand van een dag; schade aan het pand valt onder direct betrokkenen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 24-10 02:34 (veiligheidsregio Rotterdam-Rijnmond: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636412-brand-legt-groothandel-in-rotterdam-in-de-as-brandweer-al-uren-in-de-weer"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Brand verwoest het Adelaarsnest, het voormalige theehuis van Hitler in Duitsland; een verwarde man is opgepakt",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Gebeurd: brand heeft het gebouw verwoest volgens NOS (24-10, 03:53) en BBC (24-10, 15:56); een man is aangehouden (BBC 15:21), dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Het gebouw is voor altijd verloren, maar de gevolgen voor mensen blijven klein; bij twijfel de lagere stand: 1.",
+        "nieuwheid": "Nieuw en onverwacht voor de meeste kijkers, maar niet aanwijsbaar; nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Grote brand verwoest Adelaarsnest (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: brand heeft het gebouw verwoest volgens NOS (24-10, 03:53) en BBC (24-10, 15:56); een man is aangehouden (BBC 15:21), dus 4. Geen Nederlandse haak, dus 0. Het gebouw is voor altijd verloren, maar de gevolgen voor mensen blijven klein; bij twijfel de lagere stand: 1. Nieuw en onverwacht voor de meeste kijkers, maar niet aanwijsbaar; nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 24-10 03:53; BBC 24-10 15:56 (Duitse autoriteiten: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636413-grote-brand-verwoest-adelaarsnest-voormalig-theehuis-van-adolf-hitler"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Zelfgebouwde saloon van een Limburgse schietvereniging brandt af bij het openingsfeest",
+      "label": "Veiligheid & gezondheid",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd volgens NOS (24-10, 05:27), dus 4.",
+        "reikwijdte": "Eén vereniging, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3. Een lokale zaak; telt niet op reikwijdte."
+      },
+      "hardheid_citaat": "Saloon afgebrand bij openingsfeest (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd volgens NOS (24-10, 05:27), dus 4. Eén vereniging, dus 0. Dagen, dus 0. Nieuw feit, dus 3. Een lokale zaak; telt niet op reikwijdte.",
+      "bron": {
+        "naam": "NOS 24-10 05:27 (veiligheidsregio Limburg-Noord: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636415-zelfgebouwde-saloon-van-limburgse-schietvereniging-afgebrand-bij-openingsfeest"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Sytze Faber, voormalig CDA-Kamerlid en journalist, is overleden",
+      "label": "Bestuur",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: overlijden gemeld door NOS (24-10, 08:16), dus 4.",
+        "reikwijdte": "Geen zittend ambtsdrager en geen gevolg voor bestuur, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Voormalig CDA-Kamerlid overleden (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: overlijden gemeld door NOS (24-10, 08:16), dus 4. Geen zittend ambtsdrager en geen gevolg voor bestuur, dus 0. Dagen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 24-10 08:16",
+        "url": "https://nos.nl/artikel/2636424-sytze-faber-89-voormalig-cda-kamerlid-en-journalist-overleden"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Rijkswaterstaat heft het eenrichtingsverkeer voor schepen op de IJssel tussen de IJsselkop en Zutphen op",
+      "label": "Veiligheid & gezondheid",
+      "type": "besluit",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: de maatregel is opgeheven, 'het eenrichtingsverkeer is vandaag opgeheven' (Rijkswaterstaat via ANP/NOS 24-10, 11:31), dus 4.",
+        "reikwijdte": "Binnenvaartschippers richting het Twentekanaal, dus 0.",
+        "houdbaarheid": "Opgeheven door de regen; Rijkswaterstaat verwacht dat de droogte kan terugkeren, dus 0.",
+        "nieuwheid": "Nieuw feit na het eerdere opnieuw instellen van 14-10, dus 3."
+      },
+      "hardheid_citaat": "het eenrichtingsverkeer is vandaag opgeheven (Rijkswaterstaat via NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: de maatregel is opgeheven, 'het eenrichtingsverkeer is vandaag opgeheven' (Rijkswaterstaat via ANP/NOS 24-10, 11:31), dus 4. Binnenvaartschippers richting het Twentekanaal, dus 0. Opgeheven door de regen; Rijkswaterstaat verwacht dat de droogte kan terugkeren, dus 0. Nieuw feit na het eerdere opnieuw instellen van 14-10, dus 3.",
+      "bron": {
+        "naam": "NOS 24-10 11:31 (Rijkswaterstaat: waterberichtgeving niet uitgelezen)",
+        "url": "https://nos.nl/artikel/2636441-eenrichtingsverkeer-ijssel-weer-opgeheven-na-regen-afgelopen-dagen"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "natuur en weer",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Google laat in Finland illegaal 250.000 bomen kappen voor een datacenter; Finnen vragen strengere regels",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Gebeurd volgens NOS (24-10, 12:48); Finse autoriteiten niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse haak gevonden (de vraag naar regels is Fins), dus 0.",
+        "houdbaarheid": "Het bos is jaren weg, maar het raakt geen mensen in Nederland aantoonbaar; bij twijfel de lagere stand: 1.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Google kapt illegaal 250.000 bomen (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd volgens NOS (24-10, 12:48); Finse autoriteiten niet gecontroleerd, dus 4. Geen Nederlandse haak gevonden (de vraag naar regels is Fins), dus 0. Het bos is jaren weg, maar het raakt geen mensen in Nederland aantoonbaar; bij twijfel de lagere stand: 1. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 24-10 12:48 (niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636454-google-kapt-illegaal-250-000-bomen-finnen-vragen-strengere-regels-datacenters"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "bedrijf",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Oekraïne meldt na ruim een week weer een stabiele Starlinkverbinding",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Gebeurd: Oekraïne meldt herstel van de verbinding (NOS 24-10, 12:15), dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Verwachte stap in een bekend verhaal (storing sinds 16-10), dus 2."
+      },
+      "hardheid_citaat": "Oekraïne meldt weer stabiele Starlinkverbinding (parafrase NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: Oekraïne meldt herstel van de verbinding (NOS 24-10, 12:15), dus 4. Geen Nederlandse haak, dus 0. Dagen, dus 0. Verwachte stap in een bekend verhaal (storing sinds 16-10), dus 2.",
+      "bron": {
+        "naam": "NOS 24-10 12:15 (Oekraïense bronnen: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636448-oekraine-meldt-na-ruim-een-week-weer-stabiele-starlinkverbinding"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "techniek",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Verzorgster van safaripark Beekse Bergen raakt gewond na een aanval van een panter",
+      "label": "Veiligheid & gezondheid",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd volgens NOS (24-10, 14:27), dus 4.",
+        "reikwijdte": "Individuele zaak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Verzorgster gewond na panteraanval (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd volgens NOS (24-10, 14:27), dus 4. Individuele zaak, dus 0. Dagen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 24-10 14:27 (politie en park: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636461-verzorgster-safaripark-beekse-bergen-gewond-na-panteraanval-toestand-zorgelijk"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Bijna 1000 arrestaties bij demonstraties in Frankrijk, hier en daar rellen",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Gebeurd: bijna 1000 arrestaties volgens NOS (24-10, 14:48); Franse binnenlandse zaken niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Een dag; de gevolgen van de actiedag zijn nog onbekend, dus 0.",
+        "nieuwheid": "Verwachte stap na het protestverbod van 22-10 en de inzet van 70.000 agenten, dus 2."
+      },
+      "hardheid_citaat": "Bijna 1000 arrestaties (parafrase NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: bijna 1000 arrestaties volgens NOS (24-10, 14:48); Franse binnenlandse zaken niet gecontroleerd, dus 4. Geen Nederlandse haak, dus 0. Een dag; de gevolgen van de actiedag zijn nog onbekend, dus 0. Verwachte stap na het protestverbod van 22-10 en de inzet van 70.000 agenten, dus 2.",
+      "bron": {
+        "naam": "NOS 24-10 14:48 (Franse autoriteiten: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636465-bijna-1000-arrestaties-bij-demonstraties-in-frankrijk-hier-en-daar-rellen"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Kim Jong-un brengt een flitsbezoek aan China",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Een bezoek dat heeft plaatsgevonden (NOS 24-10, 17:22); bezoeken tellen niet als besluit, hardheid naar de gebeurtenis: 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Verwachte stap in een bekende band, dus 2."
+      },
+      "hardheid_citaat": "flitsbezoek aan China (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een bezoek dat heeft plaatsgevonden (NOS 24-10, 17:22); bezoeken tellen niet als besluit, hardheid naar de gebeurtenis: 4. Geen Nederlandse haak, dus 0. Dagen, dus 0. Verwachte stap in een bekende band, dus 2.",
+      "bron": {
+        "naam": "NOS 24-10 17:22",
+        "url": "https://nos.nl/artikel/2636485-kim-jong-un-brengt-flitsbezoek-aan-china-om-oorlogssamenwerking-te-vieren"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Rellen in Tirana en militairen ingezet in Milaan bij demonstraties in Europese steden",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd volgens NOS (24-10, 20:49); lokale autoriteiten niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Rellen in Tirana, militairen ingezet in Milaan (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd volgens NOS (24-10, 20:49); lokale autoriteiten niet gecontroleerd, dus 4. Geen Nederlandse haak, dus 0. Dagen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 24-10 20:49 (niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636510-demonstraties-in-europese-steden-rellen-in-tirana-militairen-ingezet-in-milaan"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Duizenden Turken demonstreren voor persvrijheid",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Een demonstratie die heeft plaatsgevonden (NOS 24-10, 21:00), dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Bekende kwestie, verwachte stap, dus 2."
+      },
+      "hardheid_citaat": "Duizenden Turken de straat op voor persvrijheid (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een demonstratie die heeft plaatsgevonden (NOS 24-10, 21:00), dus 4. Geen Nederlandse haak, dus 0. Dagen, dus 0. Bekende kwestie, verwachte stap, dus 2.",
+      "bron": {
+        "naam": "NOS 24-10 21:00",
+        "url": "https://nos.nl/artikel/2636513-vrije-pers-kun-je-niet-censureren-duizenden-turken-de-straat-op-voor-persvrijheid"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Een tweede patiënt overlijdt in Kenia aan ebola",
+      "label": "Veiligheid & gezondheid",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Gebeurd: een vrouw van 65 is overleden aan ebola (BBC 24-10, 09:46); Keniaanse gezondheidsautoriteit niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse maatregel of reisadvies gevonden (RIVM niet gecontroleerd), dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Vervolg op de uitbraak in Nigeria en Uganda van 23-10, verwachte stap, dus 2."
+      },
+      "hardheid_citaat": "Woman, 65, becomes second patient to die of Ebola in Kenya (BBC)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: een vrouw van 65 is overleden aan ebola (BBC 24-10, 09:46); Keniaanse gezondheidsautoriteit niet gecontroleerd, dus 4. Geen Nederlandse maatregel of reisadvies gevonden (RIVM niet gecontroleerd), dus 0. Dagen, dus 0. Vervolg op de uitbraak in Nigeria en Uganda van 23-10, verwachte stap, dus 2.",
+      "bron": {
+        "naam": "BBC 24-10 09:46 (Kenia, WHO, RIVM: niet gecontroleerd)",
+        "url": "https://www.bbc.com/news/world"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "wetenschap en zorg",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "Amerikaanse regering heft de tarieven op een deel van de Canadese goederen op",
+      "label": "Geld",
+      "type": "besluit",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: het Witte Huis heeft tarieven opgeheven (BBC 24-10, 00:36); Federal Register niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse prijs of tarief veranderd, dus 0.",
+        "houdbaarheid": "Dagen tot de tussentijdse verkiezingen; vervolg onbekend, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "White House lifts tariffs on some Canadian goods (parafrase BBC)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: het Witte Huis heeft tarieven opgeheven (BBC 24-10, 00:36); Federal Register niet gecontroleerd, dus 4. Geen Nederlandse prijs of tarief veranderd, dus 0. Dagen tot de tussentijdse verkiezingen; vervolg onbekend, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "BBC 24-10 00:36 (Witte Huis, Federal Register: niet gecontroleerd)",
+        "url": "https://www.bbc.com/news/world"
+      },
+      "datum_item": "2026-10-24",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": null
+    },
+    {
+      "kop": "31 verdachten vrijuit in Belgisch drugsproces omdat het proces te lang duurde",
+      "label": "Wet & recht",
+      "type": "besluit",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 5,
+      "motivering": {
+        "hardheid": "Vonnis in eerste aanleg van een Belgische rechtbank (NOS 23-10, 12:45), dus 2.",
+        "reikwijdte": "Geen Nederlandse betrokkenen gevonden, dus 0.",
+        "houdbaarheid": "Een zaak, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "31 verdachten vrijuit (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Vonnis in eerste aanleg van een Belgische rechtbank (NOS 23-10, 12:45), dus 2. Geen Nederlandse betrokkenen gevonden, dus 0. Een zaak, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 12:45 (Belgische rechtbank: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636314-31-verdachten-vrijuit-in-belgisch-drugsproces-omdat-proces-te-lang-duurde"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "rechter",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Oostenrijk zet vier Russen uit wegens spionage",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: uitgezet volgens NOS (23-10, 12:25), dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Oostenrijk zet vier Russen uit (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: uitgezet volgens NOS (23-10, 12:25), dus 4. Geen Nederlandse haak, dus 0. Dagen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 12:25",
+        "url": "https://nos.nl/artikel/2636312-oostenrijk-zet-vier-russen-uit-wegens-spionage"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Explosie en brand op Canadese legerbasis ontstond door een oefening met granaatwerpers",
+      "label": "Wereld",
+      "type": "feit",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Gebeurd: oorzaak vastgesteld volgens NOS (23-10, 07:00), dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Verklaring van een bekend incident, dus 2."
+      },
+      "hardheid_citaat": "ontstond door oefening met granaatwerpers (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd: oorzaak vastgesteld volgens NOS (23-10, 07:00), dus 4. Geen Nederlandse haak, dus 0. Dagen, dus 0. Verklaring van een bekend incident, dus 2.",
+      "bron": {
+        "naam": "NOS 23-10 07:00",
+        "url": "https://nos.nl/artikel/2636288-explosie-en-brand-op-legerbasis-canada-ontstond-door-oefening-met-granaatwerpers"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Gebouw in aanbouw van meer dan tien verdiepingen stort in in het centrum van Nairobi",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd volgens NOS (23-10, 18:19); Keniaanse autoriteiten niet gecontroleerd, dus 4.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Gebouw in aanbouw ingestort (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd volgens NOS (23-10, 18:19); Keniaanse autoriteiten niet gecontroleerd, dus 4. Geen Nederlandse haak, dus 0. Dagen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 18:19",
+        "url": "https://nos.nl/artikel/2636363-gebouw-in-aanbouw-van-meer-dan-tien-verdiepingen-ingestort-in-centrum-nairobi"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Nepal krijgt als eerste land miljoenen uit het klimaatschadefonds na een bergramp",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Besluit van het fonds vastgesteld volgens NOS (23-10, 16:01); uitbetaling nog niet gezien, dus 3.",
+        "reikwijdte": "Geen Nederlandse haak gevonden, dus 0.",
+        "houdbaarheid": "De uitbetalingen lopen weken tot maanden; bij twijfel de lagere stand: 1.",
+        "nieuwheid": "Eerste uitbetaling, nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Nepal krijgt als eerste land miljoenen (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Besluit van het fonds vastgesteld volgens NOS (23-10, 16:01); uitbetaling nog niet gezien, dus 3. Geen Nederlandse haak gevonden, dus 0. De uitbetalingen lopen weken tot maanden; bij twijfel de lagere stand: 1. Eerste uitbetaling, nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 16:01 (VN-fonds: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636341-nepal-krijgt-als-eerste-land-miljoenen-uit-klimaatschadefonds-na-bergramp"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Bestand in de Oekraïense stad Olesjky, geregeld door Melania Trump",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 5,
+      "motivering": {
+        "hardheid": "Een afspraak tussen partijen die elk moment opgezegd kan worden (NOS 23-10, 17:04), dus 2.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Een stad, dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Bestand in Olesjky (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een afspraak tussen partijen die elk moment opgezegd kan worden (NOS 23-10, 17:04), dus 2. Geen Nederlandse haak, dus 0. Een stad, dagen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 17:04",
+        "url": "https://nos.nl/artikel/2636351-bestand-in-oekraiense-stad-olesjky-geregeld-door-melania-trump"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Frankrijk zet zaterdag 70.000 agenten in bij aangekondigde protesten",
+      "label": "Wereld",
+      "type": "voornemen",
+      "score": {
+        "hardheid": 1,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 2
+      },
+      "totaal": 3,
+      "motivering": {
+        "hardheid": "Een aankondiging van een inzet (NOS 23-10, 16:23), dus 1.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Een dag, dus 0.",
+        "nieuwheid": "Verwachte stap na het protestverbod, dus 2."
+      },
+      "hardheid_citaat": "Frankrijk zet morgen 70.000 agenten in (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een aankondiging van een inzet (NOS 23-10, 16:23), dus 1. Geen Nederlandse haak, dus 0. Een dag, dus 0. Verwachte stap na het protestverbod, dus 2.",
+      "bron": {
+        "naam": "NOS 23-10 16:23",
+        "url": "https://nos.nl/artikel/2636345-frankrijk-zet-morgen-70-000-agenten-in-bij-aangekondigde-nieuwe-protesten"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Het aantal studenten aan de Friese lerarenopleiding is dit jaar verdubbeld",
+      "label": "Veiligheid & gezondheid",
+      "type": "meting",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 0
+      },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Een gemeten aantal (NOS 23-10, 20:29), dus 4.",
+        "reikwijdte": "Eén opleiding, dus 0.",
+        "houdbaarheid": "Dagen als nieuws, dus 0.",
+        "nieuwheid": "Meting zonder keerpunt, dus 0."
+      },
+      "hardheid_citaat": "Aantal studenten verdubbeld (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een gemeten aantal (NOS 23-10, 20:29), dus 4. Eén opleiding, dus 0. Dagen als nieuws, dus 0. Meting zonder keerpunt, dus 0.",
+      "bron": {
+        "naam": "NOS 23-10 20:29",
+        "url": "https://nos.nl/artikel/2636383-aantal-studenten-aan-lerarenopleiding-fries-is-dit-jaar-verdubbeld"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Prik bij behandeling verkleint risico op terugkeer van huidkanker in onderzoek",
+      "label": "Veiligheid & gezondheid",
+      "type": "reactie",
+      "score": {
+        "hardheid": 0,
+        "reikwijdte": 1,
+        "houdbaarheid": 1,
+        "nieuwheid": 2
+      },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Onderzoeksresultaat, geen besluit over toelating (NOS 23-10, 07:01), dus 0.",
+        "reikwijdte": "Patiëntengroep onder 100.000, dus 1.",
+        "houdbaarheid": "Effect pas na toelating; bij twijfel de lagere stand: 1.",
+        "nieuwheid": "Nieuw onderzoek, verwachte stap in een bekend traject, dus 2."
+      },
+      "hardheid_citaat": "Veelbelovende prik verkleint risico (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Onderzoeksresultaat, geen besluit over toelating (NOS 23-10, 07:01), dus 0. Patiëntengroep onder 100.000, dus 1. Effect pas na toelating; bij twijfel de lagere stand: 1. Nieuw onderzoek, verwachte stap in een bekend traject, dus 2.",
+      "bron": {
+        "naam": "NOS 23-10 07:01 (EMA, CBG: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636289-veelbelovende-prik-bij-behandeling-verkleint-risico-op-terugkeer-huidkanker"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": false,
+      "haak": null,
+      "domein": "wetenschap en zorg",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Uitleg: zijn slimme apparaten na het PHP-lek nog veilig te gebruiken",
+      "label": "Veiligheid & gezondheid",
+      "type": "reactie",
+      "score": {
+        "hardheid": 0,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 1
+      },
+      "totaal": 1,
+      "motivering": {
+        "hardheid": "Een uitleg, geen feit of besluit (NOS 23-10, 18:45), dus 0.",
+        "reikwijdte": "Geen directe betrokkenen aan te wijzen, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuwe verpakking van het PHP-nieuws van 21-10, dus 1."
+      },
+      "hardheid_citaat": "Zijn door het PHP-lek slimme apparaten nog wel veilig (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Een uitleg, geen feit of besluit (NOS 23-10, 18:45), dus 0. Geen directe betrokkenen aan te wijzen, dus 0. Dagen, dus 0. Nieuwe verpakking van het PHP-nieuws van 21-10, dus 1.",
+      "bron": {
+        "naam": "NOS 23-10 18:45",
+        "url": "https://nos.nl/artikel/2636368-zijn-door-het-php-lek-slimme-apparaten-nog-wel-veilig-te-gebruiken"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": false,
+      "haak": null,
+      "domein": "techniek",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Duizenden huishoudens in Frankrijk en Engeland zonder stroom door storm Austen",
+      "label": "Wereld",
+      "type": "gebeurtenis",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 3
+      },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd volgens NOS (23-10, 12:38), dus 4.",
+        "reikwijdte": "Geen Nederlandse getroffenen gevonden, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Duizenden huishoudens zonder stroom (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd volgens NOS (23-10, 12:38), dus 4. Geen Nederlandse getroffenen gevonden, dus 0. Dagen, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 23-10 12:38",
+        "url": "https://nos.nl/artikel/2636313-duizenden-huishoudens-in-frankrijk-en-engeland-zonder-stroom-door-storm-austen"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "natuur en weer",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Artsen melden doelbewuste aanvallen van RSF op ziekenhuizen in de Soedanese stad Al-Fasher",
+      "label": "Wereld",
+      "type": "reactie",
+      "score": {
+        "hardheid": 0,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 1
+      },
+      "totaal": 1,
+      "motivering": {
+        "hardheid": "Bewering van artsen tegenover de BBC en NOS (23-10, 11:25; BBC 11:30), geen vastgestelde feiten, dus 0.",
+        "reikwijdte": "Geen Nederlandse haak, dus 0.",
+        "houdbaarheid": "Dagen als nieuws, dus 0.",
+        "nieuwheid": "Bekende oorlog, nieuwe framing, dus 1."
+      },
+      "hardheid_citaat": "Doelbewuste aanvallen RSF op ziekenhuizen (NOS)",
+      "uitkomst": "doorgestreept",
+      "reden": "Bewering van artsen tegenover de BBC en NOS (23-10, 11:25; BBC 11:30), geen vastgestelde feiten, dus 0. Geen Nederlandse haak, dus 0. Dagen als nieuws, dus 0. Bekende oorlog, nieuwe framing, dus 1.",
+      "bron": {
+        "naam": "NOS 23-10 11:25; BBC 23-10 11:30",
+        "url": "https://nos.nl/artikel/2636305-doelbewuste-aanvallen-rsf-op-ziekenhuizen-in-sudanese-stad-al-fasher"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": true,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Hoge Raad: de wettelijke beroepstermijn van zes weken bij de belastingrechter is niet in strijd met het Unierecht (BPM)",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 0,
+        "houdbaarheid": 1,
+        "nieuwheid": 2
+      },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Arrest van de Hoge Raad (23-10), ECLI:NL:HR:2026:1732: termijn 'niet in strijd met het Unierecht', dus 3.",
+        "reikwijdte": "Eén procedure, dus 0.",
+        "houdbaarheid": "Precedent voor beroepstermijnen; bij twijfel de lagere stand: 1.",
+        "nieuwheid": "Verwachte stap na de BPM-arresten van dezelfde dag, dus 2."
+      },
+      "hardheid_citaat": "de wettelijk voorgeschreven termijn van zes weken ... is niet in strijd met het Unierecht",
+      "uitkomst": "doorgestreept",
+      "reden": "Arrest van de Hoge Raad (23-10), ECLI:NL:HR:2026:1732: termijn 'niet in strijd met het Unierecht', dus 3. Eén procedure, dus 0. Precedent voor beroepstermijnen; bij twijfel de lagere stand: 1. Verwachte stap na de BPM-arresten van dezelfde dag, dus 2.",
+      "bron": {
+        "naam": "Hoge Raad, ECLI:NL:HR:2026:1732",
+        "url": "https://data.rechtspraak.nl/uitspraken/zoeken?modified=2026-10-24T00:00:00&creator=http://standaarden.overheid.nl/owms/terms/Hoge_Raad_der_Nederlanden"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": false,
+      "haak": null,
+      "domein": "rechter",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Hoge Raad wijst vijf arresten in belastingzaken over watersysteemheffing, invordering en niet-ontvankelijk cassatieberoep",
+      "label": "Wet & recht",
+      "type": "definitief besluit",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 1
+      },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Arresten van de Hoge Raad (23-10), ECLI:NL:HR:2026:1727, 1729, 1737, 1744 en 1746, dus 3.",
+        "reikwijdte": "Individuele zaken, dus 0.",
+        "houdbaarheid": "Dagen als nieuws, dus 0.",
+        "nieuwheid": "Zaken zonder nieuwe lijn; alleen de samenvatting gelezen, dus 1."
+      },
+      "hardheid_citaat": "81.1 RO (samenvatting)",
+      "uitkomst": "doorgestreept",
+      "reden": "Arresten van de Hoge Raad (23-10), ECLI:NL:HR:2026:1727, 1729, 1737, 1744 en 1746, dus 3. Individuele zaken, dus 0. Dagen als nieuws, dus 0. Zaken zonder nieuwe lijn; alleen de samenvatting gelezen, dus 1.",
+      "bron": {
+        "naam": "Hoge Raad, ECLI:NL:HR:2026:1727, 1729, 1737, 1744, 1746",
+        "url": "https://data.rechtspraak.nl/uitspraken/zoeken?modified=2026-10-24T00:00:00&creator=http://standaarden.overheid.nl/owms/terms/Hoge_Raad_der_Nederlanden"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": false,
+      "haak": null,
+      "domein": "rechter",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    },
+    {
+      "kop": "Raad van State doet vijf uitspraken van de voorzieningenrechter (BRS) in individuele zaken",
+      "label": "Wet & recht",
+      "type": "besluit",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 0,
+        "houdbaarheid": 0,
+        "nieuwheid": 1
+      },
+      "totaal": 3,
+      "motivering": {
+        "hardheid": "Voorlopige oordelen van de voorzieningenrechter (23-10), ECLI:NL:RVS:2026:6195, 6233, 6237, 6249, 6257; inhoud niet gelezen, dus 2.",
+        "reikwijdte": "Individuele zaken, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Zonder inhoud geen nieuwheid aan te wijzen, dus 1."
+      },
+      "hardheid_citaat": "Geen inhoudsindicatie beschikbaar",
+      "uitkomst": "doorgestreept",
+      "reden": "Voorlopige oordelen van de voorzieningenrechter (23-10), ECLI:NL:RVS:2026:6195, 6233, 6237, 6249, 6257; inhoud niet gelezen, dus 2. Individuele zaken, dus 0. Dagen, dus 0. Zonder inhoud geen nieuwheid aan te wijzen, dus 1.",
+      "bron": {
+        "naam": "Raad van State, ECLI:NL:RVS:2026:6195 e.a.",
+        "url": "https://data.rechtspraak.nl/uitspraken/zoeken?modified=2026-10-24T00:00:00&creator=http://standaarden.overheid.nl/owms/terms/Raad_van_State"
+      },
+      "datum_item": "2026-10-23",
+      "sweep": "terugblik",
+      "buitenland": false,
+      "haak": null,
+      "domein": "rechter",
+      "terugblik": "sweep 24-10 voor bulletin 25-10, terugblik op 23-10"
+    }
+  ]
+}

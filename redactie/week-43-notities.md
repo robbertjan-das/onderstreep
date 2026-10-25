@@ -26,3 +26,4 @@ Leerpunten voor de kalibratie van 25-10:
 - CBS publiceert ook buiten de publicatieplanning (huizenprijzen met het Kadaster): de officiële sweep miste het.
 - Buitenland zonder haak krijgt geen hardheid 0 (hardheid volgt de gebeurtenis, reikwijdte 0).
 - Ministerraad 23-10: besluitenlijst niet gecontroleerd (niet gevonden).
+- De zoekdienst van Staatsblad en Staatscourant gaf op 25 oktober nul resultaten, ook voor eerdere data; uitzoeken op dinsdag.
