@@ -1,0 +1,329 @@
+{
+  "datum": "2026-10-28",
+  "over": "2026-10-27",
+  "weekdag": "dinsdag",
+  "sweep_tot": "2026-10-27T22:00",
+  "sweep_gedaan": "2026-10-29",
+  "beoordeeld": 12,
+  "geplaatst": 0,
+  "net_niet": 3,
+  "doorgestreept": 9,
+  "terugblik_beoordeeld": 0,
+  "items": [
+    {
+      "kop": "NHG rekent vanaf 1 januari 2027 verwachte funderingsherstelkosten mee, waardoor je minder kunt lenen",
+      "label": "Geld",
+      "type": "besluit",
+      "score": { "hardheid": 3, "reikwijdte": 2, "houdbaarheid": 2, "nieuwheid": 3 },
+      "totaal": 10,
+      "motivering": {
+        "hardheid": "Vastgestelde regel met een vaste ingangsdatum 1 januari 2027, moet nog ingaan, dus 3.",
+        "reikwijdte": "Kopers van woningen met funderingsrisico met een NHG-hypotheek; de AFM telt ongeveer 120.000 huiseigenaren met herstelbehoefte en 425.000 panden met schade op termijn, dus een grote groep, 2.",
+        "houdbaarheid": "Een structurele wijziging van de leennorm; de gevolgen werken jaren door, maar bij twijfel tussen 2 en 3 de lagere, dus 2.",
+        "nieuwheid": "Nieuwe, vastgelegde norm, dus 3."
+      },
+      "hardheid_citaat": "Door deze kosten vooraf mee te wegen, zorgen we voor meer duidelijkheid en een verantwoorde financiering",
+      "uitkomst": "net niet",
+      "reden": "Vastgestelde regel per 1 januari 2027 (NHG via NOS 27-10, 13:53), dus 3. Grote groep woningkopers met funderingsrisico, dus 2. Structurele leennorm, bij twijfel lager, dus 2. Nieuwe norm, dus 3.",
+      "bron": {
+        "naam": "NOS 27-10 13:53 (NHG, Stichting Waarborgfonds Eigen Woningen: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636879-funderingsproblemen-dan-krijg-je-mogelijk-een-minder-hoge-hypotheek"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": "Grensgeval 10 of 11. Als vastgestelde norm met vaste ingangsdatum is dit vergelijkbaar met de NS-tarieven (3-3-2-3 = 11, geplaatst). Hier is de reikwijdte kleiner (alleen NHG-hypotheken en woningen met funderingsrisico), dus 2 in plaats van 3; dat brengt het op 10. Houdbaarheid 3 (structureel) in plaats van 2 zou het op 11 brengen en daarmee geplaatst. Per de regel 'bij twijfel de lagere stand' nu 10. Voor Robbert-Jan: wil je dit, als bindende landelijke leennorm, op 11 zetten (geplaatst)?"
+    },
+    {
+      "kop": "ACM weigert de overname van Unox door Zwanenberg uit vrees voor een worstenmonopolie",
+      "label": "Geld",
+      "type": "besluit",
+      "score": { "hardheid": 3, "reikwijdte": 2, "houdbaarheid": 2, "nieuwheid": 3 },
+      "totaal": 10,
+      "motivering": {
+        "hardheid": "De ACM weigert de vergunning; een vastgesteld besluit, maar Zwanenberg overweegt beroep, dus 3.",
+        "reikwijdte": "Consumenten van rook- en knakworsten en houdbare soepen in de supermarkt, een grote groep indirect, dus 2.",
+        "houdbaarheid": "Houdt de marktverhouding jaren in stand, maar bij twijfel de lagere, dus 2.",
+        "nieuwheid": "Nieuw besluit na vervolgonderzoek, dus 3."
+      },
+      "hardheid_citaat": "Dat is onwenselijk, zeker in een tijd waar er al zorgen bestaan over hogere prijzen voor levensmiddelen",
+      "uitkomst": "net niet",
+      "reden": "De ACM weigert de vergunning (NOS 27-10, 09:49), beroep mogelijk, dus 3. Consumenten van worst en soep in de supermarkt, dus 2. Jaren, bij twijfel lager, dus 2. Nieuw besluit, dus 3.",
+      "bron": {
+        "naam": "NOS 27-10 09:49 (ACM-besluit, Martijn Snoep: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636852-toezichthouder-weigert-overname-unox-door-zwanenberg-vrees-voor-worstenmonopolie"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "toezichthouder",
+      "terugblik": false,
+      "grens": "Vergelijkbaar met ACM Videoland/Viaplay (21-10, 3-2-2-3 = 10, net niet). Zelfde score."
+    },
+    {
+      "kop": "Vogelgriep bij een pluimveebedrijf in Lutjegast, 45.000 dieren geruimd, vervoersverbod in een straal van tien kilometer",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 9,
+      "motivering": {
+        "hardheid": "Al ingegaan: de dieren worden geruimd en het vervoersverbod geldt per direct, dus 4.",
+        "reikwijdte": "Eén bedrijf plus 21 andere bedrijven in de zone van tien kilometer in Groningen en Friesland, dus 1.",
+        "houdbaarheid": "Weken, zolang het vervoersverbod geldt, dus 1.",
+        "nieuwheid": "Eerste vogelgriepgeval sinds juli, dus 3."
+      },
+      "hardheid_citaat": "geldt per direct een vervoersverbod in een straal van tien kilometer rond het getroffen bedrijf",
+      "uitkomst": "net niet",
+      "reden": "Geruimd en vervoersverbod per direct (NOS 27-10, 09:11), dus 4. Eén bedrijf plus 21 in de zone, dus 1. Weken, dus 1. Eerste geval sinds juli, dus 3. Het ministerie zag nog geen reden voor een ophokplicht; die komt wel op woensdag 28-10 (zie sweep 29-10).",
+      "bron": {
+        "naam": "NOS 27-10 09:11 (ministerie van Landbouw: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636843-vogelgriep-bij-gronings-pluimveebedrijf-45-000-dieren-geruimd"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "natuur en weer",
+      "terugblik": false,
+      "grens": "Domein bij twijfel 'natuur en weer' (dierziekte, landbouw); de maatregel komt van het ministerie (overheid). Startpunt van het vogelgriepdossier dat op 28-10 landelijk wordt."
+    },
+    {
+      "kop": "NPO stuurt in 2027 geen Nederlandse inzending naar het Eurovisie Songfestival",
+      "label": "Bestuur",
+      "type": "besluit",
+      "score": { "hardheid": 3, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Een besluit van de NPO voor de editie van 2027, maar nadrukkelijk tijdelijk ('pas op de plaats'), dus 3.",
+        "reikwijdte": "Kijkers en artiesten, geen direct gevolg voor het dagelijks leven, dus 1.",
+        "houdbaarheid": "Eén editie, dus 1.",
+        "nieuwheid": "Terugdraaien van het eerdere plan om terug te keren, dus 3."
+      },
+      "hardheid_citaat": "Door de gevoeligheden rond de thema's die nu spelen, hebben we besloten om op dit moment een pas op de plaats te maken",
+      "uitkomst": "doorgestreept",
+      "reden": "Besluit van de NPO voor 2027, tijdelijk (NOS 27-10, 10:04), dus 3. Kijkers en artiesten, dus 1. Eén editie, dus 1. Terugdraaien van een eerder plan, dus 3.",
+      "bron": {
+        "naam": "NOS 27-10 10:04 (NPO, Jet de Ranitz: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636855-npo-zet-alsnog-streep-door-nederlandse-deelname-eurovisie-songfestival"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false
+    },
+    {
+      "kop": "Scheepsbouwer Damen schrapt ongeveer 225 banen in Nederland",
+      "label": "Geld",
+      "type": "voornemen",
+      "score": { "hardheid": 2, "reikwijdte": 1, "houdbaarheid": 2, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Aangekondigde reorganisatie die wordt uitgevoerd over 12 tot 18 maanden; gedwongen ontslagen niet uitgesloten maar nog niet zeker, dus 2.",
+        "reikwijdte": "Ongeveer 225 van de 4.000 Nederlandse banen, een kleine groep, dus 1.",
+        "houdbaarheid": "Maanden tot meer dan een jaar, dus 2.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Damen wil de organisatie eenvoudiger en efficienter maken",
+      "uitkomst": "doorgestreept",
+      "reden": "Aangekondigde reorganisatie over 12 tot 18 maanden (NOS 27-10, 18:36), dus 2. 225 van 4.000 banen, dus 1. Maanden tot een jaar, dus 2. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 27-10 18:36 (Damen, via ANP: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636923-reorganisatie-bij-scheepsbouwer-damen-225-banen-geschrapt-in-nederland"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "werk",
+      "terugblik": false
+    },
+    {
+      "kop": "Parlementsverkiezingen in Israel: hoogste opkomst in decennia, geen duidelijke winnaar",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "De verkiezingen zijn gehouden, dus 4.",
+        "reikwijdte": "Geen direct gevolg voor mensen in Nederland, dus 0.",
+        "houdbaarheid": "De formatie werkt weken tot maanden door, maar niet in Nederland, dus 1.",
+        "nieuwheid": "Nieuwe uitkomst, dus 3."
+      },
+      "hardheid_citaat": "Hoogste opkomst in decennia bij verkiezingen in Israel",
+      "uitkomst": "doorgestreept",
+      "reden": "Verkiezingen gehouden (NOS 27-10, 15:31 en 21:08), dus 4. Geen Nederlandse haak, dus reikwijdte 0. Buitenland zonder haak: scoort op het Nederlandse gevolg (nul).",
+      "bron": {
+        "naam": "NOS 27-10 21:08 (Israelische kiescommissie: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636941-geen-duidelijke-winnaar-in-israel-arabische-partijen-groter-dan-ooit"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Microsoft biedt 60.000 werknemers een vertrekregeling aan",
+      "label": "Geld",
+      "type": "feit",
+      "score": { "hardheid": 3, "reikwijdte": 0, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Een aangeboden regeling door het bedrijf, dus 3.",
+        "reikwijdte": "Geen benoembaar Nederlands gevolg; hoeveel Nederlandse werknemers het raakt is niet vermeld, dus 0.",
+        "houdbaarheid": "Maanden, dus 1.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Microsoft biedt 60.000 werknemers vertrekregeling aan",
+      "uitkomst": "doorgestreept",
+      "reden": "Aangeboden vertrekregeling (NOS 27-10, 04:10), dus 3. Geen benoembaar Nederlands gevolg, dus 0. Maanden, dus 1. Nieuw feit, dus 3. Buitenland zonder haak.",
+      "bron": {
+        "naam": "NOS 27-10 04:10 (Microsoft: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636818-microsoft-biedt-60-000-werknemers-vertrekregeling-aan"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "bedrijf",
+      "terugblik": false
+    },
+    {
+      "kop": "Minimumbelasting levert de schatkist in een jaar tijd bijna een half miljard euro op",
+      "label": "Geld",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 1 },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Een opbrengstcijfer, geen nieuw besluit, dus 1.",
+        "reikwijdte": "De schatkist en grote bedrijven, dus 1.",
+        "houdbaarheid": "Een jaarcijfer, dus 1.",
+        "nieuwheid": "Bekend beleid, nieuw cijfer zonder keerpunt, dus 1."
+      },
+      "hardheid_citaat": "Minimumbelasting levert schatkist in een jaar tijd bijna een half miljard op",
+      "uitkomst": "doorgestreept",
+      "reden": "Een opbrengstcijfer van bekend beleid (NOS 27-10, 16:32), geen keerpunt. Meting.",
+      "bron": {
+        "naam": "NOS 27-10 16:32 (Belastingdienst, Financien: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636903-minimumbelasting-levert-schatkist-in-een-jaar-tijd-bijna-een-half-miljard-op"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "OM eist hoge straffen tegen medewerkers van een illegale medicijnensite",
+      "label": "Wet & recht",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 3 },
+      "totaal": 4,
+      "motivering": {
+        "hardheid": "Een eis van het OM, nog geen vonnis, dus 1.",
+        "reikwijdte": "De verdachten, dus 0.",
+        "houdbaarheid": "Tot het vonnis, dus 0.",
+        "nieuwheid": "Nieuw feit in de zaak, dus 3."
+      },
+      "hardheid_citaat": "OM eist hoge straffen tegen medewerkers illegale medicijnensite",
+      "uitkomst": "doorgestreept",
+      "reden": "Een strafeis, geen vonnis (NOS 27-10, 18:54), dus 1. Individuele zaak zonder precedent, dus reikwijdte 0.",
+      "bron": {
+        "naam": "NOS 27-10 18:54 (OM: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636928-om-eist-hoge-straffen-tegen-medewerkers-illegale-medicijnensite"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "rechter",
+      "terugblik": false
+    },
+    {
+      "kop": "Vrijspraak in de zaak rond de dodelijke explosie in flatgebouw Schammenkamp in Rotterdam",
+      "label": "Wet & recht",
+      "type": "besluit",
+      "score": { "hardheid": 2, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 3 },
+      "totaal": 5,
+      "motivering": {
+        "hardheid": "Een vonnis in eerste aanleg, dus 2.",
+        "reikwijdte": "Een individuele zaak zonder precedentwerking, dus 0.",
+        "houdbaarheid": "Hoger beroep mogelijk, dus 0.",
+        "nieuwheid": "Nieuwe uitkomst in de zaak, dus 3."
+      },
+      "hardheid_citaat": "Vrijspraak in zaak rond dodelijke explosie flatgebouw Schammenkamp Rotterdam",
+      "uitkomst": "doorgestreept",
+      "reden": "Vonnis in eerste aanleg (NOS 27-10, 13:44), dus 2. Individuele zaak zonder precedent, dus reikwijdte 0.",
+      "bron": {
+        "naam": "NOS 27-10 13:44 (Rechtbank Rotterdam: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636878-vrijspraak-in-zaak-rond-dodelijke-explosie-flatgebouw-schammenkamp-rotterdam"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "rechter",
+      "terugblik": false
+    },
+    {
+      "kop": "Europese Commissie wil dat EU-landen zich voorbereiden op 3 graden opwarming",
+      "label": "Wereld",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 2, "nieuwheid": 2 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Een oproep en voornemen van de Commissie, geen vastgesteld besluit, dus 1.",
+        "reikwijdte": "EU-landen, ook Nederland, een grote groep, dus 2.",
+        "houdbaarheid": "Een langetermijnvoornemen, maar nog niet bindend, dus 2.",
+        "nieuwheid": "Verwachte stap in het klimaatbeleid, dus 2."
+      },
+      "hardheid_citaat": "Europese Commissie wil dat EU-landen zich voorbereiden op 3 graden opwarming",
+      "uitkomst": "doorgestreept",
+      "reden": "Oproep en voornemen van de Commissie (NOS 27-10, 15:09), dus 1. EU-landen, dus 2. Langetermijn, dus 2. Verwachte stap, dus 2. EU geldt niet als buitenland, maar zonder bindend besluit onder de drempel.",
+      "bron": {
+        "naam": "NOS 27-10 15:09 (Europese Commissie: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636893-europese-commissie-wil-dat-eu-landen-zich-voorbereiden-op-3-graden-opwarming"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Pro en CDA willen gevaarlijk rijgedrag zwaarder beboeten en kleine overtredingen lichter",
+      "label": "Wet & recht",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Een voorstel van twee partijen, geen besluit, dus 1.",
+        "reikwijdte": "Automobilisten in heel Nederland, dus 2.",
+        "houdbaarheid": "Hangt af van het vervolg, dus 1.",
+        "nieuwheid": "Verwachte stap in een bekend debat, dus 2."
+      },
+      "hardheid_citaat": "Pro en CDA: gevaarlijk rijgedrag zwaarder beboeten, kleine overtredingen lichter",
+      "uitkomst": "doorgestreept",
+      "reden": "Een partijvoorstel, geen besluit (NOS 27-10, 09:10), dus 1. Automobilisten, dus 2. Voornemen, dus onder de drempel.",
+      "bron": {
+        "naam": "NOS 27-10 09:10 (Tweede Kamer, moties: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636842-pro-en-cda-gevaarlijk-rijgedrag-zwaarder-beboeten-kleine-overtredingen-lichter"
+      },
+      "datum_item": "2026-10-27",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    }
+  ]
+}
