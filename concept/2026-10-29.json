@@ -1,0 +1,302 @@
+{
+  "datum": "2026-10-29",
+  "over": "2026-10-28",
+  "weekdag": "woensdag",
+  "sweep_tot": "2026-10-28T22:00",
+  "sweep_gedaan": "2026-10-29",
+  "beoordeeld": 11,
+  "geplaatst": 1,
+  "net_niet": 0,
+  "doorgestreept": 10,
+  "terugblik_beoordeeld": 0,
+  "items": [
+    {
+      "kop": "Per direct een landelijke ophok- en afschermplicht voor pluimvee na drie vogelgriepuitbraken",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 2, "houdbaarheid": 2, "nieuwheid": 3 },
+      "totaal": 11,
+      "motivering": {
+        "hardheid": "Al ingegaan: de plicht geldt per direct, bekendgemaakt 28 oktober 17:46, dus 4.",
+        "reikwijdte": "Alle commercieel gehouden pluimvee in heel Nederland plus hobbyhouders (afschermplicht), een hele sector, dus 2.",
+        "houdbaarheid": "Geen einddatum, in het migratieseizoen maanden; pluimvee met buitenuitloop verliest na 16 weken ophok de vrije-uitloopstatus, dus 2.",
+        "nieuwheid": "Eerste landelijke ophokplicht sinds de vorige in juni werd opgeheven, dus 3."
+      },
+      "hardheid_citaat": "Deze maatregelen moeten de kans op nieuwe besmettingen verkleinen",
+      "uitkomst": "geplaatst",
+      "reden": "Per direct ingegaan (rijksoverheid.nl 28-10, 17:46), dus 4. Hele pluimveesector plus hobbyhouders, dus 2. Geen einddatum, maanden in het migratieseizoen, dus 2. Eerste landelijke sinds juni, dus 3. Totaal 11.",
+      "bron": {
+        "naam": "Rijksoverheid, nieuwsbericht 28 oktober 2026, staatssecretaris Erkens (LVVN)",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/28/landelijke-ophok-en-afschermplicht-ingesteld-na-vogelgriepuitbraken"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "beide",
+      "buitenland": false,
+      "haak": null,
+      "domein": "natuur en weer",
+      "terugblik": false,
+      "grens": "Domein bij twijfel 'natuur en weer' (dierziekte); de maatregel is een besluit van de overheid. Begon met de ruiming in Lutjegast (27-10, net niet) en volgde op drie uitbraken (Lutjegast 26-10, Middelie 27-10, Grootegast 28-10). Kandidaat voor een dossier 'vogelgriep'."
+    },
+    {
+      "kop": "Nederland geeft Oekraine 500 miljoen euro voor luchtafweer en drones",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": { "hardheid": 2, "reikwijdte": 1, "houdbaarheid": 2, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Aangekondigd door premier Jetten, maar het geld was al gereserveerd: een toewijzing, geen nieuw vastgesteld bedrag, dus 2.",
+        "reikwijdte": "Steun aan het buitenland; geen benoembare groep in Nederland die het direct raakt, dus 1.",
+        "houdbaarheid": "Een wintersteunpakket, maanden, dus 2.",
+        "nieuwheid": "Nieuw feit, een concreet pakket, dus 3."
+      },
+      "hardheid_citaat": "U staat niet alleen: uw strijd is onze strijd",
+      "uitkomst": "doorgestreept",
+      "reden": "Aangekondigd door premier Jetten, geld al gereserveerd (NOS 28-10, 16:48), dus 2. Geen directe Nederlandse groep, dus 1. Maanden, dus 2. Nieuw pakket, dus 3.",
+      "bron": {
+        "naam": "NOS 28-10 16:48 (persconferentie premier Jetten, rijksoverheid.nl: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637052-wintersteunpakket-voor-oekraine-nederland-geeft-500-miljoen-voor-luchtafweer"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": "Een Nederlands besluit met een buitenlandse aanleiding. Groot bedrag, maar de directe reikwijdte in Nederland is klein (steun gaat naar Oekraine). Voor Robbert-Jan: telt een grote uitgave van publiek geld zwaarder in reikwijdte dan hier gescoord?"
+    },
+    {
+      "kop": "In de Tweede Kamer vormt zich een meerderheid voor de infrastructuurbegroting, 18 miljard naar onderhoud",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 3, "houdbaarheid": 2, "nieuwheid": 2 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Nog geen stemming: er vormt zich steun tijdens het begrotingsdebat, dus 1.",
+        "reikwijdte": "Weggebruikers en bewoners in heel Nederland, dus 3.",
+        "houdbaarheid": "Onderhoud van bruggen, wegen en sluizen voor jaren, maar nog niet vastgesteld; bij twijfel lager, dus 2.",
+        "nieuwheid": "Verwachte stap in de begrotingsbehandeling, voortzetting van het infranieuws van 16-10, dus 2."
+      },
+      "hardheid_citaat": "Het onderhoud van verouderde bruggen, wegen, sluizen en andere infrastructuur krijgt van hen voorrang",
+      "uitkomst": "doorgestreept",
+      "reden": "Nog geen stemming, steun vormt zich (NOS 28-10, 17:37), dus 1. Weggebruikers landelijk, dus 3. Jaren maar nog niet vastgesteld, dus 2. Verwachte stap, dus 2. Hardheid onder 2: niet op de net-niet-lijst.",
+      "bron": {
+        "naam": "NOS 28-10 17:37 (Tweede Kamer, begroting Infrastructuur en Waterstaat: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637060-steun-van-tweede-kamer-voor-begroting-wegen-sluizen-en-bruggen"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Twee passagierstreinen botsen in Spanje, zeker 68 doden",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 4 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Gebeurd: twee treinen zijn gebotst, zeker 68 doden (NOS 28-10), dus 4.",
+        "reikwijdte": "Geen benoembaar Nederlands gevolg; geen Nederlandse slachtoffers of reisadvies gevonden, dus 0.",
+        "houdbaarheid": "Voor Nederland geen doorwerkende gevolgen, dus 0.",
+        "nieuwheid": "Nieuw en onverwacht, dus 4."
+      },
+      "hardheid_citaat": "Twee passagierstreinen botsen op elkaar in Spanje, dodental loopt op",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd, zeker 68 doden (NOS 28-10), dus 4. Geen Nederlandse haak, dus reikwijdte 0. Buitenland zonder haak; niet van historische schaal voor Nederland, dus geen plaatsing.",
+      "bron": {
+        "naam": "NOS 28-10 (Spaanse autoriteiten: niet gecontroleerd)",
+        "url": "https://nos.nl/liveblog/2636990-reddingsoperatie-gaat-door-zeker-68-doden-nog-53-mensen-in-ziekenhuis"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false
+    },
+    {
+      "kop": "Tienduizenden noodknoppen voor ouderen worden onbruikbaar door het stoppen van het 2G-netwerk",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 2, "reikwijdte": 1, "houdbaarheid": 2, "nieuwheid": 2 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Het uitzetten van 2G is besloten (Odido in 2023, KPN eind 2027); het bericht is een waarschuwing over het gevolg, dus 2.",
+        "reikwijdte": "Naar schatting 30.000 tot 80.000 mobiele alarmsystemen van ouderen, dus 1.",
+        "houdbaarheid": "Blijvend zodra 2G uit is, dus 2.",
+        "nieuwheid": "Nieuwe framing van een bekend afschakelplan, dus 2."
+      },
+      "hardheid_citaat": "Tienduizenden noodknoppen ouderen straks defect door stoppen 2G-netwerk",
+      "uitkomst": "doorgestreept",
+      "reden": "Het 2G-afschakelen is besloten, dit is een waarschuwing over het gevolg (NOS 28-10, 15:05, onderzoek EenVandaag), dus 2. 30.000 tot 80.000 toestellen, dus 1. Blijvend, dus 2. Nieuwe framing, dus 2.",
+      "bron": {
+        "naam": "NOS 28-10 15:05 (onderzoek EenVandaag/AVROTROS; KPN, ACM: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637029-tienduizenden-noodknoppen-ouderen-straks-defect-door-stoppen-2g-netwerk"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "techniek",
+      "terugblik": false
+    },
+    {
+      "kop": "Rechtbank Amsterdam stelt Booking in het gelijk: personeel moet 40 procent van de tijd naar kantoor",
+      "label": "Wet & recht",
+      "type": "besluit",
+      "score": { "hardheid": 2, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Een uitspraak in eerste aanleg, dus 2.",
+        "reikwijdte": "Ongeveer 6.000 Booking-werknemers, dus 1.",
+        "houdbaarheid": "Met een overgangstermijn van zes maanden, maanden tot jaar, maar bedrijfsspecifiek, dus 1.",
+        "nieuwheid": "Nieuwe uitspraak, dus 3."
+      },
+      "hardheid_citaat": "elkaar ontmoeten op kantoor kan bijdragen aan het bevorderen van onderlinge verbinding",
+      "uitkomst": "doorgestreept",
+      "reden": "Uitspraak in eerste aanleg (NOS 28-10, 13:09), dus 2. Ongeveer 6.000 werknemers, dus 1. Bedrijfsspecifiek, dus 1. Nieuwe uitspraak, dus 3. De rechtbank baseert zich op de situatie bij Booking; beperkte precedentwerking.",
+      "bron": {
+        "naam": "NOS 28-10 13:09 (Rechtbank Amsterdam: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637007-rechter-geeft-booking-gelijk-personeel-moet-verplicht-vaker-naar-kantoor"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "rechter",
+      "terugblik": false
+    },
+    {
+      "kop": "De Amerikaanse centrale bank laat de rente ondanks hoge inflatie onveranderd",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": { "hardheid": 3, "reikwijdte": 0, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Een rentebesluit van de Fed, vastgesteld, dus 3.",
+        "reikwijdte": "Geen direct gevolg voor mensen in Nederland; de ECB gaat over de eurorente, dus 0.",
+        "houdbaarheid": "Tot het volgende besluit, dus 1.",
+        "nieuwheid": "Verwacht besluit, dus 2."
+      },
+      "hardheid_citaat": "Amerikaanse centrale bank laat ondanks hoge inflatie rente onveranderd",
+      "uitkomst": "doorgestreept",
+      "reden": "Rentebesluit van de Fed (NOS 28-10, 21:43), dus 3. Geen Nederlandse haak, dus 0. Buitenland zonder haak.",
+      "bron": {
+        "naam": "NOS 28-10 21:43 (Federal Reserve: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637086-amerikaanse-centrale-bank-laat-ondanks-hoge-inflatie-rente-onveranderd"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "CBS: het aantal woningen dat naar statushouders gaat blijft gelijk",
+      "label": "Bestuur",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 1, "houdbaarheid": 0, "nieuwheid": 0 },
+      "totaal": 2,
+      "motivering": {
+        "hardheid": "Een CBS-cijfer, geen besluit, dus 1.",
+        "reikwijdte": "Woningzoekenden en gemeenten, dus 1.",
+        "houdbaarheid": "Momentopname, dus 0.",
+        "nieuwheid": "Meting zonder keerpunt: 'blijft gelijk', dus 0."
+      },
+      "hardheid_citaat": "CBS: aantal woningen naar statushouders blijft gelijk",
+      "uitkomst": "doorgestreept",
+      "reden": "CBS-cijfer zonder keerpunt (NOS 28-10, 06:34), nieuwheid 0; komt niet op de net-niet-lijst.",
+      "bron": {
+        "naam": "NOS 28-10 06:34 (CBS: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636959-cbs-aantal-woningen-naar-statushouders-blijft-gelijk"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "De gasprijs stijgt door tot boven 100 euro per megawattuur",
+      "label": "Geld",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 0, "nieuwheid": 0 },
+      "totaal": 3,
+      "motivering": {
+        "hardheid": "Een marktprijs, geen besluit, dus 1.",
+        "reikwijdte": "Huishoudens en bedrijven, maar nog niet doorberekend, dus 2.",
+        "houdbaarheid": "Een koers die dagelijks beweegt, dus 0.",
+        "nieuwheid": "Meting zonder keerpunt, dus 0."
+      },
+      "hardheid_citaat": "Gasprijs stijgt door, boven de 100 euro per megawattuur",
+      "uitkomst": "doorgestreept",
+      "reden": "Een marktprijs zonder keerpunt (NOS 28-10, 16:08), nieuwheid 0; nog niet doorberekend in Nederlandse tarieven. Meting.",
+      "bron": {
+        "naam": "NOS 28-10 16:08 (marktnotering: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637039-gasprijs-stijgt-door-boven-de-100-euro-per-megawattuur"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "bedrijf",
+      "terugblik": false
+    },
+    {
+      "kop": "Partij voor de Dieren doet een nieuwe poging om onverdoofd slachten te verbieden",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 5,
+      "motivering": {
+        "hardheid": "Een initiatief, geen besluit, dus 1.",
+        "reikwijdte": "Slachterijen en betrokken gelovigen, dus 1.",
+        "houdbaarheid": "Hangt af van het vervolg, dus 1.",
+        "nieuwheid": "Verwachte stap in een bekend debat, dus 2."
+      },
+      "hardheid_citaat": "PvdD doet nieuwe poging om onverdoofd slachten te verbieden",
+      "uitkomst": "doorgestreept",
+      "reden": "Een initiatief, geen besluit (NOS 28-10, 07:31), dus 1. Verwachte stap in een bekend debat, dus 2.",
+      "bron": {
+        "naam": "NOS 28-10 07:31 (Tweede Kamer, initiatief PvdD: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636965-pvdd-doet-nieuwe-poging-om-onverdoofd-slachten-te-verbieden"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Explosieven uit de Tweede Wereldoorlog gevonden op Eindhoven Airport",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 1, "houdbaarheid": 0, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Gebeurd: explosieven gevonden, dus 4.",
+        "reikwijdte": "Het vliegveld en reizigers op die dag; de omvang van de verstoring is niet gecontroleerd, dus 1.",
+        "houdbaarheid": "Een dag, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Explosieven uit WO II gevonden op Eindhoven Airport",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd (NOS 28-10, 11:35), dus 4. Het vliegveld en reizigers die dag, omvang niet gecontroleerd, dus 1. Een dag, dus 0. Nieuw feit, dus 3.",
+      "bron": {
+        "naam": "NOS 28-10 11:35 (Eindhoven Airport, EOD: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2636999-explosieven-uit-wo-ii-gevonden-op-eindhoven-airport"
+      },
+      "datum_item": "2026-10-28",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false
+    }
+  ]
+}
