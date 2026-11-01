@@ -1,0 +1,29 @@
+{
+  "datum": "2026-10-29",
+  "over": "2026-10-28",
+  "noot": "Dit bulletin verscheen op zondag 1 november om 21:56 in plaats van op donderdag 29 oktober om 07:00.",
+  "beoordeeld": 11,
+  "berichten": [
+    {
+      "id": "ophokplicht-vogelgriep-2026-10-28",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 2,
+        "houdbaarheid": 2,
+        "nieuwheid": 3
+      },
+      "label": "Veiligheid & gezondheid",
+      "dossier": "vogelgriep",
+      "update": false,
+      "kop": "Ophok- en afschermplicht voor pluimvee geldt sinds 28 oktober in heel Nederland",
+      "wat": "Staatssecretaris Erkens (Landbouw, Visserij, Voedselzekerheid en Natuur) stelde op 28 oktober 2026 een ophok- en afschermplicht in voor heel Nederland. Commercieel gehouden pluimvee moet binnen blijven; voor commercieel gehouden fazanten en loopvogels geldt alleen een afschermplicht, omdat ophokken bij die dieren niet kan. Hobbyhouders moeten hun risicovogels, zoals kippen, afschermen van wilde vogels. Daarnaast geldt een landelijk tentoonstellingsverbod voor risicovogels en is het bezoekersverbod voor vogelverblijven aangescherpt: bezoek mag alleen als dat nodig is voor de volksgezondheid, diergezondheid of dierenwelzijn, en bezoekers moeten een hygieneprotocol volgen en zich registreren.",
+      "voor_wie": "Alle pluimveehouders in Nederland moeten hun dieren ophokken of afschermen. Houders met buitenuitloop en hobbyhouders worden volgens Erkens het hardst geraakt.",
+      "verloop": "De plicht volgt op drie uitbraken in korte tijd: Lutjegast op 26 oktober (45.000 dieren geruimd), Middelie op 27 oktober en Grootegast op 28 oktober, en op besmette wilde vogels bij het begin van de vogeltrek. Het ministerie werkt met de sector aan een plan om vaccinatie van legpluimvee verplicht te maken; dat plan gaat naar verwachting eind 2026 naar de Tweede Kamer.",
+      "onbekend": "Er is geen einddatum bekend, en ook niet hoeveel bedrijven landelijk worden geraakt.",
+      "bron": {
+        "naam": "Rijksoverheid, nieuwsbericht 28 oktober 2026: Landelijke ophok- en afschermplicht ingesteld na vogelgriepuitbraken",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/28/landelijke-ophok-en-afschermplicht-ingesteld-na-vogelgriepuitbraken"
+      }
+    }
+  ]
+}

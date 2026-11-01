@@ -7,7 +7,7 @@
       "url": "https://www.rijksoverheid.nl/actueel/nieuws",
       "laag": "kern",
       "levert": "kabinetsbesluiten, Kamerbrieven met besluiten, besluitenlijst ministerraad (vrijdag)",
-      "toegang": "rss",
+      "toegang": "rss; https://www.rijksoverheid.nl/actueel geeft een leesbare lijst met datum en tijd (gecontroleerd 29-10-2026); https://www.rijksoverheid.nl/actueel/nieuws laadt de lijst dynamisch en komt leeg binnen bij het uitlezen",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
