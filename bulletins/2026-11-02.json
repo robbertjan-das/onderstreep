@@ -1,0 +1,39 @@
+{
+  "datum": "2026-11-02",
+  "over": "2026-11-01",
+  "beoordeeld": 10,
+  "berichten": [
+    {
+      "id": "lvb-schiphol-inwerkingtreding-2026-11-01",
+      "score": { "hardheid": 4, "reikwijdte": 2, "houdbaarheid": 3, "nieuwheid": 2 },
+      "label": "Bestuur",
+      "dossier": null,
+      "update": false,
+      "kop": "Het Luchthavenverkeerbesluit Schiphol geldt sinds 1 november met handhaafbare geluidsgrenzen",
+      "wat": "Sinds 1 november 2026 geldt het Luchthavenverkeerbesluit (LVB) voor Schiphol, dat eerder in het Staatsblad werd gepubliceerd. Het aantal handhavingspunten rond de luchthaven gaat van 35 naar 148; op die punten gelden jaarlijkse geluidsgrenzen die de Inspectie Leefomgeving en Transport kan handhaven. Het aantal vluchten is begrensd op 478.000 per jaar totdat het geluidsdoel is bereikt: 20 procent minder ernstig gehinderden. Pas daarna is groei tot 500.000 vluchten mogelijk, en alleen als het geluid blijft dalen; de Eerste en Tweede Kamer worden bij dat besluit betrokken. De helft van de geluidswinst gaat naar de omgeving, de helft naar ruimte voor vluchten.",
+      "voor_wie": "Omwonenden van Schiphol krijgen afdwingbare geluidsgrenzen en rechtsbescherming. Voor de luchtvaart geldt een plafond op het aantal vluchten.",
+      "verloop": "Het besluit werd op 27 oktober 2026 in het Staatsblad gepubliceerd. Sinds 2015 gold voor Schiphol een gedoogsituatie: de oude regels werden niet gehandhaafd en de nieuwere waren niet formeel vastgesteld, waardoor omwonenden zich er niet op konden beroepen.",
+      "onbekend": "Wanneer het geluidsdoel is bereikt en groei naar 500.000 vluchten aan de orde komt, is niet bekend.",
+      "bron": {
+        "naam": "Rijksoverheid, 27 oktober 2026, en Staatsblad: Luchthavenverkeerbesluit Schiphol, in werking 1 november 2026",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/27/lvb-schiphol-gepubliceerd-in-staatsblad-regels-per-1-november-van-kracht"
+      }
+    },
+    {
+      "id": "wet-toeristische-verhuur-inwerkingtreding-2026-11-01",
+      "score": { "hardheid": 4, "reikwijdte": 2, "houdbaarheid": 3, "nieuwheid": 2 },
+      "label": "Bestuur",
+      "dossier": null,
+      "update": false,
+      "kop": "De gewijzigde Wet toeristische verhuur geldt sinds 1 november in heel Nederland",
+      "wat": "Sinds 1 november 2026 geldt de wijziging van de Wet toeristische verhuur, die de Europese verordening voor kortetermijnverhuur uitvoert. Registratienummers voor vakantieverhuur krijgen de landencode NLD en worden door de gemeente opgenomen in een openbaar toegankelijk register. Verhuurplatforms delen gegevens over kortdurende verhuur, zoals het aantal nachten, het aantal gasten, het registratienummer en het adres, via een centraal digitaal toegangspunt van het Rijk met gemeenten; die deelplicht voor platforms geldt al sinds 1 juli 2026. Houders van een registratienummer van voor 1 november krijgen zes maanden om ontbrekende gegevens aan te vullen.",
+      "voor_wie": "Gemeenten met een registratieplicht, verhuurplatforms en mensen die hun woning kortdurend aan toeristen verhuren.",
+      "verloop": "De wijzigingswet en het bijbehorende Besluit registratie toeristische verhuur van woonruimte werden in het Staatsblad gepubliceerd (Staatsblad 2026, 231 en 266). De regels vloeien voort uit de Europese verordening kortetermijnverhuur.",
+      "onbekend": "Hoeveel gemeenten een registratie-, meld- of vergunningplicht invoeren en hoeveel nachten verhuur zij toestaan, blijft een keuze per gemeente.",
+      "bron": {
+        "naam": "Rijksoverheid, 29 oktober 2026: Wet toeristische verhuur, Staatsblad 2026, 231 en Besluit 2026, 266, in werking 1 november 2026",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/29/nieuwe-regels-voor-toeristische-verhuur-vanaf-1-november-2026"
+      }
+    }
+  ]
+}
