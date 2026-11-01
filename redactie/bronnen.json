@@ -1,26 +1,13 @@
 {
-  "toelichting": "Bronnen voor de sweep, in volgorde van afloop. laag: kern (elke avond), uitbreiding (elke avond, minder vaak raak), vangnet (alleen controle). toegang: hoe het verzamelscript de bron uitleest; 'pagina' betekent nog te bepalen. opbrengst: per bron bijgewerkt bij elke kalibratie (items van 9 of hoger, keren onleesbaar).",
+  "toelichting": "Bronnen voor de sweep, in volgorde van afloop: agenda, officieel, merkbaar, vangnet; haak alleen om een Nederlandse haak te bevestigen. Vier lagen sinds 1-11-2026 (besluit Robbert-Jan Das). laag: agenda (wat stond er vandaag, en is het gebeurd), officieel (primaire bronnen van overheid, toezicht, rechter en uitvoering), merkbaar (wat mensen thuis merken: aanbieders, vervoer, consumentenzaken, vakmedia), vangnet (controle op gemiste berichten, nooit als bron), haak (niet in de dagelijkse sweep). toegang: hoe het verzamelscript de bron uitleest; 'pagina' betekent nog te bepalen. opbrengst: per bron bijgewerkt bij elke kalibratie (items van 9 of hoger, keren onleesbaar).",
   "bronnen": [
-    {
-      "naam": "Rijksoverheid, nieuws",
-      "rubriek": "Bestuur",
-      "url": "https://www.rijksoverheid.nl/actueel/nieuws",
-      "laag": "kern",
-      "levert": "kabinetsbesluiten, Kamerbrieven met besluiten, besluitenlijst ministerraad (vrijdag)",
-      "toegang": "rss; https://www.rijksoverheid.nl/actueel geeft een leesbare lijst met datum en tijd (gecontroleerd 29-10-2026); https://www.rijksoverheid.nl/actueel/nieuws laadt de lijst dynamisch en komt leeg binnen bij het uitlezen",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
     {
       "naam": "Tweede Kamer",
       "rubriek": "Bestuur",
       "url": "https://www.tweedekamer.nl",
-      "laag": "kern",
-      "levert": "stemmingsuitslagen (dinsdag), aangenomen wetsvoorstellen",
-      "toegang": "open data",
+      "laag": "agenda",
+      "levert": "agendabron: stemmingen (dinsdag); Kamerbrieven, moties en plannen komen alleen via de agenda, op het moment dat er gestemd of besloten wordt. Niet meer in de dagelijkse sweep",
+      "toegang": "open data; stemmingsuitslagen https://www.tweedekamer.nl/kamerstukken/stemmingsuitslagen (gecontroleerd 1-11-2026, leesbaar)",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -31,9 +18,74 @@
       "naam": "Eerste Kamer",
       "rubriek": "Bestuur",
       "url": "https://www.eerstekamer.nl",
-      "laag": "kern",
-      "levert": "aangenomen en verworpen wetten",
-      "toegang": "pagina",
+      "laag": "agenda",
+      "levert": "agendabron: stemmingen en aangenomen en verworpen wetten (dinsdag)",
+      "toegang": "https://www.eerstekamer.nl/stemmingen_per_vergaderdag (gecontroleerd 1-11-2026, leesbaar)",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "CBS",
+      "rubriek": "Geld",
+      "url": "https://www.cbs.nl/nl-nl/publicatieplanning",
+      "laag": "agenda",
+      "levert": "agendabron: publicatieplanning; cijfers alleen bij een keerpunt of als er een indexatie of besluit aan hangt",
+      "toegang": "publicatieplanning https://www.cbs.nl/nl-nl/publicatieplanning (gecontroleerd 1-11-2026, leesbaar). https://www.cbs.nl/nl-nl/nieuws geeft 404; de nieuwsberichten staan op https://www.cbs.nl/nl-nl/nieuws/2026/<weeknummer>/<titel> en zijn te vinden via de voorpagina https://www.cbs.nl",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Ondernemersplein, overzicht wetswijzigingen",
+      "rubriek": "Bestuur",
+      "url": "https://ondernemersplein.overheid.nl/wetswijzigingen/",
+      "laag": "agenda",
+      "levert": "agendabron: overzicht van wetswijzigingen met ingangsdata, gegroepeerd in 'Moet nog ingaan' en 'Al ingegaan'",
+      "toegang": "https://ondernemersplein.overheid.nl/wetswijzigingen/ (let op: ondernemersplein.kvk.nl leidt met een 308-redirect door naar dit adres), gecontroleerd 1-11-2026, leesbaar. Gebruiken om ingangsdata te agenderen in redactie/agenda.md.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Ministerraad (besluitenlijst, vrijdag)",
+      "rubriek": "Bestuur",
+      "url": "https://www.rijksoverheid.nl/regering/ministerraad",
+      "laag": "agenda",
+      "levert": "agendabron: wat de ministerraad vrijdag heeft besloten, via de besluitenlijst",
+      "toegang": "https://www.rijksoverheid.nl/regering/ministerraad (gecontroleerd 1-11-2026, 200, leesbaar; de pagina zelf noemt geen besluitenlijst); besluitenlijsten en persberichten via https://www.rijksoverheid.nl/actueel (leesbare lijst) of https://www.rijksoverheid.nl/documenten?trefwoord=besluitenlijst+ministerraad (200). Toegevoegd 1-11-2026.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Inwerkingtredingsbesluiten (Staatsblad)",
+      "rubriek": "Bestuur",
+      "url": "https://zoek.officielebekendmakingen.nl",
+      "laag": "agenda",
+      "levert": "agendabron: koninklijke besluiten en besluiten die een eerder gepubliceerde wet of regeling op een datum in werking laten treden",
+      "toegang": "zelfde SRU-route als Staatscourant en Staatsblad: https://repository.overheid.nl/sru met w.publicatienaam==Staatsblad per publicatiedatum; filter op inwerkingtreding in titel of tekst; lezen via https://zoek.officielebekendmakingen.nl/<identifier>.html. Gecontroleerd 1-11-2026, werkt. Toegevoegd 1-11-2026.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Rijksoverheid, nieuws",
+      "rubriek": "Bestuur",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws",
+      "laag": "officieel",
+      "levert": "kabinetsbesluiten, Kamerbrieven met besluiten (de ministerraad zelf staat onder agenda)",
+      "toegang": "rss; https://www.rijksoverheid.nl/actueel geeft een leesbare lijst met datum en tijd (gecontroleerd 29-10-2026); https://www.rijksoverheid.nl/actueel/nieuws laadt de lijst dynamisch en komt leeg binnen bij het uitlezen",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -44,7 +96,7 @@
       "naam": "Staatscourant en Staatsblad",
       "rubriek": "Bestuur",
       "url": "https://zoek.officielebekendmakingen.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "regelingen, besluiten, inwerkingtredingen; ook Gemeenteblad en Provinciaal blad",
       "toegang": "SRU van KOOP per publicatiedatum: https://repository.overheid.nl/sru?operation=searchRetrieve&version=2.0&query=c.product-area==officielepublicaties and dt.date==JJJJ-MM-DD and w.publicatienaam==Staatsblad (resp. Staatscourant), alle pagina's; de records geven identifiers stb-/stcrt-. Elk document lezen via https://zoek.officielebekendmakingen.nl/<identifier>.html. Let op: de index is w.publicatienaam, niet dt.type (dt.type geeft nul). Gecontroleerd 1-11-2026, werkt: 19-10 gaf 5 stb (incl. stb-2026-326, partnerbegrip toeslagen) en 134 stcrt; 27-10 gaf 4 stb (incl. stb-2026-335, Luchthavenverkeerbesluit Schiphol) en 233 stcrt; 30-10 gaf 11 stb en 208 stcrt. Het zoekformulier gaf op 25-10 nul.",
       "opbrengst": {
@@ -57,7 +109,7 @@
       "naam": "Rechtspraak",
       "rubriek": "Wet & recht",
       "url": "https://www.rechtspraak.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "uitspraken en persberichten van rechtbanken en hoven",
       "toegang": "open data",
       "opbrengst": {
@@ -70,7 +122,7 @@
       "naam": "Hoge Raad",
       "rubriek": "Wet & recht",
       "url": "https://www.hogeraad.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "arresten, conclusies",
       "toegang": "pagina",
       "opbrengst": {
@@ -83,7 +135,7 @@
       "naam": "Raad van State",
       "rubriek": "Wet & recht",
       "url": "https://www.raadvanstate.nl/actueel/nieuws/",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "bestuursrechtspraak (woensdag), adviezen over wetsvoorstellen",
       "toegang": "pagina",
       "opbrengst": {
@@ -96,7 +148,7 @@
       "naam": "Openbaar Ministerie",
       "rubriek": "Wet & recht",
       "url": "https://www.om.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "vervolgingsbesluiten in grote zaken",
       "toegang": "pagina",
       "opbrengst": {
@@ -109,22 +161,9 @@
       "naam": "Ministerie van Financiën en Belastingdienst",
       "rubriek": "Geld",
       "url": "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "fiscale besluiten, tarieven",
       "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "CBS",
-      "rubriek": "Geld",
-      "url": "https://www.cbs.nl/nl-nl/publicatieplanning",
-      "laag": "kern",
-      "levert": "cijfers; alleen keerpunten; ook de nieuwspagina, elke dag",
-      "toegang": "publicatieplanning en nieuwspagina (https://www.cbs.nl/nl-nl/nieuws), elke dag",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -135,7 +174,7 @@
       "naam": "De Nederlandsche Bank",
       "rubriek": "Geld",
       "url": "https://www.dnb.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "toezichtsbesluiten, boetes",
       "toegang": "pagina",
       "opbrengst": {
@@ -148,7 +187,7 @@
       "naam": "AFM",
       "rubriek": "Geld",
       "url": "https://www.afm.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "boetes, waarschuwingen, verboden",
       "toegang": "pagina",
       "opbrengst": {
@@ -161,7 +200,7 @@
       "naam": "ACM",
       "rubriek": "Geld",
       "url": "https://www.acm.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "tariefbesluiten, fusies, boetes",
       "toegang": "pagina",
       "opbrengst": {
@@ -174,7 +213,7 @@
       "naam": "Europese Centrale Bank",
       "rubriek": "Geld",
       "url": "https://www.ecb.europa.eu",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "rentebesluiten",
       "toegang": "pagina",
       "opbrengst": {
@@ -187,7 +226,7 @@
       "naam": "CPB",
       "rubriek": "Geld",
       "url": "https://www.cpb.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "maart- en augustusraming",
       "toegang": "pagina",
       "opbrengst": {
@@ -200,7 +239,7 @@
       "naam": "NCSC",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.ncsc.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "kritieke kwetsbaarheden, digitale verstoringen",
       "toegang": "pagina",
       "opbrengst": {
@@ -213,7 +252,7 @@
       "naam": "NCTV",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.nctv.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "dreigingsniveau",
       "toegang": "pagina",
       "opbrengst": {
@@ -226,7 +265,7 @@
       "naam": "RIVM en Gezondheidsraad",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.rivm.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "adviezen, uitbraken, vaccinatiebesluiten",
       "toegang": "pagina",
       "opbrengst": {
@@ -238,10 +277,10 @@
     {
       "naam": "IGJ, NVWA, ILT",
       "rubriek": "Veiligheid & gezondheid",
-      "url": "https://www.nvwa.nl/consumenten/product-en-bedrijfswaarschuwingen",
-      "laag": "kern",
-      "levert": "maatregelen, terugroepacties, sluitingen; vaste bron: de pagina met waarschuwingen en terugroepacties",
-      "toegang": "pagina; uitwijk: de terugroeppagina's van Albert Heijn, Jumbo en Lidl",
+      "url": "https://www.nvwa.nl/actueel/nieuws",
+      "laag": "officieel",
+      "levert": "maatregelen, boetes, sluitingen, handhaving",
+      "toegang": "pagina; https://www.nvwa.nl/actueel/nieuws gecontroleerd 1-11-2026 (de oude padvariant /nieuws-en-media/nieuws leidt hierheen). Productwaarschuwingen en terugroepacties staan apart onder merkbaar",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -252,7 +291,7 @@
       "naam": "KNMI",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.knmi.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "code oranje en rood",
       "toegang": "pagina",
       "opbrengst": {
@@ -265,7 +304,7 @@
       "naam": "NL-Alert en veiligheidsregio's",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.nl-alert.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "grote incidenten, evacuaties",
       "toegang": "pagina",
       "opbrengst": {
@@ -278,7 +317,7 @@
       "naam": "Rijkswaterstaat, waterberichtgeving",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://waterberichtgeving.rws.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "hoog- en laagwater, droogtemonitor",
       "toegang": "pagina",
       "opbrengst": {
@@ -291,99 +330,8 @@
       "naam": "Autoriteit Persoonsgegevens",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.autoriteitpersoonsgegevens.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "boetes, grote datalekken",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Raad van de EU en Europese Raad",
-      "rubriek": "Wereld",
-      "url": "https://www.consilium.europa.eu/nl/press/",
-      "laag": "kern",
-      "levert": "besluiten, sancties, conclusies",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Europese Commissie",
-      "rubriek": "Wereld",
-      "url": "https://ec.europa.eu/commission/presscorner",
-      "laag": "kern",
-      "levert": "besluiten, boetes",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "EUR-Lex",
-      "rubriek": "Wereld",
-      "url": "https://eur-lex.europa.eu",
-      "laag": "kern",
-      "levert": "gepubliceerde verordeningen en richtlijnen",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Hof van Justitie van de EU",
-      "rubriek": "Wereld",
-      "url": "https://curia.europa.eu",
-      "laag": "kern",
-      "levert": "arresten",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "NAVO",
-      "rubriek": "Wereld",
-      "url": "https://www.nato.int",
-      "laag": "kern",
-      "levert": "besluiten Noord-Atlantische Raad",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "VN-Veiligheidsraad",
-      "rubriek": "Wereld",
-      "url": "https://press.un.org",
-      "laag": "kern",
-      "levert": "aangenomen resoluties",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Witte Huis en Federal Register",
-      "rubriek": "Wereld",
-      "url": "https://www.federalregister.gov",
-      "laag": "kern",
-      "levert": "getekende decreten, sancties, tarieven",
       "toegang": "pagina",
       "opbrengst": {
         "items_9_plus": 0,
@@ -395,99 +343,8 @@
       "naam": "UWV, SVB, DUO, IND, Dienst Toeslagen, RDW, CAK",
       "rubriek": "Geld",
       "url": "https://www.uwv.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "uitvoering die mensen merken: uitkeringen, toeslagen, studiefinanciering",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "NS, ProRail",
-      "rubriek": "Bestuur",
-      "url": "https://nieuws.ns.nl",
-      "laag": "kern",
-      "levert": "tarieven, landelijke storingen, dienstregeling",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Netbeheerders en TenneT, Gasunie",
-      "rubriek": "Geld",
-      "url": "https://www.tennet.eu",
-      "laag": "kern",
-      "levert": "tarieven, grote stroomstoringen, netcongestie",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Zorgverzekeraars",
-      "rubriek": "Geld",
-      "url": "https://www.dsw.nl/consumenten",
-      "laag": "kern",
-      "levert": "premies (najaar, uiterlijk 12 november)",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Vakbonden FNV en CNV",
-      "rubriek": "Geld",
-      "url": "https://www.fnv.nl",
-      "laag": "kern",
-      "levert": "landelijke stakingen en het afblazen ervan",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "CBR, Schiphol, drinkwaterbedrijven",
-      "rubriek": "Geld",
-      "url": "https://www.cbr.nl",
-      "laag": "kern",
-      "levert": "tarieven en besluiten met groot bereik",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Insolventieregister",
-      "rubriek": "Geld",
-      "url": "https://insolventies.rechtspraak.nl",
-      "laag": "kern",
-      "levert": "faillissementen van grote werkgevers",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Euronext Amsterdam, gereguleerd bedrijfsnieuws",
-      "rubriek": "Geld",
-      "url": "https://live.euronext.com/en/markets/amsterdam/company-news",
-      "laag": "kern",
-      "levert": "persberichten van beursgenoteerde bedrijven: ontslagrondes, overnames, sluitingen, winstwaarschuwingen",
       "toegang": "pagina",
       "opbrengst": {
         "items_9_plus": 0,
@@ -499,48 +356,9 @@
       "naam": "CBG",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.cbg-meb.nl/actueel/nieuws",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "goedkeuring en intrekking van geneesmiddelen in Nederland",
       "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "EMA",
-      "rubriek": "Veiligheid & gezondheid",
-      "url": "https://www.ema.europa.eu/en/news",
-      "laag": "kern",
-      "levert": "goedkeuring en intrekking van geneesmiddelen in de EU (aanbevelingen van het CHMP)",
-      "toegang": "pagina",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Grote platforms: WhatsApp, Meta, Google, Apple, betaaldiensten",
-      "rubriek": "Geld",
-      "url": "",
-      "laag": "kern",
-      "levert": "wijzigingen die miljoenen Nederlandse gebruikers raken",
-      "toegang": "pagina per platform, nog te bepalen",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "Energieleveranciers en telecomaanbieders",
-      "rubriek": "Geld",
-      "url": "",
-      "laag": "kern",
-      "levert": "tarieven",
-      "toegang": "pagina per aanbieder, nog te bepalen",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -551,22 +369,9 @@
       "naam": "Algemeen verbindend verklaarde cao's (Staatscourant)",
       "rubriek": "Geld",
       "url": "https://zoek.officielebekendmakingen.nl",
-      "laag": "kern",
+      "laag": "officieel",
       "levert": "algemeen verbindend verklaarde cao's",
       "toegang": "SRU van KOOP per publicatiedatum met w.publicatienaam==Staatscourant (cao's staan in de Staatscourant), filter op identifiers stcrt-; lezen via https://zoek.officielebekendmakingen.nl/<identifier>.html. Zelfde route als Staatscourant en Staatsblad, gecontroleerd 1-11-2026.",
-      "opbrengst": {
-        "items_9_plus": 0,
-        "onleesbaar": 0,
-        "bijgewerkt": null
-      }
-    },
-    {
-      "naam": "ANP Persportaal",
-      "rubriek": "Geld",
-      "url": "https://persportaal.anp.nl",
-      "laag": "kern",
-      "levert": "persberichten van bedrijven en organisaties zelf (primaire bron)",
-      "toegang": "pagina; gecontroleerd 23-10-2026: leesbaar, tijdlijn met koppen van de dag",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -577,7 +382,7 @@
       "naam": "NZa en Zorginstituut",
       "rubriek": "Veiligheid & gezondheid",
       "url": "https://www.nza.nl",
-      "laag": "uitbreiding",
+      "laag": "officieel",
       "levert": "zorgtarieven, basispakket",
       "toegang": "pagina",
       "opbrengst": {
@@ -590,7 +395,7 @@
       "naam": "Provincies en G4",
       "rubriek": "Bestuur",
       "url": "https://zoek.officielebekendmakingen.nl",
-      "laag": "uitbreiding",
+      "laag": "officieel",
       "levert": "besluiten met bovenregionaal bereik (via Provinciaal blad en Gemeenteblad)",
       "toegang": "SRU van KOOP per publicatiedatum met w.publicatienaam==Gemeenteblad resp. Provinciaal blad, filter op identifiers gmb-/prb-; lezen via https://zoek.officielebekendmakingen.nl/<identifier>.html. Route vastgesteld 1-11-2026 voor stb/stcrt; gmb/prb langs dezelfde weg, nog apart te bevestigen.",
       "opbrengst": {
@@ -600,11 +405,24 @@
       }
     },
     {
-      "naam": "EHRM, ICC, ICJ",
-      "rubriek": "Wereld",
-      "url": "https://www.echr.coe.int",
-      "laag": "uitbreiding",
-      "levert": "uitspraken",
+      "naam": "Douane (nieuws en e-commerce)",
+      "rubriek": "Geld",
+      "url": "https://www.douane.nl/nieuws/",
+      "laag": "officieel",
+      "levert": "invoerrechten en afhandelingsvergoeding op e-commerce van buiten de EU, douanewijzigingen die consumenten en webshops raken",
+      "toegang": "nieuws: https://www.douane.nl/nieuws/ en https://www.douane.nl/category/alle-nieuwsberichten/ (gecontroleerd 1-11-2026, leesbaar); e-commercekosten op https://www.douane.nl/onderwerpen/online-shoppen-en-pakketpost/shoppen-bij-een-buitenlandse-webwinkel/extra-kosten-bij-bestellen/ (bijgewerkt 30-10-2026). Toegevoegd na de gemiste afhandelingsvergoeding (1-11-2026).",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "NS, ProRail",
+      "rubriek": "Bestuur",
+      "url": "https://nieuws.ns.nl",
+      "laag": "merkbaar",
+      "levert": "tarieven, landelijke storingen, dienstregeling",
       "toegang": "pagina",
       "opbrengst": {
         "items_9_plus": 0,
@@ -613,11 +431,11 @@
       }
     },
     {
-      "naam": "IAEA, WHO, IMF",
-      "rubriek": "Wereld",
-      "url": "https://www.who.int",
-      "laag": "uitbreiding",
-      "levert": "besluiten en noodtoestanden",
+      "naam": "Netbeheerders en TenneT, Gasunie",
+      "rubriek": "Geld",
+      "url": "https://www.tennet.eu",
+      "laag": "merkbaar",
+      "levert": "tarieven, grote stroomstoringen, netcongestie",
       "toegang": "pagina",
       "opbrengst": {
         "items_9_plus": 0,
@@ -626,12 +444,181 @@
       }
     },
     {
-      "naam": "Bundesgesetzblatt en Belgisch Staatsblad",
-      "rubriek": "Wereld",
-      "url": "https://www.recht.bund.de",
-      "laag": "uitbreiding",
-      "levert": "besluiten met direct effect in Nederland",
+      "naam": "Zorgverzekeraars",
+      "rubriek": "Geld",
+      "url": "https://www.dsw.nl/consumenten",
+      "laag": "merkbaar",
+      "levert": "premies (najaar, uiterlijk 12 november)",
       "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Vakbonden FNV en CNV",
+      "rubriek": "Geld",
+      "url": "https://www.fnv.nl",
+      "laag": "merkbaar",
+      "levert": "landelijke stakingen en het afblazen ervan",
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "CBR, Schiphol, drinkwaterbedrijven",
+      "rubriek": "Geld",
+      "url": "https://www.cbr.nl",
+      "laag": "merkbaar",
+      "levert": "tarieven en besluiten met groot bereik",
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Insolventieregister",
+      "rubriek": "Geld",
+      "url": "https://insolventies.rechtspraak.nl",
+      "laag": "merkbaar",
+      "levert": "faillissementen van grote werkgevers",
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Euronext Amsterdam, gereguleerd bedrijfsnieuws",
+      "rubriek": "Geld",
+      "url": "https://live.euronext.com/en/markets/amsterdam/company-news",
+      "laag": "merkbaar",
+      "levert": "persberichten van beursgenoteerde bedrijven: ontslagrondes, overnames, sluitingen, winstwaarschuwingen",
+      "toegang": "pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Grote platforms: WhatsApp, Meta, Google, Apple, betaaldiensten",
+      "rubriek": "Geld",
+      "url": "",
+      "laag": "merkbaar",
+      "levert": "wijzigingen die miljoenen Nederlandse gebruikers raken",
+      "toegang": "pagina per platform, nog te bepalen",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Energieleveranciers en telecomaanbieders",
+      "rubriek": "Geld",
+      "url": "",
+      "laag": "merkbaar",
+      "levert": "tarieven",
+      "toegang": "pagina per aanbieder, nog te bepalen",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Radar (AVROTROS)",
+      "rubriek": "Geld",
+      "url": "https://radar.avrotros.nl/actueel",
+      "laag": "merkbaar",
+      "levert": "consumentenzaken die veel mensen raken: tarieven, voorwaarden, terugroepacties, bedrijfsbesluiten",
+      "toegang": "pagina; gecontroleerd 1-11-2026: https://radar.avrotros.nl/actueel geeft 200 met artikellijst (links /artikel/...). https://radar.avrotros.nl/nieuws/ leidt hierheen. Signaalbron: elk bericht terugvoeren naar de primaire bron.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Consumentenbond",
+      "rubriek": "Geld",
+      "url": "https://www.consumentenbond.nl/nieuws",
+      "laag": "merkbaar",
+      "levert": "wijzigingen in tarieven, voorwaarden en regels voor consumenten",
+      "toegang": "pagina; gecontroleerd 1-11-2026: 200, artikelen onder /nieuws/2026/...; cookiebanner in de pagina, koppen wel uit te lezen. Signaalbron: elk bericht terugvoeren naar de primaire bron.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Nieuwe Oogst (vakmedium)",
+      "rubriek": "Geld",
+      "url": "https://www.nieuweoogst.nl/nieuws",
+      "laag": "merkbaar",
+      "levert": "landbouw: maatregelen, uitbraken, regels voor boeren; vakmedium",
+      "toegang": "pagina; gecontroleerd 1-11-2026: 200, leesbaar. Signaalbron: elk bericht terugvoeren naar de primaire bron.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Binnenlands Bestuur (vakmedium)",
+      "rubriek": "Bestuur",
+      "url": "https://www.binnenlandsbestuur.nl/",
+      "laag": "merkbaar",
+      "levert": "gemeenten, provincies, waterschappen: besluiten en uitvoering; vakmedium",
+      "toegang": "pagina; gecontroleerd 1-11-2026: 200, koppen leesbaar. Signaalbron: elk bericht terugvoeren naar de primaire bron.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Skipr (vakmedium)",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.skipr.nl/nieuws/",
+      "laag": "merkbaar",
+      "levert": "zorg: tarieven, regels, besluiten van verzekeraars en toezichthouders; vakmedium",
+      "toegang": "pagina; gecontroleerd 1-11-2026: 200, koppen leesbaar (leidt door naar ?cookietest=true, geen blokkade). Signaalbron: elk bericht terugvoeren naar de primaire bron.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "NVWA, productwaarschuwingen en terugroepacties",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.nvwa.nl/consumenten/product-en-bedrijfswaarschuwingen",
+      "laag": "merkbaar",
+      "levert": "terugroepacties en waarschuwingen voor producten die mensen thuis hebben",
+      "toegang": "pagina; uitwijk: de terugroeppagina's van Albert Heijn, Jumbo en Lidl. Afgesplitst van IGJ, NVWA, ILT op 1-11-2026.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "ANP Persportaal",
+      "rubriek": "Geld",
+      "url": "https://persportaal.anp.nl",
+      "laag": "vangnet",
+      "levert": "persberichten van bedrijven en organisaties zelf (primaire bron)",
+      "toegang": "pagina; gecontroleerd 23-10-2026: leesbaar, tijdlijn met koppen van de dag",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -670,7 +657,7 @@
       "url": "https://www.reuters.com/world/",
       "laag": "vangnet",
       "levert": "internationaal, voor de Nederlandse haak; nooit als bron",
-      "toegang": "gecontroleerd 23-10-2026: onleesbaar (HTTP 401); uitwijk naar AP, dan BBC",
+      "toegang": "gecontroleerd 23-10-2026: onleesbaar (HTTP 401); geen uitwijk meer naar AP of BBC (verwijderd 1-11-2026): noteer 'niet gecontroleerd'",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -678,12 +665,12 @@
       }
     },
     {
-      "naam": "AP",
+      "naam": "RTL Nieuws",
       "rubriek": "vangnet",
-      "url": "https://apnews.com",
+      "url": "https://www.rtl.nl/nieuws/rss.xml",
       "laag": "vangnet",
-      "levert": "internationaal, voor de Nederlandse haak, als Reuters niet leesbaar is; nooit als bron",
-      "toegang": "gecontroleerd 23-10-2026: onleesbaar (HTTP 403, bot-controle); uitwijk naar BBC",
+      "levert": "koppen van de dag; controle op gemiste berichten; nooit als bron",
+      "toegang": "gecontroleerd 1-11-2026: https://www.rtl.nl/nieuws en de voorpagina leiden door naar de privacy gate van DPG Media (onleesbaar); uitwijkroute https://www.rtl.nl/nieuws/rss.xml geeft 200 en leesbare RSS met titels en links (ook https://www.rtl.nl/rss.xml). Toegevoegd 1-11-2026.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -691,12 +678,12 @@
       }
     },
     {
-      "naam": "BBC News",
-      "rubriek": "vangnet",
-      "url": "https://www.bbc.com/news/world",
-      "laag": "vangnet",
-      "levert": "uitwijk als Reuters en AP allebei niet leesbaar zijn; nooit als bron",
-      "toegang": "gecontroleerd 23-10-2026: leesbaar, koppen van de dag zichtbaar",
+      "naam": "Raad van de EU en Europese Raad",
+      "rubriek": "Wereld",
+      "url": "https://www.consilium.europa.eu/nl/press/",
+      "laag": "haak",
+      "levert": "besluiten, sancties, conclusies",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -704,12 +691,12 @@
       }
     },
     {
-      "naam": "Douane (nieuws en e-commerce)",
-      "rubriek": "Geld",
-      "url": "https://www.douane.nl/nieuws/",
-      "laag": "kern",
-      "levert": "invoerrechten en afhandelingsvergoeding op e-commerce van buiten de EU, douanewijzigingen die consumenten en webshops raken",
-      "toegang": "nieuws: https://www.douane.nl/nieuws/ en https://www.douane.nl/category/alle-nieuwsberichten/ (gecontroleerd 1-11-2026, leesbaar); e-commercekosten op https://www.douane.nl/onderwerpen/online-shoppen-en-pakketpost/shoppen-bij-een-buitenlandse-webwinkel/extra-kosten-bij-bestellen/ (bijgewerkt 30-10-2026). Toegevoegd na de gemiste afhandelingsvergoeding (1-11-2026).",
+      "naam": "Europese Commissie",
+      "rubriek": "Wereld",
+      "url": "https://ec.europa.eu/commission/presscorner",
+      "laag": "haak",
+      "levert": "besluiten, boetes",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -717,12 +704,116 @@
       }
     },
     {
-      "naam": "Ondernemersplein, overzicht wetswijzigingen",
-      "rubriek": "Bestuur",
-      "url": "https://ondernemersplein.overheid.nl/wetswijzigingen/",
-      "laag": "uitbreiding",
-      "levert": "agendabron: overzicht van wetswijzigingen met ingangsdata, gegroepeerd in 'Moet nog ingaan' en 'Al ingegaan'",
-      "toegang": "https://ondernemersplein.overheid.nl/wetswijzigingen/ (let op: ondernemersplein.kvk.nl leidt met een 308-redirect door naar dit adres), gecontroleerd 1-11-2026, leesbaar. Gebruiken om ingangsdata te agenderen in redactie/agenda.md.",
+      "naam": "EUR-Lex",
+      "rubriek": "Wereld",
+      "url": "https://eur-lex.europa.eu",
+      "laag": "haak",
+      "levert": "gepubliceerde verordeningen en richtlijnen",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Hof van Justitie van de EU",
+      "rubriek": "Wereld",
+      "url": "https://curia.europa.eu",
+      "laag": "haak",
+      "levert": "arresten",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "NAVO",
+      "rubriek": "Wereld",
+      "url": "https://www.nato.int",
+      "laag": "haak",
+      "levert": "besluiten Noord-Atlantische Raad",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "VN-Veiligheidsraad",
+      "rubriek": "Wereld",
+      "url": "https://press.un.org",
+      "laag": "haak",
+      "levert": "aangenomen resoluties",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Witte Huis en Federal Register",
+      "rubriek": "Wereld",
+      "url": "https://www.federalregister.gov",
+      "laag": "haak",
+      "levert": "getekende decreten, sancties, tarieven",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "EMA",
+      "rubriek": "Veiligheid & gezondheid",
+      "url": "https://www.ema.europa.eu/en/news",
+      "laag": "haak",
+      "levert": "goedkeuring en intrekking van geneesmiddelen in de EU (aanbevelingen van het CHMP); alleen raadplegen om een Nederlandse haak te bevestigen",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "EHRM, ICC, ICJ",
+      "rubriek": "Wereld",
+      "url": "https://www.echr.coe.int",
+      "laag": "haak",
+      "levert": "uitspraken",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "IAEA, WHO, IMF",
+      "rubriek": "Wereld",
+      "url": "https://www.who.int",
+      "laag": "haak",
+      "levert": "besluiten en noodtoestanden",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Bundesgesetzblatt en Belgisch Staatsblad",
+      "rubriek": "Wereld",
+      "url": "https://www.recht.bund.de",
+      "laag": "haak",
+      "levert": "besluiten met direct effect in Nederland",
+      "toegang": "alleen raadplegen om een Nederlandse haak te bevestigen, niet in de dagelijkse sweep; pagina",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,

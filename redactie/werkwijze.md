@@ -55,6 +55,9 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 - Sport telt niet; een toernooiwinst van een nationaal team hooguit via houdbaarheid.
 - Prijzen en tarieven van partijen met een publieke concessie of monopolie (NS, zorgverzekeraars, netbeheerders, CBR, drinkwater) zijn vastgestelde besluiten en worden gescoord als besluit.
 
+- De inwerkingtreding van een eerder gepubliceerd besluit scoort nieuwheid 2 (verwachte volgende stap in een bekend proces); hardheid is dan 4, want het geldt. Besluit 1-11-2026.
+- Bij een heffing of tarief dat een sector afdraagt (zoals de thuiskopievergoeding of de afhandelingsvergoeding), is de reikwijdte die van de sector, niet die van de kopers die het indirect via de prijs voelen. Besluit 1-11-2026.
+
 - Items met nieuwheid 0 (herhaling, meting zonder keerpunt, vaste jaarlijkse routine zoals de wintertijd) blijven in het log, maar komen niet op de Net niet-lijst.
 
 ## Buitenland: de Nederlandse haak
@@ -135,10 +138,12 @@ Sec. Geen waardende woorden, geen framing uit persberichten of campagnes, geen c
 ## De sweep
 
 - Om 22:00, over de periode van 22:00 de vorige dag tot 22:00 vandaag. Wat later komt, gaat mee in de sweep van de volgende avond, met datum in Verloop.
-- Bronnen in de volgorde van `redactie/bronnen.json`: eerst de kern, dan de uitbreidingen. Nieuwssites alleen als vangnet; elk gevonden bericht wordt teruggevoerd naar de primaire bron.
+- Volgorde van de avondsweep, in vier lagen plus terugblik (laag per bron in `redactie/bronnen.json`): 1. agenda (wat stond er vandaag op de agenda, en is het gebeurd: inwerkingtredingen, stemmingen van Tweede en Eerste Kamer, de ministerraad, de publicatieplanning van CBS; zie `redactie/agenda.md`); 2. officieel (Staatsblad en Staatscourant, rijksoverheid.nl/actueel, toezichthouders, rechters, uitvoeringsorganisaties); 3. merkbaar (aanbieders, vervoer, consumentenzaken, vakmedia); 4. vangnet (NOS, NU.nl, RTL Nieuws, ANP Persportaal, Reuters); 5. terugblik. Nieuwssites alleen als vangnet; elk gevonden bericht wordt teruggevoerd naar de primaire bron.
+- De laag haak (Raad van de EU, Europese Commissie, EUR-Lex, Hof van Justitie EU, NAVO, VN-Veiligheidsraad, Witte Huis, EHRM/ICC/ICJ, IAEA/WHO/IMF, Bundesgesetzblatt, Belgisch Staatsblad, EMA) zit niet in de dagelijkse sweep: die bronnen worden alleen geraadpleegd om een Nederlandse haak te bevestigen.
+- De Tweede Kamer zit niet meer in de dagelijkse sweep. Kamerbrieven, moties en plannen komen alleen via de agenda, op het moment dat er gestemd of besloten wordt.
 - Beoordeeld = elk item dat tegen de vier criteria is gelegd, ook als het meteen afviel.
 - Niet gevonden is niet hetzelfde als niet gebeurd. Wat niet te controleren was, heet "niet gecontroleerd", nooit "bestaat niet" of "nog niet gepubliceerd".
-- Het vangnet is verplicht: na de officiële bronnen altijd de koppen van de dag bij NOS en ANP langs, en elk bericht daaruit terugvoeren naar de primaire bron. Zo zijn NS-tarieven, PHP-lekken en de DSW-premie te vinden, die geen nette datafeed hebben.
+- Het vangnet is verplicht: na agenda, officieel en merkbaar altijd de koppen van de dag bij NOS, NU.nl, RTL Nieuws, ANP Persportaal en Reuters langs, en elk bericht daaruit terugvoeren naar de primaire bron. Zo zijn NS-tarieven, PHP-lekken en de DSW-premie te vinden, die geen nette datafeed hebben.
 - Is een bron niet uit te lezen, gebruik dan de uitwijkroute: NCSC-nieuws staat ook op rijksoverheid.nl, NS-nieuws op nieuws.ns.nl, terugroepacties ook bij de supermarkt zelf. Lukt dat ook niet, dan staat de bron als "niet gecontroleerd" in het log.
 - Het netniet-bestand telt onderaan hoeveel buitenlandse items er waren en hoeveel daarvan een haak hadden.
 - Het netniet-bestand telt onderaan per domein hoeveel items er beoordeeld en geplaatst zijn.
@@ -164,7 +169,7 @@ Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 
 **Licht loggen.** Buitenlandse items zonder haak en terugblik-items onder de 9 worden licht gelogd: datum, kop, bron, score, uitkomst en één zin reden. Geen motivering per criterium. Kop, datum en bron blijven altijd, zodat de terugblik ze terugvindt als er later een haak komt.
 
-**Terugblik.** Elke sweep begint met gisteren: wat stond er bij NOS en ANP dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord. Een item uit de terugblik heet alleen 'gemist' als het 9 of hoger scoort. Lagere items krijgen de uitkomst 'doorgestreept (terugblik)'.
+**Terugblik.** Elke sweep sluit af met gisteren: wat stond er bij NOS, NU.nl, RTL Nieuws, ANP Persportaal en Reuters dat niet beoordeeld is? Elk gemist item gaat in het log als `gemist`, met de oorzaak: bron ontbrak, bron niet uitgelezen, of verkeerd gescoord. Een item uit de terugblik heet alleen 'gemist' als het 9 of hoger scoort. Lagere items krijgen de uitkomst 'doorgestreept (terugblik)'.
 
 **Concept.** Bestanden in concept/ worden na de sweep nooit meer aangepast. Correcties gaan in het log en in het bulletin.
 
@@ -185,9 +190,11 @@ Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 Leerfase. Tot en met 31 oktober 2026 draaien elke avond twee sweeps naast elkaar (officieel en vangnet) en wordt alleen de site bijgewerkt. Vanaf 1 november 2026 ook de socials; de eerste post is de weekkaart van week 44 op zondag 1 november.
 
 Wat altijd blijft:
-- Het vangnet, elke dag: alleen de koppen van de dag bij NOS, NU.nl, ANP Persportaal en Reuters (of AP, of BBC). Elk item gaat terug naar de primaire bron.
-- De terugblik, elke dag.
+- Het vangnet, elke dag: alleen de koppen van de dag bij NOS, NU.nl, RTL Nieuws, ANP Persportaal en Reuters. Is een van die bronnen onleesbaar, dan staat ze als "niet gecontroleerd" in het log. Elk item gaat terug naar de primaire bron.
+- De terugblik, elke dag, als laatste stap van de sweep.
 - De kalibratie, elke zondag.
+- De agenda voor de komende week vullen, elke zondag (zie 'Zondag: agenda').
+- De tegenproef, elke zondag (zie 'De tegenproef').
 
 Wanneer de dubbele sweep stopt: na vier weken op rij zonder een enkel item van 9 of hoger dat alleen het vangnet vond. Dan blijven alleen bronlijst, vangnet en terugblik over. De dubbele sweep komt terug als dat in één maand twee keer misgaat.
 
@@ -209,6 +216,14 @@ Tips. Lezers kunnen via redactie@onderstreep.nl melden wat ze misten. Een tip ko
 
 Klein houden. Elke kalibratie stelt ook samenvoegingen en schrappingen voor. Streef naar een werkwijze van hoogstens 5.000 woorden.
 
+## Zondag: agenda
+
+Elke zondag vult Claude de agenda voor de komende week in `redactie/agenda.md`, uit de agendabronnen: Ondernemersplein wetswijzigingen, de inwerkingtredingsbesluiten in het Staatsblad (SRU-route), de stemmingen van Tweede en Eerste Kamer (dinsdag), de ministerraad (vrijdag) en de publicatieplanning van CBS. Per dag: wat gaat in, wat wordt gestemd of besloten, wat publiceert CBS. Punten die later dan een week ingaan staan onder hun eigen datum.
+
+## De tegenproef
+
+Elke zondag legt Claude het log van de week naast externe terugblikken: overzichten van "wat verandert er deze maand", Ondernemersplein wetswijzigingen en weekoverzichten van NOS. Elke misser van 9 of hoger krijgt in de weeknotities een oorzaak en een oplossing (zie 'Oorzaak en oplossing' hierboven). De tegenproef is permanent en vervangt de eenmalige proef van 1-11.
+
 ## De poort
 
 Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
@@ -227,3 +242,4 @@ Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
 - 21-10: voorstellen voor de kalibratie van 25-10: keerpuntregel voor langzaam nieuws, houdbaarheid alleen op aantoonbare gevolgen, nieuwheid 4 alleen als aanwijsbaar onverwacht.
 - 23-10: leerfase verlengd tot en met 31-10; socials vanaf 1-11. Permanente controle vastgelegd: vangnet, terugblik en kalibratie blijven; dubbele sweep stopt na vier weken zonder vangnet-only item van 9 of hoger; testset en achteraf toetsen maandelijks; tips via redactie@.
 - 25-10: eerste kalibratie (week 43). Proefregels definitief; 'gemist' alleen vanaf 9; concept/ nooit aanpassen; NVWA en CBS-nieuws als vaste bronnen; buitenland zonder haak en lage terugblik-items licht gelogd; testset uitgebreid. Evaluatie keuze A op 1-11.
+- 1-11: bronnen en werkwijze in vier lagen (agenda, officieel, merkbaar, vangnet; haak alleen om een Nederlandse haak te bevestigen). Sweepvolgorde: agenda, officieel, merkbaar, vangnet, terugblik. De Tweede Kamer gaat uit de dagelijkse sweep en komt alleen via de agenda. Vangnet: NOS, NU.nl, RTL Nieuws, ANP Persportaal, Reuters; AP en BBC News vervallen. Nieuw: zondagstap agenda vullen en de permanente tegenproef met aandacht voor elke misser van 9 of hoger. Twee oordelen als regel: de inwerkingtreding van een eerder gepubliceerd besluit scoort nieuwheid 2; bij een heffing of tarief dat een sector afdraagt is de reikwijdte die van de sector. Criteria, drempel (11) en schaal (0 tot 4) ongewijzigd.
