@@ -34,6 +34,22 @@
         "naam": "Rijksoverheid, 29 oktober 2026: Wet toeristische verhuur, Staatsblad 2026, 231 en Besluit 2026, 266, in werking 1 november 2026",
         "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/29/nieuwe-regels-voor-toeristische-verhuur-vanaf-1-november-2026"
       }
+    },
+    {
+      "id": "afhandelingsvergoeding-ecommerce-2026-11-01",
+      "score": { "hardheid": 4, "reikwijdte": 2, "houdbaarheid": 3, "nieuwheid": 2 },
+      "label": "Geld",
+      "dossier": null,
+      "update": false,
+      "kop": "Pakketten van buiten de EU krijgen sinds 1 november 2 euro afhandelingsvergoeding per productcategorie",
+      "wat": "Sinds 1 november 2026 geldt voor e-commercezendingen van buiten de EU een Europese afhandelingsvergoeding van 2 euro per productcategorie. Die komt bovenop het vaste invoerrecht van 3 euro per productcategorie dat sinds 1 juli 2026 geldt voor zendingen tot en met 150 euro. Het bedrijf dat de douaneaangifte doet, meestal de vervoerder of het platform, betaalt de vergoeding aan de Douane en mag die doorberekenen aan de klant. Beide bedragen worden per productcategorie gerekend, niet per pakket.",
+      "voor_wie": "Bedrijven die aangifte doen voor pakketten van buiten de EU betalen de vergoeding. Consumenten die bestellen bij webshops als Temu, Shein of AliExpress merken het indirect in de prijs.",
+      "verloop": "Het vaste invoerrecht van 3 euro per productcategorie ging in op 1 juli 2026 en geldt tot 1 juli 2028. De afhandelingsvergoeding hoort bij de herziening van het Europese douanestelsel.",
+      "onbekend": "Hoeveel webshops en vervoerders de vergoeding volledig doorberekenen en wat dat per bestelling betekent, verschilt per bedrijf.",
+      "bron": {
+        "naam": "Douane, Extra kosten bij bestellen bij een buitenlandse webwinkel (bijgewerkt 30 oktober 2026)",
+        "url": "https://www.douane.nl/onderwerpen/online-shoppen-en-pakketpost/shoppen-bij-een-buitenlandse-webwinkel/extra-kosten-bij-bestellen/"
+      }
     }
   ]
 }

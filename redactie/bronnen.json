@@ -702,6 +702,32 @@
         "onleesbaar": 0,
         "bijgewerkt": null
       }
+    },
+    {
+      "naam": "Douane (nieuws en e-commerce)",
+      "rubriek": "Geld",
+      "url": "https://www.douane.nl/nieuws/",
+      "laag": "kern",
+      "levert": "invoerrechten en afhandelingsvergoeding op e-commerce van buiten de EU, douanewijzigingen die consumenten en webshops raken",
+      "toegang": "nieuws: https://www.douane.nl/nieuws/ en https://www.douane.nl/category/alle-nieuwsberichten/ (gecontroleerd 1-11-2026, leesbaar); e-commercekosten op https://www.douane.nl/onderwerpen/online-shoppen-en-pakketpost/shoppen-bij-een-buitenlandse-webwinkel/extra-kosten-bij-bestellen/ (bijgewerkt 30-10-2026). Toegevoegd na de gemiste afhandelingsvergoeding (1-11-2026).",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
+      "naam": "Ondernemersplein, overzicht wetswijzigingen",
+      "rubriek": "Bestuur",
+      "url": "https://ondernemersplein.overheid.nl/wetswijzigingen/",
+      "laag": "uitbreiding",
+      "levert": "agendabron: overzicht van wetswijzigingen met ingangsdata, gegroepeerd in 'Moet nog ingaan' en 'Al ingegaan'",
+      "toegang": "https://ondernemersplein.overheid.nl/wetswijzigingen/ (let op: ondernemersplein.kvk.nl leidt met een 308-redirect door naar dit adres), gecontroleerd 1-11-2026, leesbaar. Gebruiken om ingangsdata te agenderen in redactie/agenda.md.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
     }
   ]
 }
