@@ -46,7 +46,7 @@
       "url": "https://zoek.officielebekendmakingen.nl",
       "laag": "kern",
       "levert": "regelingen, besluiten, inwerkingtredingen; ook Gemeenteblad en Provinciaal blad",
-      "toegang": "zoekdienst per datum; op 25-10-2026 gaf de zoekdienst nul resultaten (uitzoeken dinsdag)",
+      "toegang": "SRU van KOOP per publicatiedatum: https://repository.overheid.nl/sru?operation=searchRetrieve&version=2.0&query=c.product-area==officielepublicaties and dt.date==JJJJ-MM-DD and w.publicatienaam==Staatsblad (resp. Staatscourant), alle pagina's; de records geven identifiers stb-/stcrt-. Elk document lezen via https://zoek.officielebekendmakingen.nl/<identifier>.html. Let op: de index is w.publicatienaam, niet dt.type (dt.type geeft nul). Gecontroleerd 1-11-2026, werkt: 19-10 gaf 5 stb (incl. stb-2026-326, partnerbegrip toeslagen) en 134 stcrt; 27-10 gaf 4 stb (incl. stb-2026-335, Luchthavenverkeerbesluit Schiphol) en 233 stcrt; 30-10 gaf 11 stb en 208 stcrt. Het zoekformulier gaf op 25-10 nul.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -553,7 +553,7 @@
       "url": "https://zoek.officielebekendmakingen.nl",
       "laag": "kern",
       "levert": "algemeen verbindend verklaarde cao's",
-      "toegang": "zoekdienst per datum",
+      "toegang": "SRU van KOOP per publicatiedatum met w.publicatienaam==Staatscourant (cao's staan in de Staatscourant), filter op identifiers stcrt-; lezen via https://zoek.officielebekendmakingen.nl/<identifier>.html. Zelfde route als Staatscourant en Staatsblad, gecontroleerd 1-11-2026.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -592,7 +592,7 @@
       "url": "https://zoek.officielebekendmakingen.nl",
       "laag": "uitbreiding",
       "levert": "besluiten met bovenregionaal bereik (via Provinciaal blad en Gemeenteblad)",
-      "toegang": "zoekdienst per datum",
+      "toegang": "SRU van KOOP per publicatiedatum met w.publicatienaam==Gemeenteblad resp. Provinciaal blad, filter op identifiers gmb-/prb-; lezen via https://zoek.officielebekendmakingen.nl/<identifier>.html. Route vastgesteld 1-11-2026 voor stb/stcrt; gmb/prb langs dezelfde weg, nog apart te bevestigen.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
