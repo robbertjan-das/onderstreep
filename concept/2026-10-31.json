@@ -1,0 +1,182 @@
+{
+  "datum": "2026-10-31",
+  "over": "2026-10-30",
+  "weekdag": "vrijdag",
+  "sweep_tot": "2026-10-30T22:00",
+  "sweep_gedaan": "2026-11-01",
+  "beoordeeld": 10,
+  "geplaatst": 0,
+  "net_niet": 0,
+  "doorgestreept": 10,
+  "terugblik_beoordeeld": 0,
+  "items": [
+    {
+      "kop": "CBS: de Nederlandse economie blijft doorgroeien ondanks onrust in de wereld",
+      "label": "Geld",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 0, "nieuwheid": 0 },
+      "totaal": 3,
+      "motivering": {
+        "hardheid": "Een groeicijfer, geen besluit, dus 1.",
+        "reikwijdte": "De hele economie, dus 2.",
+        "houdbaarheid": "Een kwartaalcijfer, dus 0.",
+        "nieuwheid": "Meting zonder keerpunt ('blijft doorgroeien'), dus 0."
+      },
+      "hardheid_citaat": "Nederlandse economie blijft doorgroeien ondanks onrust in de wereld",
+      "uitkomst": "doorgestreept",
+      "reden": "Een groeicijfer zonder keerpunt (NOS 30-10, 09:30), nieuwheid 0; komt niet op de net-niet-lijst.",
+      "bron": { "naam": "NOS 30-10 09:30 (CBS: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637268-nederlandse-economie-blijft-doorgroeien-ondanks-onrust-in-de-wereld" },
+      "datum_item": "2026-10-30", "sweep": "officieel", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "De Verenigde Staten keuren de verkoop van Patriot-raketten aan Oekraine goed",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": { "hardheid": 3, "reikwijdte": 0, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Een goedgekeurde verkoop, dus 3.",
+        "reikwijdte": "Geen benoembaar Nederlands gevolg, dus 0.",
+        "houdbaarheid": "Maanden, dus 1.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "VS keurt verkoop Patriot-raketten aan Oekraine goed",
+      "uitkomst": "doorgestreept",
+      "reden": "Amerikaans besluit (NOS 30-10, 21:34), dus 3. Geen Nederlandse haak, dus reikwijdte 0. Buitenland zonder haak.",
+      "bron": { "naam": "NOS 30-10 21:34 (VS: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637369-vs-keurt-verkoop-patriot-raketten-aan-oekraine-goed" },
+      "datum_item": "2026-10-30", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Kabinet wil een 'vliegende start' voor jonge kinderen",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 2, "nieuwheid": 2 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Een aangekondigd voornemen, dus 1.",
+        "reikwijdte": "Jonge kinderen en ouders, een grote groep, dus 2.",
+        "houdbaarheid": "Langetermijn, maar nog voornemen, dus 2.",
+        "nieuwheid": "Verwachte stap in het jeugdbeleid, dus 2."
+      },
+      "hardheid_citaat": "Kabinet wil vliegende start voor jonge kinderen",
+      "uitkomst": "doorgestreept",
+      "reden": "Een voornemen (rijksoverheid.nl 30-10, 16:30), dus hardheid 1. Onder de drempel.",
+      "bron": { "naam": "Rijksoverheid 30-10 16:30", "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/30/kabinet-wil-vliegende-start-voor-jonge-kinderen" },
+      "datum_item": "2026-10-30", "sweep": "officieel", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Kabinet steunt de EU Kids Act, maar uit zorgen over privacy en grondrechten",
+      "label": "Bestuur",
+      "type": "reactie",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Een standpunt van het kabinet, geen besluit, dus 1.",
+        "reikwijdte": "Jongeren en online platforms, dus 2.",
+        "houdbaarheid": "Hangt af van de EU-besluitvorming, dus 1.",
+        "nieuwheid": "Verwachte stap in een EU-traject, dus 2."
+      },
+      "hardheid_citaat": "Kabinet steunt EU Kids Act, maar uit zorgen over privacy en grondrechten",
+      "uitkomst": "doorgestreept",
+      "reden": "Een kabinetsstandpunt (rijksoverheid.nl 30-10, 16:30), dus hardheid 1.",
+      "bron": { "naam": "Rijksoverheid 30-10 16:30", "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/30/kabinet-steunt-eu-kids-act-maar-uit-zorgen-over-privacy-en-grondrechten" },
+      "datum_item": "2026-10-30", "sweep": "officieel", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Canada en de EU spreken een nauwere samenwerking af, geen lidmaatschap",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": { "hardheid": 2, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Een afspraak over samenwerking, dus 2.",
+        "reikwijdte": "Diffuus, geen benoembare Nederlandse groep direct, dus 1.",
+        "houdbaarheid": "Hangt af van de uitwerking, dus 1.",
+        "nieuwheid": "Verwachte stap, dus 2."
+      },
+      "hardheid_citaat": "Geen EU-lidmaatschap, wel een nog nauwere samenwerking voor Canada",
+      "uitkomst": "doorgestreept",
+      "reden": "Een EU-Canada-afspraak (NOS 30-10, 20:21); EU geldt niet als buitenland, maar zonder direct Nederlands gevolg onder de drempel.",
+      "bron": { "naam": "NOS 30-10 20:21 (EU, Canada: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637359-geen-eu-lidmaatschap-wel-een-nog-nauwere-samenwerking-voor-canada" },
+      "datum_item": "2026-10-30", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Frankrijk roept miljoenen condooms terug vanwege fabricagefouten",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Een terugroepactie, gebeurd, dus 4.",
+        "reikwijdte": "Geen benoembaar Nederlands gevolg gevonden, dus 0.",
+        "houdbaarheid": "Dagen, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 2."
+      },
+      "hardheid_citaat": "Frankrijk roept miljoenen condooms terug vanwege fabricagefouten",
+      "uitkomst": "doorgestreept",
+      "reden": "Franse terugroepactie (NOS 30-10, 18:27), dus 4. Geen Nederlandse haak gevonden (of het ook in Nederland is verkocht: niet gecontroleerd), dus reikwijdte 0.",
+      "bron": { "naam": "NOS 30-10 18:27 (Franse autoriteiten: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637343-frankrijk-roept-miljoenen-condooms-terug-vanwege-fabricagefouten" },
+      "datum_item": "2026-10-30", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "bedrijf", "terugblik": false
+    },
+    {
+      "kop": "Man rent op de koning af bij een werkbezoek in Ursem, beveiligers grijpen in",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 6,
+      "motivering": {
+        "hardheid": "Gebeurd, beveiligers grepen in, dus 4.",
+        "reikwijdte": "Een incident, geen gevolg voor een groep, dus 0.",
+        "houdbaarheid": "Een dag, dus 0.",
+        "nieuwheid": "Nieuw feit, dus 2."
+      },
+      "hardheid_citaat": "Man rent op koning af bij werkbezoek in Ursem, beveiligers grijpen in",
+      "uitkomst": "doorgestreept",
+      "reden": "Een incident bij een werkbezoek (NOS 30-10, 18:32), dus 4. Geen gevolg voor een groep, dus reikwijdte 0.",
+      "bron": { "naam": "NOS 30-10 18:32 (politie: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637344-man-rent-op-koning-af-bij-werkbezoek-in-ursem-beveiligers-grijpen-in" },
+      "datum_item": "2026-10-30", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "samenleving", "terugblik": false
+    },
+    {
+      "kop": "Maatregelen in meerdere steden na oproepen tot demonstraties",
+      "label": "Veiligheid & gezondheid",
+      "type": "besluit",
+      "score": { "hardheid": 2, "reikwijdte": 1, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 5,
+      "motivering": {
+        "hardheid": "Noodmaatregelen van gemeenten, terug te draaien, dus 2.",
+        "reikwijdte": "Bewoners van enkele steden op die dagen, dus 1.",
+        "houdbaarheid": "Een paar dagen, dus 0.",
+        "nieuwheid": "Verwachte stap na oproepen, dus 2."
+      },
+      "hardheid_citaat": "Maatregelen in steden na oproepen tot demonstraties, politie is alert",
+      "uitkomst": "doorgestreept",
+      "reden": "Lokale maatregelen vooruitlopend op demonstraties (NOS 30-10, 14:02), dus hardheid 2. Enkele steden, dus 1.",
+      "bron": { "naam": "NOS 30-10 14:02 (gemeenten, politie: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637301-maatregelen-in-steden-na-oproepen-tot-demonstraties-politie-is-alert" },
+      "datum_item": "2026-10-30", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Na Shell boekt ook BP een megawinst",
+      "label": "Geld",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 1 },
+      "totaal": 2,
+      "hardheid_citaat": "Na Shell boekt ook oliemaatschappij BP een megawinst",
+      "uitkomst": "doorgestreept",
+      "reden": "Kwartaalcijfers van een bedrijf (NOS 30-10, 11:34), meting zonder keerpunt.",
+      "bron": { "naam": "NOS 30-10 11:34 (BP: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637285-na-shell-boekt-ook-oliemaatschappij-bp-een-megawinst" },
+      "datum_item": "2026-10-30", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "bedrijf", "terugblik": false
+    },
+    {
+      "kop": "Premier Jetten wil verder praten over het Belastingplan, maar niet over stikstof",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 3,
+      "hardheid_citaat": "Premier Jetten wil weer doorpraten over belastingplan, maar niet over stikstof",
+      "uitkomst": "doorgestreept",
+      "reden": "Onderhandelingen, geen besluit (NOS 30-10, 19:57), dus hardheid 1. Verwachte stap, dus nieuwheid 2.",
+      "bron": { "naam": "NOS 30-10 19:57 (rijksoverheid.nl: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637355-premier-jetten-wil-weer-doorpraten-over-belastingplan-maar-niet-over-stikstof" },
+      "datum_item": "2026-10-30", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    }
+  ]
+}

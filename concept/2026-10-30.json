@@ -1,0 +1,245 @@
+{
+  "datum": "2026-10-30",
+  "over": "2026-10-29",
+  "weekdag": "donderdag",
+  "sweep_tot": "2026-10-29T22:00",
+  "sweep_gedaan": "2026-11-01",
+  "beoordeeld": 10,
+  "geplaatst": 0,
+  "net_niet": 1,
+  "doorgestreept": 9,
+  "terugblik_beoordeeld": 0,
+  "items": [
+    {
+      "kop": "De gewijzigde Wet toeristische verhuur treedt op 1 november in werking",
+      "label": "Bestuur",
+      "type": "besluit",
+      "score": { "hardheid": 3, "reikwijdte": 2, "houdbaarheid": 3, "nieuwheid": 2 },
+      "totaal": 10,
+      "motivering": {
+        "hardheid": "Vastgestelde wet (Staatsblad 2026, 231 en Besluit 2026, 266), treedt in werking op 1 november 2026, dus 3.",
+        "reikwijdte": "Gemeenten met een registratieplicht, verhuurplatforms en verhuurders; een grote groep indirect, dus 2.",
+        "houdbaarheid": "Structurele wijziging van de regels voor toeristische verhuur, jaren, dus 3.",
+        "nieuwheid": "Verwachte inwerkingtreding van een bekende, al gepubliceerde wet, dus 2."
+      },
+      "hardheid_citaat": "Vanaf 1 november 2026 treedt de wijziging van de Wet toeristische verhuur in werking",
+      "uitkomst": "net niet",
+      "reden": "Vastgestelde wet, treedt in werking op 1 november 2026 (rijksoverheid.nl 29-10, 10:14), dus 3. Gemeenten, platforms en verhuurders, dus 2. Structureel, dus 3. Verwachte inwerkingtreding, dus 2.",
+      "bron": {
+        "naam": "Rijksoverheid 29-10 10:14 (Wet toeristische verhuur, Staatsblad 2026, 231 en Besluit 2026, 266)",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/29/nieuwe-regels-voor-toeristische-verhuur-vanaf-1-november-2026"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": "Vastgestelde landelijke wet die ingaat, maar de directe reikwijdte is begrensd (gemeenten met registratieplicht en verhuurders daar) en de inwerkingtreding is de verwachte stap: 10, net niet."
+    },
+    {
+      "kop": "ECB houdt de rente op 2,5 procent; president Lagarde kondigt haar vertrek per 7 februari aan",
+      "label": "Geld",
+      "type": "besluit",
+      "score": { "hardheid": 4, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Rentebesluit genomen en vertrek aangekondigd, dus 4.",
+        "reikwijdte": "De rente blijft onveranderd, dus er verandert niets voor spaarders en leners; het vertrek is institutioneel, dus 1.",
+        "houdbaarheid": "Tot het volgende rentebesluit, dus 1.",
+        "nieuwheid": "Rente onveranderd (geen keerpunt); het vertrek is nieuw maar zonder direct Nederlands gevolg, dus 2."
+      },
+      "hardheid_citaat": "voel ik me niet meer comfortabel om neutraal te zijn",
+      "uitkomst": "doorgestreept",
+      "reden": "Rente onveranderd op 2,5 procent en Lagarde kondigt vertrek per 7 februari aan (NOS 29-10, 11:13), dus hardheid 4. Rente onveranderd (geen keerpunt), vertrek institutioneel, dus reikwijdte 1. Oud-DNB-president Knot wordt als mogelijke opvolger genoemd.",
+      "bron": {
+        "naam": "NOS 29-10 11:13 (ECB: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637136-ecb-president-lagarde-stopt-niet-meer-comfortabel-bij-neutraliteit"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Wetsvoorstel in consultatie: een uitzendkracht mag nog maximaal drie jaar bij dezelfde inlener werken",
+      "label": "Geld",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 2, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Een wetsvoorstel dat op 29 oktober in internetconsultatie ging (tot 24 november), geen vastgesteld besluit, dus 1.",
+        "reikwijdte": "Uitzendkrachten en uitleners, een grote groep, dus 2.",
+        "houdbaarheid": "Structureel als het wet wordt, maar nog concept; bij twijfel lager, dus 2.",
+        "nieuwheid": "Nieuw concreet voorstel, reactie op een uitspraak van het EU-Hof over de Uitzendrichtlijn, dus 3."
+      },
+      "hardheid_citaat": "Een uitzendkracht mag straks nog maximaal 3 jaar (36 maanden) bij dezelfde inlener werken",
+      "uitkomst": "doorgestreept",
+      "reden": "Wetsvoorstel in consultatie (rijksoverheid.nl 29-10, 16:00), dus hardheid 1. Uitzendkrachten en uitleners, dus 2. Nog concept, dus 2. Nieuw voorstel, dus 3.",
+      "bron": {
+        "naam": "Rijksoverheid 29-10 16:00 (ministerie SZW, internetconsultatie)",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/29/inzet-uitzendkrachten-wordt-begrensd-in-tijd"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "werk",
+      "terugblik": false
+    },
+    {
+      "kop": "Een Kamermeerderheid steunt een verbod op generatieve AI in de klas in het basisonderwijs",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 2, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Een voorstel van Volt en CDA dat een meerderheid (88 van 150) steunt; geen aangenomen motie of wet, en de staatssecretaris is tegen een direct verbod, dus 1.",
+        "reikwijdte": "Leerlingen en scholen in het basisonderwijs, dus 2.",
+        "houdbaarheid": "Afhankelijk van het vervolg, dus 2.",
+        "nieuwheid": "Nieuw voorstel in een bekend debat, dus 3."
+      },
+      "hardheid_citaat": "Het gebruik van generatieve AI in de klas moet voor kinderen in het basisonderwijs worden verboden",
+      "uitkomst": "doorgestreept",
+      "reden": "Een voorstel met Kamermeerderheid, nog geen besluit; staatssecretaris Tielen wil meer tijd (NOS 29-10, 15:30), dus hardheid 1. Basisonderwijs, dus 2.",
+      "bron": {
+        "naam": "NOS 29-10 15:30 (Tweede Kamer, voorstel Volt en CDA: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637170-geen-ai-voor-kinderen-in-het-basisonderwijs-zegt-tweede-kamer"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Nederland draagt bij aan een internationale vrijgave van olievoorraden via het IEA",
+      "label": "Geld",
+      "type": "besluit",
+      "score": { "hardheid": 3, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 2 },
+      "motivering": {
+        "hardheid": "Besluit om een deel van de strategische voorraad vrij te geven, dus 3.",
+        "reikwijdte": "Diffuus effect via de oliemarkt; geen benoembare groep direct, dus 1.",
+        "houdbaarheid": "Weken, dus 1.",
+        "nieuwheid": "Verwachte stap in een IEA-actie, dus 2."
+      },
+      "totaal": 7,
+      "hardheid_citaat": "Nederland voldoet aan IEA-actie vrijgave deel olievoorraad",
+      "uitkomst": "doorgestreept",
+      "reden": "Besluit om voorraad vrij te geven (rijksoverheid.nl 29-10, 15:45), dus 3. Diffuus marktgevolg, dus reikwijdte 1.",
+      "bron": {
+        "naam": "Rijksoverheid 29-10 15:45",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/29/nederland-voldoet-aan-iea-actie-vrijgave-deel-olievoorraad"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Kabinet wil roken verbieden op plekken waar veel kinderen komen",
+      "label": "Veiligheid & gezondheid",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 6,
+      "hardheid_citaat": "Kabinet wil dat roken verboden wordt op plekken waar veel kinderen zijn",
+      "uitkomst": "doorgestreept",
+      "reden": "Een voornemen van het kabinet (NOS 29-10, 21:58), dus hardheid 1. Rokers en gezinnen, dus 2. Verwachte stap in het rookbeleid, dus nieuwheid 2.",
+      "bron": {
+        "naam": "NOS 29-10 21:58 (VWS: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637223-kabinet-wil-roken-verboden-wordt-op-plekken-waar-veel-kinderen-zijn"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    },
+    {
+      "kop": "Shell boekt opnieuw miljardenwinst door de hoge olieprijs",
+      "label": "Geld",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 1, "houdbaarheid": 0, "nieuwheid": 1 },
+      "totaal": 3,
+      "hardheid_citaat": "Oorlog in Midden-Oosten leidt opnieuw tot miljardenwinst bij Shell",
+      "uitkomst": "doorgestreept",
+      "reden": "Kwartaalcijfers van een bedrijf (NOS 29-10, 09:07), een meting zonder keerpunt.",
+      "bron": {
+        "naam": "NOS 29-10 09:07 (Shell: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637120-oorlog-in-midden-oosten-leidt-opnieuw-tot-miljardenwinst-bij-shell"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "bedrijf",
+      "terugblik": false
+    },
+    {
+      "kop": "Volkswagen schrijft miljarden af in de kwartaalcijfers",
+      "label": "Geld",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 3,
+      "hardheid_citaat": "Dramatische kwartaalcijfers voor Volkswagen: miljarden in het rood",
+      "uitkomst": "doorgestreept",
+      "reden": "Kwartaalcijfers van een buitenlands bedrijf (NOS 29-10, 09:09), meting; geen benoembaar Nederlands gevolg.",
+      "bron": {
+        "naam": "NOS 29-10 09:09 (Volkswagen: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637121-dramatische-kwartaalcijfers-voor-volkswagen-miljarden-in-het-rood"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "vangnet",
+      "buitenland": true,
+      "haak": null,
+      "domein": "bedrijf",
+      "terugblik": false
+    },
+    {
+      "kop": "Peilingen: coalitie staat een jaar na de verkiezingen tientallen zetels in de min",
+      "label": "Bestuur",
+      "type": "meting",
+      "score": { "hardheid": 0, "reikwijdte": 2, "houdbaarheid": 0, "nieuwheid": 0 },
+      "totaal": 2,
+      "hardheid_citaat": "Peilingen: coalitie tientallen zetels in de min, jaar na verkiezingen",
+      "uitkomst": "doorgestreept",
+      "reden": "Een peiling (NOS 29-10, 15:56); peilingen tellen niet, nieuwheid 0.",
+      "bron": {
+        "naam": "NOS 29-10 15:56 (peiling: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637173-peilingen-coalitie-tientallen-zetels-in-de-min-jaar-na-verkiezingen"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "samenleving",
+      "terugblik": false
+    },
+    {
+      "kop": "Kabinet praat met verschillende oppositiecombinaties over het Belastingplan",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 3,
+      "hardheid_citaat": "Kabinet praat morgen met verschillende oppositie-combinaties",
+      "uitkomst": "doorgestreept",
+      "reden": "Onderhandelingen, geen besluit (NOS 29-10, 16:58), dus hardheid 1. Verwachte stap, dus nieuwheid 2.",
+      "bron": {
+        "naam": "NOS 29-10 16:58 (rijksoverheid.nl: niet gecontroleerd)",
+        "url": "https://nos.nl/artikel/2637182-kabinet-praat-morgen-met-verschillende-oppositie-combinaties"
+      },
+      "datum_item": "2026-10-29",
+      "sweep": "vangnet",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false
+    }
+  ]
+}

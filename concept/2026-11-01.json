@@ -1,0 +1,128 @@
+{
+  "datum": "2026-11-01",
+  "over": "2026-10-31",
+  "weekdag": "zaterdag",
+  "sweep_tot": "2026-10-31T22:00",
+  "sweep_gedaan": "2026-11-01",
+  "beoordeeld": 8,
+  "geplaatst": 0,
+  "net_niet": 0,
+  "doorgestreept": 8,
+  "terugblik_beoordeeld": 0,
+  "items": [
+    {
+      "kop": "Grote ongeregeldheden blijven uit in Den Haag; tientallen, vooral minderjarigen, aangehouden",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 1, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: aanhoudingen verricht, grote incidenten bleven uit, dus 4.",
+        "reikwijdte": "Den Haag op die dag, dus 1.",
+        "houdbaarheid": "Een dag, dus 0.",
+        "nieuwheid": "Verwachte afloop na de aangekondigde demonstraties, dus 2."
+      },
+      "hardheid_citaat": "Vooral minderjarigen aangehouden in Den Haag, grote incidenten uitgebleven",
+      "uitkomst": "doorgestreept",
+      "reden": "De gevreesde ongeregeldheden bleven grotendeels uit; tientallen aanhoudingen (NOS 31-10, 21:27), dus hardheid 4. Den Haag op die dag, dus reikwijdte 1.",
+      "bron": { "naam": "NOS 31-10 21:27 (politie, gemeente Den Haag: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637512-vooral-minderjarigen-aangehouden-in-den-haag-grote-incidenten-uitgebleven" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "samenleving", "terugblik": false
+    },
+    {
+      "kop": "Rubberboot met tientallen migranten gered bij Breskens",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 1, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 7,
+      "motivering": {
+        "hardheid": "Gebeurd: boot van zee gehaald, dus 4.",
+        "reikwijdte": "De opvarenden, dus 1.",
+        "houdbaarheid": "Een dag, dus 0.",
+        "nieuwheid": "Nieuw feit in een bekend beeld, dus 2."
+      },
+      "hardheid_citaat": "Rubberboot met tientallen migranten van zee gehaald bij Breskens",
+      "uitkomst": "doorgestreept",
+      "reden": "Reddingsactie (NOS 31-10, 10:21), dus 4. De opvarenden, dus reikwijdte 1.",
+      "bron": { "naam": "NOS 31-10 10:21 (Kustwacht: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637412-rubberboot-met-tientallen-migranten-van-zee-gehaald-bij-breskens" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "samenleving", "terugblik": false
+    },
+    {
+      "kop": "De macht van de Servische president Vucic brokkelt af: de huisbank van de staat valt om",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 8,
+      "motivering": {
+        "hardheid": "Gebeurd: de bank is omgevallen, dus 4.",
+        "reikwijdte": "Geen benoembaar Nederlands gevolg, dus 0.",
+        "houdbaarheid": "Werkt in Servie door, maar niet in Nederland, dus 1.",
+        "nieuwheid": "Nieuw feit, dus 3."
+      },
+      "hardheid_citaat": "Macht van Vucic neemt af: huisbank van Servische staat valt om",
+      "uitkomst": "doorgestreept",
+      "reden": "Buitenland zonder haak (NOS 31-10, 19:04); gescoord op het Nederlandse gevolg (nul).",
+      "bron": { "naam": "NOS 31-10 19:04 (via vangnet)", "url": "https://nos.nl/artikel/2637491-macht-van-vucic-neemt-af-huisbank-van-servische-staat-valt-om" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Premier Abiy van Ethiopie stuurt zijn ministers naar een militaire training",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 3 },
+      "totaal": 7,
+      "hardheid_citaat": "Premier Abiy van Ethiopie stuurt ministers naar militaire training",
+      "uitkomst": "doorgestreept",
+      "reden": "Buitenland zonder haak (NOS 31-10, 22:14); geen Nederlands gevolg, reikwijdte 0.",
+      "bron": { "naam": "NOS 31-10 22:14 (via vangnet)", "url": "https://nos.nl/artikel/2637522-premier-abiy-van-ethiopie-stuurt-ministers-naar-militaire-training" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Politie biedt excuses aan voor het doorgeven van de identiteit van activisten aan een groothandel",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 2, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 6,
+      "hardheid_citaat": "Politie biedt excuses aan voor doorgeven identiteit activisten aan groothandel",
+      "uitkomst": "doorgestreept",
+      "reden": "Een erkenning en excuus (NOS 31-10, 17:49), geen besluit met brede gevolgen; hardheid 2, reikwijdte 1 (de betrokken activisten).",
+      "bron": { "naam": "NOS 31-10 17:49 (politie: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637473-politie-biedt-excuses-aan-voor-doorgeven-identiteit-activisten-aan-groothandel" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Sovjet Ereveld in Leusden opnieuw beklad",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 1 },
+      "totaal": 5,
+      "hardheid_citaat": "Sovjet Ereveld in Leusden opnieuw beklad, leuzen tegen communisten",
+      "uitkomst": "doorgestreept",
+      "reden": "Een incident (NOS 31-10, 21:33), dus 4. Geen gevolg voor een groep, reikwijdte 0.",
+      "bron": { "naam": "NOS 31-10 21:33 (politie: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637514-sovjet-ereveld-in-leusden-opnieuw-beklad-leuzen-tegen-communisten" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "samenleving", "terugblik": false
+    },
+    {
+      "kop": "Impasse over de VN-vredesmissie in de Westelijke Sahara: Rusland en de VS vetoen elkaars voorstel",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 2, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 4,
+      "hardheid_citaat": "Impasse over VN-vredesmissie Westelijke Sahara: Rusland en VS vetoen elkaars voorstel",
+      "uitkomst": "doorgestreept",
+      "reden": "Buitenland zonder haak (NOS 31-10, 09:52); een impasse, geen besluit, reikwijdte 0.",
+      "bron": { "naam": "NOS 31-10 09:52 (VN-Veiligheidsraad: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637410-impasse-over-vn-vredesmissie-westelijke-sahara-rusland-en-vs-vetoen-elkaars-voorstel" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Geen akkoord met de oppositie over het Belastingplan; woensdag een debat in de Tweede Kamer",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 1, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 4,
+      "hardheid_citaat": "Geen deal met oppositie over belastingplan, woensdag debat in Tweede Kamer",
+      "uitkomst": "doorgestreept",
+      "reden": "Nog geen akkoord, een debat volgt (NOS 31-10, 17:58), dus hardheid 1. Proces.",
+      "bron": { "naam": "NOS 31-10 17:58 (rijksoverheid.nl, Tweede Kamer: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637476-geen-deal-met-oppositie-over-belastingplan-woensdag-debat-in-tweede-kamer" },
+      "datum_item": "2026-10-31", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    }
+  ]
+}
