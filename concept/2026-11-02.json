@@ -1,0 +1,164 @@
+{
+  "datum": "2026-11-02",
+  "over": "2026-11-01",
+  "weekdag": "zondag",
+  "sweep_tot": "2026-11-01T22:00",
+  "sweep_gedaan": "2026-11-01",
+  "beoordeeld": 10,
+  "geplaatst": 2,
+  "net_niet": 0,
+  "doorgestreept": 8,
+  "terugblik_beoordeeld": 0,
+  "items": [
+    {
+      "kop": "Het Luchthavenverkeerbesluit Schiphol geldt sinds 1 november met handhaafbare geluidsgrenzen",
+      "label": "Bestuur",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 2, "houdbaarheid": 3, "nieuwheid": 2 },
+      "totaal": 11,
+      "motivering": {
+        "hardheid": "Al ingegaan: het besluit is op 1 november in werking getreden, dus 4.",
+        "reikwijdte": "Omwonenden van Schiphol (een regio) en de luchtvaartsector, dus 2.",
+        "houdbaarheid": "Structurele regels met een vluchtplafond en groeivoorwaarden, jaren, dus 3.",
+        "nieuwheid": "De inwerkingtreding is de verwachte volgende stap in een bekend proces: het besluit werd al op 27 oktober in het Staatsblad gepubliceerd en toen gemeld (net niet, 10). Er is geen nieuwe uitkomst; wat verandert is dat de regels nu gelden. Dus nieuwheid 2, niet 3."
+      },
+      "hardheid_citaat": "gepubliceerd in het Staatsblad en treedt 1 november 2026 in werking",
+      "uitkomst": "geplaatst",
+      "reden": "Al ingegaan per 1 november (hardheid 4), omwonenden en luchtvaart (2), structureel (3), verwachte inwerkingtreding van een al gepubliceerd besluit (nieuwheid 2). Totaal 11. Testgeval: op 27-10 als net niet (10) gelogd met hardheid 3 (moest nog ingaan); nu hardheid 4 omdat het is ingegaan.",
+      "bron": {
+        "naam": "Rijksoverheid 27 oktober 2026 en Staatsblad: Luchthavenverkeerbesluit Schiphol, in werking 1 november 2026",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/27/lvb-schiphol-gepubliceerd-in-staatsblad-regels-per-1-november-van-kracht"
+      },
+      "datum_item": "2026-11-01",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": "Testgeval nieuwheid. De drempel wordt gehaald doordat de hardheid van 3 (op 27-10, moest nog ingaan) naar 4 gaat nu het besluit op 1 november is ingegaan. De nieuwheid blijft 2 (verwachte stap, al gepubliceerd). Zou de nieuwheid 1 zijn (bekend feit, nieuw verpakt), dan is het totaal 10 en blijft het net niet. Voor Robbert-Jan: is de inwerkingtreding van een eerder gemeld besluit een plaatsingsmoment?"
+    },
+    {
+      "kop": "De gewijzigde Wet toeristische verhuur geldt sinds 1 november in heel Nederland",
+      "label": "Bestuur",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 2, "houdbaarheid": 3, "nieuwheid": 2 },
+      "totaal": 11,
+      "motivering": {
+        "hardheid": "Al ingegaan: de wet is op 1 november in werking getreden, dus 4.",
+        "reikwijdte": "Gemeenten met een registratieplicht, verhuurplatforms en verhuurders, dus 2.",
+        "houdbaarheid": "Structurele wijziging van de regels voor toeristische verhuur, jaren, dus 3.",
+        "nieuwheid": "De inwerkingtreding is de verwachte volgende stap: de wet werd al gepubliceerd (Staatsblad 2026, 231) en op 29 oktober gemeld (net niet, 10). Geen nieuwe uitkomst; de regels gelden nu. Dus nieuwheid 2, niet 3."
+      },
+      "hardheid_citaat": "Vanaf 1 november 2026 treedt de wijziging van de Wet toeristische verhuur in werking",
+      "uitkomst": "geplaatst",
+      "reden": "Al ingegaan per 1 november (hardheid 4), gemeenten/platforms/verhuurders (2), structureel (3), verwachte inwerkingtreding van een al gepubliceerde wet (nieuwheid 2). Totaal 11. Testgeval: op 29-10 als net niet (10) gelogd met hardheid 3 (moest nog ingaan); nu hardheid 4.",
+      "bron": {
+        "naam": "Rijksoverheid 29 oktober 2026: Wet toeristische verhuur, Staatsblad 2026, 231 en Besluit 2026, 266, in werking 1 november 2026",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/10/29/nieuwe-regels-voor-toeristische-verhuur-vanaf-1-november-2026"
+      },
+      "datum_item": "2026-11-01",
+      "sweep": "officieel",
+      "buitenland": false,
+      "haak": null,
+      "domein": "overheid",
+      "terugblik": false,
+      "grens": "Testgeval nieuwheid, zelfde afweging als het LVB Schiphol: de plaatsing berust op hardheid 4 (ingegaan) bij nieuwheid 2 (verwachte stap). Met nieuwheid 1 zou het 10 blijven."
+    },
+    {
+      "kop": "De VN-Veiligheidsraad trekt de vredesmissie in de Westelijke Sahara terug",
+      "label": "Wereld",
+      "type": "besluit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 1, "nieuwheid": 3 },
+      "totaal": 8,
+      "hardheid_citaat": "VN trekt vredesmissie terug uit Westelijke Sahara, conflict nog niet voorbij",
+      "uitkomst": "doorgestreept",
+      "reden": "Besluit genomen na de impasse van zaterdag (NOS 1-11, 20:56), dus hardheid 4. Buitenland zonder Nederlandse haak, reikwijdte 0.",
+      "bron": { "naam": "NOS 1-11 20:56 (VN-Veiligheidsraad: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637661-vn-trekt-vredesmissie-terug-uit-westelijke-sahara-conflict-nog-niet-voorbij" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Piraten kapen een Iraans schip bij Somalie",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 3 },
+      "totaal": 7,
+      "hardheid_citaat": "Piraten kapen Iraans schip bij Somalie, mogelijk met meer aanvallen als doel",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd (NOS 1-11, 17:40), dus 4. Geen benoembaar Nederlands gevolg (geen Nederlandse schepen of route genoemd), reikwijdte 0. Buitenland zonder haak.",
+      "bron": { "naam": "NOS 1-11 17:40 (via vangnet)", "url": "https://nos.nl/artikel/2637625-piraten-kapen-iraans-schip-bij-somalie-mogelijk-met-meer-aanvallen-als-doel" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "samenleving", "terugblik": false
+    },
+    {
+      "kop": "Israelische aanvallen kosten zeker acht Palestijnen in Gaza het leven",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 6,
+      "hardheid_citaat": "Israelische aanvallen kosten zeker acht Palestijnen in Gaza het leven",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd (NOS 1-11, 14:51), dus 4. Buitenland zonder Nederlandse haak, reikwijdte 0.",
+      "bron": { "naam": "NOS 1-11 14:51 (via vangnet)", "url": "https://nos.nl/artikel/2637590-israelische-aanvallen-kosten-zeker-acht-palestijnen-in-gaza-het-leven" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "samenleving", "terugblik": false
+    },
+    {
+      "kop": "Oekraine hervat aanvallen op olielocaties diep in Rusland",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 6,
+      "hardheid_citaat": "Oekraiense aanvallen op olielocaties diep in Rusland hervat",
+      "uitkomst": "doorgestreept",
+      "reden": "Gebeurd (NOS 1-11, 12:05), dus 4. Buitenland zonder benoembare Nederlandse haak, reikwijdte 0.",
+      "bron": { "naam": "NOS 1-11 12:05 (via vangnet)", "url": "https://nos.nl/artikel/2637570-oekraiense-aanvallen-op-olielocaties-diep-in-rusland-hervat" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "FBI: Noord-Korea zit achter de miljardenroof bij cryptoplatform Binance",
+      "label": "Wereld",
+      "type": "feit",
+      "score": { "hardheid": 3, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 3 },
+      "totaal": 6,
+      "hardheid_citaat": "FBI: Noord-Korea achter miljardenroof bij cryptoplatform Binance",
+      "uitkomst": "doorgestreept",
+      "reden": "Een toeschrijving door de FBI (NOS 1-11, 00:32), dus hardheid 3. Geen benoembare Nederlandse groep direct geraakt, reikwijdte 0. Buitenland zonder haak.",
+      "bron": { "naam": "NOS 1-11 00:32 (FBI: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637541-fbi-noord-korea-achter-miljardenroof-bij-cryptoplatform-binance" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": true, "haak": null, "domein": "techniek", "terugblik": false
+    },
+    {
+      "kop": "Gewonden bij een steekpartij in een bus in Breda, jongen van 17 opgepakt",
+      "label": "Veiligheid & gezondheid",
+      "type": "feit",
+      "score": { "hardheid": 4, "reikwijdte": 0, "houdbaarheid": 0, "nieuwheid": 2 },
+      "totaal": 6,
+      "hardheid_citaat": "Gewonden bij vecht- en steekpartij in bus in Breda, jongen van 17 opgepakt",
+      "uitkomst": "doorgestreept",
+      "reden": "Een incident (NOS 1-11, 11:19), dus 4. Individueel geval zonder gevolg voor een groep, reikwijdte 0.",
+      "bron": { "naam": "NOS 1-11 11:19 (politie: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637566-gewonden-bij-vecht-en-steekpartij-in-bus-in-breda-jongen-van-17-opgepakt" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "samenleving", "terugblik": false
+    },
+    {
+      "kop": "Den Haag wil de schade van winkeliers verhalen op opruiers",
+      "label": "Bestuur",
+      "type": "voornemen",
+      "score": { "hardheid": 1, "reikwijdte": 1, "houdbaarheid": 1, "nieuwheid": 2 },
+      "totaal": 5,
+      "hardheid_citaat": "Den Haag wil financiele schade winkeliers verhalen op opruiers",
+      "uitkomst": "doorgestreept",
+      "reden": "Een voornemen van de gemeente (NOS 1-11, 11:32), dus hardheid 1. Winkeliers in Den Haag, reikwijdte 1.",
+      "bron": { "naam": "NOS 1-11 11:32 (gemeente Den Haag: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637567-den-haag-wil-financiele-schade-winkeliers-verhalen-op-opruiers" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "overheid", "terugblik": false
+    },
+    {
+      "kop": "Honderdduizenden auto's met mogelijke defecten rijden toch op de weg",
+      "label": "Veiligheid & gezondheid",
+      "type": "meting",
+      "score": { "hardheid": 1, "reikwijdte": 2, "houdbaarheid": 1, "nieuwheid": 1 },
+      "totaal": 5,
+      "hardheid_citaat": "Honderdduizenden auto's ondanks mogelijke defecten toch de weg op",
+      "uitkomst": "doorgestreept",
+      "reden": "Een achtergrondstuk over openstaande terugroepacties (NOS 1-11, 07:59), geen nieuw besluit; hardheid 1, nieuwheid 1. Primaire bron (RDW, fabrikanten) niet uitgelezen.",
+      "bron": { "naam": "NOS 1-11 07:59 (RDW, fabrikanten: niet gecontroleerd)", "url": "https://nos.nl/artikel/2637553-honderdduizenden-auto-s-ondanks-mogelijke-defecten-toch-de-weg-op-zo-zit-het-met-jouw-auto" },
+      "datum_item": "2026-11-01", "sweep": "vangnet", "buitenland": false, "haak": null, "domein": "techniek", "terugblik": false
+    }
+  ]
+}
