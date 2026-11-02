@@ -1,0 +1,49 @@
+{
+  "datum": "2026-11-03",
+  "over": "2026-11-02",
+  "beoordeeld": 32,
+  "berichten": [
+    {
+      "id": "postzegel-2027-2026-11-02",
+      "score": {
+        "hardheid": 3,
+        "reikwijdte": 3,
+        "houdbaarheid": 2,
+        "nieuwheid": 3
+      },
+      "label": "Geld",
+      "dossier": null,
+      "update": false,
+      "kop": "Een standaard postzegel kost vanaf 1 januari 2027 1,52 euro",
+      "wat": "PostNL maakte op 2 november 2026 bekend dat een standaard postzegel voor brieven binnen Nederland vanaf 1 januari 2027 1,52 euro kost, tegen 1,40 euro nu. Met een standaard postzegel wordt een brief binnen twee bezorgdagen bezorgd. De tarieven van de priobrief (3,95 euro) en de rouwpostzegel prio (3,25 euro) blijven gelijk; die post wordt binnen één bezorgdag bezorgd. Volgens PostNL passen de tarieven binnen de ruimte die het jaarlijks van de toezichthouder krijgt om posttarieven aan te passen.",
+      "voor_wie": "Iedereen die post verstuurt, particulieren met kaarten en brieven en bedrijven die zegels gebruiken.",
+      "verloop": "Op 28 mei 2026 meldde PostNL dat de prijs van de standaard postzegel ook na 12 juli 1,40 euro bleef; vanaf die datum wordt brievenbuspost standaard binnen twee bezorgdagen bezorgd. Volgens PostNL is het aantal verstuurde brieven in twintig jaar met 70 procent afgenomen.",
+      "onbekend": "Het persbericht noemt niet hoe groot de tariefruimte is en hoeveel van die ruimte de verhoging gebruikt.",
+      "bron": {
+        "naam": "PostNL, persbericht 2 november 2026: PostNL maakt nieuwe postzegelprijs per 1 januari 2027 bekend",
+        "url": "https://newsroom.postnl.nl/nl-NL/273887-postnl-maakt-nieuwe-postzegelprijs-per-1-januari-2027-bekend/"
+      }
+    },
+    {
+      "id": "knmi-gebiedswaarschuwingen-2026-11-02",
+      "score": {
+        "hardheid": 4,
+        "reikwijdte": 2,
+        "houdbaarheid": 3,
+        "nieuwheid": 2
+      },
+      "label": "Veiligheid & gezondheid",
+      "dossier": null,
+      "update": false,
+      "kop": "Het KNMI geeft sinds 2 november weerwaarschuwingen per gebied in plaats van per provincie",
+      "wat": "Sinds 2 november 2026 waarschuwt het KNMI voor gebieden die per situatie verschillen, in plaats van voor hele provincies. Op de kaart in de KNMI-app en op knmi.nl staan de codes geel, oranje en rood nu per gebied; inzoomen laat zien of een waarschuwing voor een bepaalde locatie geldt. Elk weerfenomeen heeft een eigen kaart: gladheid, hitte, kou, mist, onweersbuien, sneeuw, waterhozen, windstoten en zware regen. In de KNMI-app zijn meldingen in te stellen voor de eigen locatie en voor andere plaatsen.",
+      "voor_wie": "Iedereen die de weerwaarschuwingen van het KNMI volgt, in de app of op de website. Andere weerapps, radio en tv nemen de gebieden volgens het KNMI later over.",
+      "verloop": "Het KNMI kondigde de overstap op 14 oktober 2026 aan. Tot nu gold een waarschuwing per provincie.",
+      "onbekend": "Wanneer andere weerapps, radio en tv de gebieden overnemen, is niet bekend; het KNMI noemt alleen ‘later’.",
+      "bron": {
+        "naam": "KNMI, 14 oktober 2026, bijgewerkt op 2 november 2026: KNMI waarschuwt vanaf november gerichter voor gevaarlijk weer",
+        "url": "https://www.knmi.nl/over-het-knmi/nieuws/knmi-waarschuwt-vanaf-november-gerichter"
+      }
+    }
+  ]
+}

@@ -548,6 +548,19 @@
       }
     },
     {
+      "naam": "PostNL newsroom",
+      "rubriek": "Geld",
+      "url": "https://newsroom.postnl.nl/releases/",
+      "laag": "merkbaar",
+      "levert": "postzegeltarieven en andere tariefbesluiten van PostNL, de aanbieder van de wettelijk verplichte postbezorging (binnen de tariefruimte van de toezichthouder)",
+      "toegang": "pagina; gecontroleerd 2-11-2026: https://newsroom.postnl.nl/releases/ leesbaar, persberichten op https://newsroom.postnl.nl/nl-NL/<id>-<titel>/ (200, volledige tekst). Primaire bron. Toegevoegd 2-11-2026 na het postzegelbericht (gemist door de merkbare laag).",
+      "opbrengst": {
+        "items_9_plus": 1,
+        "onleesbaar": 0,
+        "bijgewerkt": "2026-11-02"
+      }
+    },
+    {
       "naam": "Consumentenbond",
       "rubriek": "Geld",
       "url": "https://www.consumentenbond.nl/nieuws",
