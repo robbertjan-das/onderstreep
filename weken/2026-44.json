@@ -1,0 +1,13 @@
+{
+  "week": 44,
+  "van": "2026-10-26",
+  "tot": "2026-11-01",
+  "net_niet": [
+    { "score": 10, "kop": "ACM weigert de overname van Unox door Zwanenberg uit vrees voor een worstenmonopolie", "reden": "beroep mogelijk en beperkt bereik: reikwijdte 2, zelfde lijn als Videoland/Viaplay" },
+    { "score": 10, "kop": "Wet versterking publieke mediaopdracht op lokaal niveau (Mediawet 2008) treedt op 31 oktober in werking", "reden": "inwerkingtreding van een eerder aangenomen wet: nieuwheid 2, reikwijdte 1 (lokale omroepen)" },
+    { "score": 10, "kop": "SONT stelt de thuiskopievergoeding 2027-2028 vast: onder meer 3,80 euro per smartphone en 4,00 euro per laptop", "reden": "achteraf gevonden; de sector draagt af, dus reikwijdte 2, en het tarief gaat pas op 1 januari 2027 in" },
+    { "score": 10, "kop": "Kadaster beperkt zoeken op naam tot zakelijke gebruikers en schermt gegevens af bij dreiging", "reden": "achteraf gevonden; ongeveer 300 verzoeken per jaar, reikwijdte 1; ingang 1 januari 2027" },
+    { "score": 9, "kop": "KLM schrapt alle vluchten op Dubai tot 27 maart, Riyad en Dammam tot 27 november", "reden": "reizigers naar drie bestemmingen: reikwijdte 1, houdbaarheid 1" }
+  ],
+  "noot": "Alle bulletins van week 44 verschenen te laat: dat van 26 oktober om 11:39, die van 27 tot en met 29 oktober op 1 november om 21:56 en die van 30 oktober tot en met 1 november op 1 november om 22:15. De zoekdienst van Staatsblad en Staatscourant werkte die week niet en is achteraf nagelopen."
+}

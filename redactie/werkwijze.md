@@ -57,6 +57,7 @@ Een storing, ramp, uitval of verstoring is een gebeurtenis, geen voornemen. Hard
 
 - De inwerkingtreding van een eerder gepubliceerd besluit scoort nieuwheid 2 (verwachte volgende stap in een bekend proces); hardheid is dan 4, want het geldt. Besluit 1-11-2026.
 - Bij een heffing of tarief dat een sector afdraagt (zoals de thuiskopievergoeding of de afhandelingsvergoeding), is de reikwijdte die van de sector, niet die van de kopers die het indirect via de prijs voelen. Besluit 1-11-2026.
+- Op dagen dat veel besluiten tegelijk ingaan (1 januari, 1 juli) wordt elk besluit apart gescoord en komt alles van 11 of hoger in het bulletin, op volgorde van score, zonder maximum. De agenda voor die dag wordt in de maand ervoor gevuld. Besluit 2-11-2026.
 
 - Items met nieuwheid 0 (herhaling, meting zonder keerpunt, vaste jaarlijkse routine zoals de wintertijd) blijven in het log, maar komen niet op de Net niet-lijst.
 
@@ -187,7 +188,7 @@ Het model leert niet bij; het systeem wel, via wat hier wordt opgeschreven.
 
 ## Permanente controle
 
-Leerfase. Tot en met 31 oktober 2026 draaien elke avond twee sweeps naast elkaar (officieel en vangnet) en wordt alleen de site bijgewerkt. Vanaf 1 november 2026 ook de socials; de eerste post is de weekkaart van week 44 op zondag 1 november.
+Leerfase. Tot en met 31 oktober 2026 draaien elke avond twee sweeps naast elkaar (officieel en vangnet) en wordt alleen de site bijgewerkt. Van 1 tot en met 7 november 2026 wordt eveneens alleen de site bijgewerkt. Vanaf zondag 8 november 2026 ook de socials: de eerste post is de weekkaart van week 45 op zondag 8 november, dagelijks vanaf maandag 9 november.
 
 Wat altijd blijft:
 - Het vangnet, elke dag: alleen de koppen van de dag bij NOS, NU.nl, RTL Nieuws, ANP Persportaal en Reuters. Is een van die bronnen onleesbaar, dan staat ze als "niet gecontroleerd" in het log. Elk item gaat terug naar de primaire bron.
@@ -243,3 +244,4 @@ Niets verschijnt zonder akkoord van Robbert-Jan. Ook "Vandaag niets." niet.
 - 23-10: leerfase verlengd tot en met 31-10; socials vanaf 1-11. Permanente controle vastgelegd: vangnet, terugblik en kalibratie blijven; dubbele sweep stopt na vier weken zonder vangnet-only item van 9 of hoger; testset en achteraf toetsen maandelijks; tips via redactie@.
 - 25-10: eerste kalibratie (week 43). Proefregels definitief; 'gemist' alleen vanaf 9; concept/ nooit aanpassen; NVWA en CBS-nieuws als vaste bronnen; buitenland zonder haak en lage terugblik-items licht gelogd; testset uitgebreid. Evaluatie keuze A op 1-11.
 - 1-11: bronnen en werkwijze in vier lagen (agenda, officieel, merkbaar, vangnet; haak alleen om een Nederlandse haak te bevestigen). Sweepvolgorde: agenda, officieel, merkbaar, vangnet, terugblik. De Tweede Kamer gaat uit de dagelijkse sweep en komt alleen via de agenda. Vangnet: NOS, NU.nl, RTL Nieuws, ANP Persportaal, Reuters; AP en BBC News vervallen. Nieuw: zondagstap agenda vullen en de permanente tegenproef met aandacht voor elke misser van 9 of hoger. Twee oordelen als regel: de inwerkingtreding van een eerder gepubliceerd besluit scoort nieuwheid 2; bij een heffing of tarief dat een sector afdraagt is de reikwijdte die van de sector. Criteria, drempel (11) en schaal (0 tot 4) ongewijzigd.
+- 2-11: op dagen met veel gelijktijdige inwerkingtredingen (1 januari, 1 juli) wordt elk besluit apart gescoord en komt alles van 11 of hoger in het bulletin, zonder maximum, met de agenda gevuld in de maand ervoor. De socials beginnen op zondag 8 november met de weekkaart van week 45, dagelijks vanaf maandag 9 november. ‘Bij twijfel de lagere stand’ blijft ongewijzigd tot de evaluatie na week 45. Criteria, drempel (11) en schaal (0 tot 4) ongewijzigd.

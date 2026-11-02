@@ -18,12 +18,13 @@ Gevuld op 1-11-2026 uit de agendabronnen: Ondernemersplein (geen wetswijziging m
 - **20 november:** nieuwe Airbnb-regels voor boekingen.
 
 ## December 2026
+- **Agenda voor 1 januari 2027 vullen** (in december, uit Ondernemersplein, Staatsblad en de lijst hieronder; elk besluit apart scoren, zie werkwijze 2-11-2026).
 - **30 december:** Europese ontbossingsverordening (EUDR) van kracht, volgens Ondernemersplein (1-11-2026).
 - **31 december:** wet over een laag uurtarief van zzp'ers dat kan leiden tot een arbeidsovereenkomst, volgens Ondernemersplein (1-11-2026).
 
 ## 1 januari 2027 (sweep voor bulletin 2027-01-02)
 - **Thuiskopievergoeding 2027-2028** — Stcrt. 2026, 36929. Op 28-10 gemist (10, net niet). Op de ingangsdatum herbeoordelen: hardheid 4. Reikwijdte 2 (de sector draagt af; kopers indirect via de prijs), houdbaarheid 2, nieuwheid 2 → naar verwachting 10, net niet.
-- **NHG rekent funderingsherstelkosten mee** — op 27-10 net niet (10, oordeel Robbert-Jan: blijft 10). Ingang 1-1-2027; herbeoordelen.
+- **NHG rekent funderingsherstelkosten mee** — op 27-10 net niet (9 sinds 2-11, oordeel Robbert-Jan: eerder aangekondigd op 13-10, nieuwheid 2). Ingang 1-1-2027; herbeoordelen.
 - **Kadaster, verstrekkingsbeperking zoeken op naam** — Stb. 2026, 338. Op 28-10 gemist (10). Ingang 1-1-2027 (werkgebonden afscherming terugwerkend tot 20-11-2023); herbeoordelen.
 - **Wlz: familieleden kunnen zelf de zorgaanvraag doen** — op 27-10 net niet (9). Ingang 1-1-2027; herbeoordelen.
 
