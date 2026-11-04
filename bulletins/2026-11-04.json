@@ -1,0 +1,29 @@
+{
+  "datum": "2026-11-04",
+  "over": "2026-11-03",
+  "noot": "Dit bulletin verscheen op woensdag 4 november om 07:11 in plaats van om 07:00.",
+  "beoordeeld": 42,
+  "berichten": [
+    {
+      "id": "belastingplan-box3-2026-11-03",
+      "score": {
+        "hardheid": 2,
+        "reikwijdte": 3,
+        "houdbaarheid": 3,
+        "nieuwheid": 3
+      },
+      "label": "Geld",
+      "dossier": null,
+      "update": false,
+      "kop": "Het kabinet stelt de vermogenswinstbelasting in box 3 uit tot uiterlijk 2029 en verlaagt tijdelijk de tarieven in box 2",
+      "wat": "Het kabinet stelde op 3 november 2026 in een brief aan de Tweede Kamer aanpassingen voor op het Belastingplan 2027 en de novelle over box 3. De vermogenswinstbelasting in box 3 gaat uiterlijk in 2029 in, in 2028 als de gesprekken met de banken dat toelaten. De verlaging van het heffingsvrij vermogen, het heffingsvrij rendement en het forfait vervalt. In box 2 daalt van 2027 tot en met 2030 het lage tarief van 24,5 naar 23,5 procent en het hoge tarief van 31 naar 29 procent. Voor koopkracht komt 347 miljoen euro per jaar beschikbaar; de btw-verhoging voor sierteelt schuift naar het Belastingplan 2028.",
+      "voor_wie": "Mensen met spaargeld of beleggingen in box 3 en eigenaren van een eigen bedrijf in box 2. De Tweede Kamer bepaalt hoe de extra koopkracht wordt ingevuld.",
+      "verloop": "Op 2 november 2026 publiceerde de Raad van State zijn advies over de novelle; volgens de brief komt het kabinet daarmee tegemoet aan de zorgen van de Raad. Het debat over het Belastingplan staat op 4 november gepland.",
+      "onbekend": "Of de Tweede en de Eerste Kamer de aanpassingen aannemen, en of de heffing in 2028 kan ingaan.",
+      "bron": {
+        "naam": "Ministerie van Financiën, Kamerbrief 3 november 2026: Aanpassingen Belastingplan en box 3",
+        "url": "https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z23851&did=2026D55029"
+      }
+    }
+  ]
+}

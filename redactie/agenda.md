@@ -14,6 +14,7 @@ Gevuld op 1-11-2026 uit de agendabronnen: Ondernemersplein (geen wetswijziging m
 - **Inwerkingtredingen in de week:** geen gevonden. In de Staatsblad-besluiten van 19 tot en met 30 oktober staat geen ingangsdatum tussen 2 en 8 november. Wel op 31-10 ingegaan, volgens stb-2026-355 (de dag na uitgifte, uitgifte 30-10): de Wet versterking publieke mediaopdracht op lokaal niveau (Mediawet 2008), op 27-10 gemist als net niet (9, Eerste Kamer). Herbeoordelen als ingegaan: hardheid 4, nieuwheid 2.
 
 ## November 2026
+- **Tweede Kamer, stemming over het Belastingplan 2027 en de novelle box 3 (datum bevestigen op tweedekamer.nl):** daarna de Eerste Kamer. Bij aanneming door de Eerste Kamer of publicatie in het Staatsblad opnieuw beoordelen (hardheid 3 bij de Eerste Kamer, 4 bij ingang).
 - **Eerste Kamer, datum nog niet bekend:** Implementatiewet herziene Europese richtlijn milieucriminaliteit (Tweede Kamer aangenomen op 3-11; in de sweep van 4-11 net niet, 9). Bij aanname door de Eerste Kamer: hardheid 3, herbeoordelen.
 - **Tweede Kamer, wetsvoorstel vastlegging emissiedoelen (stikstof, ingediend 3-11; net niet, 9):** let op de behandeling; de rekenkundige ondergrens per 1 juli 2027 is voorwaardelijk. Zones voor kwetsbare natuur: bevestiging door de overheid uiterlijk januari 2027; provincies tot september 2028.
 - **Uiterlijk 12 november:** de basispremies 2027 van alle zorgverzekeraars moeten bekend zijn (DSW gaf de zijne al op 21-10). Elke premie als besluit scoren.

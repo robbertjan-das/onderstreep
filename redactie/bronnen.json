@@ -80,6 +80,19 @@
       }
     },
     {
+      "naam": "Tweede Kamer, brieven van de regering",
+      "rubriek": "Bestuur",
+      "url": "https://www.tweedekamer.nl/kamerstukken/brieven_regering",
+      "laag": "agenda",
+      "levert": "agendabron: Kamerbrieven van de regering met datum en afzender, te lezen op het moment dat er gestemd of besloten wordt (bijvoorbeeld de brief bij een ministerraadsbesluit); niet in de dagelijkse sweep. De brief zelf staat onder /kamerstukken/brieven_regering/detail?id=...&did=... en is te downloaden via https://www.tweedekamer.nl/downloads/document?id=<did> (Word- of pdf-bestand)",
+      "toegang": "pagina; gecontroleerd 4-11-2026: 200, lijst van ongeveer twintig brieven met titel, datum en afzender; het detail toont alleen metagegevens, de tekst staat in het downloadbestand. Toegevoegd 4-11-2026 na de Kamerbrief over het belastingplan.",
+      "opbrengst": {
+        "items_9_plus": 0,
+        "onleesbaar": 0,
+        "bijgewerkt": null
+      }
+    },
+    {
       "naam": "Rijksoverheid, nieuws",
       "rubriek": "Bestuur",
       "url": "https://www.rijksoverheid.nl/actueel/nieuws",
