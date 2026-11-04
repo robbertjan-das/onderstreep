@@ -111,7 +111,7 @@
       "url": "https://www.rechtspraak.nl",
       "laag": "officieel",
       "levert": "uitspraken en persberichten van rechtbanken en hoven",
-      "toegang": "open data",
+      "toegang": "pagina en open data; gecontroleerd 4-11-2026 (sweep 3-11): nieuws via https://www.rechtspraak.nl/nieuwsoverzicht (200, lijst met plaats en datum; oude paden /Nieuws en /rss geven 404). Uitspraken via open data https://data.rechtspraak.nl/uitspraken/zoeken?modified=JJJJ-MM-DDT00:00:00&max=N (200, Atom). Een filter op creator gaf bij proef onbruikbare resultaten, dus eerst zonder filter lezen.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -124,7 +124,7 @@
       "url": "https://www.hogeraad.nl",
       "laag": "officieel",
       "levert": "arresten, conclusies",
-      "toegang": "pagina",
+      "toegang": "pagina; gecontroleerd 4-11-2026 (sweep 3-11): https://www.hogeraad.nl/actueel/ geeft 200 met nieuwsberichten en datum (arresten, conclusies van de advocaten-generaal, persberichten). Het oude pad /actueel/nieuwsberichten/ geeft 404.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -202,7 +202,7 @@
       "url": "https://www.acm.nl",
       "laag": "officieel",
       "levert": "tariefbesluiten, fusies, boetes",
-      "toegang": "pagina",
+      "toegang": "pagina; werkende route gecontroleerd 4-11-2026 (sweep 3-11): https://www.acm.nl/nl/publicaties geeft 200 met 'Laatste publicaties' en datum (besluiten, concentratiemeldingen, consultaties). https://www.acm.nl/nl/actueel geeft 404; https://www.acm.nl/nl/nieuws laadt dynamisch en komt leeg binnen; https://www.acm.nl/nl/nieuws/rss geeft een HTML-formulier en geen feed. Bij tariefbesluiten postdienst en energie ook de Staatscourant (SRU) lezen.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -241,7 +241,7 @@
       "url": "https://www.ncsc.nl",
       "laag": "officieel",
       "levert": "kritieke kwetsbaarheden, digitale verstoringen",
-      "toegang": "pagina",
+      "toegang": "rss; gecontroleerd 4-11-2026 (sweep 3-11): https://feeds.ncsc.nl/nieuws.rss (200, XML, nieuws en alerts met pubDate) en https://advisories.ncsc.nl/rss/advisories (200, XML, advisories). https://www.ncsc.nl/rss is alleen een uitlegpagina met die twee links; de berichten zelf (ncsc.nl/nieuws/..., ncsc.nl/alerts/...) zijn leesbaar. De pagina https://www.ncsc.nl/actueel laadt dynamisch en komt leeg binnen.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
@@ -618,7 +618,7 @@
       "url": "https://www.nvwa.nl/consumenten/product-en-bedrijfswaarschuwingen",
       "laag": "merkbaar",
       "levert": "terugroepacties en waarschuwingen voor producten die mensen thuis hebben",
-      "toegang": "pagina; uitwijk: de terugroeppagina's van Albert Heijn, Jumbo en Lidl. Afgesplitst van IGJ, NVWA, ILT op 1-11-2026.",
+      "toegang": "pagina; werkende route gecontroleerd 4-11-2026 (sweep 3-11): https://www.nvwa.nl/actueel/veiligheidswaarschuwingen/overzicht geeft 200 met een lijst veiligheidswaarschuwingen en datum (laatste op 30-10: Wibra, MadeGood, Lochtman); artikelen onder https://www.nvwa.nl/actueel/nieuws/JJJJ/MM/DD/<titel>. De paden /consumenten/product-en-bedrijfswaarschuwingen en /rss geven 404; https://www.nvwa.nl/actueel/nieuws laadt dynamisch en komt leeg binnen. Uitwijk: de terugroeppagina's van Albert Heijn, Jumbo en Lidl. Afgesplitst van IGJ, NVWA, ILT op 1-11-2026.",
       "opbrengst": {
         "items_9_plus": 0,
         "onleesbaar": 0,
